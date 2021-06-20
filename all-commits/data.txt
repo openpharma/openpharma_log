@@ -1,0 +1,15 @@
+path:
+- data.csv
+- data.rds
+rows: 250
+cols: 4
+columns:
+  date: Date
+  datetime: character
+  full_name: character
+  author: character
+description: Raw data on all the commits
+type: table
+filenames:
+  data.csv: data.csv
+  data.rds: data.rds
