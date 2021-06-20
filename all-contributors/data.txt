@@ -1,0 +1,21 @@
+path:
+- data.csv
+- data.rds
+rows: 9
+cols: 10
+columns:
+  author: character
+  avatar: character
+  name: character
+  blog: character
+  joined: Date
+  last_active: Date
+  location: character
+  company: character
+  email: character
+  bio: character
+description: Ever contributed
+type: table
+filenames:
+  data.csv: data.csv
+  data.rds: data.rds

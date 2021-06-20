@@ -4,3 +4,9 @@
   cols: 4
   description: Raw data on all the commits
   type: table
+- path: all-contributors
+  name: all-contributors
+  rows: 9
+  cols: 10
+  description: Ever contributed
+  type: table
