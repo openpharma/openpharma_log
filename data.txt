@@ -10,3 +10,9 @@
   cols: 10
   description: Ever contributed
   type: table
+- path: all-repos
+  name: all-repos
+  rows: 20
+  cols: 6
+  description: List of repos in open pharma
+  type: table

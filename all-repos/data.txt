@@ -1,0 +1,17 @@
+path:
+- data.csv
+- data.rds
+rows: 20
+cols: 6
+columns:
+  org: character
+  repo: character
+  full_name: character
+  updated_at: character
+  language: character
+  MB: numeric
+description: List of repos in open pharma
+type: table
+filenames:
+  data.csv: data.csv
+  data.rds: data.rds
