@@ -1,10 +1,48 @@
 "author","avatar","name","blog","joined","last_active","location","company","email","bio"
+"hadley","https://avatars.githubusercontent.com/u/4196?v=4","Hadley Wickham","http://hadley.nz",2008-04-01,2021-06-16,"Houston, TX","@rstudio ","hadley@rstudio.com","Chief Scientist at @rstudio"
+"ivarref","https://avatars.githubusercontent.com/u/74075?v=4","Ivar Refsdal","",2009-04-15,2021-04-04,"Bergen, Norway",NA,"refsdal.ivar@gmail.com",NA
+"afeld","https://avatars.githubusercontent.com/u/86842?v=4","Aidan Feldman","https://api.afeld.me",2009-05-20,2021-06-14,"Brooklyn, NY","@GSA and personal projects","aidan.feldman@gmail.com","
+    bureaucrat by day, dancer by night
+"
+"evanmiller","https://avatars.githubusercontent.com/u/134711?v=4","Evan Miller","https://www.evanmiller.org/",2009-10-04,2021-05-30,"Chicago, IL",NA,"emmiller@gmail.com",NA
+"daamien","https://avatars.githubusercontent.com/u/165646?v=4","damien clochard","blog.taadeem.net",2009-12-10,2021-06-14,NA,"DALIBO","damien@dalibo.info","PostgreSQL DBA and founder of @dalibo  /  Member of @postgresqlfr / 
+
+
+
+Editor of @pgmag"
+"mrocklin","https://avatars.githubusercontent.com/u/306380?v=4","Matthew Rocklin","https://coiled.io",2010-06-16,2021-06-15,"San Juan Capistrano, CA","@coiled ",NA,NA
+"kleschenko","https://avatars.githubusercontent.com/u/413418?v=4","Kostya Leschenko","",2010-09-23,2021-05-19,"Lviv, Ukraine","@datarobot ",NA,NA
+"jaredhobbs","https://avatars.githubusercontent.com/u/630869?v=4","Jared Hobbs","pyhacker.com",2011-02-21,2021-06-07,"Salt Lake City, UT","YearEnd, Inc.","jared@pyhacker.com","Salt Lake City based Python hacker"
+"davidanthoff","https://avatars.githubusercontent.com/u/1036561?v=4","David Anthoff","www.david-anthoff.com",2011-09-08,2021-06-18,"Berkeley, CA","University of California, Berkeley","anthoff@berkeley.edu",NA
+"jar1karp","https://avatars.githubusercontent.com/u/1190392?v=4","Jari Karppinen","https://finecon.tech",2011-11-12,2021-04-28,NA,NA,NA,NA
+"kurt-vd","https://avatars.githubusercontent.com/u/1206052?v=4","Kurt Van Dijck","",2011-11-19,2021-03-22,NA,NA,NA,NA
+"kalimu","https://avatars.githubusercontent.com/u/2522236?v=4","Kamil Wais","kalimu.github.io",2012-10-09,2021-05-23,"Rzeszów","7N / pharma","kamil.wais@gmail.com","Data Scientist and R & Shiny Developer"
+"kshedden","https://avatars.githubusercontent.com/u/2666691?v=4","Kerby Shedden","",2012-10-28,2021-06-14,NA,NA,NA,NA
 "epijim","https://avatars.githubusercontent.com/u/2760096?v=4","James Black","www.epijim.uk",2012-11-09,2021-06-17,"Basel, Switzerland","Roche",NA,"Studied at @cambridgeuniversity, working at @Roche, living in @swiss"
 "cschaerfe","https://avatars.githubusercontent.com/u/3072980?v=4","Charlotta","",2012-12-18,2021-05-31,NA,NA,NA,NA
+"jonathon-love","https://avatars.githubusercontent.com/u/3240247?v=4","Jonathon Love","http://jona.thon.love",2013-01-11,2021-06-08,NA,NA,"jon@thon.love","jamovi developer
+www.jamovi.org"
+"bpfoley","https://avatars.githubusercontent.com/u/3423010?v=4","Brian Foley","",2013-01-30,2021-05-27,"Seattle, Washington",NA,NA,"Programming languages, vintage computing, computer architecture, and hardware design"
+"diego-s","https://avatars.githubusercontent.com/u/4087430?v=4","Diego S","",2013-04-07,2021-06-11,NA,NA,NA,NA
+"galachad","https://avatars.githubusercontent.com/u/4296390?v=4","Adam Foryś","http://temote.pl",2013-04-29,2021-05-30,"Warsaw, Poland","@Roche","forys@wit.edu.pl",NA
+"lionel-","https://avatars.githubusercontent.com/u/4465050?v=4","Lionel Henry","",2013-05-18,2021-05-20,NA,"@rstudio",NA,NA
+"ararslan","https://avatars.githubusercontent.com/u/6396159?v=4","Alex Arslan","",2014-01-14,2021-06-18,"Seattle, WA","Beacon Biosignals",NA,"Julia language developer"
+"ginberg","https://avatars.githubusercontent.com/u/7089667?v=4","ginberg","gerinberg.com",2014-03-28,2021-06-14,"Remote",NA,NA,"Data science developer"
+"waddella","https://avatars.githubusercontent.com/u/7786462?v=4","Adrian Waddell","http://adrian.waddell.ch",2014-06-03,2021-06-14,NA,NA,NA,NA
+"reikoch","https://avatars.githubusercontent.com/u/8436725?v=4","reikoch","",2014-08-13,2021-06-10,NA,NA,NA,NA
+"thomas-neitmann","https://avatars.githubusercontent.com/u/11788080?v=4","Thomas Neitmann","https://thomasadventure.blog/",2015-04-03,2021-06-18,"Basel, Switzerland","Roche",NA,NA
+"kawap","https://avatars.githubusercontent.com/u/12675476?v=4","kawap","",2015-05-30,2020-04-20,NA,"Roche / 7N",NA,"Data Scientist and R Developer"
 "timtreis","https://avatars.githubusercontent.com/u/12818242?v=4","Tim Treis","",2015-06-09,2021-06-20,"Heidelberg, Germany",NA,NA,"Molecular biology, bioinformatics, Web"
+"mikmart","https://avatars.githubusercontent.com/u/13412395?v=4","Mikko Marttila","https://mikmart.rbind.io",2015-07-20,2021-06-01,NA,NA,"mikmart@mikkomarttila.com",NA
+"gerph","https://avatars.githubusercontent.com/u/13813876?v=4","Charles Ferguson","",2015-08-15,2021-06-08,NA,NA,NA,"Software Engineer. I like making stuff that makes other stuff easier."
 "erblast","https://avatars.githubusercontent.com/u/14346503?v=4","Björn Oettinghaus","www.datisticsblog.com",2015-09-18,2021-06-10,"Switzerland",NA,NA,NA
 "bailliem","https://avatars.githubusercontent.com/u/19621679?v=4","Mark Baillie","https://graphicsprinciples.github.io/",2016-05-28,2021-06-20,"Basel, CH",NA,NA,NA
 "gomesfernanda","https://avatars.githubusercontent.com/u/21245928?v=4","Fernanda Gomes","http://gomesfernanda.com",2016-08-25,2021-06-14,"Madrid","IKEA",NA,"Data Science | Machine Learning | Physics | Astronomy"
 "jiyingz","https://avatars.githubusercontent.com/u/27020105?v=4","Jiying Zou","https://www.linkedin.com/in/jiyingz",2017-04-07,2021-06-02,"Stanford, CA",NA,NA,"Data scientist/statistician determined to better medical care through data and numerical analysis"
+"Jonnie-Bevan","https://avatars.githubusercontent.com/u/42960410?v=4","Jonnie-Bevan","",2018-09-04,2020-12-02,NA,NA,NA,NA
 "SHAESEN2","https://avatars.githubusercontent.com/u/47894155?v=4","Steven Haesendonckx","",2019-02-22,2021-05-31,NA,NA,NA,NA
+"Karissa","https://avatars.githubusercontent.com/u/60743662?v=4","Karissa","",2020-02-06,2020-02-06,NA,NA,NA,NA
+"thanos-siadimas","https://avatars.githubusercontent.com/u/61869726?v=4","thanos-siadimas","",2020-03-06,2021-02-05,NA,NA,NA,NA
+"kentm4","https://avatars.githubusercontent.com/u/63361362?v=4","Matt Kent","",2020-04-08,2021-06-08,NA,"Genesis Research",NA,NA
 "rebecca-albrecht","https://avatars.githubusercontent.com/u/64608407?v=4","rebecca-albrecht","",2020-04-30,2021-06-02,NA,NA,NA,NA
+"PaulJordan57","https://avatars.githubusercontent.com/u/70370146?v=4","PaulJordan57","",2020-08-28,2021-05-04,NA,NA,NA,NA
