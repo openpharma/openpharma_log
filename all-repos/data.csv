@@ -9,7 +9,7 @@
 "openpharma","facetsr","openpharma/facetsr","This package is using html widgets to wrap facets into R","2020-11-30T12:37:13Z","R",2.1
 "openpharma","GithubMetrics","openpharma/GithubMetrics","gh wrapper for easier management of Github related study metadata","2021-06-21T08:33:02Z","R",0.3
 "openpharma","icd_hierarchies","openpharma/icd_hierarchies","ICD9 and ICD10 conversion from JSON and XML tree format into tabular (leveled) data","2020-05-08T13:11:04Z","Unsure",0
-"openpharma","openpharma.github.io","openpharma/openpharma.github.io","Further precompetitive collaboration in life science area.","2017-06-25T15:04:17Z","JavaScript",0.9
+"openpharma","openpharma.github.io","openpharma/openpharma.github.io","Further precompetitive collaboration in life science area.","2021-06-21T11:40:24Z","HTML",5
 "openpharma","org-github-metadata","openpharma/org-github-metadata","Python functions for relevant metrics on GitHub repositories","2021-06-01T22:13:35Z","Unsure",0.1
 "openpharma","pypharma_nlp","openpharma/pypharma_nlp","A repository for the code used at the PyPharma Conference NLP Turorial.","2020-04-16T09:43:32Z","Jupyter Notebook",28
 "openpharma","RDO","openpharma/RDO","Reproducible Data Objects (RDO) in R ","2020-03-09T14:00:55Z","R",0.5
@@ -17,10 +17,14 @@
 "openpharma","rpkgs-actions","openpharma/rpkgs-actions",NA,"2021-06-09T07:15:06Z","Unsure",0
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
 "openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-06-11T10:55:26Z","R",85.9
-"openpharma","staged.dependencies","openpharma/staged.dependencies",NA,"2021-06-11T15:02:52Z","R",0
+"openpharma","staged.dependencies","openpharma/staged.dependencies",NA,"2021-06-21T13:46:46Z","R",0
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
 "openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-06-15T19:30:33Z","R",46.5
 "pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-05-26T16:07:58Z","R",1.2
+"Roche","crmPack","Roche/crmPack","Object-Oriented Implementation of CRM Designs","2021-02-19T20:47:26Z","R",62.5
+"Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-06-17T12:07:13Z","R",0.3
+"Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-05-20T11:35:31Z","R",92.2
+"Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-06-17T19:23:11Z","R",0.6
 "Roche","rtables","Roche/rtables","Reporting tables with R","2021-06-16T23:58:54Z","R",5.5
