@@ -1,0 +1,22 @@
+path:
+- data.csv
+- data.rds
+rows: 776
+cols: 11
+columns:
+  title: character
+  url: character
+  state: character
+  created: Date
+  updated: Date
+  closed: Date
+  comments: numeric
+  body: character
+  author: character
+  days_open: numeric
+  days_no_activity: numeric
+description: All issues
+type: table
+filenames:
+  data.csv: data.csv
+  data.rds: data.rds

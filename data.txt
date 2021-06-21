@@ -16,3 +16,9 @@
   cols: 7
   description: List of repos in open pharma
   type: table
+- path: all-issues
+  name: all-issues
+  rows: 776
+  cols: 11
+  description: All issues
+  type: table
