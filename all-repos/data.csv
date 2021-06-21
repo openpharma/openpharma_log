@@ -1,4 +1,20 @@
 "org","repo","full_name","updated_at","language","MB"
+"atorus-research","metacore","atorus-research/metacore","2021-06-11T09:56:34Z","R",1.9
+"atorus-research","metacore","atorus-research/metacore","2021-06-11T09:56:34Z","R",1.9
+"atorus-research","metacore","atorus-research/metacore","2021-06-11T09:56:34Z","R",1.9
+"atorus-research","metacore","atorus-research/metacore","2021-06-11T09:56:34Z","R",1.9
+"atorus-research","pharmaRTF","atorus-research/pharmaRTF","2021-05-27T17:06:29Z","R",2.4
+"atorus-research","pharmaRTF","atorus-research/pharmaRTF","2021-05-27T17:06:29Z","R",2.4
+"atorus-research","pharmaRTF","atorus-research/pharmaRTF","2021-05-27T17:06:29Z","R",2.4
+"atorus-research","pharmaRTF","atorus-research/pharmaRTF","2021-05-27T17:06:29Z","R",2.4
+"atorus-research","Tplyr","atorus-research/Tplyr","2021-03-16T14:00:46Z","R",155.1
+"atorus-research","Tplyr","atorus-research/Tplyr","2021-03-16T14:00:46Z","R",155.1
+"atorus-research","Tplyr","atorus-research/Tplyr","2021-03-16T14:00:46Z","R",155.1
+"atorus-research","Tplyr","atorus-research/Tplyr","2021-03-16T14:00:46Z","R",155.1
+"atorus-research","xportr","atorus-research/xportr","2021-05-28T18:54:14Z","R",3.9
+"atorus-research","xportr","atorus-research/xportr","2021-05-28T18:54:14Z","R",3.9
+"atorus-research","xportr","atorus-research/xportr","2021-05-28T18:54:14Z","R",3.9
+"atorus-research","xportr","atorus-research/xportr","2021-05-28T18:54:14Z","R",3.9
 "openpharma","BBS-causality-training","openpharma/BBS-causality-training","2021-01-29T18:01:35Z","R",0
 "openpharma","clinicalGPT-2","openpharma/clinicalGPT-2","2021-03-23T07:48:23Z","Python",11.4
 "openpharma","CTP","openpharma/CTP","2021-04-28T07:51:30Z","R",2.5
@@ -18,4 +34,5 @@
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny","2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","2020-07-15T12:23:41Z","R",0.3
 "openpharma","visR","openpharma/visR","2021-06-15T19:30:33Z","R",46.5
-"openpharma","visR-docs","openpharma/visR-docs","2020-09-21T12:23:54Z","Unsure",5.3
+"pharmaR","riskmetric","pharmaR/riskmetric","2021-05-26T16:07:58Z","R",1.2
+"Roche","rtables","Roche/rtables","2021-06-16T23:58:54Z","R",5.5
