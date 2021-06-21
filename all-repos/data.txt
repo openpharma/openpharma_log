@@ -2,11 +2,12 @@ path:
 - data.csv
 - data.rds
 rows: 25
-cols: 6
+cols: 7
 columns:
   org: character
   repo: character
   full_name: character
+  description: character
   updated_at: character
   language: character
   MB: numeric

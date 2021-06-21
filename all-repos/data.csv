@@ -1,26 +1,26 @@
-"org","repo","full_name","updated_at","language","MB"
-"atorus-research","metacore","atorus-research/metacore","2021-06-11T09:56:34Z","R",1.9
-"atorus-research","pharmaRTF","atorus-research/pharmaRTF","2021-05-27T17:06:29Z","R",2.4
-"atorus-research","Tplyr","atorus-research/Tplyr","2021-03-16T14:00:46Z","R",155.1
-"atorus-research","xportr","atorus-research/xportr","2021-05-28T18:54:14Z","R",3.9
-"openpharma","BBS-causality-training","openpharma/BBS-causality-training","2021-01-29T18:01:35Z","R",0
-"openpharma","clinicalGPT-2","openpharma/clinicalGPT-2","2021-03-23T07:48:23Z","Python",11.4
-"openpharma","CTP","openpharma/CTP","2021-04-28T07:51:30Z","R",2.5
-"openpharma","facetsr","openpharma/facetsr","2020-11-30T12:37:13Z","R",2.1
-"openpharma","GithubMetrics","openpharma/GithubMetrics","2021-06-21T08:33:02Z","R",0.3
-"openpharma","icd_hierarchies","openpharma/icd_hierarchies","2020-05-08T13:11:04Z","Unsure",0
-"openpharma","openpharma.github.io","openpharma/openpharma.github.io","2017-06-25T15:04:17Z","JavaScript",0.9
-"openpharma","org-github-metadata","openpharma/org-github-metadata","2021-06-01T22:13:35Z","Unsure",0.1
-"openpharma","pypharma_nlp","openpharma/pypharma_nlp","2020-04-16T09:43:32Z","Jupyter Notebook",28
-"openpharma","RDO","openpharma/RDO","2020-03-09T14:00:55Z","R",0.5
-"openpharma","ReadStat","openpharma/ReadStat","2020-09-26T06:39:12Z","C",1.8
-"openpharma","rpkgs-actions","openpharma/rpkgs-actions","2021-06-09T07:15:06Z","Unsure",0
-"openpharma","sas7bdat","openpharma/sas7bdat","2020-09-11T09:08:00Z","Python",0.1
-"openpharma","simaerep","openpharma/simaerep","2021-06-11T10:55:26Z","R",85.9
-"openpharma","staged.dependencies","openpharma/staged.dependencies","2021-06-11T15:02:52Z","R",0
-"openpharma","synthetic.data.archive","openpharma/synthetic.data.archive","2021-03-05T09:57:40Z","Unsure",0
-"openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny","2021-03-05T09:56:59Z","Unsure",0
-"openpharma","syntrial","openpharma/syntrial","2020-07-15T12:23:41Z","R",0.3
-"openpharma","visR","openpharma/visR","2021-06-15T19:30:33Z","R",46.5
-"pharmaR","riskmetric","pharmaR/riskmetric","2021-05-26T16:07:58Z","R",1.2
-"Roche","rtables","Roche/rtables","2021-06-16T23:58:54Z","R",5.5
+"org","repo","full_name","description","updated_at","language","MB"
+"atorus-research","metacore","atorus-research/metacore",NA,"2021-06-11T09:56:34Z","R",1.9
+"atorus-research","pharmaRTF","atorus-research/pharmaRTF","Enhanced RTF wrapper written in R for use with existing R tables packages such as huxtable or GT","2021-05-27T17:06:29Z","R",2.4
+"atorus-research","Tplyr","atorus-research/Tplyr",NA,"2021-03-16T14:00:46Z","R",155.1
+"atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDSIC compliance.","2021-05-28T18:54:14Z","R",3.9
+"openpharma","BBS-causality-training","openpharma/BBS-causality-training","2021 Causality Training by the Basel Biometric Section of the Austro-Swiss Region of the International Biometric Society","2021-01-29T18:01:35Z","R",0
+"openpharma","clinicalGPT-2","openpharma/clinicalGPT-2",NA,"2021-03-23T07:48:23Z","Python",11.4
+"openpharma","CTP","openpharma/CTP","R package providing functions for creating the closure set of multiple hypotheses and performing closed testing procedures.","2021-04-28T07:51:30Z","R",2.5
+"openpharma","facetsr","openpharma/facetsr","This package is using html widgets to wrap facets into R","2020-11-30T12:37:13Z","R",2.1
+"openpharma","GithubMetrics","openpharma/GithubMetrics","gh wrapper for easier management of Github related study metadata","2021-06-21T08:33:02Z","R",0.3
+"openpharma","icd_hierarchies","openpharma/icd_hierarchies","ICD9 and ICD10 conversion from JSON and XML tree format into tabular (leveled) data","2020-05-08T13:11:04Z","Unsure",0
+"openpharma","openpharma.github.io","openpharma/openpharma.github.io","Further precompetitive collaboration in life science area.","2017-06-25T15:04:17Z","JavaScript",0.9
+"openpharma","org-github-metadata","openpharma/org-github-metadata","Python functions for relevant metrics on GitHub repositories","2021-06-01T22:13:35Z","Unsure",0.1
+"openpharma","pypharma_nlp","openpharma/pypharma_nlp","A repository for the code used at the PyPharma Conference NLP Turorial.","2020-04-16T09:43:32Z","Jupyter Notebook",28
+"openpharma","RDO","openpharma/RDO","Reproducible Data Objects (RDO) in R ","2020-03-09T14:00:55Z","R",0.5
+"openpharma","ReadStat","openpharma/ReadStat","Command-line tool (+ C library) for converting SAS, Stata, and SPSS files 💾","2020-09-26T06:39:12Z","C",1.8
+"openpharma","rpkgs-actions","openpharma/rpkgs-actions",NA,"2021-06-09T07:15:06Z","Unsure",0
+"openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
+"openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-06-11T10:55:26Z","R",85.9
+"openpharma","staged.dependencies","openpharma/staged.dependencies",NA,"2021-06-11T15:02:52Z","R",0
+"openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
+"openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
+"openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
+"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-06-15T19:30:33Z","R",46.5
+"pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-05-26T16:07:58Z","R",1.2
+"Roche","rtables","Roche/rtables","Reporting tables with R","2021-06-16T23:58:54Z","R",5.5
