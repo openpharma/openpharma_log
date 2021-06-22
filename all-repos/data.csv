@@ -9,7 +9,6 @@
 "openpharma","facetsr","openpharma/facetsr","This package is using html widgets to wrap facets into R","2020-11-30T12:37:13Z","R",2.1
 "openpharma","GithubMetrics","openpharma/GithubMetrics","gh wrapper for easier management of Github related study metadata","2021-06-21T08:33:02Z","R",0.3
 "openpharma","icd_hierarchies","openpharma/icd_hierarchies","ICD9 and ICD10 conversion from JSON and XML tree format into tabular (leveled) data","2020-05-08T13:11:04Z","Unsure",0
-"openpharma","openpharma.github.io","openpharma/openpharma.github.io","Further precompetitive collaboration in life science area.","2021-06-21T11:40:24Z","HTML",5
 "openpharma","org-github-metadata","openpharma/org-github-metadata","Python functions for relevant metrics on GitHub repositories","2021-06-01T22:13:35Z","Unsure",0.1
 "openpharma","pypharma_nlp","openpharma/pypharma_nlp","A repository for the code used at the PyPharma Conference NLP Turorial.","2020-04-16T09:43:32Z","Jupyter Notebook",28
 "openpharma","RDO","openpharma/RDO","Reproducible Data Objects (RDO) in R ","2020-03-09T14:00:55Z","R",0.5
