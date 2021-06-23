@@ -24853,7 +24853,7 @@ My credentials with gitlab still don't work. Can you please have a look and upda
 
 I will create new issues for other feedback. ","waddella",0,0
 "openpharma/staged.dependencies","some fixes","https://github.com/openpharma/staged.dependencies/pull/3","closed",2021-06-22,2021-06-22,2021-06-22,1,"","maximilianmordig",0,0
-"openpharma/staged.dependencies","token matching","https://github.com/openpharma/staged.dependencies/issues/5","open",2021-06-22,2021-06-23,NA,0,"please update the code and `README.md` to support a token lookup table. That is, I suggest to add an entry in `options` with a default mapping
+"openpharma/staged.dependencies","token matching","https://github.com/openpharma/staged.dependencies/issues/5","open",2021-06-22,2021-06-23,NA,1,"please update the code and `README.md` to support a token lookup table. That is, I suggest to add an entry in `options` with a default mapping
 
 ```
 options(staged.depencencies.token_mapping = c(
@@ -24865,6 +24865,9 @@ options(staged.depencencies.token_mapping = c(
 and then the user can modify it in the `.Rprofile`
 
 ","waddella",1,0
+"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/14","open",2021-06-23,2021-06-23,NA,0,"","maximilianmordig",0,0
+"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/13","closed",2021-06-23,2021-06-23,2021-06-23,0,"","maximilianmordig",0,0
+"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/12","closed",2021-06-23,2021-06-23,2021-06-23,0,"","maximilianmordig",0,0
 "openpharma/staged.dependencies","check if this works with renv","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-23,NA,0,"not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",0,0
 "openpharma/staged.dependencies","install_all_staged_dependcies","https://github.com/openpharma/staged.dependencies/issues/8","open",2021-06-23,2021-06-23,NA,0,"i.e. install all packages on the staged dependency graph from the correct branches.","waddella",0,0
 "openpharma/staged.dependencies","local repos","https://github.com/openpharma/staged.dependencies/issues/10","open",2021-06-23,2021-06-23,NA,0,"add a `local` argument that takes a data.frame with 3 columns (repo, host, local_path) so that the user can use local clones for checking and installation (i.e. working on a repo spanning feature locally). The `local` argument should be `NULL` by default, i.e. getting all the dependencies from the remotes.
