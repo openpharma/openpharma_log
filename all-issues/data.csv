@@ -1354,7 +1354,7 @@ rather than
 
 `10 (11.0%)`
 
-","kieranjmartin",1175,102
+","kieranjmartin",1176,103
 "nlmixrdevelopment/nlmixr","Theophylline PK parameter estimates","https://github.com/nlmixrdevelopment/nlmixr/issues/37","closed",2018-04-06,2018-05-07,2018-05-07,3,"Hello,
 First, thank you for the terrific work in developing this package!
 I’m fitting the Theophylline concentration data using _nlmixr_ and comparing the results to the ones I obtain with _saemix_ or _nlme_. The parameter estimates are similar between _saemix_ and _nlme_, but differ (too much to be due to approx. or algorithmic differences) with _nlmixr_ – see the estimates for lCl and lV in the attachment. 
@@ -1461,7 +1461,7 @@ Was also wondering how nlmixr/rxode identifies what part of model definition goe
 
 Thanks!
 ","ronkeizer",2,-89
-"nlmixrdevelopment/nlmixr","Allow lower diagonal elements being zero to translate to the correct matrix.","https://github.com/nlmixrdevelopment/nlmixr/issues/44","open",2018-05-02,2020-06-29,NA,5,"See Issue #43 ","mattfidler",1147,358
+"nlmixrdevelopment/nlmixr","Allow lower diagonal elements being zero to translate to the correct matrix.","https://github.com/nlmixrdevelopment/nlmixr/issues/44","open",2018-05-02,2020-06-29,NA,5,"See Issue #43 ","mattfidler",1148,359
 "nlmixrdevelopment/nlmixr","Calculate TAD as an option","https://github.com/nlmixrdevelopment/nlmixr/issues/46","closed",2018-05-04,2018-10-17,2018-10-17,2,"See Issue #45 ","mattfidler",166,0
 "nlmixrdevelopment/nlmixr","Model SC and IV dosing simultaneously?","https://github.com/nlmixrdevelopment/nlmixr/issues/47","closed",2018-05-15,2018-05-15,2018-05-15,3,"Is it possible to have extravascular and intravascular dosing regimens within the same nnlmixr model?","KyleBarrett",0,0
 "nlmixrdevelopment/nlmixr","mrgsolve and nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/48","closed",2018-05-21,2018-06-15,2018-06-15,3,"I have been attempting to write the ODE's and model inputs using mrgsolve while using nlmixr for parameter estimation, similar to this link: https://github.com/metrumresearchgroup/mrgsolve/issues/307
@@ -2882,7 +2882,7 @@ m1 <- function() {
 ```
 Error in configsaem(model = model, data = dat, inits = uif$saem.init,  : 
   FIXED pars cannot have ETA","sjtpharm",209,0
-"nlmixrdevelopment/nlmixr","Simulating models with uncertainty that have covariates","https://github.com/nlmixrdevelopment/nlmixr/issues/84","open",2018-10-11,2019-06-01,NA,11,"Reminder from ACoP9:  Please add functionality of simulating models that have covariates added.  Specific case is in the hands on exercise called 'Case Theophylline'  - after Step 4 - cannot simulate from this model fit.  ","cfosser",985,752
+"nlmixrdevelopment/nlmixr","Simulating models with uncertainty that have covariates","https://github.com/nlmixrdevelopment/nlmixr/issues/84","open",2018-10-11,2019-06-01,NA,11,"Reminder from ACoP9:  Please add functionality of simulating models that have covariates added.  Specific case is in the hands on exercise called 'Case Theophylline'  - after Step 4 - cannot simulate from this model fit.  ","cfosser",986,753
 "nlmixrdevelopment/nlmixr","fixed issue in FOCEi","https://github.com/nlmixrdevelopment/nlmixr/issues/85","closed",2018-10-12,2019-01-23,2019-01-23,5,"Also, I include the covariate fixing issue in focei….first the version that works (just smack the number (.75) in the CL expression 
 ```R
 #with weight allometric focei not mu modeled WORKS!!!
@@ -3117,7 +3117,7 @@ There is resent-and-dose event given by EVID = 4.
 
 ""Error in nmDataConvert(data) : 
   A reset of the ODE system is not currently supported.""
-Thanks, ","amaisahmad",971,876
+Thanks, ","amaisahmad",972,877
 "nlmixrdevelopment/nlmixr","Error: package ‘nlmixr’ is not installed for 'arch = i386'","https://github.com/nlmixrdevelopment/nlmixr/issues/94","closed",2018-10-30,2018-11-03,2018-11-03,2,"I downloaded nlmixr_1.0.0-7_i386_install.exe from here:
 [https://github.com/nlmixrdevelopment/nlmixr/releases]
 and installed it on a Windows 2012 64 bit server machine in the default location.
@@ -3237,7 +3237,7 @@ signif(as.numeric(z[4, ""StdDev""]), 3) not equal to 0.000205.
 (FYI, this was with my docker image not the stock image.  Results could be slightly different in the stock docker image because of slightly different versions of the underlying libraries.)
 
 My initial thought is that increasing the required precision for `pnlsTol` (e.g. to 0.01) may help.","billdenney",336,0
-"nlmixrdevelopment/nlmixr","Reuse VPC and NPDE","https://github.com/nlmixrdevelopment/nlmixr/issues/100","open",2018-11-07,2018-11-07,NA,0,"The VPC and NPDE should be able to use the same simulated data.","mattfidler",958,958
+"nlmixrdevelopment/nlmixr","Reuse VPC and NPDE","https://github.com/nlmixrdevelopment/nlmixr/issues/100","open",2018-11-07,2018-11-07,NA,0,"The VPC and NPDE should be able to use the same simulated data.","mattfidler",959,959
 "nlmixrdevelopment/nlmixr","Cannot Install GitHub Version of nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/101","closed",2018-11-09,2018-11-09,2018-11-09,5,"When trying to install the current GitHub version of `nlmixr` (working on #99), I get many errors that look similar to the following (specifically, `error: ‘RxODE’ has not been declared`)
 
 ```
@@ -4199,7 +4199,7 @@ To calculate this is non-trivial. We could follow a process like this:
 5. Walk graph and fill in expression coverage
 6. Tally expression coverage for each package export
 
-","dgkf",823,638
+","dgkf",824,639
 "pharmaR/riskmetric","Create proof_of_concept.md","https://github.com/pharmaR/riskmetric/pull/9","closed",2019-03-26,2019-04-02,2019-04-02,0,"Draft proof of concept for risk metrics","elong0527",7,0
 "nlmixrdevelopment/nlmixr","Objective function value using SAEM","https://github.com/nlmixrdevelopment/nlmixr/issues/144","closed",2019-03-27,2019-03-29,2019-03-29,7,"Hi,
 
@@ -4505,7 +4505,7 @@ Alternatively, (not sure whether it is worth it atm) we could make this more gen
 become possible. The latter might be a bit cleaner and makes for shorter function/method names (+ metrics can be parametrized at instantiation -> less clutter in function call!) but it is certainly not necessary.
 
 @dgkf @elong0527, opinions?","kkmann",42,0
-"Novartis/peax","How would I use this on HPC?","https://github.com/Novartis/peax/issues/2","open",2019-04-17,2019-04-19,NA,4,"I stumbled on your software, and would be interested to use it on an HPC cluster (e.g., with job management via SLURM). Do you have documentation / protocol to do this? Is running the server (with the GUI) absolutely required?","vsoch",797,795
+"Novartis/peax","How would I use this on HPC?","https://github.com/Novartis/peax/issues/2","open",2019-04-17,2019-04-19,NA,4,"I stumbled on your software, and would be interested to use it on an HPC cluster (e.g., with job management via SLURM). Do you have documentation / protocol to do this? Is running the server (with the GUI) absolutely required?","vsoch",798,796
 "Novartis/peax","Add notebooks for plotting individual histone mod predictions","https://github.com/Novartis/peax/pull/3","closed",2019-04-19,2019-04-19,2019-04-19,0,"","flekschas",0,0
 "nlmixrdevelopment/nlmixr","Better VPC object","https://github.com/nlmixrdevelopment/nlmixr/issues/160","closed",2019-05-01,2019-05-01,2019-05-01,1,"Allow it to interact with ggplots and grid objects directly while retaining the ability to extract the data.","mattfidler",0,0
 "nlmixrdevelopment/nlmixr","covariate(s) not found","https://github.com/nlmixrdevelopment/nlmixr/issues/159","closed",2019-05-01,2019-05-01,2019-05-01,5,"I have just installed the latest Github RxODE and nlmixr and encountered a new error message.  In models that have previously run, even though the covariate is in the dataset, I am getting the following error message:
@@ -4642,7 +4642,7 @@ I want to run nlmixr with multiple parameters for my model and I wanted to ask i
 
 Could I potential provide them as a vector of parameters or something like that?
 
-","DimitrisVoul",776,285
+","DimitrisVoul",777,286
 "Roche/ggtips","Clarified docker usage and pointed to some extra documentation","https://github.com/Roche/ggtips/pull/2","closed",2019-05-10,2019-05-13,2019-05-13,0,"Docker may be tricky to run the first time if someone is not familiar and installed it to test out the project.
 
 Plus small fix in ggtips description grammar.","ghost",3,0
@@ -4816,11 +4816,11 @@ I tried to update nlmixr to latest version on GitHub, but it throws an error:
 When I looked closely I found that it is looking for g++.exe in a different path than mentioned in environment variables 
 `C:/Rtools/mingw_64/g++.exe: not found`. It is actually located in `C:/Rtools/mingw_64/bin/g++.exe`. I'm not sure what went wrong, I've also updated R version to 3.5. Could you please let me help in resolving this?
 ","karthikl6",4,0
-"pharmaR/riskmetric","template for extensibility","https://github.com/pharmaR/riskmetric/issues/18","open",2019-05-24,2019-05-29,NA,1,"Prior to R/Pharma conference, put together at least one fully implemented metric as example for package extensibility. ","dgkf",760,755
+"pharmaR/riskmetric","template for extensibility","https://github.com/pharmaR/riskmetric/issues/18","open",2019-05-24,2019-05-29,NA,1,"Prior to R/Pharma conference, put together at least one fully implemented metric as example for package extensibility. ","dgkf",761,756
 "nlmixrdevelopment/nlmixr","Use Mac OSX toolchain for install options","https://github.com/nlmixrdevelopment/nlmixr/issues/179","closed",2019-05-24,2020-09-10,2020-09-10,2,"https://github.com/rmacoslib/r-macos-rtools#how-do-i-use-the-installer
 
 @RichardHooijmaijers perhaps you can try this out to see how it works?  You might need it since the C++14 requirement of stan...","mattfidler",475,0
-"Roche/ggtips","Example app creates Rplots.pdf file","https://github.com/Roche/ggtips/issues/4","open",2019-05-26,2019-05-26,NA,0,"when you run the app there is file that should be removed or not created in inst/example directory.","jcubic",758,758
+"Roche/ggtips","Example app creates Rplots.pdf file","https://github.com/Roche/ggtips/issues/4","open",2019-05-26,2019-05-26,NA,0,"when you run the app there is file that should be removed or not created in inst/example directory.","jcubic",759,759
 "Roche/ggtips","Preview image","https://github.com/Roche/ggtips/pull/5","closed",2019-05-26,2019-08-09,2019-05-27,0,"Preview image, see updated README","jcubic",1,-74
 "nlmixrdevelopment/nlmixr","Checking convergence: dependence on initial values","https://github.com/nlmixrdevelopment/nlmixr/issues/181","closed",2019-05-27,2019-07-09,2019-07-06,14,"I am somewhat worried about the convergence of an `nlmixr` fit (some of the estimated values are suspiciously close to their initial values). I thought of investigating this by re-running the fit with several different initial values, to see how stable the result is, i.e. whether the estimated effects are the same more or less independently of the initial value.
 
@@ -4942,16 +4942,16 @@ Error in RxODE::foceiFitCpp_(.ret) :
 
 @kkmann had suggested that, at least initially, we allow all locally installed packages to share a library.
 
-I think that this will work for fairly established packages that are well maintained, but will cause issues when we introduce packages with strictly conflicting package dependencies. I don't think this is a problem we should consider in-scope for now, and would be onboard to move forward with a shared library. ","dgkf",755,755
+I think that this will work for fairly established packages that are well maintained, but will cause issues when we introduce packages with strictly conflicting package dependencies. I don't think this is a problem we should consider in-scope for now, and would be onboard to move forward with a shared library. ","dgkf",756,756
 "nlmixrdevelopment/nlmixr","dynmodel fixes","https://github.com/nlmixrdevelopment/nlmixr/pull/185","closed",2019-05-30,2020-01-27,2020-01-27,2,"dynmodel fixes","masonmccomb",242,0
 "nlmixrdevelopment/nlmixr","vpc info added to nlmixr vpc object.","https://github.com/nlmixrdevelopment/nlmixr/issues/184","closed",2019-05-30,2020-09-10,2020-09-10,0,"","mattfidler",469,0
 "Roche/ggtips","Document the API","https://github.com/Roche/ggtips/issues/8","open",2019-05-31,2019-05-31,NA,0,"There is need for documentation. Best if it's in README or on GitHub wiki.
 
-It's backed documentation because front don't need any docs.","jcubic",753,753
+It's backed documentation because front don't need any docs.","jcubic",754,754
 "Roche/ggtips","license in README + demo shiny app","https://github.com/Roche/ggtips/pull/7","closed",2019-05-31,2019-08-09,2019-05-31,0,"As in title, hosted shiny app same as in example but with fancy GitHub ribbon. (and found bug needed to overwrite svglite svg css to make it work).","jcubic",0,-70
 "Roche/ggtips","You can't have other SVG on the page","https://github.com/Roche/ggtips/issues/6","open",2019-05-31,2020-06-09,NA,1,"Because of the bug in r-lib/svglite#91 you can't put any other SVG on the page, so this package and svglite is almost useless for some usage.
 
-We can fix the issue by patch style inside svglite svg, but we will need to watch if style changes in future versions of svglite.","jcubic",753,378
+We can fix the issue by patch style inside svglite svg, but we will need to watch if style changes in future versions of svglite.","jcubic",754,379
 "nlmixrdevelopment/nlmixr","False convergence with FOCEi","https://github.com/nlmixrdevelopment/nlmixr/issues/186","closed",2019-06-03,2019-06-17,2019-06-17,2,"Hi @mattfidler ,
 
 What exactly does false convergence mean? If my model output of parameter estimates and GOF plots are reasonable can I still consider this model taking forward? Could you please let me know your thoughts?
@@ -5215,7 +5215,7 @@ Finally, isn't there something weird about the printed parameter values of the r
 "Roche/rtables","Release 0.1.2","https://github.com/Roche/rtables/pull/20","closed",2019-06-24,2019-06-24,2019-06-24,0,"","waddella",0,0
 "Roche/crmPack","Update Model-class.R","https://github.com/Roche/crmPack/pull/3","closed",2019-07-01,2019-10-26,2019-10-26,2,"Altered dose standardisation in DualEndpointEmax to fix bug when trying to simulate","TJaki",117,0
 "nlmixrdevelopment/nlmixr","Allow multiple endpoint models to share the same residual error model","https://github.com/nlmixrdevelopment/nlmixr/issues/193","open",2019-07-03,2019-07-03,NA,0,"
-_Originally posted by @mattfidler in https://github.com/nlmixrdevelopment/nlmixr/issues/192#issuecomment-508240403_","mattfidler",720,720
+_Originally posted by @mattfidler in https://github.com/nlmixrdevelopment/nlmixr/issues/192#issuecomment-508240403_","mattfidler",721,721
 "nlmixrdevelopment/nlmixr","Multiple compartments in one endpoint","https://github.com/nlmixrdevelopment/nlmixr/issues/192","closed",2019-07-03,2019-07-09,2019-07-09,3,"Hi nlmixr developers, 
 
 This question is similar to #105.  
@@ -7392,14 +7392,14 @@ As far as I can tell my change is not breaking anything in the package. I checke
 "Roche/ggtips","Failing tests","https://github.com/Roche/ggtips/issues/21","open",2019-08-13,2020-05-06,NA,6,"https://travis-ci.org/Roche/ggtips/jobs/571269675
 
 ![travis](https://user-images.githubusercontent.com/280241/62939137-d8396c80-bdd0-11e9-8f42-a23d86f9f570.png)
-","jcubic",679,412
+","jcubic",680,413
 "Roche/ggtips","fix position of right aligned tooltip","https://github.com/Roche/ggtips/pull/19","closed",2019-08-13,2019-08-13,2019-08-13,0,"There where 2 problems
 1. visible in demo offset because of wrong calculation
 2. When creating library you should always use css classes with prefix so they don't interact with user CSS code (this is what was happening in Roche Maestro project).","jcubic",0,0
 "nlmixrdevelopment/nlmixr","Inter-study variability","https://github.com/nlmixrdevelopment/nlmixr/issues/221","closed",2019-08-13,2019-08-14,2019-08-14,2,"Hello,
 
 Is inter-study variability incorporated in nlmixr at the moment?","DimitrisVoul",1,0
-"nlmixrdevelopment/nlmixr","Terminating fitting after many errors","https://github.com/nlmixrdevelopment/nlmixr/issues/222","open",2019-08-14,2019-08-15,NA,1,"When I fit a model with SAEM, I get dozens, if not hundreds of messages like `IDID=-5, repeated convergence failures (perhaps bad jacobian supplied or wrong choice of jt or tolerances)` or `IDID=-2, excess accuracy requested (tolerances too small)`. I know the reason: the initial values are really not fortunate. However, I can't manually handle this, because I am fitting a huge number of models (programmatically), so in this case, I'd need a solution to terminate the fitting, as it is futile. Is it possible to do this? It is perfectly fine if I get only an `NA` or `NULL`, I don't need any result from this, just that it stops after many such problems occurred.","tamas-ferenci",678,677
+"nlmixrdevelopment/nlmixr","Terminating fitting after many errors","https://github.com/nlmixrdevelopment/nlmixr/issues/222","open",2019-08-14,2019-08-15,NA,1,"When I fit a model with SAEM, I get dozens, if not hundreds of messages like `IDID=-5, repeated convergence failures (perhaps bad jacobian supplied or wrong choice of jt or tolerances)` or `IDID=-2, excess accuracy requested (tolerances too small)`. I know the reason: the initial values are really not fortunate. However, I can't manually handle this, because I am fitting a huge number of models (programmatically), so in this case, I'd need a solution to terminate the fitting, as it is futile. Is it possible to do this? It is perfectly fine if I get only an `NA` or `NULL`, I don't need any result from this, just that it stops after many such problems occurred.","tamas-ferenci",679,678
 "pharmaR/riskmetric","updated vignettes using feedback from #32","https://github.com/pharmaR/riskmetric/pull/33","closed",2019-08-14,2021-03-31,2019-08-28,1,"made recommended changes from #32
 
 - fixed typo in extending-riskmetric vignette
@@ -7429,7 +7429,7 @@ Is inter-study variability incorporated in nlmixr at the moment?","DimitrisVoul"
 > 
 > ""riskmetric is designed to be readily extensible. This is done through use of the S3 method dispatch system and a consciou acknowledgement ""
 > 
-> This is all the time I have right now for review, but hope this is helpful, good luck!","dgkf",678,678
+> This is all the time I have right now for review, but hope this is helpful, good luck!","dgkf",679,679
 "nlmixrdevelopment/nlmixr","What is called with AIC(fit)?","https://github.com/nlmixrdevelopment/nlmixr/issues/223","closed",2019-08-17,2019-08-18,2019-08-18,4,"(First if all, sorry if it turns out that this question is R-programming related, and not `nlmixr`-specific...)
 
 I was interested to see what's going on under the hood when one calls `AIC(fit)` with a usual model estimated with SAEM. What I found was that `AIC.default` is called from package `stats` which will call `logLik(fit)`. Now, `logLik(fit)` will actually call `logLik.nlmixrFitData` from the package `nlmixr` (the fitted object has another class, to which a `logLik` method pertains, the `nlmixrFitCore` but it is listed *after* `nlmixrFitData` in `class(fit)`). This function will call `fit$logLik` and this is the point where I'm stuck.
@@ -8029,7 +8029,7 @@ https://roche.github.io/rtables/
 
 Not sure how they created GH but there is onother repo that have proper gh-pages branch
 
-https://github.com/Roche/IceBoar/tree/gh-pages","jcubic",656,656
+https://github.com/Roche/IceBoar/tree/gh-pages","jcubic",657,657
 "Roche/ggtips","Using ggtips with other geoms","https://github.com/Roche/ggtips/issues/23","open",2019-09-05,2020-02-14,NA,3,"Hi there, I hope you guys are doing great,
 
 First of all, thank you for developing this amazing package. I'm having issues adding reactive tooltips to a geom_bar. Here is the reproducible example that is an adaptation of your demo.
@@ -8040,7 +8040,7 @@ geom_bar(stat = ""identity"",aes(fill = Species)),
         varDict = list(Sepal.Width = ""Width"", Sepal.Length = ""Length"", Species = ""Species"")
     )`
 
-Please let me know if this is possible! Thank you again.","Teett",656,494
+Please let me know if this is possible! Thank you again.","Teett",657,495
 "nlmixrdevelopment/nlmixr","Cannot install successfully on Win10 64","https://github.com/nlmixrdevelopment/nlmixr/issues/229","closed",2019-09-08,2019-09-17,2019-09-16,5,"I've tried numerous times, using the two different methods (installer vs manual Win set up), and I just can't get it to work and install as valid. Run the test_install script each time, and always receive the following:
 Correct R version: Yes, R version 3.6.0 (2019-04-26)
 RxODE installed: Yes
@@ -8064,7 +8064,7 @@ Running focei
 And then it just crashes, RStudio window pops up saying ""R encountered a fatal error"" etc.
 
 So frustrating - about to just give up on this. I installed it a couple weeks ago on another computer using the win installer and it works fine through R and RStudio. ","bfreed3",8,-1
-"pharmaR/riskmetric","Migrate package wish list to project board","https://github.com/pharmaR/riskmetric/issues/37","open",2019-09-10,2019-09-10,NA,0,"Take the items in the package wish list and file individual issues to break up workload.","dgkf",651,651
+"pharmaR/riskmetric","Migrate package wish list to project board","https://github.com/pharmaR/riskmetric/issues/37","open",2019-09-10,2019-09-10,NA,0,"Take the items in the package wish list and file individual issues to break up workload.","dgkf",652,652
 "nlmixrdevelopment/nlmixr","Different residual error in the same model ","https://github.com/nlmixrdevelopment/nlmixr/issues/231","closed",2019-09-11,2019-09-12,2019-09-12,2,"Hi @mattfidler 
 
 I am trying to model the PK of a drug that is influence by co-administration of food and was wondering if we can specify different residual error for the two states (fasting, FOOD=0; fed, FOOD=1) with nlmixr? 
@@ -8225,7 +8225,7 @@ Execution halted
 - [`cchecks`](https://github.com/ropenscilabs/cchecks) & [`cchecksapi`](https://github.com/ropenscilabs/cchecksapi)
 
 I'll try to keep this list up to date, so please keep suggestions coming
-","dgkf",644,574
+","dgkf",645,575
 "pharmaR/riskmetric","package name change","https://github.com/pharmaR/riskmetric/issues/39","closed",2019-09-17,2020-01-15,2020-01-15,4,"In our group meeting on 2019/09/17, Patrice K. mentioned that ""RiskMetrics"" conflicts with a [variance model produced by J.P. Morgan in the 90s](https://en.wikipedia.org/wiki/RiskMetrics). 
 
 I assume the name conflict is probably not worth any potential legal issues and ambiguity (especially in a statistical programming language where someone may be looking for a package to run these models).
@@ -8325,7 +8325,7 @@ This comes with a number of really challenging technical problems.
 ---
 
 _Tagging as high difficulty only because we don't have a ""research grade"" difficulty ;). This is really a metric that I see as a research project in and of itself. The novelty of the work probably warrants it living somewhere where it could be used independent of the riskmetric package._
-","dgkf",638,638
+","dgkf",639,639
 "pharmaR/riskmetric","Documentation of function parameters & returned values","https://github.com/pharmaR/riskmetric/issues/42","open",2019-09-23,2019-09-23,NA,0,"Build a metric that assesses how completely the package documents parameters and returned values.
 
 Depending on how rigorous we want to be, this might be mostly covered by `R CMD check`, which gives a warning about undocumented parameters. 
@@ -8340,20 +8340,20 @@ Some possible considerations:
 
 **Resources**
 
-I built [some similar functionality](https://github.com/trestletech/shinyAce/blob/30572957a26f47e6fe24c366a9f026e409e4395f/R/utils.R#L87-L131) for the [shinyAce](https://github.com/trestletech/shinyAce) package for extracting subsections of the help file. I'm sure these could be repurposed for this use.","dgkf",638,638
+I built [some similar functionality](https://github.com/trestletech/shinyAce/blob/30572957a26f47e6fe24c366a9f026e409e4395f/R/utils.R#L87-L131) for the [shinyAce](https://github.com/trestletech/shinyAce) package for extracting subsections of the help file. I'm sure these could be repurposed for this use.","dgkf",639,639
 "pharmaR/riskmetric","Examples available for exported objects","https://github.com/pharmaR/riskmetric/issues/43","open",2019-09-23,2019-09-23,NA,0,"Similar to #43, provide an assessment of the examples that are provided with each function.
 
-We could check for the existence of examples or usage fields in the documentation. This can be achieved using the same mechanism of scraping the help as is linked in the references in #43. ","dgkf",638,638
+We could check for the existence of examples or usage fields in the documentation. This can be achieved using the same mechanism of scraping the help as is linked in the references in #43. ","dgkf",639,639
 "pharmaR/riskmetric","Function examples assessed by code coverage when running only function examples","https://github.com/pharmaR/riskmetric/issues/44","open",2019-09-23,2019-09-23,NA,0,"At the intersection of #6 and #43, it might be helpful to take a look at how effectively the examples provided with a function cover the different ways the function can be used.
 
-One way of assessing this is the coverage of that function specifically after running just the examples provided with it. ","dgkf",638,638
+One way of assessing this is the coverage of that function specifically after running just the examples provided with it. ","dgkf",639,639
 "pharmaR/riskmetric","Gauge availability of vignettes","https://github.com/pharmaR/riskmetric/issues/45","closed",2019-09-23,2020-04-01,2020-04-01,0,"Check whether a package has vignettes, and whether they're discoverable via idiomatic R patterns (`vignette(package = <package>)`).","dgkf",191,0
 "pharmaR/riskmetric","Metric for assessing source code repository community enthusiasm","https://github.com/pharmaR/riskmetric/issues/51","open",2019-09-23,2019-09-23,NA,0,"For public code repositories that have some measure of community enthusiasm, can we consolidate those into a metric? Specifically, I'm looking at GitHub's Stars or Forks as possible ways of determining how engaged/enthusiastic the community might be about a particular package. 
 
-Would these make suitable metrics? How generalizeable would these be - are there analogs on other public code version control platforms?","dgkf",638,638
+Would these make suitable metrics? How generalizeable would these be - are there analogs on other public code version control platforms?","dgkf",639,639
 "pharmaR/riskmetric","Metric for availability of a public code repository","https://github.com/pharmaR/riskmetric/issues/47","open",2019-09-23,2021-04-28,NA,1,"It's important for many downstream metrics that the source code repository is somehow captured so we might as well make a metric out of its existence and figure out an appropriate weighting later. 
 
-Some complications assuredly will come up due to the many ways by which someone may link a package to a repository. I'd guess the low hanging fruit like scraping GitHub/GitLab/Bitbucket urls from the BugReports field in description should be pretty feasible.","dgkf",638,55
+Some complications assuredly will come up due to the many ways by which someone may link a package to a repository. I'd guess the low hanging fruit like scraping GitHub/GitLab/Bitbucket urls from the BugReports field in description should be pretty feasible.","dgkf",639,56
 "pharmaR/riskmetric","Metric for gauging suitability of a software license","https://github.com/pharmaR/riskmetric/issues/53","closed",2019-09-23,2020-01-06,2020-01-06,3,"This one probably requires a pretty candid conversation across the industry and a bit of health authority input.
 
 Any guidelines that people have been using in the industry would be super helpful! If anyone doesn't feel comfortable making a claim to a license policy, perhaps there are public open source guidelines we can defer to that would let us begin to get our heads around suitable licenses. ","dgkf",105,0
@@ -8366,10 +8366,10 @@ Similarly, it might be nice to have a metric that considers the number of contri
 
 Looking at GitHub, I think we might be able to pull the contributions. Would there be similar metrics we can pull from similar version control platforms? When source code repository is available, would it be preferable to pull this information from the git history itself?
 
-We could consider various metrics for ""active"" maintenance, but the first step would be to get some measure of who is writing the code that gets added into the package. ","dgkf",638,573
-"pharmaR/riskmetric","Metric to determine community engagement in issues","https://github.com/pharmaR/riskmetric/issues/48","open",2019-09-23,2019-09-23,NA,0,"Given the BugReports mechanism of a given package, can we come up with a metric to determine how engaged the community is in reporting issues? Possibly use the number of  people involved in issue discussions in the past N months, or the number of additions to issue discussions?","dgkf",638,638
-"pharmaR/riskmetric","Metric to determine developer response to community reported issues","https://github.com/pharmaR/riskmetric/issues/49","open",2019-09-23,2019-09-23,NA,0,"In the same vein as #48, would it be possible to also assess how quickly the developer of a package responds when the community reports bugs. Given the BugReports mechanism of choice, would it be possible to look at an average time to a developer response?","dgkf",638,638
-"pharmaR/riskmetric","Metric to determine developer time to pull request / patch response","https://github.com/pharmaR/riskmetric/issues/50","open",2019-09-23,2019-09-23,NA,0,"Similar to #49, When pull requests/patches are provided to a package, can we determine how long it takes until a developer responds?","dgkf",638,638
+We could consider various metrics for ""active"" maintenance, but the first step would be to get some measure of who is writing the code that gets added into the package. ","dgkf",639,574
+"pharmaR/riskmetric","Metric to determine community engagement in issues","https://github.com/pharmaR/riskmetric/issues/48","open",2019-09-23,2019-09-23,NA,0,"Given the BugReports mechanism of a given package, can we come up with a metric to determine how engaged the community is in reporting issues? Possibly use the number of  people involved in issue discussions in the past N months, or the number of additions to issue discussions?","dgkf",639,639
+"pharmaR/riskmetric","Metric to determine developer response to community reported issues","https://github.com/pharmaR/riskmetric/issues/49","open",2019-09-23,2019-09-23,NA,0,"In the same vein as #48, would it be possible to also assess how quickly the developer of a package responds when the community reports bugs. Given the BugReports mechanism of choice, would it be possible to look at an average time to a developer response?","dgkf",639,639
+"pharmaR/riskmetric","Metric to determine developer time to pull request / patch response","https://github.com/pharmaR/riskmetric/issues/50","open",2019-09-23,2019-09-23,NA,0,"Similar to #49, When pull requests/patches are provided to a package, can we determine how long it takes until a developer responds?","dgkf",639,639
 "pharmaR/riskmetric","Metrics for history and number of package downloads","https://github.com/pharmaR/riskmetric/issues/52","closed",2019-09-23,2020-01-15,2020-01-15,9,"For central repositories that measure downloads of packages (CRAN/Bioconductor), can we produce a metric that assesses the popularity of a package based on how many downloads it gets. 
 
 Clearly this won't be entirely rigorous as package downloads don't inherently map to package users, but surely it provides a relative measure of adoption. 
@@ -8492,7 +8492,7 @@ After our discussion at ACoP, I am adding an issue that correlations should flag
 Using NONMEM jargon, this is already done for `omega` matrices but not for correlations in `theta` matrices.  Currently `nlmixr` points out moderate correlations (|r| > 0.3) and strong correlations (|r| > 0.7), though the numbers are currently hard-coded (this probably should be changed)
 
 Also the ability to do this should be present in nlmixr for `theta` estimates as measured by their correlation matrix.
-","mattfidler",605,602
+","mattfidler",606,603
 "nlmixrdevelopment/nlmixr","logit/expit in models","https://github.com/nlmixrdevelopment/nlmixr/issues/245","closed",2019-10-26,2020-09-11,2020-09-11,3,"@billdenney and @RikSchoemaker 
 
 Allow 
@@ -8510,7 +8510,7 @@ f(a) = expit(fa)
 Also allow back-transformation to the correct values in the printout.","mattfidler",321,0
 "nlmixrdevelopment/nlmixr","Algorithm: Consider f-SAEM","https://github.com/nlmixrdevelopment/nlmixr/issues/246","open",2019-10-27,2019-10-31,NA,1,"I wanted to make sure that you were aware of the update to SAEM that appears to have benefits with minimal costs:  https://www.sciencedirect.com/science/article/pii/S0167947319301483
 
-I haven’t looked in detail of the differences, but at the abstract level, it looks good.","billdenney",604,600
+I haven’t looked in detail of the differences, but at the abstract level, it looks good.","billdenney",605,601
 "nlmixrdevelopment/nlmixr","Feature Request:  Improved VPC Simulation Datasets","https://github.com/nlmixrdevelopment/nlmixr/issues/247","open",2019-10-29,2020-03-06,NA,7,"One of the features that I always want to overcome with VPCs is the discretized nature of the independent variable axis.  It has historically been limited by the fact that simulations are performed on the basis of the original dataset rather than an augmented dataset.  I have always interpreted the reason for this as simplicity:  Running a VPC on the original dataset is easier than generating a new one, running the simulation on that, and then summarizing.
 
 With that preamble...
@@ -8528,7 +8528,7 @@ There are some complexities that immediately come to mind:
     * For different independent variables (e.g. time for PK and concentration for PD), I think that either separate VPCs should be run by endpoint or it may just be approximately impossible.  (It could be impossible in the case where concentration is the predictor, but with a simultaneous PK/PD model, you can't make concentration independent.  In the impossible situation, again a fallback to the current standard may have to suffice.)
         * Alternate options which would be difficult to automate would be to have a multi-stage VPC where the PK model simulated first, then the PD model was simulated from the concentration data in the PK model with full expansion of the dataset.  I would not advocate for this as part of the first solution.
     * For different strata, I think that each endpoint should optionally be separated expanded by all strata.  This one may be a problem to automatically fix, but I would guess that it would be a relatively uncommon problem for which the user could fall back to the current method.
-    * For different covariates of interest, I think that would be handled by just having all covariates extrapolated throughout the dataset (regardless of the endpoint).","billdenney",602,473
+    * For different covariates of interest, I think that would be handled by just having all covariates extrapolated throughout the dataset (regardless of the endpoint).","billdenney",603,474
 "nlmixrdevelopment/nlmixr","Feature Request: SEs on estimated covariance/standard deviation components.","https://github.com/nlmixrdevelopment/nlmixr/issues/248","closed",2019-10-29,2019-11-06,2019-11-06,9,"See Issue #243 for discussion.","mattfidler",8,0
 "nlmixrdevelopment/nlmixr","addCwres() reverts to FIM co-variance method for SAEM (silently);","https://github.com/nlmixrdevelopment/nlmixr/issues/249","closed",2019-10-31,2019-10-31,2019-10-31,1,"","mattfidler",0,0
 "pharmaR/riskmetric","update README","https://github.com/pharmaR/riskmetric/pull/61","closed",2019-10-31,2019-11-08,2019-11-08,0,"add bi-weekly sprint meeting information","elong0527",8,0
@@ -8767,7 +8767,7 @@ I'm looking at how to accommodate a BugReports assessment for Bioconductor packa
 
 Trying to accommodate the support site seems like quite a daunting task. If anything, I think we might want to treat this as a separate form of support, perhaps more akin to StackOverflow or the RStudio Discourse. 
 
-I'm planning to proceed with only considering the url in the BugReports field. Please let me know if there are any concerns with the approach. ","dgkf",596,596
+I'm planning to proceed with only considering the url in the BugReports field. Please let me know if there are any concerns with the approach. ","dgkf",597,597
 "nlmixrdevelopment/nlmixr","move #include <stan/math/prim/mat/fun/Eigen.hpp>","https://github.com/nlmixrdevelopment/nlmixr/pull/250","closed",2019-11-10,2019-11-11,2019-11-10,5,"The nlmixr R package will fail with the next version of StanHeaders due to a useful but somewhat incompatible change introduced in Stan Math 2.20 that uses the Eigen plugin mechanism to hold adjoints along with the double values in `Eigen::Matrix<T, -1, -1>`. According to the Eigen [documentation](http://eigen.tuxfamily.org/dox/TopicCustomizing_Plugins.html) such plugins have to be `#include`d before any other Eigen headers. The nlmixr R package `#includes` it after `#include <RcppEigen.h>` which in turn `#includes` all the other Eigen headers, leading to compilation errors.
 
 The fix in this is PR is trivial and passes R CMD check both with the CRAN and soon-to-be CRAN StanHeaders. If you need to test with the soon-to-be CRAN StanHeaders, you can do
@@ -8895,13 +8895,13 @@ Maturity (package) | The longer a package has been in existence, the more exposu
 Maturity (version) | When measuring package maturity, it is also important to consider the version maturity. The more recent a version, the less exposure it has had to community testing
 
 Yilong: 
-this one had overalp with Release Rate. We may collect the release date of each package version from CRAN for this.","elong0527",580,341
+this one had overalp with Release Rate. We may collect the release date of each package version from CRAN for this.","elong0527",581,342
 "pharmaR/riskmetric","Metric for Release Rate","https://github.com/pharmaR/riskmetric/issues/65","closed",2019-11-20,2020-05-13,2020-05-13,1,"""A stable but continuing release pattern is a sign of active maintenance. Active maintenance reduces the risk of bugs/errors and so a higher frequency indicates a reduced risk. However, it should be noted that as a package stabilises over time, the release rate may slow. When interpreting this metric it is therefore also important to consider the package maturity."" from https://github.com/pharmaR/pharmaR.github.io/blob/master/content/risk.md
 
 We may collect the release date of each package version from CRAN.","elong0527",175,0
 "pharmaR/riskmetric","Metric for Size of code base","https://github.com/pharmaR/riskmetric/issues/66","open",2019-11-20,2021-03-31,NA,5,"""The larger the code base, the greater the risk of error"" from https://github.com/pharmaR/pharmaR.github.io/blob/master/content/risk.md
 
-I suggest to remove this metric. The size can be defined in different ways. If it is the size of an CRAN version, it should be <= 5MB per CRAN package size and limitation.","elong0527",580,83
+I suggest to remove this metric. The size can be defined in different ways. If it is the size of an CRAN version, it should be <= 5MB per CRAN package size and limitation.","elong0527",581,84
 "pharmaR/riskmetric","Metric for Source control Availability  (public)","https://github.com/pharmaR/riskmetric/issues/63","closed",2019-11-20,2020-05-13,2020-05-13,2,"""The use of source control is good practice that facilitates development. In general it will not be possible to determine whether the maintainer is using a source code repository unless this is in the public domain."" from https://github.com/pharmaR/pharmaR.github.io/blob/master/content/risk.md
 
 The metric may translate to if there is a github repo for an R package.","elong0527",175,0
@@ -8989,7 +8989,7 @@ Happy to open any of these as individual issues if that would help focus work ad
 
 mark
 
-ping @noamross @karthik","mpadge",574,566
+ping @noamross @karthik","mpadge",575,567
 "pharmaR/riskmetric","tiny vignette tidying","https://github.com/pharmaR/riskmetric/pull/70","closed",2019-11-26,2019-11-26,2019-11-26,0,"The main vignette one is just because it was confusingly formatted as a quote (and i took the opportunity to insert a hyperlink there).
 
 The change in the extending vignette is important, because i read the previous version and though, oh, okay, `new_pkg_metric()` must be a function that i have to subsequently define somewhere. But no, it actually should be the generic `pkg_metric()`, with the function named after the class (`""pkg_metric_name_first_letter""`), and subsequently defined as a template specification on [`score`](https://github.com/pharmaR/riskmetric/blob/master/vignettes/extending-riskmetric.Rmd#L188-L190) - right? Happy to iterate if i have misunderstood ...","mpadge",0,0
@@ -9001,7 +9001,7 @@ The change in the extending vignette is important, because i read the previous v
 ","dgkf",23,0
 "pharmaR/riskmetric","adding license metric","https://github.com/pharmaR/riskmetric/pull/72","closed",2019-11-27,2021-03-31,2019-12-04,0,"- added a metric to extract the license from the `DESCRIPTION` data
 - currently `score.pkg_metric_license` just returns `NA` until we gather some sort of basis for what licenses should be whitelisted by default","dgkf",7,-483
-"nlmixrdevelopment/nlmixr","Allow IDV to be different from TIME","https://github.com/nlmixrdevelopment/nlmixr/issues/257","open",2019-12-02,2019-12-02,NA,0,"This is inspired from a support question from Nick","mattfidler",568,568
+"nlmixrdevelopment/nlmixr","Allow IDV to be different from TIME","https://github.com/nlmixrdevelopment/nlmixr/issues/257","open",2019-12-02,2019-12-02,NA,0,"This is inspired from a support question from Nick","mattfidler",569,569
 "nlmixrdevelopment/nlmixr","Full covariance matrix does not allocate enough space to solve.","https://github.com/nlmixrdevelopment/nlmixr/issues/258","closed",2019-12-03,2019-12-03,2019-12-03,0,"Thanks to Steve/Rik","mattfidler",0,0
 "nlmixrdevelopment/nlmixr","Same error for different runs","https://github.com/nlmixrdevelopment/nlmixr/issues/259","closed",2019-12-04,2019-12-09,2019-12-09,13,"Hello,
 
@@ -9099,7 +9099,7 @@ inits$OMGA=list(ETA[1]~0.0001)
 
 fit = gnlmm(llik, lung, inits, pars, sys1,
             control=list(trace=TRUE))
-```","smouksassi",559,347
+```","smouksassi",560,348
 "nlmixrdevelopment/nlmixr","Baseline value","https://github.com/nlmixrdevelopment/nlmixr/issues/263","closed",2019-12-16,2019-12-17,2019-12-16,6,"Is it possible to add a baseline (from the dataset) value to add()?
 I tried different options but none was successful.
 
@@ -9246,7 +9246,7 @@ To the end user there are a couple different workflows:
 
     This method might be preferred if a user wants things to work quickly. Specifically for situations where a metric is defined for multiple `pkg_ref` subclasses, but where one implementation is considered more robust than another, this method might not produce the most robust results without some sort of casting logic that takes this ""robustness"" into consideration, necessitating some sort of metadata about the metric that `riskmetric` can use to rank implementations.
 
-","dgkf",524,524
+","dgkf",525,525
 "pharmaR/riskmetric","Identify the way to collect release date on CRAN","https://github.com/pharmaR/riskmetric/issues/85","closed",2020-01-15,2020-05-13,2020-05-13,4,"","elong0527",119,0
 "pharmaR/riskmetric","Input required from larger group discussion","https://github.com/pharmaR/riskmetric/issues/86","closed",2020-01-15,2020-01-16,2020-01-16,2,"
 #67 
@@ -9267,7 +9267,7 @@ Perhaps we should come up with an issue tag like, ""Spec Needed"" or ""Open Disc
 
 There is an R package out there for doing this calculation [`cyclocomp`](https://cran.r-project.org/web/packages/cyclocomp/)
 
-It would be great if this could be calculated as one of the metrics, but it's an involved calculation that probably requires at the very least a locally installed version of a package from which we can run the `cyclocomp` function against each function body. It's unclear whether this will consider the internals of a function call or recursive function calls. ","dgkf",524,293
+It would be great if this could be calculated as one of the metrics, but it's an involved calculation that probably requires at the very least a locally installed version of a package from which we can run the `cyclocomp` function against each function body. It's unclear whether this will consider the internals of a function call or recursive function calls. ","dgkf",525,294
 "pharmaR/riskmetric","New metrics from MangoDB","https://github.com/pharmaR/riskmetric/issues/87","closed",2020-01-15,2020-01-16,2020-01-16,2,"add one new metric proposal from MangoDB","elong0527",1,0
 "pharmaR/riskmetric","Updated Vignette review and feedback ","https://github.com/pharmaR/riskmetric/issues/84","closed",2020-01-15,2020-04-13,2020-04-13,2,"Once #74 and #75 completed. Review the Vignette and provide feedbacks. ","elong0527",89,0
 "nlmixrdevelopment/nlmixr","Focei dur","https://github.com/nlmixrdevelopment/nlmixr/pull/271","closed",2020-01-16,2020-11-23,2020-11-23,0,"","mattfidler",312,0
@@ -9276,7 +9276,7 @@ It would be great if this could be calculated as one of the metrics, but it's an
 
 I'm interested in exploring hierarchical random effects (e.g., BSV for individuals within groups, then between-group-variability). Not clear on how to specify that in nlmixr, or whether it's even possible. Would appreciate any pointers. Thanks,
 
--Frank Gibbons","fgibbons",509,509
+-Frank Gibbons","fgibbons",510,510
 "nlmixrdevelopment/nlmixr","How do I tell nlmixr that some parameters are fixed?","https://github.com/nlmixrdevelopment/nlmixr/issues/272","closed",2020-01-30,2020-01-30,2020-01-30,2,"Hi,
 
 nlmixr newbie here (finally got it installed/running, excited to start using!). I've had a look through this forum, as well as conference materials and the CPT:PSP article, but couldn't see how to tell nlmixr *not* to estimate certain parameters - I might wish to estimate later, but for right now, I just want them fixed at a certain value, while I focus on others. How can I do that? Thanks in advance.
@@ -9306,7 +9306,7 @@ lapply(tmp, function(x) nrow(x$vignettes) )
 
 assess_has_vignettes(tmp)
 ```","elong0527",8,0
-"nlmixrdevelopment/nlmixr","log likelihood and waterfall plots","https://github.com/nlmixrdevelopment/nlmixr/issues/275","open",2020-02-11,2020-02-11,NA,0,"","mattfidler",497,497
+"nlmixrdevelopment/nlmixr","log likelihood and waterfall plots","https://github.com/nlmixrdevelopment/nlmixr/issues/275","open",2020-02-11,2020-02-11,NA,0,"","mattfidler",498,498
 "pharmaR/riskmetric","Unit testing plan","https://github.com/pharmaR/riskmetric/issues/89","closed",2020-02-12,2020-06-24,2020-06-24,2,"
 * list items to be tested. 
 
@@ -9503,7 +9503,7 @@ pkg_ref(name = ""dplyr"", md5 = ""<md5 hash>"")
 
 As metadata scraped from the web can easily be outdated or misleading, it might be necessary to throw an error when a checksum is passed and a reference can only be found remotely. 
 
-Open for further consideration!","dgkf",487,487
+Open for further consideration!","dgkf",488,488
 "openpharma/visR","Rbest","https://github.com/openpharma/visR/pull/8","closed",2020-02-23,2020-02-23,2020-02-23,0,"Complete rbest tidy function. 
 Remove data-raw and facet barchart notebook. 
 TODO: complete main forest plot function","bailliem",0,0
@@ -9542,10 +9542,10 @@ Please see
 for more information about this change.","mattfidler",5,0
 "Novartis/peax","Instance-based normalization","https://github.com/Novartis/peax/issues/7","open",2020-03-01,2020-03-01,NA,0,"Currently, the search is based on a sliding-window approach over the input data. Each window is taken _as is_ and encoded using the associated autoencoder. This approach is geared towards search in a global context, i.e., find two peaks that appear as peaks in the global context. This requires the underlying distribution is roughly the same across the entire datasets.
 
-In cases where this is not the case, it can be useful to allow instance-based normalization. I.e., prior to encoding a window, the window could be normalized based on its local neighborhood. This could theoretically be done prior to the search but it would be convenient if Peax supports this out of the box at runtime.","flekschas",478,478
+In cases where this is not the case, it can be useful to allow instance-based normalization. I.e., prior to encoding a window, the window could be normalized based on its local neighborhood. This could theoretically be done prior to the search but it would be convenient if Peax supports this out of the box at runtime.","flekschas",479,479
 "Novartis/peax","Add support for pre-initialized classifier models","https://github.com/Novartis/peax/issues/8","open",2020-03-02,2020-03-02,NA,0,"Currently, we only allow the user to choose between SKLearn classifiers and enforce the initialization of a new classifier. (See https://github.com/Novartis/peax/blob/develop/server/classifier.py#L104)
 
-It should also be possible to start with an already initialized classifier. Technically this could be achieved by passing in a custom constructor that returns an already initialized classifier. In this case, Peax should only assume that the classifier's API matches SKLearn's API and crash mindfully if it does not. I.e., it should print an _info_ message that it's the user's responsibility to ensure that the API conforms to SKLearn.","flekschas",477,477
+It should also be possible to start with an already initialized classifier. Technically this could be achieved by passing in a custom constructor that returns an already initialized classifier. In this case, Peax should only assume that the classifier's API matches SKLearn's API and crash mindfully if it does not. I.e., it should print an _info_ message that it's the user's responsibility to ensure that the API conforms to SKLearn.","flekschas",478,478
 "nlmixrdevelopment/nlmixr","Issue with foreach and nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/279","open",2020-03-02,2020-03-09,NA,3,"Hello,
 
 I am trying a model with nlmxir inside a for loop using foreach in order to parallelise the multiple runs of nlmixr R but I am getting this error:
@@ -9601,7 +9601,7 @@ I am attaching a simple code that reproduces the result together with the data n
 >   fitexpon <- nlmixr(expon, data, 'focei')
 >   print(fitexpon$parFixed)
 > }
-```","DimitrisVoul",477,470
+```","DimitrisVoul",478,471
 "nlmixrdevelopment/nlmixr","Multiple compartments","https://github.com/nlmixrdevelopment/nlmixr/issues/280","closed",2020-03-04,2020-03-04,2020-03-04,1,"Dear nlmixr-team
 I have concentrations from a prodrug and three metabolites.
 Is it currently possible to use nlmixr with observations in 4 compartments? Or is this related to something else? Any additional thoughts?
@@ -9728,7 +9728,7 @@ One thing that came up is the possibility of storing metric assessment scores as
 
 This might be deemed out of scope in the first pass, but if risk assessment times grow too long for an interactive app we may have to think about some ways to do caching. 
 
-The easiest solution would be to save out the results dataset as a `.Rds`, but if generalizability is needed we might have to consider a machine readable intermediate. Given the focus on atomic intermediate assessment datastructures, I don't think this should be too difficult, but does pose additional development work. ","dgkf",467,384
+The easiest solution would be to save out the results dataset as a `.Rds`, but if generalizability is needed we might have to consider a machine readable intermediate. Given the focus on atomic intermediate assessment datastructures, I don't think this should be too difficult, but does pose additional development work. ","dgkf",468,385
 "Novartis/peax","Bump acorn from 6.0.4 to 6.4.1 in /ui","https://github.com/Novartis/peax/pull/9","open",2020-03-13,2020-03-13,NA,0,"Bumps [acorn](https://github.com/acornjs/acorn) from 6.0.4 to 6.4.1.
 <details>
 <summary>Commits</summary>
@@ -9780,7 +9780,7 @@ You can trigger Dependabot actions by commenting on this PR:
 
 You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/Novartis/peax/network/alerts).
 
-</details>","dependabot[bot]",466,466
+</details>","dependabot[bot]",467,467
 "nlmixrdevelopment/nlmixr","printing in development version","https://github.com/nlmixrdevelopment/nlmixr/issues/283","closed",2020-03-13,2020-03-13,2020-03-13,0,"See
 
 https://github.com/nlmixrdevelopment/RxODE/issues/170","mattfidler",0,0
@@ -10687,7 +10687,7 @@ If you need any further assistance then you can also [request help here](https:/
 ---
 
 This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#Roche/crmPack).
-","renovate[bot]",433,433
+","renovate[bot]",434,434
 "Roche/rtables","Configure Renovate","https://github.com/Roche/rtables/pull/26","closed",2020-04-15,2020-04-17,2020-04-17,0,"Welcome to [Renovate](https://togithub.com/renovatebot/renovate)! This is an onboarding PR to help you understand and configure settings before regular Pull Requests begin.
 
 :vertical_traffic_light: To activate Renovate, merge this Pull Request. To disable Renovate, simply close this Pull Request unmerged.
@@ -11107,7 +11107,7 @@ The ggplot works when not using in in renderPlot
 
 what i'm i doing wrong?
 
-regards","wietse1",421,418
+regards","wietse1",422,419
 "nlmixrdevelopment/nlmixr","Problem validating RxODE","https://github.com/nlmixrdevelopment/nlmixr/issues/289","closed",2020-04-27,2020-06-30,2020-05-01,29,"Hi, I tried to install nlmixr on Centos7. After installation of RxODE, I tried to validate the installation with the ""library(RxODE); rxTest();"" command under a R session. However, it found various problems and eventually it quit prematurely complaining too many problems found. These error are shown below:
 
 test-rxIs.R:12: skip: rxIs tests
@@ -11173,7 +11173,7 @@ In read.dcf(file.path(x$path, ""description"")) :
 as_pkg_source <- function(x) {
 
 extract_metric_remote <- function(URL, cache_method_from_source)
-```","elong0527",419,368
+```","elong0527",420,369
 "Roche/rtables","Confirm checking up-to-date man pages is working","https://github.com/Roche/rtables/issues/28","closed",2020-05-01,2020-12-16,2020-12-16,0,"@waddella this doesn't appear to work, going into circleci I see:
 
 ```
@@ -11246,7 +11246,7 @@ exception in Firefox. It was working fine in Chrome
 Fix #36","jcubic",3,-7
 "nlmixrdevelopment/nlmixr","Run jobs to free Rstudio users' console","https://github.com/nlmixrdevelopment/nlmixr/issues/291","open",2020-05-08,2020-05-08,NA,0,"See: 
 
-https://www.rdocumentation.org/packages/rstudioapi/versions/0.9.0/topics/jobRunScript","mattfidler",410,410
+https://www.rdocumentation.org/packages/rstudioapi/versions/0.9.0/topics/jobRunScript","mattfidler",411,411
 "Roche/ggtips","Some tooltips are not displayed in firefox","https://github.com/Roche/ggtips/issues/36","closed",2020-05-08,2020-05-15,2020-05-11,1,"Reproduction:
 open demo app in firefox: https://jcubic.shinyapps.io/ggtips/
 
@@ -11844,7 +11844,7 @@ model_twocmt_ada <- function() {
 }
 ```
 
-_Originally posted by @billdenney in https://github.com/nlmixrdevelopment/nlmixr/issues/313#issuecomment-648446442_","mattfidler",364,362
+_Originally posted by @billdenney in https://github.com/nlmixrdevelopment/nlmixr/issues/313#issuecomment-648446442_","mattfidler",365,363
 "nlmixrdevelopment/nlmixr","Error just after ""Building SAEM model...done""","https://github.com/nlmixrdevelopment/nlmixr/issues/307","closed",2020-06-23,2020-10-06,2020-10-06,11,"As in the reprex below, I get an error of ""nphi and covstruct dim mismatch"".  I did a quick search, and I found the code location where it is happening, but I don't know what `nphi` is nor what `covstruct` is.  Looking at the code, it appears that the number of inter-individual variability parameters does not match something about the covariance matrix size, but I'm not really sure.
 
 https://github.com/nlmixrdevelopment/nlmixr/blob/f25d3b8b19b546213819658c250547908ad1ca3d/R/saem_fit.R#L994-L1001
@@ -11993,7 +11993,7 @@ If not, it would help to:
 1. Stop after `inf` or `nan` is detected.
 2. If possible, point to the location (subject and ideally data row) where the `inf` or `nan` came from.
 
-**Edit: The model issue was that I forgot to include an AMT column.**","billdenney",364,364
+**Edit: The model issue was that I forgot to include an AMT column.**","billdenney",365,365
 "nlmixrdevelopment/nlmixr","NAs introduced by coercion warning after fit","https://github.com/nlmixrdevelopment/nlmixr/issues/310","closed",2020-06-23,2021-04-14,2021-04-14,3,"After running my model successfully!  (Woohoo! :) )  I saw a warning message of NAs introduced by coercion.  In my code, this usually means that there is an `as.numeric()` call that has non-numeric input.
 
 For the model I'm running, I anticipated that the fit would not be great because I'm fitting a simple 1-compartment model, but there is a huge anti-drug antibody effect on clearance which the initial model ignored.  Do you know of a good way to track down where this warning originates to confirm that it is not a problem?
@@ -12089,7 +12089,7 @@ What I'm thinking of would likely be more nlmixr-focused, and it would link heav
 
 The user guide element that I'm thinking of would cover approximately 80% of cases and point the user to the full documentation to reach 100%.
 
-I assume that it should go into the pkgdown site, and if so, a quick pointer to where to get started would help (I've not used pkgdown before, but it looks like this would be a vignette.)","billdenney",363,362
+I assume that it should go into the pkgdown site, and if so, a quick pointer to where to get started would help (I've not used pkgdown before, but it looks like this would be a vignette.)","billdenney",364,363
 "pharmaR/riskmetric","General fixes - bugs & typos","https://github.com/pharmaR/riskmetric/pull/130","closed",2020-06-24,2020-06-30,2020-06-30,0,"Hi @elong0527 & @dgkf! I went over the package and found typos/bugs. This PR addresses them.","marlycormar",6,0
 "pharmaR/riskmetric","metric for R CMD check ","https://github.com/pharmaR/riskmetric/issues/131","closed",2020-06-24,2021-02-17,2021-02-17,2,"capture the output of R CMD check 
 
@@ -12180,7 +12180,7 @@ fit_onecmt <- nlmixr(object=model_onecmt, data=Oral_1CPT, est=""dynmodel"")
 ```
 
 <sup>Created on 2020-06-25 by the [reprex package](https://reprex.tidyverse.org) (v0.3.0)</sup>
-","billdenney",362,362
+","billdenney",363,363
 "nlmixrdevelopment/nlmixr","Import fix plot.nlmixr dynmodel","https://github.com/nlmixrdevelopment/nlmixr/pull/317","closed",2020-06-25,2020-06-27,2020-06-26,0,"My preferred coding style with roxygen2 is to have all `@importFrom`s at the top of each function to ensure that nothing is missed.  You may see some additional updates like that coming if I see them.  If that's not your preference, I'll not make more like that.
 
 This should be applied on top of the #316 (where there should only be the specific change for this).","billdenney",1,-1
@@ -12298,7 +12298,7 @@ What are your thoughts?","billdenney",32,0
 "Roche/rtables","address issues for getting 0 errors on R 4.0.1","https://github.com/Roche/rtables/pull/37","closed",2020-06-30,2020-06-30,2020-06-30,0,"note `xml2` needs to be in suggests due to using the `JunitReporter` that is used in `testthat`. I also get an error with the `cbind_rtables` function  in R 4.0.1  in the examples that I do not get when I run it interactively.","waddella",0,0
 "Roche/ggtips","Allow to use NULL as varDict to disable generating tooltip data","https://github.com/Roche/ggtips/pull/45","closed",2020-06-30,2020-06-30,2020-06-30,0,"This feature will allow to toggle tooltips data generation, that sometime take lot of time.","jcubic",0,0
 "Novartis/xgxr","Chase - altering xgx_stat_ci and adding xgx_stat_smooth / xgx_autoexplore ","https://github.com/Novartis/xgxr/pull/20","closed",2020-06-30,2020-07-02,2020-07-02,0,"","chasealanbrown",2,0
-"Roche/rtables","create unit-tests for indenting","https://github.com/Roche/rtables/issues/36","open",2020-06-30,2020-06-30,NA,0,"Indenting should be fixed after a regression, with the indent_mod machinery working correctly but we need unit-tests to make sure indenting is how we/the SPAs actually want it.","gmbecker",357,357
+"Roche/rtables","create unit-tests for indenting","https://github.com/Roche/rtables/issues/36","open",2020-06-30,2020-06-30,NA,0,"Indenting should be fixed after a regression, with the indent_mod machinery working correctly but we need unit-tests to make sure indenting is how we/the SPAs actually want it.","gmbecker",358,358
 "pharmaR/riskmetric","Remove rvest","https://github.com/pharmaR/riskmetric/pull/133","closed",2020-06-30,2020-08-05,2020-08-05,2,"Per #127, This removes all rvest functions from the package and replaces them with xml2 and predicates. The logic for all of these comes from the bug_reports file. I tested it on a couple package and it all looks good to me.
 
 There are a bunch of other things in the test directory that I have another PR for so we might want to wait to merge this in until that has gone through.
@@ -12333,9 +12333,9 @@ This closes #127 ","elimillera",36,0
 - Touched up some unit tests that were broken following our naming convention changes
 
 To test, I suggest trying to run an assessment on an installed or remote package, which should give NA for the covr_coverage assessment.","dgkf",34,0
-"nlmixrdevelopment/nlmixr","Cleanup nlmixr internal environment.","https://github.com/nlmixrdevelopment/nlmixr/issues/341","open",2020-07-01,2020-07-01,NA,0,"","mattfidler",356,356
+"nlmixrdevelopment/nlmixr","Cleanup nlmixr internal environment.","https://github.com/nlmixrdevelopment/nlmixr/issues/341","open",2020-07-01,2020-07-01,NA,0,"","mattfidler",357,357
 "Roche/rtables","full functions are printed for layout","https://github.com/Roche/rtables/issues/38","closed",2020-07-01,2020-07-02,2020-07-02,0,"@waddella do you have a reprex for this?","gmbecker",1,0
-"Novartis/xgxr","Log transform of negative numbers","https://github.com/Novartis/xgxr/issues/21","open",2020-07-01,2020-07-02,NA,5,"Would it be possible to create a function within xgx to plot negative values with a log-scale? I have a quick and dirty solution, but it is kinda ugly. A neater solution would be helpful.","anweshacsbmgh",356,355
+"Novartis/xgxr","Log transform of negative numbers","https://github.com/Novartis/xgxr/issues/21","open",2020-07-01,2020-07-02,NA,5,"Would it be possible to create a function within xgx to plot negative values with a log-scale? I have a quick and dirty solution, but it is kinda ugly. A neater solution would be helpful.","anweshacsbmgh",357,356
 "Roche/rtables"," `pag_tt_indices`  needs example","https://github.com/Roche/rtables/issues/42","closed",2020-07-02,2020-12-16,2020-12-16,0," maybe wait for `random.cdisc.data`","waddella",167,0
 "Roche/rtables"," `show` method for `rrow`, `rcell`","https://github.com/Roche/rtables/issues/39","closed",2020-07-02,2020-07-28,2020-07-28,0,"","waddella",26,0
 "Roche/rtables"," split_row_by add an example for newtoplev","https://github.com/Roche/rtables/issues/44","closed",2020-07-02,2020-07-02,2020-07-02,0,"","waddella",0,0
@@ -12680,7 +12680,7 @@ fit_onecmt <- nlmixr(object=model_onecmt, data=Oral_1CPT, est=""fo"")
 ","billdenney",1,0
 "nlmixrdevelopment/nlmixr","`fo` without a posthoc step?","https://github.com/nlmixrdevelopment/nlmixr/issues/351","closed",2020-07-03,2020-10-13,2020-10-13,4,"Should data be predicted for `fo` without a posthoc step?","mattfidler",102,0
 "nlmixrdevelopment/nlmixr","Add `plot()` for nlmixrFitCore object for warnings","https://github.com/nlmixrdevelopment/nlmixr/issues/350","closed",2020-07-03,2020-09-11,2020-09-11,1,"The `plot()` should not work for `nlmixrFitCore` and should put some sort of warning out.","mattfidler",70,0
-"nlmixrdevelopment/nlmixr","Add `predict` for nlmixrCore objects","https://github.com/nlmixrdevelopment/nlmixr/issues/349","open",2020-07-03,2020-07-03,NA,1,"@billdenney this is to add the `predict()` method for core objects.","mattfidler",354,354
+"nlmixrdevelopment/nlmixr","Add `predict` for nlmixrCore objects","https://github.com/nlmixrdevelopment/nlmixr/issues/349","open",2020-07-03,2020-07-03,NA,1,"@billdenney this is to add the `predict()` method for core objects.","mattfidler",355,355
 "nlmixrdevelopment/nlmixr","AIC with two fo models fails","https://github.com/nlmixrdevelopment/nlmixr/issues/353","closed",2020-07-03,2020-07-07,2020-07-03,3,"Initially discussed in #351 
 
 Two `fo` models into `AIC()` fail due to ""``Error in `.rowNamesDF<-`(x, value = value): duplicate 'row.names' are not allowed``""
@@ -13108,7 +13108,7 @@ I realize that this would be slower than calculation directly in C++, but the us
 
 For the simulation side of things, there would probably need to be some form of sampling indicator to `fun_name` (e.g. `fun_name(..., sample=TRUE)`.
 
-Related to #182","billdenney",352,350
+Related to #182","billdenney",353,351
 "nlmixrdevelopment/nlmixr","Catch no eta in `fo` methods earlier","https://github.com/nlmixrdevelopment/nlmixr/issues/356","closed",2020-07-06,2020-09-10,2020-09-10,4,"See https://github.com/nlmixrdevelopment/RxODE/issues/234#issuecomment-654512502","mattfidler",66,0
 "Roche/rtables","renaming arguments day 1","https://github.com/Roche/rtables/issues/46","closed",2020-07-06,2020-12-16,2020-12-16,0,"```r
 build_table(lyt, data, col_counts) # maybe build_table(lyt, data, col_counts)
@@ -13287,7 +13287,7 @@ lr: (rows_heights:c(3), col_width: c( 3, 29))
 
 
 ul[1, ]:(rows_heights:c(2), col_width: c(4, 10))
-```","waddella",350,350
+```","waddella",351,351
 "Novartis/xgxr","clean up documentation xgx_stat_smooth","https://github.com/Novartis/xgxr/pull/27","closed",2020-07-08,2020-07-08,2020-07-08,0,"","margoal1",0,0
 "Novartis/xgxr","combining xgx_stat_smooth, xgx_geom_smooth, xgx_geom_smooth_emax, and…","https://github.com/Novartis/xgxr/pull/26","closed",2020-07-08,2020-07-08,2020-07-08,0,"… cross-referencing documentation","margoal1",0,0
 "pharmaR/riskmetric","Devtools document","https://github.com/pharmaR/riskmetric/pull/136","closed",2020-07-08,2020-07-23,2020-07-23,0,"Update package per `devtools::document` output","marlycormar",15,0
@@ -13470,7 +13470,7 @@ Specifically, both may apply to `omega` values where there can be multiple value
     * This seems like the rational choice, but maybe I'm missing something.  I never have wanted to name the correlation or covariance with anything other than the fact that it is a covariance and indicating the parameters that it is the covariance between.
 * For omega values, `backTransform()`s would be assumed to be for the diagonals, and the off-diagonals would default to a correlation estimate.
     * If a single value, the assumption would be that the values were all either exponential or additive inter-individual variability.
-    * Is there ever a rational assumption for off-diagonals other than correlation?  (I can't think of one off the top of my head.)","billdenney",347,344
+    * Is there ever a rational assumption for off-diagonals other than correlation?  (I can't think of one off the top of my head.)","billdenney",348,345
 "nlmixrdevelopment/nlmixr","FO model in current nlmixr/RxODE crashes R","https://github.com/nlmixrdevelopment/nlmixr/issues/360","closed",2020-07-10,2020-07-10,2020-07-10,9,"The following model crashes R:
 
 ```r
@@ -13717,7 +13717,7 @@ If that is not possible just throw a warning.","waddella",0,0
 - [ ] I have added tests to cover my changes.
 - [ ] All new and existing tests passed.
 ","atorus-research",0,0
-"nlmixrdevelopment/nlmixr","Linearize models","https://github.com/nlmixrdevelopment/nlmixr/issues/366","open",2020-07-14,2020-07-14,NA,2,"Like PsN.  Since sensitivites are calculated it may not be as hard as I originally thought (with the exception of keeping track of f/dur/ etc)","mattfidler",343,343
+"nlmixrdevelopment/nlmixr","Linearize models","https://github.com/nlmixrdevelopment/nlmixr/issues/366","open",2020-07-14,2020-07-14,NA,2,"Like PsN.  Since sensitivites are calculated it may not be as hard as I originally thought (with the exception of keeping track of f/dur/ etc)","mattfidler",344,344
 "nlmixrdevelopment/nlmixr","Feature Request:  making it so the multiple endpoint can be flagged from any column by logical operators","https://github.com/nlmixrdevelopment/nlmixr/issues/369","open",2020-07-16,2020-07-16,NA,1,"Cheers Matt, makes sense. Alternatively, making it so the multiple endpoint can be flagged from any column (not just cmt or dvid) would be another automatic way to do it without changing the algorithm.
 Something like:
 ```
@@ -13730,10 +13730,10 @@ cp~prop(RUV) | DOSE<=100
 cp~prop(RUV_DOSECOV) | DOSE>100
 ```
 
-_Originally posted by @jpryby in https://github.com/nlmixrdevelopment/nlmixr/issues/367#issuecomment-659357956_","mattfidler",341,341
+_Originally posted by @jpryby in https://github.com/nlmixrdevelopment/nlmixr/issues/367#issuecomment-659357956_","mattfidler",342,342
 "nlmixrdevelopment/nlmixr","Feature Request: Allow columns to represent multiple endpoints","https://github.com/nlmixrdevelopment/nlmixr/issues/368","open",2020-07-16,2020-07-16,NA,1,"See #367 
 
-In this case `DV` could be replaced/enhanced by `Conc` `Effect` etc.","mattfidler",341,341
+In this case `DV` could be replaced/enhanced by `Conc` `Effect` etc.","mattfidler",342,342
 "nlmixrdevelopment/nlmixr","Feature Request: Arbitrary variable to define residual error","https://github.com/nlmixrdevelopment/nlmixr/issues/367","closed",2020-07-16,2020-07-16,2020-07-16,4,"Hi Matt,
 
 This is based on #231. You offered a good solution, but I'm hoping it can be made easier.
@@ -13772,7 +13772,7 @@ ERROR: compilation failed for package 'SnakeCharmR'
 * removing 'C:/Users/yding/Documents/R/win-library/3.6/SnakeCharmR'
 Error: Failed to install 'SnakeCharmR' from GitHub:
   (converted from warning) installation of package ‘C:/Users/yding/AppData/Local/Temp/RtmpWOGHW7/filed7f810c0126/SnakeCharmR_1.0.7.tar.gz’ had non-zero exit status","dingying85",8,0
-"pharmaR/riskmetric","Assessment discussion ","https://github.com/pharmaR/riskmetric/issues/138","open",2020-07-22,2020-09-16,NA,0,"1. identify one metric for assessment discussion","elong0527",335,279
+"pharmaR/riskmetric","Assessment discussion ","https://github.com/pharmaR/riskmetric/issues/138","open",2020-07-22,2020-09-16,NA,0,"1. identify one metric for assessment discussion","elong0527",336,280
 "pharmaR/riskmetric","Dev/issue 131","https://github.com/pharmaR/riskmetric/pull/137","closed",2020-07-22,2020-10-09,2020-10-09,6,"Addition of R CMD checks (caching and assessment) for  cran_remotes, bioc_remotes and source. It does not appear possible to run R CMD check on an installed package so I set a default pkg_ref method to return `NA`. 
 
 I am wondering if `R CMD check` should be a separate assessment from CRAN/Bioc check summaries. 
@@ -13781,7 +13781,7 @@ I am wondering if `R CMD check` should be a separate assessment from CRAN/Bioc c
         1. `R CMD check` checks  whether the package will install on your system and if there are any potential problems with the install. For example, when I run `R CMD check` I get a warning for every package because I do not have the ‘qpdf’ package for checks on size reduction of PDFs.
         1. CRAN/Bioc checks summaries provides a snapshot of how a package would install on numerous systems, i.e. its portability. This to me is a different, albeit important potential metric. To me a package that is portable is of lower risk than one that is less portable.
   1. I thought about pulling individual checks from CRAN to match with the `R CMD check` but decided against it since we would have to match the users environment with the environments that CRAN runs the checks on and assume that they are the same which seems counter to proper risk assessment principles.","emilliman5",79,0
-"Novartis/xgxr","mean +/- SD ?","https://github.com/Novartis/xgxr/issues/32","open",2020-07-22,2020-07-22,NA,0,"Received a request to have an option to plot Mean +/- SD instead of Mean & CI. I think Mean +/- SE is already the default for stat_summary, but what about SD?","margoal1",335,335
+"Novartis/xgxr","mean +/- SD ?","https://github.com/Novartis/xgxr/issues/32","open",2020-07-22,2020-07-22,NA,0,"Received a request to have an option to plot Mean +/- SD instead of Mean & CI. I think Mean +/- SE is already the default for stat_summary, but what about SD?","margoal1",336,336
 "nlmixrdevelopment/nlmixr","Autocovariate2","https://github.com/nlmixrdevelopment/nlmixr/pull/373","closed",2020-07-24,2020-07-30,2020-07-30,0,"with daptomycin ","vupil",6,0
 "nlmixrdevelopment/nlmixr","Autocovariate2","https://github.com/nlmixrdevelopment/nlmixr/pull/372","closed",2020-07-24,2020-07-24,2020-07-24,0,"From vipul","mattfidler",0,0
 "nlmixrdevelopment/nlmixr","Bootstrap2","https://github.com/nlmixrdevelopment/nlmixr/pull/371","closed",2020-07-24,2020-07-28,2020-07-28,0,"From vipul","mattfidler",4,0
@@ -13915,7 +13915,7 @@ basic_table() %>%
   build_table(iris)
 ```","gmbecker",134,0
 "pharmaR/riskmetric","Identify items to be prioritize in 2020.09","https://github.com/pharmaR/riskmetric/issues/142","closed",2020-08-05,2020-09-02,2020-09-02,0,"","elong0527",28,0
-"pharmaR/riskmetric","Integration of RSPM","https://github.com/pharmaR/riskmetric/issues/140","open",2020-08-05,2020-08-15,NA,1,"","elong0527",321,311
+"pharmaR/riskmetric","Integration of RSPM","https://github.com/pharmaR/riskmetric/issues/140","open",2020-08-05,2020-08-15,NA,1,"","elong0527",322,312
 "pharmaR/riskmetric","Pass all testing cases ","https://github.com/pharmaR/riskmetric/issues/141","closed",2020-08-05,2020-10-13,2020-10-13,0,"We can split the work based on the upcoming pull request. ","elong0527",69,0
 "openpharma/simaerep","add linter to gh actions","https://github.com/openpharma/simaerep/pull/1","closed",2020-08-07,2020-08-07,2020-08-07,0,"","erblast",0,0
 "pharmaR/riskmetric","Update test structure","https://github.com/pharmaR/riskmetric/pull/143","closed",2020-08-07,2021-03-31,2020-09-09,0,"Here are some of the tests that I have implemented and the setup structures that I have started working on.
@@ -13941,9 +13941,9 @@ Goal right now is to have a test_that for every assessment, reference, and score
 
 
 All tests are passing even though some are skipping/empty and this should resolve #141 ","elimillera",33,-203
-"nlmixrdevelopment/nlmixr","Add easy way to do indvidiual plots","https://github.com/nlmixrdevelopment/nlmixr/issues/386","open",2020-08-11,2020-08-11,NA,0,"","mattfidler",315,315
-"nlmixrdevelopment/nlmixr","Add Norm of gradient plot where it makes sense","https://github.com/nlmixrdevelopment/nlmixr/issues/385","open",2020-08-11,2020-08-11,NA,0,"This plot shows if focei found a minimum gradient.","mattfidler",315,315
-"nlmixrdevelopment/nlmixr","Add nsub/nobs information in printout?","https://github.com/nlmixrdevelopment/nlmixr/issues/387","open",2020-08-11,2020-08-11,NA,0,"","mattfidler",315,315
+"nlmixrdevelopment/nlmixr","Add easy way to do indvidiual plots","https://github.com/nlmixrdevelopment/nlmixr/issues/386","open",2020-08-11,2020-08-11,NA,0,"","mattfidler",316,316
+"nlmixrdevelopment/nlmixr","Add Norm of gradient plot where it makes sense","https://github.com/nlmixrdevelopment/nlmixr/issues/385","open",2020-08-11,2020-08-11,NA,0,"This plot shows if focei found a minimum gradient.","mattfidler",316,316
+"nlmixrdevelopment/nlmixr","Add nsub/nobs information in printout?","https://github.com/nlmixrdevelopment/nlmixr/issues/387","open",2020-08-11,2020-08-11,NA,0,"","mattfidler",316,316
 "pharmaR/riskmetric","jsonlite dependency ","https://github.com/pharmaR/riskmetric/issues/144","closed",2020-08-11,2020-08-27,2020-08-27,0,"There are only two place we use jsonlite.
 
 Also `covr` and `httr` will need `jsonlite`. Suggest to keep it as is
@@ -14050,7 +14050,7 @@ Could you tell me the parts which are written FOCEi code if you can?","TodaRikiy
 ```
 
 The problem comes from using `sys.parent()` in the `update()` method. Unlike `parent.frame()`, `sys.parent()` does not always point to a caller environment, for example when evaluating from C within a data mask. It should mostly be avoided in package code.","lionel-",0,0
-"openpharma/visR","add texPreview as an option to preview latex tables","https://github.com/openpharma/visR/issues/65","open",2020-08-27,2021-05-31,NA,0,"It could be a nice feature to add a print method to preview latex tables using [texPreview](https://github.com/yonicd/texpreview) (apologies for the shameless self plug). Many times it is a pain to tweak latex tables since they need to be rendered in a pdf doc to see them. texPreview quickly renders latex in the preview window of RStudio so users can iterate over tables much like they do in ggplot workflows.","yonicd",299,22
+"openpharma/visR","add texPreview as an option to preview latex tables","https://github.com/openpharma/visR/issues/65","open",2020-08-27,2021-05-31,NA,0,"It could be a nice feature to add a print method to preview latex tables using [texPreview](https://github.com/yonicd/texpreview) (apologies for the shameless self plug). Many times it is a pain to tweak latex tables since they need to be rendered in a pdf doc to see them. texPreview quickly renders latex in the preview window of RStudio so users can iterate over tables much like they do in ggplot workflows.","yonicd",300,23
 "openpharma/visR","convert render_table into an S3 method","https://github.com/openpharma/visR/issues/64","closed",2020-08-27,2021-05-30,2021-05-30,2,"Converting this core package function into an S3 method would:
 
   - make the package more extendable and accessible to more developers to add on different table engines that they use. 
@@ -14068,7 +14068,7 @@ I've been working on a package [`compatibler`](https://github.com/llrs/compatibl
 
 This is different from #53, as it does not only look at one package License but to all of its dependencies. On the bright site it will only need to be computed once for each package and can be cached. 
 
-BTW to extract the information about packages there is the `available.packages()` function, there is no need to call the svn repository of CRAN and parse manually as I've seen on #53.","llrs",293,252
+BTW to extract the information about packages there is the `available.packages()` function, there is no need to call the svn repository of CRAN and parse manually as I've seen on #53.","llrs",294,253
 "pharmaR/riskmetric","Test updates, partial build fix","https://github.com/pharmaR/riskmetric/pull/150","closed",2020-09-02,2020-09-09,2020-09-09,2,"### Test Updates
 The testing was updated to the third edition of testthat. This is a bit ahead of what is on CRAN, but the improvements to snapshot testing makes it worth it in my opinion.
 
@@ -14120,7 +14120,7 @@ fit <- nlmixr(one.cmt, theo_sd, est=""focei"", control=foceiControl(print=0))
 ```
 
 <sup>Created on 2020-09-07 by the [reprex package](https://reprex.tidyverse.org) (v0.3.0)</sup>
-","billdenney",288,288
+","billdenney",289,289
 "Roche/ggtips","Prevent empty df error","https://github.com/Roche/ggtips/pull/49","closed",2020-09-07,2020-09-07,2020-09-07,0,"","marcin-kam",0,0
 "pharmaR/riskmetric","adding example with custom weights; thanks @jmanitz #139","https://github.com/pharmaR/riskmetric/pull/154","closed",2020-09-08,2021-03-31,2021-03-03,0,"Updated `pkg_score` docs to include an example using custom weights as suggested by @jmanitz in #139","dgkf",176,-28
 "pharmaR/riskmetric","CRAN release wish list ","https://github.com/pharmaR/riskmetric/issues/152","closed",2020-09-08,2021-02-17,2021-02-17,1,"I hope to open this issue for us to discuss what is the gap to release first CRAN release version
@@ -14793,7 +14793,7 @@ The package can be classified to high risk because of the current status.
 If our strategy is to classify `ggplot2` and all its dependency in the same risk category. How shall we justify `labeling` package?  
 
 
-Note: similar issue will happen in `RColorBrewer` and `munsell` package. ","elong0527",276,27
+Note: similar issue will happen in `RColorBrewer` and `munsell` package. ","elong0527",277,28
 "openpharma/visR","Merge sandbox","https://github.com/openpharma/visR/pull/67","closed",2020-09-20,2020-10-13,2020-09-25,0,"Merge visR-survival repository and maintain commit history https://github.com/visR-sandbox/visR-survival.
 * Experimental api for survival time2event plotm including risk table and table summaries. 
  ","bailliem",5,-18
@@ -15093,7 +15093,7 @@ fit <- nlmixr(one.cmt, theo_sd, est=""nlme"")
 ```
 
 <sup>Created on 2020-09-23 by the [reprex package](https://reprex.tidyverse.org) (v0.3.0)</sup>
-","billdenney",272,52
+","billdenney",273,53
 "Roche/rtables","summarize_row_groups and analyze_colvars should get argument `extra_args`","https://github.com/Roche/rtables/issues/70","closed",2020-09-23,2020-09-28,2020-09-28,2,"","gmbecker",5,0
 "atorus-research/Tplyr","Incorrect denom counts when creating combined treatment group","https://github.com/atorus-research/Tplyr/issues/8","closed",2020-09-24,2020-09-30,2020-09-29,3,"
 ### Description
@@ -15134,7 +15134,7 @@ R version 4.0.2 (2020-06-22) Platform: x86_64-pc-linux-gnu (64-bit) Running unde
 - Mock web requests for installed/remote package metrics
 - Some reworking of web requests to use `httr` for all web requests allowing `webmockr` to intercept requests
 - Minor bug fixes to address issues encountered along the way","dgkf",6,0
-"nlmixrdevelopment/nlmixr","Can nlmixr solve General Linear Models","https://github.com/nlmixrdevelopment/nlmixr/issues/407","open",2020-09-26,2020-11-20,NA,7,"Can we run Generalized Linear Models (ADVAN5 based in NONMEM) using nlmixr? If yes, any example model if available may help.","faisalhhu",269,214
+"nlmixrdevelopment/nlmixr","Can nlmixr solve General Linear Models","https://github.com/nlmixrdevelopment/nlmixr/issues/407","open",2020-09-26,2020-11-20,NA,7,"Can we run Generalized Linear Models (ADVAN5 based in NONMEM) using nlmixr? If yes, any example model if available may help.","faisalhhu",270,215
 "pharmaR/riskmetric","fixing R CMD check warnings & notes (errors require webmockr update)","https://github.com/pharmaR/riskmetric/pull/163","closed",2020-09-26,2020-09-26,2020-09-26,0,"- added .github to .Rbuildignore
 - some minor typo fixes
 - documented some previously undocumented parameters
@@ -15146,7 +15146,7 @@ Some ideas for things we could include:
 
 - An overview of the general workflow and primary ""verbs"" of riskmetric, as outlined in our getting started vignette
 - A catalog of implemented metrics
-- Background about package status, how to contribute, how to feed back new use cases and design considerations","dgkf",269,267
+- Background about package status, how to contribute, how to feed back new use cases and design considerations","dgkf",270,268
 "Novartis/peax","Custom encoders bug fixes","https://github.com/Novartis/peax/pull/12","closed",2020-09-28,2020-09-28,2020-09-28,0,"Fix a few issues introduced with custom encoders","flekschas",0,0
 "Roche/rtables","nested not defaulting to FALSE for summarize_row_groups after multiple analyze","https://github.com/Roche/rtables/issues/71","closed",2020-09-28,2020-09-28,2020-09-28,1,"```
     lyt2 <- basic_table() %>%
@@ -15237,8 +15237,8 @@ loaded via a namespace (and not attached):
 ","danielinteractive",0,0
 "pharmaR/riskmetric","Clean up error messages issued on a `pkg_missing` reference","https://github.com/pharmaR/riskmetric/issues/165","open",2020-10-01,2020-10-01,NA,0,"Following up on #149, we currently get a whole slew of warnings when running a `pkg_missing` reference, but give no indication that the pkg was not able to found from one of our sources. 
 
-We should consider how we might want to short-circuit on this situation to provide some more meaningful feedback to the user.","dgkf",264,264
-"nlmixrdevelopment/nlmixr","Output linCmt() derived parameters in nlmixr output","https://github.com/nlmixrdevelopment/nlmixr/issues/408","open",2020-10-01,2020-10-01,NA,0,"","mattfidler",264,264
+We should consider how we might want to short-circuit on this situation to provide some more meaningful feedback to the user.","dgkf",265,265
+"nlmixrdevelopment/nlmixr","Output linCmt() derived parameters in nlmixr output","https://github.com/nlmixrdevelopment/nlmixr/issues/408","open",2020-10-01,2020-10-01,NA,0,"","mattfidler",265,265
 "Roche/rtables","`add_colcounts()` fails when applied without column split","https://github.com/Roche/rtables/issues/78","closed",2020-10-02,2020-10-05,2020-10-05,1,"The example below gives an error: `Error in (function (classes, fdef, mtable)  : 
   unable to find an inherited method for function ‘disp_ccounts<-’ for signature ‘""NULL""’`
 
@@ -15568,7 +15568,7 @@ $points[[1]]
  1. using broom
  2. create a results `data.frame`
 
-Not too much text is needed.","waddella",260,230
+Not too much text is needed.","waddella",261,231
 "openpharma/visR","vr_render_table always collapses rows when using kable engine","https://github.com/openpharma/visR/issues/70","closed",2020-10-05,2021-05-31,2021-05-31,0,"#### Issue description
 
 vr_render_table always collapses rows when using kable engine. This is not what we always need and should be an option or so.
@@ -15818,7 +15818,7 @@ I think it would be great to include the option to order the elements of the ris
 It would be nice to adjust this ratio (similarly to the `tables.height` parameter in ggsurvplot) or have some other options to reduce the plot real estate taken up by the table-part. 
 
 ![image](https://user-images.githubusercontent.com/3072980/95475253-4f8f6f80-0986-11eb-9c0e-c313a09c758b.png)
-","cschaerfe",257,257
+","cschaerfe",258,258
 "Roche/rtables","`in_rows` should not return a list so that we keep names and labels separate","https://github.com/Roche/rtables/issues/93","closed",2020-10-08,2020-10-21,2020-10-21,1,"","waddella",13,0
 "Roche/rtables","`make_pagedf` should use proper recursion","https://github.com/Roche/rtables/issues/95","closed",2020-10-08,2020-10-16,2020-10-16,1,"","waddella",8,0
 "Roche/rtables","add `paginate_table` to `_pkgdown.yaml`","https://github.com/Roche/rtables/issues/84","closed",2020-10-08,2020-12-16,2020-12-16,0,"","waddella",69,0
@@ -15872,7 +15872,7 @@ If applicable, add screenshots to help explain your problem.
 **Additional context**
 Add any other context about the problem here.
 ","iamstein",113,0
-"nlmixrdevelopment/nlmixr","Feature Request: Add sigma() method","https://github.com/nlmixrdevelopment/nlmixr/issues/415","open",2020-10-08,2020-10-20,NA,5,"To extract residual standard deviations, it would be useful to have a `sigma()` method (from the stats package).","billdenney",257,245
+"nlmixrdevelopment/nlmixr","Feature Request: Add sigma() method","https://github.com/nlmixrdevelopment/nlmixr/issues/415","open",2020-10-08,2020-10-20,NA,5,"To extract residual standard deviations, it would be useful to have a `sigma()` method (from the stats package).","billdenney",258,246
 "Roche/rtables","First Draft of Listings","https://github.com/Roche/rtables/issues/99","closed",2020-10-08,2021-04-26,2021-04-26,1,"","waddella",200,0
 "openpharma/visR","Fixing issue with missing N removed in the attrition table","https://github.com/openpharma/visR/pull/78","closed",2020-10-08,2021-03-03,2020-10-08,0,"Added dplyr:: namespace to calculation of n removed.","cschaerfe",0,-146
 "Roche/rtables","look into unit testing","https://github.com/Roche/rtables/issues/86","closed",2020-10-08,2020-12-16,2020-12-16,0,"","waddella",69,0
@@ -15898,14 +15898,14 @@ Thoughts?
 
 ![image](https://user-images.githubusercontent.com/17878953/95462199-34504000-0945-11eb-9a84-149b0f306fc5.png)
 
-","AARON-CLARK",257,119
+","AARON-CLARK",258,120
 "Roche/rtables","release `rtables` on CRAN","https://github.com/Roche/rtables/issues/87","closed",2020-10-08,2021-04-21,2021-04-21,1,"","waddella",195,0
 "Roche/rtables","release on CRAN again","https://github.com/Roche/rtables/issues/98","closed",2020-10-08,2021-04-26,2021-04-26,0,"","waddella",200,0
-"Roche/rtables","row gaps","https://github.com/Roche/rtables/issues/94","open",2020-10-08,2021-04-26,NA,0,"","waddella",257,57
+"Roche/rtables","row gaps","https://github.com/Roche/rtables/issues/94","open",2020-10-08,2021-04-26,NA,0,"","waddella",258,58
 "Roche/rtables","show N in higher order columns","https://github.com/Roche/rtables/issues/90","closed",2020-10-08,2020-12-16,2020-12-16,1,"","waddella",69,0
 "Roche/rtables","table comparison function","https://github.com/Roche/rtables/issues/96","open",2020-10-08,2021-06-17,NA,1,"- Look at `diffdf` R package
  - values only
- - identical","waddella",257,5
+ - identical","waddella",258,6
 "Roche/rtables","Titles and Footnotes","https://github.com/Roche/rtables/issues/91","closed",2020-10-08,2021-04-21,2021-04-21,1,"","waddella",195,0
 "Roche/rtables","top left space content","https://github.com/Roche/rtables/issues/89","closed",2020-10-08,2020-12-07,2020-12-07,0,"Either a paragraph OR a table structure summary (a indentation description) - maybe fixed or fluid
 
@@ -15952,7 +15952,7 @@ table_context()
 
 only toplevel table 
 * pagination needs to retain that part","waddella",60,0
-"Roche/rtables","Vignette for good analysis function writing","https://github.com/Roche/rtables/issues/97","open",2020-10-08,2020-10-08,NA,0,"","waddella",257,257
+"Roche/rtables","Vignette for good analysis function writing","https://github.com/Roche/rtables/issues/97","open",2020-10-08,2020-10-08,NA,0,"","waddella",258,258
 "Roche/rtables","Vignette for pathing","https://github.com/Roche/rtables/issues/85","closed",2020-10-08,2021-04-21,2021-04-21,1,"","waddella",195,0
 "Roche/rtables","write `tree_structure` as a mix of makepagedf, treestruct, summarize","https://github.com/Roche/rtables/issues/100","closed",2020-10-08,2020-12-16,2020-12-16,2,"look at makepagedf using visible_only=FALSE","waddella",69,0
 "nlmixrdevelopment/nlmixr","bootstrap regression","https://github.com/nlmixrdevelopment/nlmixr/issues/418","closed",2020-10-09,2020-10-13,2020-10-13,1,"","mattfidler",4,0
@@ -16120,7 +16120,7 @@ in the package, I wonder whether this could be solved more elegantly on rtables 
 My approach was to have three logical variables representing the three analysis columns, and then use `analyze_colvars`. The problem there is that the row split (e.g. ""ALOPECIA"") gets its own row, but I would like to have the percentage from `analyze_colvars` in the same row as the row split label. Then I thought of `summarize_row_groups` but that cannot handle the different column variables distinctly, i.e. the summary is the same across the 3 analysis columns.
 
 Is there something missing here in terms of feature? Or am I missing something?","danielinteractive",1,-1
-"pharmaR/riskmetric","Dependency risk","https://github.com/pharmaR/riskmetric/issues/172","open",2020-10-13,2021-03-31,NA,3,"Could we create a metric / number of metrics that summarises the risk of the dependency?  For example you could count lines of code to get an idea of scope, but I was thinking something more like an average riskmetric score from the dependencies, or perhaps a flag in the event that any dependency has a risk score of > x.","andyofsmeg",252,83
+"pharmaR/riskmetric","Dependency risk","https://github.com/pharmaR/riskmetric/issues/172","open",2020-10-13,2021-03-31,NA,3,"Could we create a metric / number of metrics that summarises the risk of the dependency?  For example you could count lines of code to get an idea of scope, but I was thinking something more like an average riskmetric score from the dependencies, or perhaps a flag in the event that any dependency has a risk score of > x.","andyofsmeg",253,84
 "openpharma/visR","Dev2master","https://github.com/openpharma/visR/pull/88","closed",2020-10-13,2020-10-13,2020-10-13,0,"Rebuild documentation prior to rebase of master. 
 Workaround fix for issue #76 ","bailliem",0,0
 "pharmaR/riskmetric","Different test status on CRAN depending on OS","https://github.com/pharmaR/riskmetric/issues/171","closed",2020-10-13,2021-05-26,2021-05-26,3,"When a package is on CRAN it can be in different state of status depending on operating system, ie passing on some, warning on others and failing on a few.  Is there a way of capturing this in the risk score.
@@ -16142,7 +16142,7 @@ Each point would be a separate github issue but I don't want to clutter the issu
 
 ","rebecca-albrecht",141,0
 "openpharma/visR","Rbest remove from depends ","https://github.com/openpharma/visR/pull/87","closed",2020-10-13,2020-10-13,2020-10-13,1,"This is an experimental function and needs to be developed. At the moment this dependency is causing errors in the visR package. This has been removed and the tidy rbest function moved to indicate it is experimental. ","bailliem",0,0
-"openpharma/visR","Update graphical representation of the architecture / include example","https://github.com/openpharma/visR/issues/86","open",2020-10-13,2020-10-14,NA,0,"Update the graphical representation of the visR architecture. Maybe even add an example with concrete function (names or visualizations) to show how different functions map to the architecture concepts.","rebecca-albrecht",252,251
+"openpharma/visR","Update graphical representation of the architecture / include example","https://github.com/openpharma/visR/issues/86","open",2020-10-13,2020-10-14,NA,0,"Update the graphical representation of the visR architecture. Maybe even add an example with concrete function (names or visualizations) to show how different functions map to the architecture concepts.","rebecca-albrecht",253,252
 "openpharma/visR","Update master for RinPharma","https://github.com/openpharma/visR/pull/89","closed",2020-10-13,2020-10-14,2020-10-14,1,"Update documentation to reflect changes prior to r in pharma. ","bailliem",1,0
 "pharmaR/riskmetric","updated metric error/na/todo such that we can still propegate scoring labels","https://github.com/pharmaR/riskmetric/pull/173","closed",2020-10-13,2021-03-09,2021-01-20,2,"- updated the `pkg_metric_error`, `pkg_metric_na` and `pkg_metric_todo` to be subclasses of `pkg_metric_condition` (to easier catch them all as one class for special treatment)
 - added util function `firstS3method` (inspired by `getS3method`, but finding returning the first valid method for an object's subclasses)
@@ -16186,12 +16186,12 @@ Example for cohort overview from Morris et al.
 There are the [forestplot](https://cran.r-project.org/web/packages/forestplot/vignettes/forestplot.html) and [forestmodel](https://github.com/NikNakk/forestmodel) packages on CRAN as well as potentially some good ideas in the [ggforest function of the survminer package](https://rpkgs.datanovia.com/survminer/reference/ggforest.html). Ideally, this would be implemented using ggplot2 only.
 
 **Are you interested to implement this yourself?**
-@bailliem started, but not sure how it goes bandwidth wide.","cschaerfe",251,136
+@bailliem started, but not sure how it goes bandwidth wide.","cschaerfe",252,137
 "Roche/ggtips","multiple panels ranges","https://github.com/Roche/ggtips/pull/55","closed",2020-10-14,2020-10-16,2020-10-16,0,"","marcin-kam",2,0
 "atorus-research/pharmaRTF","Question on using pharmaRTF in reporting","https://github.com/atorus-research/pharmaRTF/issues/3","closed",2020-10-14,2020-10-16,2020-10-16,1,"Is it possible to use this package to generate a word report which has proper table formatting as shown in this package but also with proper table numbering and referencing? ","zhenglei-gao",2,0
 "openpharma/visR","KM plot show quantiles","https://github.com/openpharma/visR/issues/93","open",2020-10-15,2020-10-15,NA,0,"Add drop lines to show quantiles of the KM distribution.
 
-","SHAESEN2",250,250
+","SHAESEN2",251,251
 "openpharma/visR","Tutorial/Recommendations for Contributing","https://github.com/openpharma/visR/issues/92","closed",2020-10-15,2020-11-15,2020-11-15,1,"","rebecca-albrecht",31,0
 "Roche/rtables","`analyze_colvar` - Warning when var > 4","https://github.com/Roche/rtables/issues/105","closed",2020-10-16,2020-10-16,2020-10-16,1,"When I want to split across more than 4 columns, a warning message appears; the result in correct though.
 
@@ -16413,7 +16413,7 @@ Thomas","thomasjsln",6,0
 "nlmixrdevelopment/nlmixr","Transform information is in the development nlmixr tables","https://github.com/nlmixrdevelopment/nlmixr/issues/419","closed",2020-10-16,2020-10-16,2020-10-16,0,"Needs to be removed.","mattfidler",0,0
 "Roche/ggtips","Update changelog","https://github.com/Roche/ggtips/issues/56","open",2020-10-16,2020-10-17,NA,1,"The changelog need to be updated with all the fixes that was done recently. 
 
-Maybe we should do releases. In one of my FOSS projects, I use devel branch and keep updating changelog and release is just merge to master --no-ff and tag. ","jcubic",249,248
+Maybe we should do releases. In one of my FOSS projects, I use devel branch and keep updating changelog and release is just merge to master --no-ff and tag. ","jcubic",250,249
 "Roche/rtables","`indent_mod` of `analyze` does not work anymore","https://github.com/Roche/rtables/issues/107","closed",2020-10-19,2020-10-21,2020-10-21,1,"Just trying to do the looping of `analyze` calls, where I need to fix indentation outside of the afun, and I tried with `indent_mod` but that does not work. Here a (not realistic) toy example:
 
 ```r
@@ -16495,7 +16495,7 @@ Step 2: run `riskmetric` for each of the package independently
 Step 3: run package `assess` and `score` for each package
 Step 4: calculate the overall risk of the cohort. Weight can be set based on the type of package. (e.g. directly used by user, dependency package)  
 
-","elong0527",246,13
+","elong0527",247,14
 "Roche/rtables","unit testing of print","https://github.com/Roche/rtables/issues/108","closed",2020-10-19,2021-04-21,2021-04-21,1,"","waddella",184,0
 "Roche/rtables","Can we change the ""all obs"" title of the default column?","https://github.com/Roche/rtables/issues/110","closed",2020-10-20,2020-10-23,2020-10-22,2,"Can we change the ""all obs"" title of the default column?","danielinteractive",2,-1
 "Roche/rtables","Question on how to account for metadata info in pruning","https://github.com/Roche/rtables/issues/109","closed",2020-10-20,2021-04-13,2021-04-13,5,"Sometimes splitting on factor levels introduces row combinations in a table which are not realistic or possible based on metadata information. For such cases, we would like to come up with an approach to prune based on table data but also taking into account the metadata.
@@ -16682,7 +16682,7 @@ Here's an example of how these scores could be calculated.
 
 nrow(counts)
 [1] 9
-```","elimillera",244,71
+```","elimillera",245,72
 "Roche/rtables","`in_rows` loses `.formats` (at least when used with `analyze_colvars`)","https://github.com/Roche/rtables/issues/114","closed",2020-10-22,2020-10-23,2020-10-22,3,"Example:
 
 ```r
@@ -16915,7 +16915,7 @@ Responders                                68                73                62
 
 When playing around with it I did not have an idea how to do this, since we would need to refer to parent split `nrow(df)` right?...
 
-Thanks!","danielinteractive",238,55
+Thanks!","danielinteractive",239,56
 "Roche/rtables","Is it possible to use a single variable inside split_cols_by_multivar?","https://github.com/Roche/rtables/issues/118","closed",2020-10-27,2020-11-04,2020-11-04,1,"```
 # Works
 basic_table() %>%
@@ -17837,13 +17837,13 @@ pkg_ref_cache.description.pkg_remote <- function(x, name, ...) {
 }
 ```
 
-What do you think?","ghost",228,222
+What do you think?","ghost",229,223
 "nlmixrdevelopment/nlmixr","20+ packages in Imports","https://github.com/nlmixrdevelopment/nlmixr/issues/438","closed",2020-11-08,2020-11-17,2020-11-17,0,"","mattfidler",9,0
 "openpharma/visR","Refactoring issue","https://github.com/openpharma/visR/issues/96","closed",2020-11-08,2021-03-03,2021-03-03,2,"Renamed the parameter ""groupCols"" in the functions to create and render a table_one with ""group_cols"". However, the html in the docs folder remain unchanged. 
 
 Any idea why?
 ","rebecca-albrecht",115,0
-"nlmixrdevelopment/nlmixr","Add output descriptions","https://github.com/nlmixrdevelopment/nlmixr/issues/439","open",2020-11-10,2021-01-24,NA,7,"http://monolix.lixoft.com/tasks/result-files-generated-monolix/","mattfidler",224,149
+"nlmixrdevelopment/nlmixr","Add output descriptions","https://github.com/nlmixrdevelopment/nlmixr/issues/439","open",2020-11-10,2021-01-24,NA,7,"http://monolix.lixoft.com/tasks/result-files-generated-monolix/","mattfidler",225,150
 "atorus-research/pharmaRTF","Question about titles and footnotes in the body of the document","https://github.com/atorus-research/pharmaRTF/issues/4","open",2020-11-10,2020-11-10,NA,1,"Hi Eli,
 
 This is a really great package!  
@@ -17852,11 +17852,11 @@ However, my company standards dictate that
 
 Is is possible to do this with pharmaRTF now?  Or could it be sometime in the future?
 
-Thanks!","ghost",224,224
+Thanks!","ghost",225,225
 "Roche/rtables","ae table in clinical trials formats wrong due to indent_mod","https://github.com/Roche/rtables/issues/132","closed",2020-11-11,2020-11-12,2020-11-12,1,"","waddella",1,0
 "Roche/rtables","make_pagdf has wrong indent","https://github.com/Roche/rtables/issues/131","closed",2020-11-11,2020-11-12,2020-11-12,1,"also rename it to `make_row_df`","waddella",1,0
-"nlmixrdevelopment/nlmixr","feature request: conditional distribution","https://github.com/nlmixrdevelopment/nlmixr/issues/440","open",2020-11-12,2020-11-12,NA,0,"http://monolix.lixoft.com/tasks/conditional-distribution/","mattfidler",222,222
-"pharmaR/riskmetric","Update pkg_ref_cache_description.R","https://github.com/pharmaR/riskmetric/pull/179","open",2020-11-12,2021-03-03,NA,2,"issue #178 method for pgk_ref_cache.description.pkg_remote","ghost",222,111
+"nlmixrdevelopment/nlmixr","feature request: conditional distribution","https://github.com/nlmixrdevelopment/nlmixr/issues/440","open",2020-11-12,2020-11-12,NA,0,"http://monolix.lixoft.com/tasks/conditional-distribution/","mattfidler",223,223
+"pharmaR/riskmetric","Update pkg_ref_cache_description.R","https://github.com/pharmaR/riskmetric/pull/179","open",2020-11-12,2021-03-03,NA,2,"issue #178 method for pgk_ref_cache.description.pkg_remote","ghost",223,112
 "Novartis/xgxr","xgxr pkgdown function reference?","https://github.com/Novartis/xgxr/issues/38","closed",2020-11-13,2021-02-02,2021-02-01,2,"Thank you so much for making such an excellent package and it's associated xGx resource available!
 
 If possible it would be helpful to have a function reference page built with pkgdown package, like nlmixr has: https://nlmixrdevelopment.github.io/nlmixr/reference/index.html
@@ -18103,7 +18103,7 @@ other attached packages:
 
 loaded via a namespace (and not attached):
 [1] compiler_3.6.3  htmltools_0.4.0 tools_3.6.3     Rcpp_1.0.4.6    digest_0.6.25   packrat_0.5.0   rlang_0.4.6     purrr_0.3.4 
-```","anajens",209,70
+```","anajens",210,71
 "Roche/rtables","Pruning tables that contain empty row splits?","https://github.com/Roche/rtables/issues/136","closed",2020-11-25,2020-12-01,2020-12-01,1,"In the following example there is a row split by a value (""ABC"") that does not exist in the `COUNTRY` variable.
 ```
 ANL <- DM
@@ -18246,7 +18246,7 @@ loaded via a namespace (and not attached):
 ```","anajens",1,0
 "nlmixrdevelopment/nlmixr","saem issue","https://github.com/nlmixrdevelopment/nlmixr/issues/445","closed",2020-11-26,2020-11-26,2020-11-26,0,"first bad commit e419e7ad8aa11237880422f8f48b7e72722fe1cf","mattfidler",0,0
 "Novartis/pisces","Build Docker images with pre-installed PISCES","https://github.com/Novartis/pisces/issues/1","open",2020-12-02,2020-12-02,NA,1,"- [ ] Add a Dockerfile to define build process and entry point
-- [ ] Set up gh-actions to build docker images and publish to Docker hub","mdshw5",202,202
+- [ ] Set up gh-actions to build docker images and publish to Docker hub","mdshw5",203,203
 "Roche/rtables","create a paginate function that is simple (currently just for rows)","https://github.com/Roche/rtables/issues/138","closed",2020-12-02,2021-04-21,2021-04-21,1,"","waddella",140,0
 "nlmixrdevelopment/nlmixr","double check preconditionFit; There was some change to the code ","https://github.com/nlmixrdevelopment/nlmixr/issues/446","closed",2020-12-03,2020-12-15,2020-12-15,1,"","mattfidler",12,0
 "Roche/rtables","Is it possible to call `summarize_row_groups` after `analyze`?","https://github.com/Roche/rtables/issues/139","closed",2020-12-03,2020-12-03,2020-12-03,2,"In the following example, `summarize_row_groups` result is not displayed in the table when it's after `analyze`.  Is this the expected behaviour?
@@ -18425,7 +18425,7 @@ Note: This failing currently blocks our internal development. So we should get t
 
 Unlike [`drake`](https://github.com/wlandau/drake), [`targets`](https://github.com/wlandau/targets) makes it super straightforward to build extensions for specialized use cases. For example, I recently created a new R package called [`stantargets`](https://github.com/wlandau/stantargets), which combines [`targets`](https://github.com/wlandau/targets) with [`cmdstanr`](https://github.com/stan-dev/cmdstanr) to make it easy to write large Bayesian data analysis pipelines. Complicated workflows like [this one](https://github.com/wlandau/targets-stan/blob/main/_targets.R) condense down to [this one](https://wlandau.github.io/stantargets/articles/mcmc_rep.html) without loss of technical sophistication or computing power. The former requires users to think carefully about dynamic branching and file tracking, and the latter uses domain knowledge to abstract away these intimidating concepts.
 
-I thought you might like to know because it instantiates a successful pattern that my colleagues and I are actively pursuing: develop one general-purpose pipeline tool first, and then build friendlier methodology-specific workflow frameworks on top of that. Other possibilities include [`stantargets`](https://github.com/wlandau/stantargets)-like packages for JAGS, Greta, Keras, Torch, Tidymodels, etc. For you, I see potential in a [`stantargets`](https://github.com/wlandau/stantargets)-like package tailored to `nlmixr`. I do not have the domain knowledge to develop it myself, but I would be happy to discuss ideas and review code if this direction appeals to you.","wlandau",199,52
+I thought you might like to know because it instantiates a successful pattern that my colleagues and I are actively pursuing: develop one general-purpose pipeline tool first, and then build friendlier methodology-specific workflow frameworks on top of that. Other possibilities include [`stantargets`](https://github.com/wlandau/stantargets)-like packages for JAGS, Greta, Keras, Torch, Tidymodels, etc. For you, I see potential in a [`stantargets`](https://github.com/wlandau/stantargets)-like package tailored to `nlmixr`. I do not have the domain knowledge to develop it myself, but I would be happy to discuss ideas and review code if this direction appeals to you.","wlandau",200,53
 "Roche/rtables","Add options to `remove_split_levels()`.","https://github.com/Roche/rtables/pull/143","closed",2020-12-06,2020-12-08,2020-12-07,0,"This PR
 - fixes `remove_split_levels`, as before it did not correctly remove a split level from the resulting table.
 - adds option `drop_levels` to it
@@ -18565,11 +18565,11 @@ length(unqlens) == 1 || (0 %in% unqlens && length(unqlens) ==  .... is not TRUE
 ```
 
 Either improve error message or make it work. To be honest I don't see the reason why it shouldn't work. I would expect a table with a lot of 0s and few 1s","pawelru",0,0
-"Novartis/pisces","Detect binaries automatically if they are in the PATH","https://github.com/Novartis/pisces/issues/4","open",2020-12-10,2020-12-14,NA,1,"Path to Salmon binary is now hardcoded. It would be better when PISCES would check if salmon is in the PATH eg. like here https://stackoverflow.com/questions/377017/test-if-executable-exists-in-python.","guma44",194,190
+"Novartis/pisces","Detect binaries automatically if they are in the PATH","https://github.com/Novartis/pisces/issues/4","open",2020-12-10,2020-12-14,NA,1,"Path to Salmon binary is now hardcoded. It would be better when PISCES would check if salmon is in the PATH eg. like here https://stackoverflow.com/questions/377017/test-if-executable-exists-in-python.","guma44",195,191
 "Roche/rtables","Add `.df_col` as rtables argument for `analyze()`.","https://github.com/Roche/rtables/pull/150","open",2020-12-11,2021-04-26,NA,4,"This addresses a need we identified in https://github.com/Roche/rtables/issues/117.
 
 It would be great if you could have a look at this. One problem is here still that
-it only works when there is a single column split. It does not work correctly when there are two or more column splits. Maybe there is a simple way to make it work?...","danielinteractive",193,57
+it only works when there is a single column split. It does not work correctly when there are two or more column splits. Maybe there is a simple way to make it work?...","danielinteractive",194,58
 "Roche/rtables","append_topleft labels dropped when table column is extracted","https://github.com/Roche/rtables/issues/148","closed",2020-12-11,2020-12-11,2020-12-11,1,"Please see example below.
 
 ```
@@ -18879,7 +18879,7 @@ Two issues:
 1. the first row of `make_col_df` does not seem to be needed
 2. the paths for non leaf columns have the last element twice","waddella",1,0
 "Roche/rtables","Aw prune","https://github.com/Roche/rtables/pull/157","closed",2020-12-15,2020-12-15,2020-12-15,0,"","waddella",0,0
-"nlmixrdevelopment/nlmixr","coverage inaccurate, missing ALL cpp source files.","https://github.com/nlmixrdevelopment/nlmixr/issues/457","open",2020-12-15,2020-12-15,NA,1,"","mattfidler",189,189
+"nlmixrdevelopment/nlmixr","coverage inaccurate, missing ALL cpp source files.","https://github.com/nlmixrdevelopment/nlmixr/issues/457","open",2020-12-15,2020-12-15,NA,1,"","mattfidler",190,190
 "nlmixrdevelopment/nlmixr","i386 error for windows","https://github.com/nlmixrdevelopment/nlmixr/issues/456","closed",2020-12-15,2020-12-15,2020-12-15,5,"```
    test-bounds.R:2746:7 [success]
 Error: Error: R CMD check found ERRORs
@@ -19270,7 +19270,7 @@ basic_table() %>%
 "Novartis/pisces","QC metrics we need to aggregate","https://github.com/Novartis/pisces/issues/5","open",2020-12-17,2020-12-17,NA,0,"- [ ] Library geometry from salmon
 - [ ] FLD from salmon
 - [ ] Position specific bias model information
-- [ ] Ribosomal RNA percent","mdshw5",187,187
+- [ ] Ribosomal RNA percent","mdshw5",188,188
 "nlmixrdevelopment/nlmixr","amt in 'model' statement?","https://github.com/nlmixrdevelopment/nlmixr/issues/458","closed",2020-12-21,2020-12-31,2020-12-31,7,"Hi community, 
 
 I'm new to nlmixr, just wondering if there is a way to specify `amt` in the model statement? i.e. the differential equation is a function of the initial dose, e.g. 
@@ -19397,7 +19397,7 @@ Right now I am only seeing the issue with percentages generated in `group_count(
 
 Thanks so much!
 Robert","Robert-Krajcik",27,0
-"Novartis/pisces","Annotate output matrices with salmon effective length","https://github.com/Novartis/pisces/issues/6","open",2021-01-13,2021-01-13,NA,0,"`DESeqDataSetFromTximport` requires both counts and effective length. While PISCES uses effective length internally for DESeq2, it does not write out the values for use in downstream analysis.","mdshw5",160,160
+"Novartis/pisces","Annotate output matrices with salmon effective length","https://github.com/Novartis/pisces/issues/6","open",2021-01-13,2021-01-13,NA,0,"`DESeqDataSetFromTximport` requires both counts and effective length. While PISCES uses effective length internally for DESeq2, it does not write out the values for use in downstream analysis.","mdshw5",161,161
 "nlmixrdevelopment/nlmixr","nlmixr has been removed from the CRAN","https://github.com/nlmixrdevelopment/nlmixr/issues/466","closed",2021-01-13,2021-04-14,2021-04-14,4,"Dear Authors,
 
 I noticed the package has been removed from the CRAN.
@@ -19411,7 +19411,7 @@ This is incredibly awesome package, it would be a great loss if it's removed per
 > Archived on 2020-10-07 as depends on archived package 'RxODE' by the same author.
 > A summary of the most recent check results can be obtained from the check results archive.
 > Please use the canonical form https://CRAN.R-project.org/package=nlmixr to link to this page.","Generalized",91,0
-"Novartis/pisces","Support for differential transcript expression","https://github.com/Novartis/pisces/issues/7","open",2021-01-13,2021-01-13,NA,0,"It's not clear if DESeq2 is the best choice for DTE, or if we should use salmon's inferential replicates and run swish instead. If the latter, then it makes sense to switch from DESeq2 to swish for both DTE and DGE analysis.","mdshw5",160,160
+"Novartis/pisces","Support for differential transcript expression","https://github.com/Novartis/pisces/issues/7","open",2021-01-13,2021-01-13,NA,0,"It's not clear if DESeq2 is the best choice for DTE, or if we should use salmon's inferential replicates and run swish instead. If the latter, then it makes sense to switch from DESeq2 to swish for both DTE and DGE analysis.","mdshw5",161,161
 "nlmixrdevelopment/nlmixr","RxODE simulation with nlmixr object","https://github.com/nlmixrdevelopment/nlmixr/issues/467","closed",2021-01-15,2021-01-20,2021-01-19,5,"Dear authors,
 
 I was working on a task of extracting only initial eta estimates of the pre-built model from external data and simulating it.
@@ -19930,7 +19930,7 @@ ARM: A: Drug X
     cl A.1          9   
     cl B.1          2   
     cl B.2          9 
-```","anajens",141,111
+```","anajens",142,112
 "Roche/rtables","How to interleave subtables?","https://github.com/Roche/rtables/issues/162","closed",2021-02-01,2021-04-07,2021-04-07,1,"Would it be possible for `rtables` to support functionality to interleave a series of sub-tables from multiple datasets?
 
 ![image](https://user-images.githubusercontent.com/43623360/106473798-38631900-6472-11eb-94e3-b5457fca0fe8.png)
@@ -20208,7 +20208,7 @@ with most recent R and ggplot2 versions:
 ","margoal1",1,-1
 "pharmaR/riskmetric","convert from `read_html` to `httr::content(httr::GET())` for unit testing","https://github.com/pharmaR/riskmetric/issues/186","open",2021-02-03,2021-02-04,NA,1,"We can pull this in before we look toward testing it, but eventually we'll need to replace `read_html` with `httr::content(httr:GET(...))` in order to intercept web requests with `webmockr`.
 
-_Originally posted by @dgkf in https://github.com/pharmaR/riskmetric/pull/170#discussion_r511636858_","emilliman5",139,138
+_Originally posted by @dgkf in https://github.com/pharmaR/riskmetric/pull/170#discussion_r511636858_","emilliman5",140,139
 "pharmaR/riskmetric","Update pkg_ref_cache_function_coverage.R","https://github.com/pharmaR/riskmetric/pull/185","closed",2021-02-03,2021-03-31,2021-03-09,3,"","elong0527",34,-22
 "openpharma/visR","Fix cicd - only CICD logic effected","https://github.com/openpharma/visR/pull/102","closed",2021-02-04,2021-03-01,2021-02-04,0,"","epijim",0,-25
 "openpharma/visR","Fix the broken CICD","https://github.com/openpharma/visR/issues/101","closed",2021-02-04,2021-05-21,2021-05-21,6,"#### Issue description
@@ -20228,7 +20228,7 @@ Push a commit and Github actions doesnt work
 - [x] check osx
 - [x] calculate code coverage","epijim",106,0
 "openpharma/simaerep","Devel","https://github.com/openpharma/simaerep/pull/5","closed",2021-02-05,2021-02-05,2021-02-05,1,"","erblast",0,0
-"openpharma/GithubMetrics","Add function to get activity, and function to make waffle plot","https://github.com/openpharma/GithubMetrics/issues/1","open",2021-02-06,2021-02-07,NA,2,"See: https://vuorre.netlify.app/post/2016/03/24/github-style-waffle-plots-in-r/","epijim",136,135
+"openpharma/GithubMetrics","Add function to get activity, and function to make waffle plot","https://github.com/openpharma/GithubMetrics/issues/1","open",2021-02-06,2021-02-07,NA,2,"See: https://vuorre.netlify.app/post/2016/03/24/github-style-waffle-plots-in-r/","epijim",137,136
 "Roche/rtables","`.in_ref_row` variable passed to `analyze` & co.","https://github.com/Roche/rtables/issues/165","open",2021-02-08,2021-04-28,NA,4,"Issue originally reported by @danielinteractive 
 
 It would be good to have something like a `.in_ref_row` variable populated that the user can define when defining a row split, similarly as we have `.in_ref_col` for column split. 
@@ -20294,7 +20294,7 @@ WEEK 4 DAY 29
 WEEK 5 DAY 36                                          
   Mean            1.26        -0.59          -0.92 
 ```
-","anajens",134,55
+","anajens",135,56
 "Roche/rtables","Add labels from row splits to table header","https://github.com/Roche/rtables/issues/164","closed",2021-02-08,2021-04-28,2021-04-28,6,"It would be very helpful and increase readability if users can choose if labels from row-splits and `analyze` / `summarize_row_groups` should be added as a row labels or added to the header of a table.
 
 Here's an example:
@@ -20388,7 +20388,7 @@ package ‘nlmixr’ was built under R version 4.0.2","dervieux1",1,0
 
 Would like to propose using lyt for the layout objects in the rtables vignettes. 
 
-We're gearing up for rtables/tern training in March and would like to have consistency when presenting to end users.","anajens",134,134
+We're gearing up for rtables/tern training in March and would like to have consistency when presenting to end users.","anajens",135,135
 "nlmixrdevelopment/nlmixr","`$cov` not working for SAEM","https://github.com/nlmixrdevelopment/nlmixr/issues/476","closed",2021-02-10,2021-02-10,2021-02-10,0,"`$cov` not working for SAEM","mattfidler",0,0
 "openpharma/visR","Update / rebase the vr_Estimate branch with develop","https://github.com/openpharma/visR/pull/103","closed",2021-02-11,2021-02-14,2021-02-14,2,"Updating vr_branch with the current develop. ","bailliem",3,0
 "Roche/rtables","Multi staging","https://github.com/Roche/rtables/pull/167","closed",2021-02-12,2021-02-12,2021-02-12,0,"","knightdave",0,0
@@ -20408,7 +20408,7 @@ This is a bit cumbersome and also I make assumptions about the form I don't know
 Compiling RxODE equations...done.
 Building SAEM model...done
 Error: 'rxSolve.default' is not an exported object from 'namespace:RxODE'","sujit541",0,0
-"nlmixrdevelopment/nlmixr","Feature Request: Consider msfi type of resume file","https://github.com/nlmixrdevelopment/nlmixr/issues/480","open",2021-02-24,2021-02-24,NA,0,"Consider a msfi resume file.","mattfidler",118,118
+"nlmixrdevelopment/nlmixr","Feature Request: Consider msfi type of resume file","https://github.com/nlmixrdevelopment/nlmixr/issues/480","open",2021-02-24,2021-02-24,NA,0,"Consider a msfi resume file.","mattfidler",119,119
 "openpharma/visR","find replace vr_KM_est to estimate_KM","https://github.com/openpharma/visR/pull/106","closed",2021-02-24,2021-03-03,2021-03-03,0,"I thought I did this in the vr_estimate branch but apparantly I did not :(","SHAESEN2",7,0
 "Roche/rtables","Labels and captions","https://github.com/Roche/rtables/issues/168","open",2021-02-24,2021-02-25,NA,10,"I write clinical reports, and so `rtables` would be a great tool to use. Too bad, two absolutely required features are not available, labels (for crossreferencing) and captions. 
 
@@ -20416,7 +20416,7 @@ I am curious to learn how you write reports at Roche without these, do you have 
 
 If you want to see what should work (kable is the yardstick):
 
-https://gist.github.com/dmenne/f8eb291c9e71a5de44764d442e8bdefd","dmenne",118,117
+https://gist.github.com/dmenne/f8eb291c9e71a5de44764d442e8bdefd","dmenne",119,118
 "Novartis/xgxr","xgx_annotate_status does not work for special datatypes","https://github.com/Novartis/xgxr/issues/41","open",2021-02-25,2021-02-26,NA,3,"**Describe the bug**
 Error using xgx_annotate_status when x or y is of datatype ""Date""
 
@@ -20439,7 +20439,7 @@ Should display plot with ""DRAFT"" label in upper right hand corner
 
 **Additional context**
 May also need to check on a variety of other data types. Could include within the function something like xmax = max(na.omit(x)) in order to get the max x value for placement of the draft label.
-","margoal1",117,116
+","margoal1",118,117
 "nlmixrdevelopment/nlmixr","Feature Request: VPC by idv","https://github.com/nlmixrdevelopment/nlmixr/issues/483","open",2021-02-26,2021-02-26,NA,0,"In theory this should be possible, but it currently doesn't work:
 
 ``` r
@@ -20522,7 +20522,7 @@ vpc(fit2, obs_cols=list(idv=""tad""), sim_cols=list(idv=""tad""))
 <sup>Created on 2021-02-26 by the [reprex package](https://reprex.tidyverse.org) (v1.0.0)</sup>
 
 @jfstanding
-","mattfidler",116,116
+","mattfidler",117,117
 "Roche/rtables","add lintr configuration, set tab = 4 ps","https://github.com/Roche/rtables/pull/169","closed",2021-02-28,2021-02-28,2021-02-28,0,"& address lintr issues in 00tabletrees.R
 
 @gmbecker, please merge before you continue working.","waddella",0,0
@@ -20709,10 +20709,11 @@ Interestingly, the proportional error works fine with focei (at least for theo_s
 Is it ok, or are there some problems with the proportional error & saem in the combined model too?
 
 I really appreciate any help you can provide.","Dorota-D",2,0
-"pharmaR/riskmetric","create a badge for riskmetric ","https://github.com/pharmaR/riskmetric/issues/189","open",2021-03-09,2021-03-09,NA,0,"Joe suggested us to allow package developer to put a badge on their github readme file","elong0527",105,105
+"Merck/pkglite","unit test for sanitize file collection","https://github.com/Merck/pkglite/pull/1","closed",2021-03-08,2021-03-15,2021-03-15,3,"","ashirazist",7,0
+"pharmaR/riskmetric","create a badge for riskmetric ","https://github.com/pharmaR/riskmetric/issues/189","open",2021-03-09,2021-03-09,NA,0,"Joe suggested us to allow package developer to put a badge on their github readme file","elong0527",106,106
 "pharmaR/riskmetric","remove pkg_ref_cache_function_coverage","https://github.com/pharmaR/riskmetric/pull/188","closed",2021-03-09,2021-03-31,2021-03-16,1,"","elong0527",7,-15
 "pharmaR/riskmetric","remove pkg_ref_cache_function_coverage","https://github.com/pharmaR/riskmetric/pull/187","closed",2021-03-09,2021-03-09,2021-03-09,0,"","elong0527",0,0
-"Roche/Global-HTA-Evidence-Open","[MAIC}: Cannot pass arguments to `optim`","https://github.com/Roche/Global-HTA-Evidence-Open/issues/2","open",2021-03-10,2021-05-26,NA,0,"The `estimate_weights()` function does not have  a `...` argument allowing a user to pass arguments to `optim()` even though the documentation says this is possible.","dincerti",104,27
+"Roche/Global-HTA-Evidence-Open","[MAIC}: Cannot pass arguments to `optim`","https://github.com/Roche/Global-HTA-Evidence-Open/issues/2","open",2021-03-10,2021-05-26,NA,0,"The `estimate_weights()` function does not have  a `...` argument allowing a user to pass arguments to `optim()` even though the documentation says this is possible.","dincerti",105,28
 "Roche/rtables","Error in `value_at` for layout with overall column","https://github.com/Roche/rtables/issues/172","closed",2021-03-10,2021-04-08,2021-04-08,5,"It's not possible to extract the cell value using `value_at` when the table layout includes an overall column:
 
 ```
@@ -20862,7 +20863,10 @@ You can trigger Dependabot actions by commenting on this PR:
 
 You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/Novartis/peax/network/alerts).
 
-</details>","dependabot[bot]",102,102
+</details>","dependabot[bot]",103,103
+"Merck/pkglite","Add file specification template file_tests()","https://github.com/Merck/pkglite/issues/2","closed",2021-03-15,2021-04-13,2021-04-13,1,"Add file specification template `file_tests()` to allow the collation of files under `tests/`.","nanxstats",29,0
+"Merck/pkglite","Add function to merge file collection objects","https://github.com/Merck/pkglite/issues/3","closed",2021-03-15,2021-04-29,2021-04-29,1,"Add a function to combine file collection objects from multiple `collate()` calls.","nanxstats",45,0
+"Merck/pkglite","Add function to remove files from file collection objects","https://github.com/Merck/pkglite/issues/4","closed",2021-03-15,2021-04-29,2021-04-29,1,"Add function to remove files from file collection objects. Instead of asking users to modify `.$df` directly.","nanxstats",45,0
 "nlmixrdevelopment/nlmixr","Combined1 and combined2 errors - comparison with Monolix","https://github.com/nlmixrdevelopment/nlmixr/issues/490","closed",2021-03-16,2021-03-17,2021-03-17,1,"Hello, 
 I have some troubles with interpreting the values of residual error returned by nlmixR. According to the RxODE documentation, the combined1 and combined2 error models are as follows: 
 combined1: transform(y)=transform(f)+(a+b*f^c)*eps
@@ -21016,7 +21020,7 @@ loaded via a namespace (and not attached):
 [37] tidyr_1.1.2       purrr_0.3.4       callr_3.4.3       magrittr_1.5     
 [41] backports_1.1.9   ps_1.3.4          ellipsis_0.3.1    usethis_1.6.1    
 [45] assertthat_0.2.1  stringi_1.4.6     crayon_1.3.4
-```","Robert-Krajcik",95,92
+```","Robert-Krajcik",96,93
 "openpharma/visR","Test/add pvalue","https://github.com/openpharma/visR/pull/143","closed",2021-03-19,2021-04-17,2021-03-28,5,"Rewrote get_pvalue and include associated tests.","SHAESEN2",9,-20
 "openpharma/visR","update","https://github.com/openpharma/visR/pull/137","closed",2021-03-19,2021-03-19,2021-03-19,0,"","SHAESEN2",0,0
 "openpharma/visR","Update add_ci & add_cnsr document + examples","https://github.com/openpharma/visR/pull/142","closed",2021-03-19,2021-05-22,2021-03-19,0,"Update documentation and examples for both add_ci add_cnsr functions
@@ -21028,9 +21032,9 @@ loaded via a namespace (and not attached):
 "openpharma/visR","Update call in estimate_KM","https://github.com/openpharma/visR/pull/146","closed",2021-03-22,2021-03-25,2021-03-25,1,"","SHAESEN2",3,0
 "atorus-research/pharmaRTF","Add option for text color","https://github.com/atorus-research/pharmaRTF/issues/5","open",2021-03-23,2021-04-01,NA,1,"Hello,
 
-Thank you for the great package. I have been using it to generate my RTF documents. In the reference manual, it says the future plans include colors. Do you have a timeline for that? I would like to put in a request for text color. Thank you!","tdwils",91,82
-"Novartis/pisces","Fix filtering heuristics for low counts data","https://github.com/Novartis/pisces/issues/13","open",2021-03-24,2021-03-24,NA,0,"Currently the `failing.quartile.filter` is applied incorrectly, resulting in the opposite of expected behavior (https://github.com/Novartis/pisces/blob/master/pisces/R/make_expression_matrix.R#L392c). This filter should be negated to exclude failed genes.","mdshw5",90,90
-"Novartis/pisces","Negate filtering for failing.quartile.filter during deseq.dataset construction","https://github.com/Novartis/pisces/pull/14","open",2021-03-24,2021-03-24,NA,0,"","mdshw5",90,90
+Thank you for the great package. I have been using it to generate my RTF documents. In the reference manual, it says the future plans include colors. Do you have a timeline for that? I would like to put in a request for text color. Thank you!","tdwils",92,83
+"Novartis/pisces","Fix filtering heuristics for low counts data","https://github.com/Novartis/pisces/issues/13","open",2021-03-24,2021-03-24,NA,0,"Currently the `failing.quartile.filter` is applied incorrectly, resulting in the opposite of expected behavior (https://github.com/Novartis/pisces/blob/master/pisces/R/make_expression_matrix.R#L392c). This filter should be negated to exclude failed genes.","mdshw5",91,91
+"Novartis/pisces","Negate filtering for failing.quartile.filter during deseq.dataset construction","https://github.com/Novartis/pisces/pull/14","open",2021-03-24,2021-03-24,NA,0,"","mdshw5",91,91
 "Roche/rtables","pag_tt_indices returns wrong result","https://github.com/Roche/rtables/issues/175","closed",2021-03-25,2021-04-21,2021-04-21,1,"`pag_tt_indices` return an empty list
 
 ```r
@@ -21122,10 +21126,10 @@ C: Combination
   AB12345-RUS-3-id-378     F          2.8                  RUS/A/S1         
   AB12345-CHN-15-id-201    M          6.91                 CHN/C/S2         
   AB12345-NGA-11-id-173    F           5                   NGA/C/S2    
-```","anajens",85,85
-"pharmaR/riskmetric"," How to re-evaluate risk of a cohort when new package(s) are introduced?","https://github.com/pharmaR/riskmetric/issues/192","open",2021-03-31,2021-03-31,NA,0,"Once #174 addressed, we may run the risk metric for two cohorts and evaluate the difference. ","elong0527",83,83
-"pharmaR/riskmetric","A metric of how many Reverse dependencies a package has","https://github.com/pharmaR/riskmetric/issues/193","open",2021-03-31,2021-05-28,NA,1,"","elong0527",83,25
-"pharmaR/riskmetric","Define a weights to aggregate risks from different metrics ","https://github.com/pharmaR/riskmetric/issues/195","open",2021-03-31,2021-03-31,NA,1,"","elong0527",83,83
+```","anajens",86,86
+"pharmaR/riskmetric"," How to re-evaluate risk of a cohort when new package(s) are introduced?","https://github.com/pharmaR/riskmetric/issues/192","open",2021-03-31,2021-03-31,NA,0,"Once #174 addressed, we may run the risk metric for two cohorts and evaluate the difference. ","elong0527",84,84
+"pharmaR/riskmetric","A metric of how many Reverse dependencies a package has","https://github.com/pharmaR/riskmetric/issues/193","open",2021-03-31,2021-05-28,NA,1,"","elong0527",84,26
+"pharmaR/riskmetric","Define a weights to aggregate risks from different metrics ","https://github.com/pharmaR/riskmetric/issues/195","open",2021-03-31,2021-03-31,NA,1,"","elong0527",84,84
 "pharmaR/riskmetric","Enhancement of package source ","https://github.com/pharmaR/riskmetric/issues/196","open",2021-03-31,2021-04-28,NA,3,"From #175 
 
 I would prefer to have more direct and rigid mechanisms for creating specific classes (pkg_source(""<source directory>""), pkg_remote(""<remote url>"")) and then move the current pkg_ref functionality into a convenience function whose name indicates that it is doing some type conversion (as_pkg_ref(""arbitrary character value"")), possibly with some arguments that can limit the scope of viable sources.
@@ -21159,7 +21163,7 @@ lapply(src_paths, pkg_source) # note, will not be a ""list_of_pkg_ref"", but rat
 pkg_library(""library location"") # returns a pkg_cohort object. in this case, a list of pkg_install 
 pkg_cohort() # no arguments, just instantiates a structure around an empty list
 as_pkg_cohort([list of pkg refs]) 
-```","elong0527",83,55
+```","elong0527",84,56
 "pharmaR/riskmetric","For CRAN 0.1.0 release ","https://github.com/pharmaR/riskmetric/pull/194","closed",2021-03-31,2021-03-31,2021-03-31,1,"","elong0527",0,0
 "Roche/rtables","xml representation of a table tree","https://github.com/Roche/rtables/issues/177","open",2021-03-31,2021-04-28,NA,2,"@gmbecker, another project needs the rtable object in an `xml` format so that they can look into pathing and reuse (outside of R). I tried the following, but it is not exactly as is needed
 
@@ -21172,7 +21176,15 @@ That is, the the parent child relationship got squished.
 
 Do you have a quick solution to get an xml representation of a table tree? Otherwise we can discuss in our next meeting how to address this.
 
-","waddella",83,55
+","waddella",84,56
+"Merck/pkglite","Remove LazyData if there is no external data","https://github.com/Merck/pkglite/issues/5","closed",2021-04-01,2021-04-05,2021-04-05,1,"When checking on R-devel since a week ago, we see:
+
+```
+checking LazyData ... NOTE
+  'LazyData' is specified without a 'data' directory
+```
+
+This is from the R CMD check updates: https://github.com/wch/r-source/commit/3280ff02a2567cc9d05ba10b7d143f88aeb4bb1b.","nanxstats",4,0
 "openpharma/visR","Fixed bugs in risktable algorithm for graph","https://github.com/openpharma/visR/pull/147","closed",2021-04-03,2021-04-16,2021-04-16,0,"1) alignment of risktable with graph by using breaks of graph instead of times from risktable
 
 2) Ensured correct titles are used for each risk table
@@ -21180,6 +21192,27 @@ Do you have a quick solution to get an xml representation of a table tree? Other
 3) ensured we see the minimum at risk when it falls between pre-defined breaks => take next available break
 
 4) Removed visR.R as we dont need this","SHAESEN2",13,0
+"Merck/pkglite","Replace 1:k with seq_len(k)","https://github.com/Merck/pkglite/issues/6","closed",2021-04-04,2021-04-05,2021-04-05,0,"See https://win-vector.com/2018/02/19/r-tip-use-seq_len-to-avoid-the-backwards-sequence-bug/","nanxstats",1,0
+"Merck/pkglite","Add SAS binary file formats to dictionary","https://github.com/Merck/pkglite/issues/8","closed",2021-04-05,2021-04-08,2021-04-08,2,"I would like to add SAS binary data extensions to `ext_binary()` in the [dictionary](https://github.com/Merck/pkglite/blob/master/R/dictionary.R), as some packages might contain such datasets.
+
+The current binary file extensions I consider include
+
+- `.sas7bdat`
+- `.sas7bcat`
+- `.xpt`
+- `xpt5`
+- `xpt8`
+
+Any other recommendations? @elong0527 
+
+Note that some units tests might need an update for this change.","nanxstats",3,0
+"Merck/pkglite","Only list files but not folder ","https://github.com/Merck/pkglite/issues/7","closed",2021-04-05,2021-04-14,2021-04-13,2,"Would you think this line of code can be used to list files? Just want to avoid folders
+
+```
+setdiff(list.files(), list.dirs(recursive = FALSE, full.names = FALSE))
+```
+
+https://stackoverflow.com/questions/22069095/r-get-list-of-files-but-not-of-directories","elong0527",8,-1
 "Roche/rtables","`cell_values` returns error","https://github.com/Roche/rtables/issues/178","closed",2021-04-06,2021-04-08,2021-04-08,2,"Looks like there may be a bug related to extracting values from a table with `cell_values`.
 
 This is the simple example and runs fine:
@@ -21509,21 +21542,23 @@ So I suppose is there anything wrong in incorporation of the BQL data in the lat
 "nlmixrdevelopment/nlmixr","Feature Request: Rate-limit NaN warning","https://github.com/nlmixrdevelopment/nlmixr/issues/500","closed",2021-04-13,2021-04-17,2021-04-17,3,"Is it possible to rate-limit this warning to once per iteration?  While estimating a model just now, it showed about 20 times per iteration.
 
 https://github.com/nlmixrdevelopment/nlmixr/blob/4ec38650baa06fa4d5822ebc977c6cad913518f4/src/saem.cpp#L1448","billdenney",4,0
-"Roche/rtables","Pagination test coverage","https://github.com/Roche/rtables/issues/180","open",2021-04-13,2021-04-13,NA,0,"We need pagination tests. Currently we don't have many/any.","gmbecker",70,70
-"pharmaR/riskmetric","Copyright license compatibility in a dependency tree.","https://github.com/pharmaR/riskmetric/issues/200","open",2021-04-14,2021-04-15,NA,1,"While discussion item in #174, @dgkf  mentioned there is a package to handle license compatibility checking. We shall evaluate how to leverage existing tool for this. ","elong0527",69,68
+"Roche/rtables","Pagination test coverage","https://github.com/Roche/rtables/issues/180","open",2021-04-13,2021-04-13,NA,0,"We need pagination tests. Currently we don't have many/any.","gmbecker",71,71
+"Merck/pkglite","Add independent testing for merge.file_collection","https://github.com/Merck/pkglite/issues/9","closed",2021-04-14,2021-05-21,2021-05-21,1,"Test sketch in https://github.com/Merck/pkglite/blob/master/tests/testthat/test-independent_test_collection.R","nanxstats",37,0
+"Merck/pkglite","Add independent testing for prune.file_collection","https://github.com/Merck/pkglite/issues/10","closed",2021-04-14,2021-05-21,2021-05-21,1,"Test sketch in https://github.com/Merck/pkglite/blob/master/tests/testthat/test-independent_test_collection.R","nanxstats",37,0
+"pharmaR/riskmetric","Copyright license compatibility in a dependency tree.","https://github.com/pharmaR/riskmetric/issues/200","open",2021-04-14,2021-04-15,NA,1,"While discussion item in #174, @dgkf  mentioned there is a package to handle license compatibility checking. We shall evaluate how to leverage existing tool for this. ","elong0527",70,69
 "pharmaR/riskmetric","Define a class for a cohort of R packages and its metrics ","https://github.com/pharmaR/riskmetric/issues/198","open",2021-04-14,2021-04-15,NA,0,"Following the discussion in #174, we need to discuss and create a prototype for a class that:
 
 1. can contain package metrics for a group of packages 
 2. can contain cohort level assessments (to use riskmetric parlance)
 3. can contain  cohort level reference information
 
-  ","elong0527",69,68
+  ","elong0527",70,69
 "pharmaR/riskmetric","Define methods for cohort metric class","https://github.com/pharmaR/riskmetric/issues/199","open",2021-04-14,2021-04-14,NA,0,"After we align on #198, we shall discuss the methods of the cohort metric class:
 
 1. what's the proper method to add/remove package from cohort metric class?
 2. what's the proper method to update snapshot date in a cohort metric class? 
-3. what's the proper method to summarize the difference between two given cohort metric class?  ","elong0527",69,69
-"Novartis/pisces","Reverse order of - strand exons ","https://github.com/Novartis/pisces/issues/15","open",2021-04-14,2021-04-14,NA,0,"Exons from the GTF that are located on the reverse strand need to be concatenated in reverse order after reverse complementing the sequence. ","mdshw5",69,69
+3. what's the proper method to summarize the difference between two given cohort metric class?  ","elong0527",70,70
+"Novartis/pisces","Reverse order of - strand exons ","https://github.com/Novartis/pisces/issues/15","open",2021-04-14,2021-04-14,NA,0,"Exons from the GTF that are located on the reverse strand need to be concatenated in reverse order after reverse complementing the sequence. ","mdshw5",70,70
 "nlmixrdevelopment/nlmixr","Issue 503","https://github.com/nlmixrdevelopment/nlmixr/pull/504","closed",2021-04-15,2021-04-15,2021-04-15,0,"","mattfidler",0,0
 "nlmixrdevelopment/nlmixr","Multiple compartment model cannot detect CMT/DVID correctly?","https://github.com/nlmixrdevelopment/nlmixr/issues/501","closed",2021-04-15,2021-04-17,2021-04-17,6,"When trying to run a model, I got the error below:
 
@@ -21747,6 +21782,31 @@ fit <-
 
 <sup>Created on 2021-04-15 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
 ","billdenney",1,0
+"Merck/pkglite","Release pkglite 0.2.0","https://github.com/Merck/pkglite/issues/11","closed",2021-04-15,2021-05-22,2021-05-22,1,"Prepare for release
+
+- [x] Check current CRAN check results
+- [x] Check licensing of included files
+- [x] Review pkgdown reference index for, e.g., missing topics
+- [x] Bump version
+- [x] Update `cran-comments.md` (optional)
+- [x] Update NEWS.md
+- [x] Review pkgdown website
+- [x] `urlchecker::url_check()`
+- [x] Check with local machine
+- [x] Check with GitHub Actions
+- [x] Check with win-builder
+
+Submit to CRAN
+
+- [x] Draft GitHub release
+- [x] Submit to CRAN via web form
+- [x] Approve emails
+
+Wait for CRAN
+
+- [x] Accepted :tada:
+- [x] Post on r-packages mailing list
+- [x] Tweet","nanxstats",37,0
 "nlmixrdevelopment/nlmixr","saem add+prop","https://github.com/nlmixrdevelopment/nlmixr/issues/503","closed",2021-04-15,2021-04-15,2021-04-15,1,"","mattfidler",0,0
 "openpharma/visR","Added tests for get_summary","https://github.com/openpharma/visR/pull/148","closed",2021-04-16,2021-04-17,2021-04-17,1,"","rebecca-albrecht",1,0
 "openpharma/visR","Bugfix/test add ci","https://github.com/openpharma/visR/pull/151","closed",2021-04-16,2021-04-16,2021-04-16,0,"Was a minor error. Branch can be closed after merge.
@@ -21911,7 +21971,7 @@ head(as.data.frame(d_sim))
 ```
 
 <sup>Created on 2021-04-17 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
-","billdenney",66,66
+","billdenney",67,67
 "pharmaR/riskmetric","address CRAN submission comments","https://github.com/pharmaR/riskmetric/pull/201","closed",2021-04-18,2021-04-28,2021-04-28,2,"Addressed CRAN comments discussed in #182 ","elong0527",10,0
 "openpharma/visR","Clean up get_summary code","https://github.com/openpharma/visR/pull/155","closed",2021-04-19,2021-04-21,2021-04-21,0,"","SHAESEN2",2,0
 "Novartis/xgxr","nls","https://github.com/Novartis/xgxr/pull/42","closed",2021-04-19,2021-04-19,2021-04-19,0,"Fix bug in predictdf.nls, add predict.nls function, update news, recompile package","margoal1",0,0
@@ -21931,6 +21991,7 @@ HKK  ","harishkaushikbugworks",5,0
 "openpharma/visR","Test/get cox","https://github.com/openpharma/visR/pull/157","closed",2021-04-21,2021-04-21,2021-04-21,0,"","SHAESEN2",0,0
 "openpharma/visR","Test/tidyme","https://github.com/openpharma/visR/pull/159","closed",2021-04-21,2021-04-29,2021-04-29,0,"","SHAESEN2",8,0
 "openpharma/visR","Update to get bugfixes","https://github.com/openpharma/visR/pull/158","closed",2021-04-21,2021-04-21,2021-04-21,0,"","SHAESEN2",0,0
+"Merck/pkglite","Add vignette on curating file collections","https://github.com/Merck/pkglite/issues/12","closed",2021-04-22,2021-04-29,2021-04-29,1,"Document the approaches to merge, prune, and sanitize file collections.","nanxstats",7,0
 "Roche/rtables","subsetting rows on a built table with top left annotation removes top left annotation","https://github.com/Roche/rtables/issues/182","closed",2021-04-22,2021-04-22,2021-04-22,3,"Example:
 
 ```r
@@ -22013,9 +22074,9 @@ Execution halted
 
 
 
-","nholford",59,55
+","nholford",60,56
 "openpharma/visR","Test/add risktable","https://github.com/openpharma/visR/pull/162","closed",2021-04-24,2021-05-07,2021-05-07,0,"","SHAESEN2",13,0
-"Roche/rtables","`transpose` argument in `toString` function","https://github.com/Roche/rtables/issues/184","open",2021-04-26,2021-04-26,NA,0,"","waddella",57,57
+"Roche/rtables","`transpose` argument in `toString` function","https://github.com/Roche/rtables/issues/184","open",2021-04-26,2021-04-26,NA,0,"","waddella",58,58
 "Roche/rtables","add txt output","https://github.com/Roche/rtables/issues/185","closed",2021-04-26,2021-04-28,2021-04-28,0,"make a separator argument `\s`","waddella",2,0
 "Roche/rtables","Assessment Task of 165, add a comment","https://github.com/Roche/rtables/issues/188","closed",2021-04-26,2021-04-26,2021-04-26,0,"","waddella",0,0
 "Roche/rtables","Can't rename levels with `reorder_split_levels`","https://github.com/Roche/rtables/issues/191","closed",2021-04-26,2021-04-28,2021-04-28,1,"The code below gives an error. It works if `newlabels` is excluded.
@@ -22062,11 +22123,11 @@ https://github.com/Roche/rtables/blob/5f6efc798d430d34479cc5992967d17c44ae4f99/R
 
 https://github.com/Roche/rtables/blob/759eb771eca71be3e519b594aa76f6989fbf14fd/vignettes/clinical_trials.Rmd#L297
 
-Also in the Details section of `summarize_row_groups`","anajens",57,57
+Also in the Details section of `summarize_row_groups`","anajens",58,58
 "Roche/rtables","function to map a data.frame to an elementary table","https://github.com/Roche/rtables/issues/189","closed",2021-04-26,2021-05-05,2021-05-05,0,"maybe with an argument of which column to take as row names","waddella",9,0
-"Novartis/xgxr","Ggcolortheme","https://github.com/Novartis/xgxr/pull/43","open",2021-04-26,2021-04-26,NA,0,"This is a pull request to have the powerpoint color extraction routine added to xgxr.  It will be used in a ggplot color theme that is based on an arbitrary powerpoint presentation.  For example if you had a Novartis presentation, or a BMS presentation you could use either to match the colors of the default presentation.","mattfidler",57,57
-"Roche/rtables","make an pdf output function","https://github.com/Roche/rtables/issues/186","open",2021-04-26,2021-04-26,NA,0,"`as_pdf`","waddella",57,57
-"Roche/rtables","Referential Footnotes: Columns","https://github.com/Roche/rtables/issues/187","open",2021-04-26,2021-04-26,NA,0,"","waddella",57,57
+"Novartis/xgxr","Ggcolortheme","https://github.com/Novartis/xgxr/pull/43","open",2021-04-26,2021-04-26,NA,0,"This is a pull request to have the powerpoint color extraction routine added to xgxr.  It will be used in a ggplot color theme that is based on an arbitrary powerpoint presentation.  For example if you had a Novartis presentation, or a BMS presentation you could use either to match the colors of the default presentation.","mattfidler",58,58
+"Roche/rtables","make an pdf output function","https://github.com/Roche/rtables/issues/186","open",2021-04-26,2021-04-26,NA,0,"`as_pdf`","waddella",58,58
+"Roche/rtables","Referential Footnotes: Columns","https://github.com/Roche/rtables/issues/187","open",2021-04-26,2021-04-26,NA,0,"","waddella",58,58
 "Roche/rtables","revisit `add_overall` discussion","https://github.com/Roche/rtables/issues/183","open",2021-04-26,2021-04-26,NA,1,"Some time ago we talked about deprecating `add_overall`:
 
 >lets deprecate the `add_overall` function on `gabe_tabletree_work` and @anajens please start using `add_overall_level` for the release in 4 months.
@@ -22096,7 +22157,7 @@ basic_table() %>%
   analyze(vars = ""SEX"") %>%
   build_table(ex_adsl)
 
-```","anajens",57,57
+```","anajens",58,58
 "nlmixrdevelopment/nlmixr","Break ui.R into smaller parts?","https://github.com/nlmixrdevelopment/nlmixr/issues/516","closed",2021-04-27,2021-04-27,2021-04-27,1,"As I was trying to work through #514, I started diving into ui.R again.  It's pretty big at 149 kB of code, and it takes some work to mentally move through.
 
 Would you accept a PR that did two things to ui.R:
@@ -22143,7 +22204,7 @@ fit <- nlmixr(object=model, data=d_sim, est=""focei"")
 
 <sup>Created on 2021-04-27 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
 
-The nlmixr and RxODE versions were just installed moments ago from GitHub.","billdenney",56,55
+The nlmixr and RxODE versions were just installed moments ago from GitHub.","billdenney",57,56
 "nlmixrdevelopment/nlmixr","Question: Can nlmixr fit a simple Emax model?","https://github.com/nlmixrdevelopment/nlmixr/issues/517","open",2021-04-27,2021-05-08,NA,11,"I was trying to fit a relatively simple Emax model today which doesn't have any need for time or other parts.  (That is where some of the other issues I just reported are coming up...)
 
 When doing so, I needed to have the model have a compartment (that seems reasonable), but it also appears to need `time` which does not seem so reasonable.  I do realize that nlmixr/RxODE has its origins in integrating ODEs, but it seems like removing the requirement of a `time` column when nothing really needs to be integrated would be helpful.  I would assume that time is not required when there are no ODEs defined by `d/dt` and there are no uses of `linCmt()`.
@@ -22346,10 +22407,10 @@ fit <- nlmixr(object=test_model, data=d_sim_time, est=""focei"")
 ```
 
 <sup>Created on 2021-04-27 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
-","billdenney",56,45
+","billdenney",57,46
 "nlmixrdevelopment/nlmixr","Slight code simplification","https://github.com/nlmixrdevelopment/nlmixr/pull/515","closed",2021-04-27,2021-05-25,2021-05-25,5,"I was looking through the code for something else, and I thought that this looked a bit easier to read as I was looking for the other thing.  If not of interest, no worries closing it without committing it.","billdenney",28,0
-"Roche/rtables","gt render function","https://github.com/Roche/rtables/issues/192","open",2021-04-28,2021-04-28,NA,0,"It would be good to have a export/render function to a `gt` object so that `rtables` can be rendered in formats such as doc and rtf. This will address the issue #16 originally submitted by @elong0527.","waddella",55,55
-"Roche/rtables","Horizontal Pagination","https://github.com/Roche/rtables/issues/193","open",2021-04-28,2021-04-28,NA,0,"let's discuss in our next meeting","waddella",55,55
+"Roche/rtables","gt render function","https://github.com/Roche/rtables/issues/192","open",2021-04-28,2021-04-28,NA,0,"It would be good to have a export/render function to a `gt` object so that `rtables` can be rendered in formats such as doc and rtf. This will address the issue #16 originally submitted by @elong0527.","waddella",56,56
+"Roche/rtables","Horizontal Pagination","https://github.com/Roche/rtables/issues/193","open",2021-04-28,2021-04-28,NA,0,"let's discuss in our next meeting","waddella",56,56
 "nlmixrdevelopment/nlmixr","simultaneous fit of data in CMT=1 and CMT=2","https://github.com/nlmixrdevelopment/nlmixr/issues/519","closed",2021-04-28,2021-05-01,2021-05-01,3,"Are there any example of simultaneous fit of data?
 and use of log-transformed data
 I am really interested to learn how to use nlmixr in pk modeling.","sliao999",3,0
@@ -22423,7 +22484,7 @@ warning: 'Cl' may be used uninitialized in this function [-Wmaybe-uninitialized]
 Error in configsaem(model = model, data = dat, inits = inits, mcmc = .mcmc,  : 
   nphi and covstruct dim mismatch
 
-Am I using if / else in an incorrect way?","dzianismr",54,38
+Am I using if / else in an incorrect way?","dzianismr",55,39
 "Roche/ggtips","Exclude groups names of groups that are out of plot range","https://github.com/Roche/ggtips/pull/60","closed",2021-04-30,2021-04-30,2021-04-30,1,"When limiting range of plot axis there may be situation that some items on plot are outside of selected range and so they are not visible. ggtips incorrectly assigned levels in tooltip data. When item was out of plot range then it was correctly removed from data but its level was assigned to the next visible element in data. As a result incorrect labels were visible on tooltips.  ","adamgolubowski",0,0
 "nlmixrdevelopment/nlmixr","parallel computing","https://github.com/nlmixrdevelopment/nlmixr/issues/523","closed",2021-04-30,2021-05-01,2021-05-01,0,"I tried parallel computing with this pk model below. Not sure what is missing, it is running, but not using more than one core.
 ===============================
@@ -22909,7 +22970,7 @@ interp_extrap <- function(yout, x, y) {
   xout <- (yout - intercept)/slope
   xout
 }
-```","billdenney",52,52
+```","billdenney",53,53
 "nlmixrdevelopment/nlmixr","Question: What is the best way to extract the original model function?","https://github.com/nlmixrdevelopment/nlmixr/issues/525","closed",2021-05-03,2021-05-15,2021-05-15,3,"When reporting, I want to provide a listing of the model used.  For that, I would prefer to extract the model function from the model (rather than tracking which model function goes with which fit manually).  The best way that I found to get the character listing of the model is below.  Is there a better way?
 
 ```r
@@ -22960,7 +23021,7 @@ This is in `gabe_tabletree_work ` branch.
 ","anajens",0,0
 "Roche/rtables","Example of using referential footnotes ","https://github.com/Roche/rtables/issues/197","open",2021-05-06,2021-06-17,NA,3,"@gmbecker would you be able to add some examples showing how to add referential footnotes? 
 
-I remember earlier you shared some slides showing the various places in a table that can support these footnotes but going through the changes on `gabe_tabletree_work` I can't find the documentation of this. Maybe a vignette on this would be helpful?","anajens",47,5
+I remember earlier you shared some slides showing the various places in a table that can support these footnotes but going through the changes on `gabe_tabletree_work` I can't find the documentation of this. Maybe a vignette on this would be helpful?","anajens",48,6
 "Roche/rtables","export_as_txt is not exported","https://github.com/Roche/rtables/issues/195","closed",2021-05-06,2021-05-06,2021-05-06,0,"This is on `gabe_tabletree` branch. Not sure if this is because this feature is experimental but it seems like `export_as_txt` would be a very useful function.","anajens",0,0
 "Roche/rtables","Tables in Viewer are difficult to read","https://github.com/Roche/rtables/issues/194","closed",2021-05-06,2021-05-19,2021-05-17,6,"I'm testing `gabe_table_tree` branch and noticed that the Viewer output looks different. 
 - Columns are too crowded, there needs to be some cell padding
@@ -22985,7 +23046,7 @@ Add issue to replace this approch with setting variables to null in the function
 
 See here for more details on the alternative approach https://github.com/STAT545-UBC/Discussion/issues/451
 
-","bailliem",46,46
+","bailliem",47,47
 "openpharma/visR","Added missing tests","https://github.com/openpharma/visR/pull/169","closed",2021-05-08,2021-05-10,2021-05-10,0,"","timtreis",2,0
 "openpharma/visR","Improved tests and integrated skip_on_cran() for vdiffr","https://github.com/openpharma/visR/pull/170","closed",2021-05-08,2021-05-31,2021-05-10,0,"","timtreis",2,-21
 "openpharma/visR","Resolve plot warning rmd check","https://github.com/openpharma/visR/pull/171","closed",2021-05-09,2021-05-22,2021-05-11,4,"1. change survfit to survfit_visR class in estimate_KM. This is extension of survfit
@@ -23000,6 +23061,7 @@ See here for more details on the alternative approach https://github.com/STAT545
 * get_COX_HR
 
 changed files so object class = x and ensure that ... was present in function call for S3 methods","bailliem",13,0
+"Merck/pkglite","add rules to protect master branch","https://github.com/Merck/pkglite/issues/13","closed",2021-05-10,2021-05-10,2021-05-10,2,"https://github.com/Merck/pkglite/settings/branches","elong0527",0,0
 "openpharma/visR","Added last missing test","https://github.com/openpharma/visR/pull/173","closed",2021-05-10,2021-05-10,2021-05-10,0,"","timtreis",0,0
 "openpharma/visR","Added skip_on_cran() to add_CI tests.","https://github.com/openpharma/visR/pull/174","closed",2021-05-10,2021-05-10,2021-05-10,0,"","timtreis",0,0
 "openpharma/visR","Removed all svgs. Regenerate, once visR is in final state","https://github.com/openpharma/visR/pull/175","closed",2021-05-10,2021-05-31,2021-05-10,0,"","timtreis",0,-21
@@ -23273,7 +23335,7 @@ other attached packages:
 
 loaded via a namespace (and not attached):
 [1] compiler_3.6.3  htmltools_0.4.0 tools_3.6.3     Rcpp_1.0.4.6    digest_0.6.25   packrat_0.5.0   rlang_0.4.9
-```","anajens",42,42
+```","anajens",43,43
 "nlmixrdevelopment/nlmixr","issue with changing model features","https://github.com/nlmixrdevelopment/nlmixr/issues/528","closed",2021-05-11,2021-05-15,2021-05-15,5,"It is a great functionality to change model features as described in model piping tutorial (https://nlmixrdevelopment.github.io/nlmixr/articles/modelPiping.html). I was experimenting with automating model selection process and run into trouble with this functionality. I was trying to add an additional if/else statement into the model (related to https://github.com/nlmixrdevelopment/nlmixr/issues/521). 
 Below is an example:
 
@@ -23380,6 +23442,7 @@ However that is not the outcome. Am I using this change model syntax is incorrec
 * Replace all instances of visR::plot with visR::visr
 * rename plot.R to plot_visr.R
 * tidy up documentation","bailliem",10,0
+"Merck/pkglite","Submit to CRAN Task View","https://github.com/Merck/pkglite/issues/14","open",2021-05-11,2021-05-11,NA,0,"https://cran.r-project.org/web/views/ReproducibleResearch.html","nanxstats",43,43
 "Novartis/peax","Bump postcss from 7.0.26 to 8.2.10 in /ui","https://github.com/Novartis/peax/pull/16","closed",2021-05-12,2021-06-15,2021-06-15,1,"Bumps [postcss](https://github.com/postcss/postcss) from 7.0.26 to 8.2.10.
 <details>
 <summary>Release notes</summary>
@@ -23649,13 +23712,13 @@ I would be thankful, if you could share your thoughts on this idea, especially i
 
 Thank you.
 
-W.","ghost",41,5
+W.","ghost",42,6
 "openpharma/visR","update","https://github.com/openpharma/visR/pull/179","closed",2021-05-13,2021-05-13,2021-05-13,0,"","SHAESEN2",0,0
 "openpharma/visR","Test/add annotation","https://github.com/openpharma/visR/pull/180","closed",2021-05-14,2021-05-22,2021-05-22,1,"","SHAESEN2",8,0
 "Roche/respectables","Add some examples to documentation","https://github.com/Roche/respectables/pull/12","closed",2021-05-18,2021-05-28,2021-05-28,0,"closes #6 
 
 @gmbecker I have added a few examples to the `table_recipe_utils.R` documentation using `roxygen2`, please take a look - thanks!","edelarua",10,0
-"Roche/respectables","complete readme","https://github.com/Roche/respectables/issues/13","open",2021-05-19,2021-05-19,NA,0,"","waddella",34,34
+"Roche/respectables","complete readme","https://github.com/Roche/respectables/issues/13","open",2021-05-19,2021-05-19,NA,0,"","waddella",35,35
 "Roche/ggtips","fix tooltip error when data is empty list","https://github.com/Roche/ggtips/pull/62","closed",2021-05-19,2021-05-19,2021-05-19,1,"It seems that on barplot, that we have in our application, the data is an empty list not null. It throws errors when it finds small rectangles from small bars on the plot.","jcubic",0,0
 "Roche/respectables","gh-pages branch with the docs only","https://github.com/Roche/respectables/issues/14","closed",2021-05-19,2021-05-28,2021-05-28,0,"- [ ] create a branch `gh-pages`, delete the R package
 - [ ] update the circleci publishing pkgdown website to that branch (only for master branch changes) (filter option).
@@ -23680,6 +23743,7 @@ The nice indentation in the header is lost when displaying rtables in the Viewer
 _Originally posted by @anajens in https://github.com/Roche/rtables/issues/194#issuecomment-833806000_","anajens",9,-5
 "pharmaR/riskmetric","missing image from packagedown site","https://github.com/pharmaR/riskmetric/issues/204","closed",2021-05-20,2021-05-26,2021-05-26,1,"![image](https://user-images.githubusercontent.com/10111024/119040929-fcea4d00-b983-11eb-8e8c-ee34abc03095.png)
 ","bms63",6,0
+"Merck/pkglite","tests for prune and merge","https://github.com/Merck/pkglite/pull/15","closed",2021-05-20,2021-05-21,2021-05-21,0,"","ashirazist",1,0
 "openpharma/visR","Update readme","https://github.com/openpharma/visR/pull/181","closed",2021-05-21,2021-05-21,2021-05-21,1,"","epijim",0,0
 "pharmaR/riskmetric","Update workflow image path and location","https://github.com/pharmaR/riskmetric/pull/205","closed",2021-05-21,2021-05-26,2021-05-26,1,"Thanks to @bms63 for finding this!
 
@@ -23808,25 +23872,25 @@ Features included:
 4. A simple PR template to allow contributors to make sure that they are abiding by the governance standards set herein. 
 
 Refer to additional branch-protection related governance settings here: https://github.com/Roche/respectables/settings/branch_protection_rules/20730306","dinakar29",3,0
-"Roche/respectables","Governance for contributions and project management","https://github.com/Roche/respectables/issues/18","open",2021-05-28,2021-05-28,NA,0,"Add basic governance standards for easier project management and auto-tagging of bugs and feature requests. Also add default code owners for auto-assigning reviewers during pull requests.","dinakar29",25,25
+"Roche/respectables","Governance for contributions and project management","https://github.com/Roche/respectables/issues/18","open",2021-05-28,2021-05-28,NA,0,"Add basic governance standards for easier project management and auto-tagging of bugs and feature requests. Also add default code owners for auto-assigning reviewers during pull requests.","dinakar29",26,26
 "Roche/respectables","20 - Basic Github actions","https://github.com/Roche/respectables/pull/21","open",2021-05-30,2021-06-14,NA,1,"Track Issue #20
 
 Starter Github actions to enhance DX (developer experience).
 Most of these have been borrowed from https://github.com/r-lib/actions/tree/master/examples and some have been lifted-and-shifted from CircleCI
-","dinakar29",23,8
+","dinakar29",24,9
 "Roche/respectables","Github Actions over CircleCI","https://github.com/Roche/respectables/issues/20","open",2021-05-30,2021-05-30,NA,1,"Github actions workflows is increasing in popularity in the OSS community, we should look into utilizing it over CircleCI. Some of the advantages of GH actions over CircleCI include:
 
 * Simple and easy to understand workflow definition syntax
 * The availability of a vast number of both Github supported and community actions, allowing one to automate almost anything
 * The ability and ease with which one can create a custom action
 * Strong integration into the Github SCM, i.e. no need to worry about webhook configurations and secrets management
-... among many others.","dinakar29",23,23
+... among many others.","dinakar29",24,24
 "openpharma/visR","rename summarize to avoid masking of dplyr summarize","https://github.com/openpharma/visR/issues/196","closed",2021-05-30,2021-05-31,2021-05-31,0,"The default utility function for summarizing data in get_tableone is called `summarize` and thus overwrites the dplyr _summarize_ function. Rename to something else","cschaerfe",1,0
 "openpharma/visR","Renamed summary functions for table 1","https://github.com/openpharma/visR/pull/197","closed",2021-05-30,2021-05-31,2021-05-31,2,"","cschaerfe",1,0
 "openpharma/visR","Fixed issue in which the data source got duplicated when interacting.","https://github.com/openpharma/visR/pull/200","closed",2021-05-31,2021-05-31,2021-05-31,1,"In response to an (ancient) open issue.","timtreis",0,0
 "openpharma/visR","Should we expand the cicd testing via rhub?","https://github.com/openpharma/visR/issues/202","open",2021-05-31,2021-05-31,NA,1,"https://r-hub.github.io/rhub/articles/rhub.html
 
-above lets you test across many more platforms- should we look to more than the current few platforms?","epijim",22,22
+above lets you test across many more platforms- should we look to more than the current few platforms?","epijim",23,23
 "openpharma/visR","Test CI/CD develop to main checks","https://github.com/openpharma/visR/pull/199","closed",2021-05-31,2021-06-01,2021-06-01,0,"Test to check CICD runs merging to master. 
 
 Want to check that we can merge to master from a clean develop and that documentation automatically builds. ","bailliem",1,0
@@ -23866,7 +23930,7 @@ lung_suvival_object %>%
 - A plot with ""Time"" as the x-axis label
 
 #### Additional details / screenshot
-","timtreis",21,20
+","timtreis",22,21
 "Roche/respectables","4 make a unit test","https://github.com/Roche/respectables/pull/22","closed",2021-06-02,2021-06-04,2021-06-04,3,"@gmbecker I made a unit test for the `subjid_func` function to review. I'm not sure if there's a reason why the `test.R` file was commented out so I left it how it was.
 
 close #22 ","edelarua",2,0
@@ -23913,7 +23977,7 @@ p +
 
 
 #### Additional details / screenshot
-","timtreis",20,20
+","timtreis",21,21
 "openpharma/visR","Merge in CICD changes","https://github.com/openpharma/visR/pull/210","closed",2021-06-03,2021-06-04,2021-06-04,1,"This doesn't effect the R package - readme and CICD fixes
 
 Closes #209 ","epijim",1,0
@@ -23936,7 +24000,7 @@ Is there, or can there be, a way of specifying the overall N= inside the `group_
 `set_format_strings(f_str(""xx/xx (xxx.x)"", distinct_n, N, distinct_pct))` ?
 
 Thanks,
-Robert","Robert-Krajcik",18,13
+Robert","Robert-Krajcik",19,14
 "openpharma/simaerep","Adress warning from future package","https://github.com/openpharma/simaerep/issues/6","closed",2021-06-04,2021-06-10,2021-06-10,2,"Warning: UNRELIABLE VALUE: Future ('<none>') unexpectedly generated random
 numbers without specifying argument '[future.]seed'. There is a risk that those
 random numbers are not statistically sound and the overall results might be
@@ -23957,8 +24021,8 @@ goodrec2 <- tribble(~variables, ~dependencies, ~func, ~func_args, ~keep,
                     ""VAR1"", no_deps, seq_n, NULL, TRUE)
 ```
 
-we are closing the #22 and those couple of lines were left","waddella",18,18
-"openpharma/visR","Bugfix/20210605 xlabel","https://github.com/openpharma/visR/pull/211","open",2021-06-05,2021-06-10,NA,0,"","timtreis",17,12
+we are closing the #22 and those couple of lines were left","waddella",19,19
+"openpharma/visR","Bugfix/20210605 xlabel","https://github.com/openpharma/visR/pull/211","open",2021-06-05,2021-06-10,NA,0,"","timtreis",18,13
 "openpharma/visR","Changed the way the x- and y-axis labels are applied","https://github.com/openpharma/visR/pull/212","open",2021-06-05,2021-06-17,NA,6,"Very minor change that however fixes the previous incompatibility with ggplot2s' xlab/ylab commands.
 
 Adresses issue https://github.com/openpharma/visR/issues/207
@@ -23966,10 +24030,10 @@ Adresses issue https://github.com/openpharma/visR/issues/207
 Rough troubleshooting train of thought:
 a) By inspecting the plot components I noticed that the desired label actually ends up in the plot data.
 b) Experiment around with priorities of ggplot scales and labels
-c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",17,5
+c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",18,6
 "openpharma/visR","In the absence of a specified x-label or a data-derived label, should the x-axis be blank?","https://github.com/openpharma/visR/issues/213","open",2021-06-08,2021-06-08,NA,0,"See title.
 
-Related to the comments in PR https://github.com/openpharma/visR/pull/211 and https://github.com/openpharma/visR/pull/212.","timtreis",14,14
+Related to the comments in PR https://github.com/openpharma/visR/pull/211 and https://github.com/openpharma/visR/pull/212.","timtreis",15,15
 "Roche/ggtips","Stroke color","https://github.com/Roche/ggtips/pull/65","closed",2021-06-09,2021-06-09,2021-06-09,1,"","cosi1",0,0
 "nlmixrdevelopment/nlmixr","The data returned by nlmixr are not the same as the input data","https://github.com/nlmixrdevelopment/nlmixr/issues/530","closed",2021-06-09,2021-06-10,2021-06-10,9,"The following reprex shows the problem if you compare the output of the last two calls to `subset`. The listed data should be the same, but in the nlmixr output some of the data for the parent compound are attributed to the metabolite `m1`.
 
@@ -24324,6 +24388,9 @@ Missing Rd-tags in up to 18 .Rd files, e.g.:
       summarize_long.factor.Rd: \value
 
 ","bailliem",1,0
+"Merck/pkglite","float TOC for pkgdown website","https://github.com/Merck/pkglite/issues/16","closed",2021-06-10,2021-06-11,2021-06-11,1,"It seems pkgdown website allow float TOC. But our template did not enable it. 
+
+https://pkgdown.r-lib.org/articles/pkgdown.html","elong0527",1,0
 "openpharma/visR","Issue/222 value docs","https://github.com/openpharma/visR/pull/224","closed",2021-06-10,2021-06-11,2021-06-11,1,"To address issue #222 ","bailliem",1,0
 "openpharma/visR","Now checking for data.table in a better way","https://github.com/openpharma/visR/pull/221","closed",2021-06-10,2021-06-10,2021-06-10,0,"Addresses issue https://github.com/openpharma/visR/issues/220","timtreis",0,0
 "openpharma/visR","Release/cran june2021","https://github.com/openpharma/visR/pull/223","closed",2021-06-10,2021-06-10,2021-06-10,0,"rebase issue branch","bailliem",0,0
@@ -24341,9 +24408,9 @@ https://cpb-us-w2.wpmucdn.com/blog.nus.edu.sg/dist/0/3425/files/2018/10/Understa
 This is incorrect. The following formula should be used:
 1-GAMMA.DIST(time, shape, 1/(rate),TRUE) 
 
-Functions correct but documentation needs updating","iain-t-bennett-roche",11,11
+Functions correct but documentation needs updating","iain-t-bennett-roche",12,12
 "openpharma/visR","Retired table_caption and table_download for later release","https://github.com/openpharma/visR/pull/225","closed",2021-06-11,2021-06-11,2021-06-11,1,"","timtreis",0,0
-"Roche/respectables","25 renv","https://github.com/Roche/respectables/pull/26","open",2021-06-14,2021-06-17,NA,0,"add `renv.lock` file and update `README.md`","waddella",8,5
+"Roche/respectables","25 renv","https://github.com/Roche/respectables/pull/26","open",2021-06-14,2021-06-17,NA,0,"add `renv.lock` file and update `README.md`","waddella",9,6
 "openpharma/visR","add cran badge to readme. minor additions to visR and data adtte docu…","https://github.com/openpharma/visR/pull/227","closed",2021-06-14,2021-06-14,2021-06-14,0,"…ment descriptions.","bailliem",0,0
 "nlmixrdevelopment/nlmixr","Help please: dual absorption nlmixr model (first+zero)","https://github.com/nlmixrdevelopment/nlmixr/issues/531","open",2021-06-14,2021-06-22,NA,14,"Hello, 
 I was trying to fit a dual absorption model using the dataset that shows dual absorption.
@@ -24482,7 +24549,7 @@ Z201 <- function() {
 ```
 
 [dataset.zip](https://github.com/nlmixrdevelopment/nlmixr/files/6645852/dataset.zip)
-","yjung1",8,0
+","yjung1",9,1
 "nlmixrdevelopment/nlmixr","Help request: `library(nlmixr)` failing when using version 1.1.1-5","https://github.com/nlmixrdevelopment/nlmixr/issues/532","open",2021-06-14,2021-06-14,NA,2,"Firstly, thank you for your efforts on developing this package. 
 
 I am working with version 1.1.1-5 on R 3.6.3. I appreciate that a lot of work has gone into the package since then but do not have the option of updating.
@@ -24494,9 +24561,9 @@ My feeling is that the cause is a non-R dependency problem but this error isn't 
 
 The OS is redhat 7.7 eus repos. I have successfully used the same version of the package on other servers with the same OS, R packages, system dependencies and install process but it's failing on a new server. 
 
-Any pointers would be much appreciated! I'll try to provide any additional information that you think may help you diagnose the problem. Thanks in advance.","erp31",8,8
+Any pointers would be much appreciated! I'll try to provide any additional information that you think may help you diagnose the problem. Thanks in advance.","erp31",9,9
 "openpharma/visR","Release/cran june2021","https://github.com/openpharma/visR/pull/226","closed",2021-06-14,2021-06-14,2021-06-14,0,"Merge release branch back to develop","bailliem",0,0
-"Roche/respectables","renv","https://github.com/Roche/respectables/issues/25","open",2021-06-14,2021-06-14,NA,0,"control external package dependencies with `renv`","waddella",8,8
+"Roche/respectables","renv","https://github.com/Roche/respectables/issues/25","open",2021-06-14,2021-06-14,NA,0,"control external package dependencies with `renv`","waddella",9,9
 "openpharma/visR","Update main with released cran version","https://github.com/openpharma/visR/pull/228","closed",2021-06-14,2021-06-15,2021-06-15,0,"Merging the release branch in to main, including update to readme with cran badge. 
 Minor edits to readme
 * remove call to library(ggplot2)
@@ -24664,7 +24731,7 @@ You can trigger Dependabot actions by commenting on this PR:
 
 You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/Novartis/peax/network/alerts).
 
-</details>","dependabot[bot]",7,7
+</details>","dependabot[bot]",8,8
 "atorus-research/xportr","Proposed feature: abbreviate variable names <= 8 chars","https://github.com/atorus-research/xportr/issues/1","open",2021-06-15,2021-06-15,NA,0,"Greetings, thanks for sharing your work with the greater pharma industry! Maybe I can help contribute: I've done some work on prepping [sas v5 transport files](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/movefile/n1xbwdre0giahfn11c99yjkpi2yb.htm) in my current role with Biogen. Specifically, via a pkg & shiny app that automatically abbreviates variables names <= 8.
 
 To augment the package beyond just checking for <=8 chars, I'd be willing to contribute function called `xportr_var_rename()` or something similar that takes the `var_spec` object and performs an abbreviation algorithm, where each variable would be renamed using the least intrusive method possible (to maintain originality) to achieve <=8 chars. If you think it's within scope of the `xportr` package, please let me know!
@@ -24675,12 +24742,12 @@ Here's an example of my function as it works today, using some clinical variable
 ![image](https://user-images.githubusercontent.com/17878953/122123854-89115800-cdfc-11eb-81b6-1806718bfcb2.png)
 
 
-","AARON-CLARK",7,7
+","AARON-CLARK",8,8
 "openpharma/visR","Rebuild readme from main?","https://github.com/openpharma/visR/pull/229","closed",2021-06-15,2021-06-15,2021-06-15,0,"Don't merge. 
 WIP - how do we rebuild develop readme?","bailliem",0,0
 "openpharma/visR","Rebuild readme in main folder","https://github.com/openpharma/visR/pull/231","closed",2021-06-15,2021-06-15,2021-06-15,0,"rebuild readme for develop branch","bailliem",0,0
-"openpharma/simaerep","allow to aggregate also on days on study instead of visits","https://github.com/openpharma/simaerep/issues/11","open",2021-06-16,2021-06-16,NA,0,"Using days instead of visits makes differences in time between visits expressive. Using days should be optional and an article should be drafted comparing both methods.","erblast",6,6
-"openpharma/simaerep","visit_med75 improvement","https://github.com/openpharma/simaerep/issues/10","open",2021-06-16,2021-06-16,NA,0,"use visit_med75 to filter patient that are included in the analysis and then of those that are included use the smallest maximum patient visit. Like this the visit_med75 can be increased by a couple of visits for cases where none of the included maximum patient visits is exactly the median of all patients.","erblast",6,6
+"openpharma/simaerep","allow to aggregate also on days on study instead of visits","https://github.com/openpharma/simaerep/issues/11","open",2021-06-16,2021-06-16,NA,0,"Using days instead of visits makes differences in time between visits expressive. Using days should be optional and an article should be drafted comparing both methods.","erblast",7,7
+"openpharma/simaerep","visit_med75 improvement","https://github.com/openpharma/simaerep/issues/10","open",2021-06-16,2021-06-16,NA,0,"use visit_med75 to filter patient that are included in the analysis and then of those that are included use the smallest maximum patient visit. Like this the visit_med75 can be increased by a couple of visits for cases where none of the included maximum patient visits is exactly the median of all patients.","erblast",7,7
 "Roche/ggtips","Add addAttributes parameter to getSvgAndTooltipdata","https://github.com/Roche/ggtips/pull/66","closed",2021-06-17,2021-06-17,2021-06-17,0,"Prevent unused argument error by adding `addAttibutes` parameter to `getSvgAndTooltipdata` and pass it explicitly to `saveAndGetTooltips`","adamgolubowski",0,0
 "openpharma/visR","Add in the packages score on a risk metric","https://github.com/openpharma/visR/issues/232","open",2021-06-17,2021-06-18,NA,4,"## Idea
 
@@ -24695,8 +24762,8 @@ Add riskmetric to cicd - and expose as badge (if no badge service exists I guess
 Is the score designed to be used on a single package? e.g. what does '0.8' mean to an end user?
 
 It's also easy for us to game the number by looking at the categories - although maybe that also increases the quality of the package so is ok?
-","epijim",5,4
-"Roche/rtables","analyze_colvars tables missing columns in html format","https://github.com/Roche/rtables/issues/207","open",2021-06-17,2021-06-17,NA,1,"```r
+","epijim",6,5
+"Roche/rtables","analyze_colvars header is not aligned in html format","https://github.com/Roche/rtables/issues/207","open",2021-06-17,2021-06-22,NA,2,"```r
 library(rtables)
 library(dplyr)
 ANL <- DM %>% mutate(value = rnorm(n()), pctdiff = runif(n()))
@@ -24716,10 +24783,10 @@ l <- basic_table() %>%
 build_table(l, ANL) %>% Viewer()
 
 ```
-The result looks fine in the console but in html format, the last 3 columns are missing.
+The result looks fine in the console but in html format, ~the last 3 columns are missing~ the columns and header are not aligned.
 
 ![image](https://user-images.githubusercontent.com/43623360/122472190-3ebfe080-cf8e-11eb-900e-12cd43d6c34c.png)
-","anajens",5,5
+","anajens",6,1
 "Roche/rtables","Is there a way to bold row labels for html tables?","https://github.com/Roche/rtables/issues/206","open",2021-06-17,2021-06-17,NA,0,"`Viewer` has the argument `row.names.bold` which does not seem to be in use right now. I'm wondering if there is an alternative simple way to add the markup?  For example, with `** My Label **`
 
 ```r
@@ -24727,7 +24794,7 @@ basic_table() %>%
   split_cols_by(""ARM"") %>%
   analyze(""AGE"", show_labels = ""visible"", var_labels = ""** AGE **"") %>%
   build_table(ex_adsl)
-```","anajens",5,5
+```","anajens",6,6
 "Roche/rtables","Should tiltes and footnotes be shown in html tables?","https://github.com/Roche/rtables/issues/205","open",2021-06-17,2021-06-17,NA,2,"The plain text version of this table includes the titles and footnotes, but the html version does not. Is this expected? 
 
 ```r
@@ -24741,11 +24808,79 @@ basic_table(title = ""ABC"", main_footer = ""XYZ"") %>%
 ![image](https://user-images.githubusercontent.com/43623360/122318034-75ddb580-ceec-11eb-9169-65046157ecd6.png)
 
 
-","anajens",5,5
-"openpharma/staged.dependencies","change slash separator to @, update readme","https://github.com/openpharma/staged.dependencies/pull/4","open",2021-06-22,2021-06-22,NA,0,"","maximilianmordig",0,0
+","anajens",6,6
+"openpharma/staged.dependencies","change slash separator to @, update readme","https://github.com/openpharma/staged.dependencies/pull/4","closed",2021-06-22,2021-06-23,2021-06-23,1,"","maximilianmordig",1,0
+"openpharma/staged.dependencies","investigate the RStudio Job Launcher","https://github.com/openpharma/staged.dependencies/issues/7","open",2021-06-22,2021-06-23,NA,0,"I.e. build and check per package run as jobs (maybe download too), see
+
+i.e. have a look: https://blog.rstudio.com/2019/03/14/rstudio-1-2-jobs/
+
+note that downstream checking needs to stay command line compatible as we will run it in CI/CD","waddella",1,0
+"openpharma/staged.dependencies","make a staged dependency graph and text output","https://github.com/openpharma/staged.dependencies/issues/6","open",2021-06-22,2021-06-23,NA,0,"# Graph
+
+It would be good for any package that has a `staged_dependencies.yaml` file to allow to create a dependency graph that includes only other packages mentioned in the `staged_dependencies.yaml` files (recursively):
+
+![staged dependencies (4)](https://user-images.githubusercontent.com/7786462/123103833-aa92c500-d436-11eb-9e35-428cc8781b68.png)
+
+# Text output
+
+Also, for command line use it would be good to add the `internal_dependencies` function that would look as follows:
+
+```
+staged_dependencies()
+
+current branch: 01_fix@devel
+
+repo        branch             rel
+-------------------------------------------
+B           devel               upstream
+A           devel               upstream
+C           01_fix@devel        upstream
+D           01_fix@devel        current
+E           devel               downstream
+F           01_fix@devel        downstream
+G           devel               downstream
+H           devel               other
+I           01_fix@devel        other
+J           devel               other
+K           devel               other
+L           devel               downstream
+```
+
+Note the return object should be a `data.frame`.","waddella",1,0
 "openpharma/staged.dependencies","Review","https://github.com/openpharma/staged.dependencies/pull/2","closed",2021-06-22,2021-06-22,2021-06-22,2,"@maximilianmordig, please have a look at my proposed changes.
 
 My credentials with gitlab still don't work. Can you please have a look and update the `README.md` with the instructions to get started. I guess it's best to create an `.Rprofile` and set the system variables.
 
 I will create new issues for other feedback. ","waddella",0,0
 "openpharma/staged.dependencies","some fixes","https://github.com/openpharma/staged.dependencies/pull/3","closed",2021-06-22,2021-06-22,2021-06-22,1,"","maximilianmordig",0,0
+"openpharma/staged.dependencies","token matching","https://github.com/openpharma/staged.dependencies/issues/5","open",2021-06-22,2021-06-23,NA,0,"please update the code and `README.md` to support a token lookup table. That is, I suggest to add an entry in `options` with a default mapping
+
+```
+options(staged.depencencies.token_mapping = c(
+    ""https://github.com"" = ""GITHUB_PAT"", 
+    ""https://gitlab.com"" = ""GITLAB_PAT""
+))
+```
+
+and then the user can modify it in the `.Rprofile`
+
+","waddella",1,0
+"openpharma/staged.dependencies","check if this works with renv","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-23,NA,0,"not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",0,0
+"openpharma/staged.dependencies","install_all_staged_dependcies","https://github.com/openpharma/staged.dependencies/issues/8","open",2021-06-23,2021-06-23,NA,0,"i.e. install all packages on the staged dependency graph from the correct branches.","waddella",0,0
+"openpharma/staged.dependencies","local repos","https://github.com/openpharma/staged.dependencies/issues/10","open",2021-06-23,2021-06-23,NA,0,"add a `local` argument that takes a data.frame with 3 columns (repo, host, local_path) so that the user can use local clones for checking and installation (i.e. working on a repo spanning feature locally). The `local` argument should be `NULL` by default, i.e. getting all the dependencies from the remotes.
+
+
+# In the RStudio addin
+
+Then you can ask which rrepo to use locally and store the default local repo mapping in the file `~/.staged_dependencies/config`
+
+```
+repo, host, local_path
+Roche/rtables, https://github.com, ~/git_projects/rtables
+```","waddella",0,0
+"openpharma/staged.dependencies","yaml file should include the repo and host for current project","https://github.com/openpharma/staged.dependencies/issues/11","open",2021-06-23,2021-06-23,NA,0,"so that in check downstream should
+
+1. install all upstream (local or remote as per `local` argument)
+2. install current package from the local place
+3. build, check, install downstream (local or remote as per `local` argument)
+","waddella",0,0
