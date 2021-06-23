@@ -12,7 +12,7 @@
   type: table
 - path: all-repos
   name: all-repos
-  rows: 29
+  rows: 32
   cols: 7
   description: List of repos in open pharma
   type: table
