@@ -3646,7 +3646,6 @@ Thanks for your help.
 
 ","ryamy",0,0
 "nlmixrdevelopment/nlmixr","Simplify model tests","https://github.com/nlmixrdevelopment/nlmixr/pull/119","closed",2019-01-03,2019-01-18,2019-01-18,12,"@billdenney Issue #99.  I merged your branch into a seperate branch here.  ","mattfidler",15,0
-"nlmixrdevelopment/nlmixr","Simplify model tests","https://github.com/nlmixrdevelopment/nlmixr/pull/118","closed",2019-01-03,2019-01-03,2019-01-03,0,"Simplify model tests.","mattfidler",0,0
 "nlmixrdevelopment/nlmixr","Default bobyqa from minqa not working well for FOCEi in Mac OSX, though unsure why...","https://github.com/nlmixrdevelopment/nlmixr/issues/120","closed",2019-01-13,2019-01-23,2019-01-23,0,"The objective function is quite off for the theo_sd examples compared to all the other platforms.  The ""nlminb"" gives reasonable results, though. ","mattfidler",10,0
 "Roche/rtables","Update sort_* and order_* documentation","https://github.com/Roche/rtables/pull/18","closed",2019-01-15,2019-01-16,2019-01-16,1,"Hi @waddella ,
 
@@ -9843,7 +9842,6 @@ From Letizia: In general, capital letters refer to population attributes (i.e., 
 "openpharma/visR","Revert ""Render alluvial vignette ""","https://github.com/openpharma/visR/pull/35","closed",2020-03-31,2020-03-31,2020-03-31,0,"Reverts openpharma/visR#34
 Alluvial does not render on gh-pages","bailliem",0,0
 "openpharma/visR","update alluvial plot rendering","https://github.com/openpharma/visR/pull/37","closed",2020-03-31,2020-03-31,2020-03-31,0,"point to svg for attribtion figure","bailliem",0,0
-"openpharma/visR","update alluvial plot rendering","https://github.com/openpharma/visR/pull/36","closed",2020-03-31,2020-03-31,2020-03-31,0,"point to svg for attribtion figure","bailliem",0,0
 "openpharma/visR","Data Source caption duplicated in DT rendering of Table1","https://github.com/openpharma/visR/issues/41","closed",2020-04-01,2021-05-31,2021-05-31,3,"The caption at the bottom of a DT-rendered table seems to replicate every time the user interacts with the table (filtering, sorting etc.). 
 
 MRE:
@@ -10048,57 +10046,6 @@ However, we also have a large number of metric specific packages and I expect th
 
 Perhaps we could think of a way of tagging assess functions with their package dependencies such that we can build a small onLoad dialog about what assess functions will be ignored until their additional Suggested package dependencies are installed? This would let us focus on a small set of minimal dependencies for general behaviors while still allowing for more complex functionality through package extensions. ","dgkf",86,0
 "pharmaR/riskmetric","updating extending-riskmetric vignette to give better context","https://github.com/pharmaR/riskmetric/pull/98","closed",2020-04-13,2020-04-13,2020-04-13,0,"Addressed concerns in #75 ","dgkf",0,0
-"Roche/ggtips","Configure Renovate","https://github.com/Roche/ggtips/pull/29","closed",2020-04-15,2020-11-09,2020-10-06,0,"Welcome to [Renovate](https://togithub.com/renovatebot/renovate)! This is an onboarding PR to help you understand and configure settings before regular Pull Requests begin.
-
-:vertical_traffic_light: To activate Renovate, merge this Pull Request. To disable Renovate, simply close this Pull Request unmerged.
-
-
-
----
-### Detected Package Files
-
- * `inst/Dockerfile` (dockerfile)
-
-### Configuration Summary
-
-Based on the default config's presets, Renovate will:
-
-  - Start dependency updates only once this onboarding PR is merged
-  - Separate major versions of dependencies into individual branches/PRs
-  - Do not separate patch and minor upgrades into separate PRs for the same dependency
-  - Upgrade to unstable versions only if the existing version is unstable
-  - Raise PRs immediately (after branch is created)
-  - If semantic commits detected, use semantic commit type <code>fix</code> for dependencies and <code>chore</code> for all others
-  - Keep existing branches updated even when not scheduled
-  - Disable automerging feature - wait for humans to merge all PRs
-  - Ignore `node_modules`, `bower_components`, `vendor` and various test/tests directories
-  - Update existing lock files only when <code>package.json</code> is modified
-  - Autodetect whether to pin dependencies or maintain ranges
-  - Rate limit PR creation to a maximum of two per hour
-  - Limit to maximum 20 open PRs at any time
-  - Group known monorepo packages together
-  - Use curated list of recommended non-monorepo package groupings
-
-:abcd: Would you like to change the way Renovate is upgrading your dependencies? Simply edit the `renovate.json` in this branch with your custom config and the list of Pull Requests in the ""What to Expect"" section below will be updated the next time Renovate runs.
-
----
-You have configured Renovate to use branch `master` as base branch.
-
-
-### What to Expect
-
-It looks like your repository dependencies are already up-to-date and no Pull Requests will be necessary right away.
-
----
-
-:question: Got questions? Check out Renovate's [Docs](https://docs.renovatebot.com/), particularly the Getting Started section.
-If you need any further assistance then you can also [request help here](https://togithub.com/renovatebot/config-help/issues).
-
-
----
-
-This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#Roche/ggtips).
-","renovate[bot]",174,-34
 "Roche/crmPack","Configure Renovate","https://github.com/Roche/crmPack/pull/5","open",2020-04-15,2020-04-15,NA,0,"Welcome to [Renovate](https://togithub.com/renovatebot/renovate)! This is an onboarding PR to help you understand and configure settings before regular Pull Requests begin.
 
 :vertical_traffic_light: To activate Renovate, merge this Pull Request. To disable Renovate, simply close this Pull Request unmerged.
@@ -10688,6 +10635,57 @@ If you need any further assistance then you can also [request help here](https:/
 
 This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#Roche/crmPack).
 ","renovate[bot]",434,434
+"Roche/ggtips","Configure Renovate","https://github.com/Roche/ggtips/pull/29","closed",2020-04-15,2020-11-09,2020-10-06,0,"Welcome to [Renovate](https://togithub.com/renovatebot/renovate)! This is an onboarding PR to help you understand and configure settings before regular Pull Requests begin.
+
+:vertical_traffic_light: To activate Renovate, merge this Pull Request. To disable Renovate, simply close this Pull Request unmerged.
+
+
+
+---
+### Detected Package Files
+
+ * `inst/Dockerfile` (dockerfile)
+
+### Configuration Summary
+
+Based on the default config's presets, Renovate will:
+
+  - Start dependency updates only once this onboarding PR is merged
+  - Separate major versions of dependencies into individual branches/PRs
+  - Do not separate patch and minor upgrades into separate PRs for the same dependency
+  - Upgrade to unstable versions only if the existing version is unstable
+  - Raise PRs immediately (after branch is created)
+  - If semantic commits detected, use semantic commit type <code>fix</code> for dependencies and <code>chore</code> for all others
+  - Keep existing branches updated even when not scheduled
+  - Disable automerging feature - wait for humans to merge all PRs
+  - Ignore `node_modules`, `bower_components`, `vendor` and various test/tests directories
+  - Update existing lock files only when <code>package.json</code> is modified
+  - Autodetect whether to pin dependencies or maintain ranges
+  - Rate limit PR creation to a maximum of two per hour
+  - Limit to maximum 20 open PRs at any time
+  - Group known monorepo packages together
+  - Use curated list of recommended non-monorepo package groupings
+
+:abcd: Would you like to change the way Renovate is upgrading your dependencies? Simply edit the `renovate.json` in this branch with your custom config and the list of Pull Requests in the ""What to Expect"" section below will be updated the next time Renovate runs.
+
+---
+You have configured Renovate to use branch `master` as base branch.
+
+
+### What to Expect
+
+It looks like your repository dependencies are already up-to-date and no Pull Requests will be necessary right away.
+
+---
+
+:question: Got questions? Check out Renovate's [Docs](https://docs.renovatebot.com/), particularly the Getting Started section.
+If you need any further assistance then you can also [request help here](https://togithub.com/renovatebot/config-help/issues).
+
+
+---
+
+This PR has been generated by [WhiteSource Renovate](https://renovate.whitesourcesoftware.com). View repository job log [here](https://app.renovatebot.com/dashboard#Roche/ggtips).
+","renovate[bot]",174,-34
 "Roche/rtables","Configure Renovate","https://github.com/Roche/rtables/pull/26","closed",2020-04-15,2020-04-17,2020-04-17,0,"Welcome to [Renovate](https://togithub.com/renovatebot/renovate)! This is an onboarding PR to help you understand and configure settings before regular Pull Requests begin.
 
 :vertical_traffic_light: To activate Renovate, merge this Pull Request. To disable Renovate, simply close this Pull Request unmerged.
@@ -13783,7 +13781,6 @@ I am wondering if `R CMD check` should be a separate assessment from CRAN/Bioc c
   1. I thought about pulling individual checks from CRAN to match with the `R CMD check` but decided against it since we would have to match the users environment with the environments that CRAN runs the checks on and assume that they are the same which seems counter to proper risk assessment principles.","emilliman5",79,0
 "Novartis/xgxr","mean +/- SD ?","https://github.com/Novartis/xgxr/issues/32","open",2020-07-22,2020-07-22,NA,0,"Received a request to have an option to plot Mean +/- SD instead of Mean & CI. I think Mean +/- SE is already the default for stat_summary, but what about SD?","margoal1",336,336
 "nlmixrdevelopment/nlmixr","Autocovariate2","https://github.com/nlmixrdevelopment/nlmixr/pull/373","closed",2020-07-24,2020-07-30,2020-07-30,0,"with daptomycin ","vupil",6,0
-"nlmixrdevelopment/nlmixr","Autocovariate2","https://github.com/nlmixrdevelopment/nlmixr/pull/372","closed",2020-07-24,2020-07-24,2020-07-24,0,"From vipul","mattfidler",0,0
 "nlmixrdevelopment/nlmixr","Bootstrap2","https://github.com/nlmixrdevelopment/nlmixr/pull/371","closed",2020-07-24,2020-07-28,2020-07-28,0,"From vipul","mattfidler",4,0
 "nlmixrdevelopment/nlmixr","print(nlmixr(fit)$ini) no longer works","https://github.com/nlmixrdevelopment/nlmixr/issues/374","closed",2020-07-24,2020-07-26,2020-07-26,0,"Probably related to #365 ","mattfidler",2,0
 "nlmixrdevelopment/nlmixr","Use new backTransform format from Bill","https://github.com/nlmixrdevelopment/nlmixr/pull/375","closed",2020-07-24,2020-11-21,2020-07-24,1,"Some fixes to model piping with the addition of backTransform @billdenney  you may wish to review.
@@ -20712,7 +20709,6 @@ I really appreciate any help you can provide.","Dorota-D",2,0
 "Merck/pkglite","unit test for sanitize file collection","https://github.com/Merck/pkglite/pull/1","closed",2021-03-08,2021-03-15,2021-03-15,3,"","ashirazist",7,0
 "pharmaR/riskmetric","create a badge for riskmetric ","https://github.com/pharmaR/riskmetric/issues/189","open",2021-03-09,2021-03-09,NA,0,"Joe suggested us to allow package developer to put a badge on their github readme file","elong0527",106,106
 "pharmaR/riskmetric","remove pkg_ref_cache_function_coverage","https://github.com/pharmaR/riskmetric/pull/188","closed",2021-03-09,2021-03-31,2021-03-16,1,"","elong0527",7,-15
-"pharmaR/riskmetric","remove pkg_ref_cache_function_coverage","https://github.com/pharmaR/riskmetric/pull/187","closed",2021-03-09,2021-03-09,2021-03-09,0,"","elong0527",0,0
 "Roche/Global-HTA-Evidence-Open","[MAIC}: Cannot pass arguments to `optim`","https://github.com/Roche/Global-HTA-Evidence-Open/issues/2","open",2021-03-10,2021-05-26,NA,0,"The `estimate_weights()` function does not have  a `...` argument allowing a user to pass arguments to `optim()` even though the documentation says this is possible.","dincerti",105,28
 "Roche/rtables","Error in `value_at` for layout with overall column","https://github.com/Roche/rtables/issues/172","closed",2021-03-10,2021-04-08,2021-04-08,5,"It's not possible to extract the cell value using `value_at` when the table layout includes an overall column:
 
@@ -23858,7 +23854,6 @@ See the last comment in https://github.com/r-lib/svglite/issues/41","jcubic",0,0
 "openpharma/visR","Bugfix/20210527 apply theme related","https://github.com/openpharma/visR/pull/195","closed",2021-05-27,2021-05-31,2021-05-31,0,"Not yet mergeable, just as a tool for easier resolving of merge conflicts. Will also be later used to address issues and to be merged back into develop.","timtreis",4,0
 "openpharma/visR","change behaviour of get risktable","https://github.com/openpharma/visR/pull/194","closed",2021-05-27,2021-05-28,2021-05-28,0,"One issue is the alginment of the graph and the risktables. I thought I fixed it a few weeks ago but now the behaviour reverted again. We will need to fix this.","SHAESEN2",1,0
 "Roche/respectables","Initial CI for publishing","https://github.com/Roche/respectables/pull/16","closed",2021-05-27,2021-05-27,2021-05-27,0,"","dinakar29",0,0
-"Roche/respectables","Initial CI for publishing","https://github.com/Roche/respectables/pull/15","closed",2021-05-27,2021-05-27,2021-05-27,0,"Publish docs","dinakar29",0,0
 "Roche/respectables","14 website","https://github.com/Roche/respectables/pull/17","closed",2021-05-28,2021-05-28,2021-05-28,1,"","waddella",0,0
 "Roche/respectables","18 - Add basic governance","https://github.com/Roche/respectables/pull/19","closed",2021-05-28,2021-05-31,2021-05-31,2,"Tracks Issue #18 
 
@@ -24866,8 +24861,6 @@ and then the user can modify it in the `.Rprofile`
 
 ","waddella",1,0
 "openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/14","open",2021-06-23,2021-06-23,NA,0,"","maximilianmordig",0,0
-"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/13","closed",2021-06-23,2021-06-23,2021-06-23,0,"","maximilianmordig",0,0
-"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/12","closed",2021-06-23,2021-06-23,2021-06-23,0,"","maximilianmordig",0,0
 "openpharma/staged.dependencies","check if this works with renv","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-23,NA,0,"not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",0,0
 "openpharma/staged.dependencies","install_all_staged_dependcies","https://github.com/openpharma/staged.dependencies/issues/8","open",2021-06-23,2021-06-23,NA,0,"i.e. install all packages on the staged dependency graph from the correct branches.","waddella",0,0
 "openpharma/staged.dependencies","local repos","https://github.com/openpharma/staged.dependencies/issues/10","open",2021-06-23,2021-06-23,NA,0,"add a `local` argument that takes a data.frame with 3 columns (repo, host, local_path) so that the user can use local clones for checking and installation (i.e. working on a repo spanning feature locally). The `local` argument should be `NULL` by default, i.e. getting all the dependencies from the remotes.
