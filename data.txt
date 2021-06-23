@@ -22,3 +22,7 @@
   cols: 12
   description: All issues
   type: table
+- path: all-tags
+  name: all-tags
+  description: List of repos for each tag in open pharma
+  type: default
