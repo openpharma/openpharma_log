@@ -24781,7 +24781,7 @@ build_table(l, ANL) %>% Viewer()
 The result looks fine in the console but in html format, ~the last 3 columns are missing~ the columns and header are not aligned.
 
 ![image](https://user-images.githubusercontent.com/43623360/122472190-3ebfe080-cf8e-11eb-900e-12cd43d6c34c.png)
-","anajens",6,1
+","anajens",7,2
 "Roche/rtables","Is there a way to bold row labels for html tables?","https://github.com/Roche/rtables/issues/206","open",2021-06-17,2021-06-17,NA,0,"`Viewer` has the argument `row.names.bold` which does not seem to be in use right now. I'm wondering if there is an alternative simple way to add the markup?  For example, with `** My Label **`
 
 ```r
@@ -24809,7 +24809,7 @@ basic_table(title = ""ABC"", main_footer = ""XYZ"") %>%
 
 i.e. have a look: https://blog.rstudio.com/2019/03/14/rstudio-1-2-jobs/
 
-note that downstream checking needs to stay command line compatible as we will run it in CI/CD","waddella",1,0
+note that downstream checking needs to stay command line compatible as we will run it in CI/CD","waddella",2,1
 "openpharma/staged.dependencies","make a staged dependency graph and text output","https://github.com/openpharma/staged.dependencies/issues/6","open",2021-06-22,2021-06-23,NA,0,"# Graph
 
 It would be good for any package that has a `staged_dependencies.yaml` file to allow to create a dependency graph that includes only other packages mentioned in the `staged_dependencies.yaml` files (recursively):
@@ -24841,7 +24841,7 @@ K           devel               other
 L           devel               downstream
 ```
 
-Note the return object should be a `data.frame`.","waddella",1,0
+Note the return object should be a `data.frame`.","waddella",2,1
 "openpharma/staged.dependencies","Review","https://github.com/openpharma/staged.dependencies/pull/2","closed",2021-06-22,2021-06-22,2021-06-22,2,"@maximilianmordig, please have a look at my proposed changes.
 
 My credentials with gitlab still don't work. Can you please have a look and update the `README.md` with the instructions to get started. I guess it's best to create an `.Rprofile` and set the system variables.
@@ -24859,10 +24859,10 @@ options(staged.depencencies.token_mapping = c(
 
 and then the user can modify it in the `.Rprofile`
 
-","waddella",1,0
-"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/14","open",2021-06-23,2021-06-23,NA,0,"","maximilianmordig",0,0
-"openpharma/staged.dependencies","check if this works with renv","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-23,NA,0,"not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",0,0
-"openpharma/staged.dependencies","install_all_staged_dependcies","https://github.com/openpharma/staged.dependencies/issues/8","open",2021-06-23,2021-06-23,NA,0,"i.e. install all packages on the staged dependency graph from the correct branches.","waddella",0,0
+","waddella",2,1
+"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/14","open",2021-06-23,2021-06-23,NA,0,"","maximilianmordig",1,1
+"openpharma/staged.dependencies","check if this works with renv","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-23,NA,0,"not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",1,1
+"openpharma/staged.dependencies","install_all_staged_dependcies","https://github.com/openpharma/staged.dependencies/issues/8","open",2021-06-23,2021-06-23,NA,0,"i.e. install all packages on the staged dependency graph from the correct branches.","waddella",1,1
 "openpharma/staged.dependencies","local repos","https://github.com/openpharma/staged.dependencies/issues/10","open",2021-06-23,2021-06-23,NA,0,"add a `local` argument that takes a data.frame with 3 columns (repo, host, local_path) so that the user can use local clones for checking and installation (i.e. working on a repo spanning feature locally). The `local` argument should be `NULL` by default, i.e. getting all the dependencies from the remotes.
 
 
@@ -24873,10 +24873,10 @@ Then you can ask which rrepo to use locally and store the default local repo map
 ```
 repo, host, local_path
 Roche/rtables, https://github.com, ~/git_projects/rtables
-```","waddella",0,0
+```","waddella",1,1
 "openpharma/staged.dependencies","yaml file should include the repo and host for current project","https://github.com/openpharma/staged.dependencies/issues/11","open",2021-06-23,2021-06-23,NA,0,"so that in check downstream should
 
 1. install all upstream (local or remote as per `local` argument)
 2. install current package from the local place
 3. build, check, install downstream (local or remote as per `local` argument)
-","waddella",0,0
+","waddella",1,1
