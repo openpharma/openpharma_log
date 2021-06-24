@@ -24860,7 +24860,7 @@ options(staged.depencencies.token_mapping = c(
 and then the user can modify it in the `.Rprofile`
 
 ","waddella",2,1
-"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/14","open",2021-06-23,2021-06-23,NA,0,"","maximilianmordig",1,1
+"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/14","open",2021-06-23,2021-06-24,NA,0,"","maximilianmordig",1,0
 "openpharma/staged.dependencies","check if this works with renv","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-23,NA,0,"not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",1,1
 "openpharma/staged.dependencies","install_all_staged_dependcies","https://github.com/openpharma/staged.dependencies/issues/8","open",2021-06-23,2021-06-23,NA,0,"i.e. install all packages on the staged dependency graph from the correct branches.","waddella",1,1
 "openpharma/staged.dependencies","local repos","https://github.com/openpharma/staged.dependencies/issues/10","open",2021-06-23,2021-06-23,NA,0,"add a `local` argument that takes a data.frame with 3 columns (repo, host, local_path) so that the user can use local clones for checking and installation (i.e. working on a repo spanning feature locally). The `local` argument should be `NULL` by default, i.e. getting all the dependencies from the remotes.
@@ -24874,9 +24874,17 @@ Then you can ask which rrepo to use locally and store the default local repo map
 repo, host, local_path
 Roche/rtables, https://github.com, ~/git_projects/rtables
 ```","waddella",1,1
+"openpharma/staged.dependencies","renv integration","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-24,NA,0,"@gmbecker has mentioned a better way to deal with `renv` integration, we will meet and specify this issue later.
+
+
+# Original Message
+
+not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",1,0
 "openpharma/staged.dependencies","yaml file should include the repo and host for current project","https://github.com/openpharma/staged.dependencies/issues/11","open",2021-06-23,2021-06-23,NA,0,"so that in check downstream should
 
 1. install all upstream (local or remote as per `local` argument)
 2. install current package from the local place
 3. build, check, install downstream (local or remote as per `local` argument)
 ","waddella",1,1
+"openpharma/staged.dependencies","add a test downstream function","https://github.com/openpharma/staged.dependencies/issues/15","open",2021-06-24,2021-06-24,NA,0,"while developing packages the `check_downstream` functions is often a bit heavy in compute demand, please add a `test_downstream` function that runs the unit test instead of the full checks.","waddella",0,0
+"Roche/respectables","remap variable names","https://github.com/Roche/respectables/issues/27","open",2021-06-24,2021-06-24,NA,0,"if a generating function produces more than 1 variable then the variable names in the returned data.frame might not be the ones that are expected in the recipe. We might have to add a remapping column or use a order based renaming approach.","waddella",0,0
