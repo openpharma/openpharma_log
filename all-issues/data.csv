@@ -19394,7 +19394,7 @@ Right now I am only seeing the issue with percentages generated in `group_count(
 
 Thanks so much!
 Robert","Robert-Krajcik",27,0
-"Novartis/pisces","Annotate output matrices with salmon effective length","https://github.com/Novartis/pisces/issues/6","open",2021-01-13,2021-01-13,NA,0,"`DESeqDataSetFromTximport` requires both counts and effective length. While PISCES uses effective length internally for DESeq2, it does not write out the values for use in downstream analysis.","mdshw5",161,161
+"Novartis/pisces","Annotate output matrices with salmon effective length","https://github.com/Novartis/pisces/issues/6","open",2021-01-13,2021-06-25,NA,1,"`DESeqDataSetFromTximport` requires both counts and effective length. While PISCES uses effective length internally for DESeq2, it does not write out the values for use in downstream analysis.","mdshw5",163,0
 "nlmixrdevelopment/nlmixr","nlmixr has been removed from the CRAN","https://github.com/nlmixrdevelopment/nlmixr/issues/466","closed",2021-01-13,2021-04-14,2021-04-14,4,"Dear Authors,
 
 I noticed the package has been removed from the CRAN.
@@ -24848,7 +24848,7 @@ My credentials with gitlab still don't work. Can you please have a look and upda
 
 I will create new issues for other feedback. ","waddella",0,0
 "openpharma/staged.dependencies","some fixes","https://github.com/openpharma/staged.dependencies/pull/3","closed",2021-06-22,2021-06-22,2021-06-22,1,"","maximilianmordig",0,0
-"openpharma/staged.dependencies","token matching","https://github.com/openpharma/staged.dependencies/issues/5","open",2021-06-22,2021-06-23,NA,1,"please update the code and `README.md` to support a token lookup table. That is, I suggest to add an entry in `options` with a default mapping
+"openpharma/staged.dependencies","token matching","https://github.com/openpharma/staged.dependencies/issues/5","closed",2021-06-22,2021-06-25,2021-06-25,1,"please update the code and `README.md` to support a token lookup table. That is, I suggest to add an entry in `options` with a default mapping
 
 ```
 options(staged.depencencies.token_mapping = c(
@@ -24859,8 +24859,8 @@ options(staged.depencencies.token_mapping = c(
 
 and then the user can modify it in the `.Rprofile`
 
-","waddella",3,2
-"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/14","open",2021-06-23,2021-06-24,NA,0,"","maximilianmordig",2,1
+","waddella",3,0
+"openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/14","closed",2021-06-23,2021-06-25,2021-06-25,0,"","maximilianmordig",2,0
 "openpharma/staged.dependencies","check if this works with renv","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-23,NA,0,"not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",1,1
 "openpharma/staged.dependencies","install_all_staged_dependcies","https://github.com/openpharma/staged.dependencies/issues/8","open",2021-06-23,2021-06-23,NA,0,"i.e. install all packages on the staged dependency graph from the correct branches.","waddella",2,2
 "openpharma/staged.dependencies","local repos","https://github.com/openpharma/staged.dependencies/issues/10","open",2021-06-23,2021-06-23,NA,0,"add a `local` argument that takes a data.frame with 3 columns (repo, host, local_path) so that the user can use local clones for checking and installation (i.e. working on a repo spanning feature locally). The `local` argument should be `NULL` by default, i.e. getting all the dependencies from the remotes.
@@ -24888,3 +24888,30 @@ not that renv modifies the libpath with a project local `.Rprofile`, so make sur
 ","waddella",2,2
 "openpharma/staged.dependencies","add a test downstream function","https://github.com/openpharma/staged.dependencies/issues/15","open",2021-06-24,2021-06-24,NA,0,"while developing packages the `check_downstream` functions is often a bit heavy in compute demand, please add a `test_downstream` function that runs the unit test instead of the full checks.","waddella",1,1
 "Roche/respectables","remap variable names","https://github.com/Roche/respectables/issues/27","open",2021-06-24,2021-06-24,NA,0,"if a generating function produces more than 1 variable then the variable names in the returned data.frame might not be the ones that are expected in the recipe. We might have to add a remapping column or use a order based renaming approach.","waddella",1,1
+"Roche/rtables","fix html colspan bug","https://github.com/Roche/rtables/pull/209","open",2021-06-25,2021-06-25,NA,0,"@gmbecker please review and approve. Then merge `pre-release` into your working branch.","waddella",0,0
+"Roche/rtables","rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.","https://github.com/Roche/rtables/issues/208","open",2021-06-25,2021-06-25,NA,1,"rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.
+
+```r
+library(rtables)
+lyt <- basic_table() %>%
+  split_cols_by(""am"") %>%
+  split_cols_by_multivar(vars = c(""disp"", ""hp""))
+result <- build_table(lyt = lyt, df = mtcars)
+
+print(result)
+print(rtables::as_html(result))
+```
+
+The outputs:
+![image](https://user-images.githubusercontent.com/24480246/123417953-bdcd9e00-d5b8-11eb-88e8-060b9ab5fc0f.png)
+
+Notice that the cells in the first row of `result` span two cells of other columns. Meanwhile, rtables::as_html returns an HTML table, in which the first row spans double the number of other rows. In essence, I would expect a result to be this:
+```html
+...
+  <tr class="""">
+    <th class="""" style=""white-space:pre;""></th>
+    <th class="" text-center"" colspan=""2"">1</th>
+    <th class="" text-center"" colspan=""2"">0</th>
+  </tr>
+...
+```","kpagacz",0,0
