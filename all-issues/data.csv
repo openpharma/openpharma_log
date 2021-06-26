@@ -19394,7 +19394,7 @@ Right now I am only seeing the issue with percentages generated in `group_count(
 
 Thanks so much!
 Robert","Robert-Krajcik",27,0
-"Novartis/pisces","Annotate output matrices with salmon effective length","https://github.com/Novartis/pisces/issues/6","open",2021-01-13,2021-06-25,NA,1,"`DESeqDataSetFromTximport` requires both counts and effective length. While PISCES uses effective length internally for DESeq2, it does not write out the values for use in downstream analysis.","mdshw5",163,0
+"Novartis/pisces","Annotate output matrices with salmon effective length","https://github.com/Novartis/pisces/issues/6","open",2021-01-13,2021-06-25,NA,1,"`DESeqDataSetFromTximport` requires both counts and effective length. While PISCES uses effective length internally for DESeq2, it does not write out the values for use in downstream analysis.","mdshw5",164,1
 "nlmixrdevelopment/nlmixr","nlmixr has been removed from the CRAN","https://github.com/nlmixrdevelopment/nlmixr/issues/466","closed",2021-01-13,2021-04-14,2021-04-14,4,"Dear Authors,
 
 I noticed the package has been removed from the CRAN.
@@ -24879,17 +24879,17 @@ Roche/rtables, https://github.com, ~/git_projects/rtables
 
 # Original Message
 
-not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",2,1
+not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",3,2
 "openpharma/staged.dependencies","yaml file should include the repo and host for current project","https://github.com/openpharma/staged.dependencies/issues/11","open",2021-06-23,2021-06-23,NA,0,"so that in check downstream should
 
 1. install all upstream (local or remote as per `local` argument)
 2. install current package from the local place
 3. build, check, install downstream (local or remote as per `local` argument)
 ","waddella",2,2
-"openpharma/staged.dependencies","add a test downstream function","https://github.com/openpharma/staged.dependencies/issues/15","open",2021-06-24,2021-06-24,NA,0,"while developing packages the `check_downstream` functions is often a bit heavy in compute demand, please add a `test_downstream` function that runs the unit test instead of the full checks.","waddella",1,1
-"Roche/respectables","remap variable names","https://github.com/Roche/respectables/issues/27","open",2021-06-24,2021-06-24,NA,0,"if a generating function produces more than 1 variable then the variable names in the returned data.frame might not be the ones that are expected in the recipe. We might have to add a remapping column or use a order based renaming approach.","waddella",1,1
-"Novartis/pisces","Add ""tidy"" data output as an option","https://github.com/Novartis/pisces/issues/16","open",2021-06-25,2021-06-25,NA,0,"I accidentally removed the tidy data format from my last update. This time I will add a `--tidy` flag for `pisces summarize-expression` that will change outputs to tall/tidy shape.","mdshw5",0,0
-"Roche/rtables","fix html colspan bug","https://github.com/Roche/rtables/pull/209","open",2021-06-25,2021-06-25,NA,0,"@gmbecker please review and approve. Then merge `pre-release` into your working branch.","waddella",0,0
+"openpharma/staged.dependencies","add a test downstream function","https://github.com/openpharma/staged.dependencies/issues/15","open",2021-06-24,2021-06-24,NA,0,"while developing packages the `check_downstream` functions is often a bit heavy in compute demand, please add a `test_downstream` function that runs the unit test instead of the full checks.","waddella",2,2
+"Roche/respectables","remap variable names","https://github.com/Roche/respectables/issues/27","open",2021-06-24,2021-06-24,NA,0,"if a generating function produces more than 1 variable then the variable names in the returned data.frame might not be the ones that are expected in the recipe. We might have to add a remapping column or use a order based renaming approach.","waddella",2,2
+"Novartis/pisces","Add ""tidy"" data output as an option","https://github.com/Novartis/pisces/issues/16","open",2021-06-25,2021-06-25,NA,0,"I accidentally removed the tidy data format from my last update. This time I will add a `--tidy` flag for `pisces summarize-expression` that will change outputs to tall/tidy shape.","mdshw5",1,1
+"Roche/rtables","fix html colspan bug","https://github.com/Roche/rtables/pull/209","open",2021-06-25,2021-06-25,NA,0,"@gmbecker please review and approve. Then merge `pre-release` into your working branch.","waddella",1,1
 "Roche/rtables","rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.","https://github.com/Roche/rtables/issues/208","open",2021-06-25,2021-06-25,NA,1,"rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.
 
 ```r
@@ -24915,4 +24915,4 @@ Notice that the cells in the first row of `result` span two cells of other colum
     <th class="" text-center"" colspan=""2"">0</th>
   </tr>
 ...
-```","kpagacz",0,0
+```","kpagacz",1,1
