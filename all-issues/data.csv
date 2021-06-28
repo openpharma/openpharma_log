@@ -24029,7 +24029,7 @@ c) We're currently setting the labels through the scales which seems to make the
 "openpharma/visR","In the absence of a specified x-label or a data-derived label, should the x-axis be blank?","https://github.com/openpharma/visR/issues/213","open",2021-06-08,2021-06-08,NA,0,"See title.
 
 Related to the comments in PR https://github.com/openpharma/visR/pull/211 and https://github.com/openpharma/visR/pull/212.","timtreis",15,15
-"Roche/ggtips","Stroke color","https://github.com/Roche/ggtips/pull/65","closed",2021-06-09,2021-06-09,2021-06-09,1,"","cosi1",0,0
+"Roche/ggtips","Stroke color","https://github.com/Roche/ggtips/pull/65","closed",2021-06-09,2021-06-28,2021-06-09,1,"","cosi1",0,-19
 "nlmixrdevelopment/nlmixr","The data returned by nlmixr are not the same as the input data","https://github.com/nlmixrdevelopment/nlmixr/issues/530","closed",2021-06-09,2021-06-10,2021-06-10,9,"The following reprex shows the problem if you compare the output of the last two calls to `subset`. The listed data should be the same, but in the nlmixr output some of the data for the parent compound are attributed to the metabolite `m1`.
 
 Am I making a wrong assumption about the use of `CMT` in the input data? I am using it for the name of the state variable in the ODE I am specifying.
@@ -24810,7 +24810,7 @@ basic_table(title = ""ABC"", main_footer = ""XYZ"") %>%
 i.e. have a look: https://blog.rstudio.com/2019/03/14/rstudio-1-2-jobs/
 
 note that downstream checking needs to stay command line compatible as we will run it in CI/CD","waddella",3,2
-"openpharma/staged.dependencies","make a staged dependency graph and text output","https://github.com/openpharma/staged.dependencies/issues/6","open",2021-06-22,2021-06-23,NA,0,"# Graph
+"openpharma/staged.dependencies","make a staged dependency graph and text output","https://github.com/openpharma/staged.dependencies/issues/6","open",2021-06-22,2021-06-26,NA,2,"# Graph
 
 It would be good for any package that has a `staged_dependencies.yaml` file to allow to create a dependency graph that includes only other packages mentioned in the `staged_dependencies.yaml` files (recursively):
 
@@ -24841,7 +24841,7 @@ K           devel               other
 L           devel               downstream
 ```
 
-Note the return object should be a `data.frame`.","waddella",3,2
+Note the return object should be a `data.frame`.","waddella",6,2
 "openpharma/staged.dependencies","Review","https://github.com/openpharma/staged.dependencies/pull/2","closed",2021-06-22,2021-06-22,2021-06-22,2,"@maximilianmordig, please have a look at my proposed changes.
 
 My credentials with gitlab still don't work. Can you please have a look and update the `README.md` with the instructions to get started. I guess it's best to create an `.Rprofile` and set the system variables.
@@ -24880,16 +24880,16 @@ Roche/rtables, https://github.com, ~/git_projects/rtables
 # Original Message
 
 not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",3,2
-"openpharma/staged.dependencies","yaml file should include the repo and host for current project","https://github.com/openpharma/staged.dependencies/issues/11","open",2021-06-23,2021-06-23,NA,0,"so that in check downstream should
+"openpharma/staged.dependencies","yaml file should include the repo and host for current project","https://github.com/openpharma/staged.dependencies/issues/11","open",2021-06-23,2021-06-26,NA,1,"so that in check downstream should
 
 1. install all upstream (local or remote as per `local` argument)
 2. install current package from the local place
 3. build, check, install downstream (local or remote as per `local` argument)
-","waddella",2,2
-"openpharma/staged.dependencies","add a test downstream function","https://github.com/openpharma/staged.dependencies/issues/15","open",2021-06-24,2021-06-24,NA,0,"while developing packages the `check_downstream` functions is often a bit heavy in compute demand, please add a `test_downstream` function that runs the unit test instead of the full checks.","waddella",2,2
+","waddella",5,2
+"openpharma/staged.dependencies","add a test downstream function","https://github.com/openpharma/staged.dependencies/issues/15","open",2021-06-24,2021-06-26,NA,1,"while developing packages the `check_downstream` functions is often a bit heavy in compute demand, please add a `test_downstream` function that runs the unit test instead of the full checks.","waddella",4,2
 "Roche/respectables","remap variable names","https://github.com/Roche/respectables/issues/27","open",2021-06-24,2021-06-24,NA,0,"if a generating function produces more than 1 variable then the variable names in the returned data.frame might not be the ones that are expected in the recipe. We might have to add a remapping column or use a order based renaming approach.","waddella",2,2
 "Novartis/pisces","Add ""tidy"" data output as an option","https://github.com/Novartis/pisces/issues/16","open",2021-06-25,2021-06-25,NA,0,"I accidentally removed the tidy data format from my last update. This time I will add a `--tidy` flag for `pisces summarize-expression` that will change outputs to tall/tidy shape.","mdshw5",1,1
-"Roche/rtables","fix html colspan bug","https://github.com/Roche/rtables/pull/209","open",2021-06-25,2021-06-25,NA,0,"@gmbecker please review and approve. Then merge `pre-release` into your working branch.","waddella",1,1
+"Roche/rtables","fix html colspan bug","https://github.com/Roche/rtables/pull/209","closed",2021-06-25,2021-06-26,2021-06-26,1,"@gmbecker please review and approve. Then merge `pre-release` into your working branch.","waddella",1,0
 "Roche/rtables","rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.","https://github.com/Roche/rtables/issues/208","open",2021-06-25,2021-06-25,NA,1,"rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.
 
 ```r
@@ -24916,3 +24916,7 @@ Notice that the cells in the first row of `result` span two cells of other colum
   </tr>
 ...
 ```","kpagacz",1,1
+"nlmixrdevelopment/nlmixr","Any approah modeling PK-binominal PD or PK-ordered categorical PD data in nlmixr?","https://github.com/nlmixrdevelopment/nlmixr/issues/535","open",2021-06-26,2021-06-26,NA,0,"Hi@mattfidler, recently I'd like to model the PK-adverse event model to demonstrate the exposure-safety relaionship. The preliminary approach was to first do popPK modeling, then have individual exposure prediction, and finally link individual exposure to adverse events using logistic regression or survival analysis. However, such approach disconnected PK and PD, and if logistic regression is used the time information of events is ignored.
+
+Then I would like to try joint PK-PD model which incorporating individual predicted PK parameters and observed PD events with time record, which is PK-categorical PD model. As far as I know the ensence of such approach is to redefine the likelihood function as those in NONMEM. However, I have no idea whether it could be resolved in nlmixr. If it is allowed, could you please tell me how to handle this?","diabloyg",2,2
+"openpharma/staged.dependencies","implemented recursive version of check_downstream","https://github.com/openpharma/staged.dependencies/pull/16","open",2021-06-27,2021-06-27,NA,1,"","maximilianmordig",1,1
