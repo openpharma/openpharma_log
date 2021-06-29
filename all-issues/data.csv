@@ -24407,7 +24407,7 @@ Functions correct but documentation needs updating","iain-t-bennett-roche",12,12
 "openpharma/visR","Retired table_caption and table_download for later release","https://github.com/openpharma/visR/pull/225","closed",2021-06-11,2021-06-11,2021-06-11,1,"","timtreis",0,0
 "Roche/respectables","25 renv","https://github.com/Roche/respectables/pull/26","open",2021-06-14,2021-06-17,NA,0,"add `renv.lock` file and update `README.md`","waddella",9,6
 "openpharma/visR","add cran badge to readme. minor additions to visR and data adtte docu…","https://github.com/openpharma/visR/pull/227","closed",2021-06-14,2021-06-14,2021-06-14,0,"…ment descriptions.","bailliem",0,0
-"nlmixrdevelopment/nlmixr","Help please: dual absorption nlmixr model (first+zero)","https://github.com/nlmixrdevelopment/nlmixr/issues/531","open",2021-06-14,2021-06-22,NA,14,"Hello, 
+"nlmixrdevelopment/nlmixr","Help please: dual absorption nlmixr model (first+zero)","https://github.com/nlmixrdevelopment/nlmixr/issues/531","open",2021-06-14,2021-06-29,NA,15,"Hello, 
 I was trying to fit a dual absorption model using the dataset that shows dual absorption.
 I have tried:
 1. Zero-order absorption followed by the first-order absorption 
@@ -24544,7 +24544,7 @@ Z201 <- function() {
 ```
 
 [dataset.zip](https://github.com/nlmixrdevelopment/nlmixr/files/6645852/dataset.zip)
-","yjung1",9,1
+","yjung1",15,0
 "nlmixrdevelopment/nlmixr","Help request: `library(nlmixr)` failing when using version 1.1.1-5","https://github.com/nlmixrdevelopment/nlmixr/issues/532","open",2021-06-14,2021-06-14,NA,2,"Firstly, thank you for your efforts on developing this package. 
 
 I am working with version 1.1.1-5 on R 3.6.3. I appreciate that a lot of work has gone into the package since then but do not have the option of updating.
@@ -24919,4 +24919,68 @@ Notice that the cells in the first row of `result` span two cells of other colum
 "nlmixrdevelopment/nlmixr","Any approah modeling PK-binominal PD or PK-ordered categorical PD data in nlmixr?","https://github.com/nlmixrdevelopment/nlmixr/issues/535","open",2021-06-26,2021-06-26,NA,0,"Hi@mattfidler, recently I'd like to model the PK-adverse event model to demonstrate the exposure-safety relaionship. The preliminary approach was to first do popPK modeling, then have individual exposure prediction, and finally link individual exposure to adverse events using logistic regression or survival analysis. However, such approach disconnected PK and PD, and if logistic regression is used the time information of events is ignored.
 
 Then I would like to try joint PK-PD model which incorporating individual predicted PK parameters and observed PD events with time record, which is PK-categorical PD model. As far as I know the ensence of such approach is to redefine the likelihood function as those in NONMEM. However, I have no idea whether it could be resolved in nlmixr. If it is allowed, could you please tell me how to handle this?","diabloyg",2,2
-"openpharma/staged.dependencies","implemented recursive version of check_downstream","https://github.com/openpharma/staged.dependencies/pull/16","open",2021-06-27,2021-06-27,NA,1,"","maximilianmordig",1,1
+"openpharma/staged.dependencies","implemented recursive version of check_downstream","https://github.com/openpharma/staged.dependencies/pull/16","open",2021-06-27,2021-06-29,NA,4,"","maximilianmordig",2,0
+"atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",1,1
+"Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
+"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-06-28,NA,0,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",1,1
+"nlmixrdevelopment/nlmixr","Documentation Request: Update lincmt docs","https://github.com/nlmixrdevelopment/nlmixr/issues/536","open",2021-06-29,2021-06-29,NA,0,"I'm wanting to use `linCmt()` in a new model, but I'm having trouble figuring out how to make use of it specifically.  I looked to the `lin_cmt` documentation, but that didn't show how to use it.  I went to https://nlmixrdevelopment.github.io/RxODE/articles/RxODE-model-types.html#solved-compartment-models, but in the original post where I found it, said that it is outdated.  (Maybe it is now up to date.)
+
+So, the request is:  Where is use of `linCmt()` best documented?  And, can that be linked to or updated in the `?lin_cmt` docs?","billdenney",0,0
+"nlmixrdevelopment/nlmixr","linCmt() Detection Issue?","https://github.com/nlmixrdevelopment/nlmixr/issues/537","open",2021-06-29,2021-06-29,NA,0,"I just tried to make a 2-compartment linear compartmental model using `linCmt()`, but when I looked at the summary output, it said that it was a 1-compartment model.  Am I doing something wrong or is there a typo in the printout for the model?
+
+The specific line below is ""RxODE-based 1-compartment model with first-order absorption"" which I thought should say ""2-compartment"" instead of ""1-compartment"".
+
+``` r
+library(nlmixr)
+twocmt <- function() {
+  ini({
+    lKA <- 0.1      ; label(""Ka (1/hr)"")
+    lCl <- 1.6      ; label(""Cl (L/hr)"")
+    lVc <- log(18)  ; label(""Vc (L)"")
+    lVp <- log(22)  ; label(""Vp (L)"")
+    lQ  <- log(2)   ; label(""Q (L/hr)"")
+    eta_KA ~ 0.1 ; label(""BSV Ka"")
+    eta_Cl ~ 0.1 ; label(""BSV Cl"")
+    eta_Vc ~ 0.1 ; label(""BSV Vc"")
+    prop.err <- c(0, 0.2, 1)
+  })
+  model({
+    KA <- exp(lKA + eta_KA)
+    Cl <- exp(lCl + eta_Cl)
+    Vc <- exp(lVc + eta_Vc)
+    Vp <- exp(lVp)
+    Q <- exp(lQ)
+    linCmt() ~ prop(prop.err)
+  })
+}
+
+nlmixr(twocmt)
+#> __ RxODE-based 1-compartment model with first-order absorption _________________ 
+#> -- Initialization: ------------------------------------------------------------- 
+#> Fixed Effects ($theta): 
+#>       lKA       lCl       lVc       lVp        lQ 
+#> 0.1000000 1.6000000 2.8903718 3.0910425 0.6931472 
+#> 
+#> Omega ($omega): 
+#>        eta_KA eta_Cl eta_Vc
+#> eta_KA    0.1    0.0    0.0
+#> eta_Cl    0.0    0.1    0.0
+#> eta_Vc    0.0    0.0    0.1
+#> -- mu-referencing ($muRefTable): ----------------------------------------------- 
+#>   theta    eta
+#> 1   lKA eta_KA
+#> 2   lCl eta_Cl
+#> 3   lVc eta_Vc
+#> 
+#> -- Model: ---------------------------------------------------------------------- 
+#>     KA <- exp(lKA + eta_KA)
+#>     Cl <- exp(lCl + eta_Cl)
+#>     Vc <- exp(lVc + eta_Vc)
+#>     Vp <- exp(lVp)
+#>     Q <- exp(lQ)
+#>     linCmt() ~ prop(prop.err) 
+#> ________________________________________________________________________________
+```
+
+<sup>Created on 2021-06-28 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
+","billdenney",0,0
