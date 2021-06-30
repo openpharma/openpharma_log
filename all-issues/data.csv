@@ -23868,11 +23868,11 @@ Features included:
 
 Refer to additional branch-protection related governance settings here: https://github.com/Roche/respectables/settings/branch_protection_rules/20730306","dinakar29",3,0
 "Roche/respectables","Governance for contributions and project management","https://github.com/Roche/respectables/issues/18","open",2021-05-28,2021-05-28,NA,0,"Add basic governance standards for easier project management and auto-tagging of bugs and feature requests. Also add default code owners for auto-assigning reviewers during pull requests.","dinakar29",26,26
-"Roche/respectables","20 - Basic Github actions","https://github.com/Roche/respectables/pull/21","open",2021-05-30,2021-06-14,NA,1,"Track Issue #20
+"Roche/respectables","20 - Basic Github actions","https://github.com/Roche/respectables/pull/21","open",2021-05-30,2021-06-29,NA,2,"Track Issue #20
 
 Starter Github actions to enhance DX (developer experience).
 Most of these have been borrowed from https://github.com/r-lib/actions/tree/master/examples and some have been lifted-and-shifted from CircleCI
-","dinakar29",24,9
+","dinakar29",31,1
 "Roche/respectables","Github Actions over CircleCI","https://github.com/Roche/respectables/issues/20","open",2021-05-30,2021-05-30,NA,1,"Github actions workflows is increasing in popularity in the OSS community, we should look into utilizing it over CircleCI. Some of the advantages of GH actions over CircleCI include:
 
 * Simple and easy to understand workflow definition syntax
@@ -24544,7 +24544,7 @@ Z201 <- function() {
 ```
 
 [dataset.zip](https://github.com/nlmixrdevelopment/nlmixr/files/6645852/dataset.zip)
-","yjung1",15,0
+","yjung1",16,1
 "nlmixrdevelopment/nlmixr","Help request: `library(nlmixr)` failing when using version 1.1.1-5","https://github.com/nlmixrdevelopment/nlmixr/issues/532","open",2021-06-14,2021-06-14,NA,2,"Firstly, thank you for your efforts on developing this package. 
 
 I am working with version 1.1.1-5 on R 3.6.3. I appreciate that a lot of work has gone into the package since then but do not have the option of updating.
@@ -24919,13 +24919,13 @@ Notice that the cells in the first row of `result` span two cells of other colum
 "nlmixrdevelopment/nlmixr","Any approah modeling PK-binominal PD or PK-ordered categorical PD data in nlmixr?","https://github.com/nlmixrdevelopment/nlmixr/issues/535","open",2021-06-26,2021-06-26,NA,0,"Hi@mattfidler, recently I'd like to model the PK-adverse event model to demonstrate the exposure-safety relaionship. The preliminary approach was to first do popPK modeling, then have individual exposure prediction, and finally link individual exposure to adverse events using logistic regression or survival analysis. However, such approach disconnected PK and PD, and if logistic regression is used the time information of events is ignored.
 
 Then I would like to try joint PK-PD model which incorporating individual predicted PK parameters and observed PD events with time record, which is PK-categorical PD model. As far as I know the ensence of such approach is to redefine the likelihood function as those in NONMEM. However, I have no idea whether it could be resolved in nlmixr. If it is allowed, could you please tell me how to handle this?","diabloyg",2,2
-"openpharma/staged.dependencies","implemented recursive version of check_downstream","https://github.com/openpharma/staged.dependencies/pull/16","open",2021-06-27,2021-06-29,NA,4,"","maximilianmordig",2,0
-"atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",1,1
+"openpharma/staged.dependencies","implemented recursive version of check_downstream","https://github.com/openpharma/staged.dependencies/pull/16","open",2021-06-27,2021-06-29,NA,4,"","maximilianmordig",3,1
+"atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",2,2
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
-"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-06-28,NA,0,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",1,1
+"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-06-28,NA,0,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",2,2
 "nlmixrdevelopment/nlmixr","Documentation Request: Update lincmt docs","https://github.com/nlmixrdevelopment/nlmixr/issues/536","open",2021-06-29,2021-06-29,NA,0,"I'm wanting to use `linCmt()` in a new model, but I'm having trouble figuring out how to make use of it specifically.  I looked to the `lin_cmt` documentation, but that didn't show how to use it.  I went to https://nlmixrdevelopment.github.io/RxODE/articles/RxODE-model-types.html#solved-compartment-models, but in the original post where I found it, said that it is outdated.  (Maybe it is now up to date.)
 
-So, the request is:  Where is use of `linCmt()` best documented?  And, can that be linked to or updated in the `?lin_cmt` docs?","billdenney",0,0
+So, the request is:  Where is use of `linCmt()` best documented?  And, can that be linked to or updated in the `?lin_cmt` docs?","billdenney",1,1
 "nlmixrdevelopment/nlmixr","linCmt() Detection Issue?","https://github.com/nlmixrdevelopment/nlmixr/issues/537","open",2021-06-29,2021-06-29,NA,0,"I just tried to make a 2-compartment linear compartmental model using `linCmt()`, but when I looked at the summary output, it said that it was a 1-compartment model.  Am I doing something wrong or is there a typo in the printout for the model?
 
 The specific line below is ""RxODE-based 1-compartment model with first-order absorption"" which I thought should say ""2-compartment"" instead of ""1-compartment"".
@@ -24983,4 +24983,4 @@ nlmixr(twocmt)
 ```
 
 <sup>Created on 2021-06-28 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
-","billdenney",0,0
+","billdenney",1,1
