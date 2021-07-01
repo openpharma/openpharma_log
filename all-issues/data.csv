@@ -24901,6 +24901,36 @@ Here are two suggestions to be discussed:
 3. build, check, install downstream (local or remote as per `local` argument)
 ","waddella",7,0
 "openpharma/staged.dependencies","add a test downstream function","https://github.com/openpharma/staged.dependencies/issues/15","closed",2021-06-24,2021-06-30,2021-06-30,1,"while developing packages the `check_downstream` functions is often a bit heavy in compute demand, please add a `test_downstream` function that runs the unit test instead of the full checks.","waddella",6,0
+"Merck/r2rtf","r2rtf needs to work properly with `group_by`","https://github.com/Merck/r2rtf/issues/36","closed",2021-06-24,2021-07-01,2021-06-28,1,"
+```
+### Preliminaries
+rm(list=ls())
+require(tidyverse)
+require(r2rtf)
+
+# Get data from package
+dat <- select(r2rtf_adsl, SUBJID, ARM, SEX, AGEGR1, WEIGHTBL)
+
+# Calculate mean weight by ARM and SEX
+stats <- dat %>% group_by(ARM, SEX, AGEGR1) %>% summarize(N=n(), WEIGHT.MEAN=mean(WEIGHTBL))
+
+# New header
+hdr <- c(""Arm | Gender | Age Group | N Subjects | Weight"")
+
+# Doesn't update header
+stats %>%
+  rtf_colheader(colheader = hdr, text_format=""b"") %>%
+  rtf_body() %>%
+  rtf_encode() %>%
+  write_rtf(file = ""rtf_colheader_test1.rtf"")
+
+# Updates header
+as_tibble(stats) %>%
+rtf_colheader(colheader = hdr, text_format=""b"") %>%
+rtf_body() %>%
+rtf_encode() %>%
+write_rtf(file = ""rtf_colheader_test2.rtf"")
+```","elong0527",4,-3
 "Roche/respectables","remap variable names","https://github.com/Roche/respectables/issues/27","open",2021-06-24,2021-06-24,NA,0,"if a generating function produces more than 1 variable then the variable names in the returned data.frame might not be the ones that are expected in the recipe. We might have to add a remapping column or use a order based renaming approach.","waddella",2,2
 "Novartis/pisces","Add ""tidy"" data output as an option","https://github.com/Novartis/pisces/issues/16","open",2021-06-25,2021-06-25,NA,0,"I accidentally removed the tidy data format from my last update. This time I will add a `--tidy` flag for `pisces summarize-expression` that will change outputs to tall/tidy shape.","mdshw5",1,1
 "Roche/rtables","fix html colspan bug","https://github.com/Roche/rtables/pull/209","closed",2021-06-25,2021-06-26,2021-06-26,1,"@gmbecker please review and approve. Then merge `pre-release` into your working branch.","waddella",1,0
@@ -24937,6 +24967,8 @@ Then I would like to try joint PK-PD model which incorporating individual predic
 "atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",2,2
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
 "openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-06-28,NA,0,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",2,2
+"AstraZeneca/kallisto","Update methods.py","https://github.com/AstraZeneca/kallisto/pull/36","open",2021-06-28,2021-06-30,NA,2,"**return statement causes the control flow to be disrupted**
+making the else / elif block here unnecessary. This doesn't mean you can not use it, but it is recommended to refactor this for a better readability.","albernsrya",3,1
 "nlmixrdevelopment/nlmixr","Documentation Request: Update lincmt docs","https://github.com/nlmixrdevelopment/nlmixr/issues/536","closed",2021-06-29,2021-06-30,2021-06-30,2,"I'm wanting to use `linCmt()` in a new model, but I'm having trouble figuring out how to make use of it specifically.  I looked to the `lin_cmt` documentation, but that didn't show how to use it.  I went to https://nlmixrdevelopment.github.io/RxODE/articles/RxODE-model-types.html#solved-compartment-models, but in the original post where I found it, said that it is outdated.  (Maybe it is now up to date.)
 
 So, the request is:  Where is use of `linCmt()` best documented?  And, can that be linked to or updated in the `?lin_cmt` docs?","billdenney",1,0
