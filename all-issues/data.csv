@@ -23868,11 +23868,11 @@ Features included:
 
 Refer to additional branch-protection related governance settings here: https://github.com/Roche/respectables/settings/branch_protection_rules/20730306","dinakar29",3,0
 "Roche/respectables","Governance for contributions and project management","https://github.com/Roche/respectables/issues/18","open",2021-05-28,2021-05-28,NA,0,"Add basic governance standards for easier project management and auto-tagging of bugs and feature requests. Also add default code owners for auto-assigning reviewers during pull requests.","dinakar29",26,26
-"Roche/respectables","20 - Basic Github actions","https://github.com/Roche/respectables/pull/21","open",2021-05-30,2021-06-29,NA,2,"Track Issue #20
+"Roche/respectables","20 - Basic Github actions","https://github.com/Roche/respectables/pull/21","open",2021-05-30,2021-06-30,NA,3,"Track Issue #20
 
 Starter Github actions to enhance DX (developer experience).
 Most of these have been borrowed from https://github.com/r-lib/actions/tree/master/examples and some have been lifted-and-shifted from CircleCI
-","dinakar29",31,1
+","dinakar29",32,1
 "Roche/respectables","Github Actions over CircleCI","https://github.com/Roche/respectables/issues/20","open",2021-05-30,2021-05-30,NA,1,"Github actions workflows is increasing in popularity in the OSS community, we should look into utilizing it over CircleCI. Some of the advantages of GH actions over CircleCI include:
 
 * Simple and easy to understand workflow definition syntax
@@ -24805,12 +24805,12 @@ basic_table(title = ""ABC"", main_footer = ""XYZ"") %>%
 
 ","anajens",6,6
 "openpharma/staged.dependencies","change slash separator to @, update readme","https://github.com/openpharma/staged.dependencies/pull/4","closed",2021-06-22,2021-06-23,2021-06-23,1,"","maximilianmordig",1,0
-"openpharma/staged.dependencies","investigate the RStudio Job Launcher","https://github.com/openpharma/staged.dependencies/issues/7","open",2021-06-22,2021-06-23,NA,0,"I.e. build and check per package run as jobs (maybe download too), see
+"openpharma/staged.dependencies","investigate the RStudio Job Launcher","https://github.com/openpharma/staged.dependencies/issues/7","closed",2021-06-22,2021-06-30,2021-06-30,0,"I.e. build and check per package run as jobs (maybe download too), see
 
 i.e. have a look: https://blog.rstudio.com/2019/03/14/rstudio-1-2-jobs/
 
-note that downstream checking needs to stay command line compatible as we will run it in CI/CD","waddella",3,2
-"openpharma/staged.dependencies","make a staged dependency graph and text output","https://github.com/openpharma/staged.dependencies/issues/6","open",2021-06-22,2021-06-26,NA,2,"# Graph
+note that downstream checking needs to stay command line compatible as we will run it in CI/CD","waddella",8,0
+"openpharma/staged.dependencies","make a staged dependency graph and text output","https://github.com/openpharma/staged.dependencies/issues/6","closed",2021-06-22,2021-06-30,2021-06-30,2,"# Graph
 
 It would be good for any package that has a `staged_dependencies.yaml` file to allow to create a dependency graph that includes only other packages mentioned in the `staged_dependencies.yaml` files (recursively):
 
@@ -24841,7 +24841,7 @@ K           devel               other
 L           devel               downstream
 ```
 
-Note the return object should be a `data.frame`.","waddella",6,2
+Note the return object should be a `data.frame`.","waddella",8,0
 "openpharma/staged.dependencies","Review","https://github.com/openpharma/staged.dependencies/pull/2","closed",2021-06-22,2021-06-22,2021-06-22,2,"@maximilianmordig, please have a look at my proposed changes.
 
 My credentials with gitlab still don't work. Can you please have a look and update the `README.md` with the instructions to get started. I guess it's best to create an `.Rprofile` and set the system variables.
@@ -24862,8 +24862,8 @@ and then the user can modify it in the `.Rprofile`
 ","waddella",3,0
 "openpharma/staged.dependencies","added token mapping","https://github.com/openpharma/staged.dependencies/pull/14","closed",2021-06-23,2021-06-25,2021-06-25,0,"","maximilianmordig",2,0
 "openpharma/staged.dependencies","check if this works with renv","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-23,NA,0,"not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",1,1
-"openpharma/staged.dependencies","install_all_staged_dependcies","https://github.com/openpharma/staged.dependencies/issues/8","open",2021-06-23,2021-06-23,NA,0,"i.e. install all packages on the staged dependency graph from the correct branches.","waddella",2,2
-"openpharma/staged.dependencies","local repos","https://github.com/openpharma/staged.dependencies/issues/10","open",2021-06-23,2021-06-23,NA,0,"add a `local` argument that takes a data.frame with 3 columns (repo, host, local_path) so that the user can use local clones for checking and installation (i.e. working on a repo spanning feature locally). The `local` argument should be `NULL` by default, i.e. getting all the dependencies from the remotes.
+"openpharma/staged.dependencies","install_all_staged_dependcies","https://github.com/openpharma/staged.dependencies/issues/8","closed",2021-06-23,2021-06-30,2021-06-30,0,"i.e. install all packages on the staged dependency graph from the correct branches.","waddella",7,0
+"openpharma/staged.dependencies","local repos","https://github.com/openpharma/staged.dependencies/issues/10","closed",2021-06-23,2021-06-30,2021-06-30,0,"add a `local` argument that takes a data.frame with 3 columns (repo, host, local_path) so that the user can use local clones for checking and installation (i.e. working on a repo spanning feature locally). The `local` argument should be `NULL` by default, i.e. getting all the dependencies from the remotes.
 
 
 # In the RStudio addin
@@ -24873,20 +24873,34 @@ Then you can ask which rrepo to use locally and store the default local repo map
 ```
 repo, host, local_path
 Roche/rtables, https://github.com, ~/git_projects/rtables
-```","waddella",2,2
-"openpharma/staged.dependencies","renv integration","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-24,NA,0,"@gmbecker has mentioned a better way to deal with `renv` integration, we will meet and specify this issue later.
+```","waddella",7,0
+"openpharma/staged.dependencies","renv integration","https://github.com/openpharma/staged.dependencies/issues/9","open",2021-06-23,2021-06-30,NA,0,"@gmbecker has mentioned a better way to deal with `renv` integration, we will meet and specify this issue later.
 
 
-# Original Message
+# Use Case
 
-not that renv modifies the libpath with a project local `.Rprofile`, so make sure that `R CMD INSTALL` for upstream uses an R process relativ to the active project. I suggest that when you call `install_upstream` you get the current `.libPaths` and then use the `-l` argument for `R`.","waddella",3,2
-"openpharma/staged.dependencies","yaml file should include the repo and host for current project","https://github.com/openpharma/staged.dependencies/issues/11","open",2021-06-23,2021-06-26,NA,1,"so that in check downstream should
+For developers and CICD we need a way
+* to install upstream dependencies
+* to install and test downstream dependencies
+
+Here are two suggestions to be discussed:
+
+## Install Upstream
+
+![CICD install upstream dependencies](https://user-images.githubusercontent.com/7786462/123961705-f1416b80-d9b0-11eb-9bb7-c941fc3cf5f1.png)
+
+## Install and Test Downstream
+
+![CICD check downstream dependencies](https://user-images.githubusercontent.com/7786462/123961744-fc949700-d9b0-11eb-8e3b-31288cbd7e4f.png)
+
+","waddella",8,1
+"openpharma/staged.dependencies","yaml file should include the repo and host for current project","https://github.com/openpharma/staged.dependencies/issues/11","closed",2021-06-23,2021-06-30,2021-06-30,1,"so that in check downstream should
 
 1. install all upstream (local or remote as per `local` argument)
 2. install current package from the local place
 3. build, check, install downstream (local or remote as per `local` argument)
-","waddella",5,2
-"openpharma/staged.dependencies","add a test downstream function","https://github.com/openpharma/staged.dependencies/issues/15","open",2021-06-24,2021-06-26,NA,1,"while developing packages the `check_downstream` functions is often a bit heavy in compute demand, please add a `test_downstream` function that runs the unit test instead of the full checks.","waddella",4,2
+","waddella",7,0
+"openpharma/staged.dependencies","add a test downstream function","https://github.com/openpharma/staged.dependencies/issues/15","closed",2021-06-24,2021-06-30,2021-06-30,1,"while developing packages the `check_downstream` functions is often a bit heavy in compute demand, please add a `test_downstream` function that runs the unit test instead of the full checks.","waddella",6,0
 "Roche/respectables","remap variable names","https://github.com/Roche/respectables/issues/27","open",2021-06-24,2021-06-24,NA,0,"if a generating function produces more than 1 variable then the variable names in the returned data.frame might not be the ones that are expected in the recipe. We might have to add a remapping column or use a order based renaming approach.","waddella",2,2
 "Novartis/pisces","Add ""tidy"" data output as an option","https://github.com/Novartis/pisces/issues/16","open",2021-06-25,2021-06-25,NA,0,"I accidentally removed the tidy data format from my last update. This time I will add a `--tidy` flag for `pisces summarize-expression` that will change outputs to tall/tidy shape.","mdshw5",1,1
 "Roche/rtables","fix html colspan bug","https://github.com/Roche/rtables/pull/209","closed",2021-06-25,2021-06-26,2021-06-26,1,"@gmbecker please review and approve. Then merge `pre-release` into your working branch.","waddella",1,0
@@ -24916,17 +24930,17 @@ Notice that the cells in the first row of `result` span two cells of other colum
   </tr>
 ...
 ```","kpagacz",1,1
-"nlmixrdevelopment/nlmixr","Any approah modeling PK-binominal PD or PK-ordered categorical PD data in nlmixr?","https://github.com/nlmixrdevelopment/nlmixr/issues/535","open",2021-06-26,2021-06-26,NA,0,"Hi@mattfidler, recently I'd like to model the PK-adverse event model to demonstrate the exposure-safety relaionship. The preliminary approach was to first do popPK modeling, then have individual exposure prediction, and finally link individual exposure to adverse events using logistic regression or survival analysis. However, such approach disconnected PK and PD, and if logistic regression is used the time information of events is ignored.
+"nlmixrdevelopment/nlmixr","Any approah modeling PK-binominal PD or PK-ordered categorical PD data in nlmixr?","https://github.com/nlmixrdevelopment/nlmixr/issues/535","closed",2021-06-26,2021-06-30,2021-06-30,2,"Hi@mattfidler, recently I'd like to model the PK-adverse event model to demonstrate the exposure-safety relaionship. The preliminary approach was to first do popPK modeling, then have individual exposure prediction, and finally link individual exposure to adverse events using logistic regression or survival analysis. However, such approach disconnected PK and PD, and if logistic regression is used the time information of events is ignored.
 
-Then I would like to try joint PK-PD model which incorporating individual predicted PK parameters and observed PD events with time record, which is PK-categorical PD model. As far as I know the ensence of such approach is to redefine the likelihood function as those in NONMEM. However, I have no idea whether it could be resolved in nlmixr. If it is allowed, could you please tell me how to handle this?","diabloyg",2,2
-"openpharma/staged.dependencies","implemented recursive version of check_downstream","https://github.com/openpharma/staged.dependencies/pull/16","open",2021-06-27,2021-06-29,NA,4,"","maximilianmordig",3,1
+Then I would like to try joint PK-PD model which incorporating individual predicted PK parameters and observed PD events with time record, which is PK-categorical PD model. As far as I know the ensence of such approach is to redefine the likelihood function as those in NONMEM. However, I have no idea whether it could be resolved in nlmixr. If it is allowed, could you please tell me how to handle this?","diabloyg",4,0
+"openpharma/staged.dependencies","implemented recursive version of check_downstream","https://github.com/openpharma/staged.dependencies/pull/16","closed",2021-06-27,2021-06-30,2021-06-30,6,"","maximilianmordig",3,0
 "atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",2,2
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
 "openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-06-28,NA,0,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",2,2
-"nlmixrdevelopment/nlmixr","Documentation Request: Update lincmt docs","https://github.com/nlmixrdevelopment/nlmixr/issues/536","open",2021-06-29,2021-06-29,NA,0,"I'm wanting to use `linCmt()` in a new model, but I'm having trouble figuring out how to make use of it specifically.  I looked to the `lin_cmt` documentation, but that didn't show how to use it.  I went to https://nlmixrdevelopment.github.io/RxODE/articles/RxODE-model-types.html#solved-compartment-models, but in the original post where I found it, said that it is outdated.  (Maybe it is now up to date.)
+"nlmixrdevelopment/nlmixr","Documentation Request: Update lincmt docs","https://github.com/nlmixrdevelopment/nlmixr/issues/536","closed",2021-06-29,2021-06-30,2021-06-30,2,"I'm wanting to use `linCmt()` in a new model, but I'm having trouble figuring out how to make use of it specifically.  I looked to the `lin_cmt` documentation, but that didn't show how to use it.  I went to https://nlmixrdevelopment.github.io/RxODE/articles/RxODE-model-types.html#solved-compartment-models, but in the original post where I found it, said that it is outdated.  (Maybe it is now up to date.)
 
-So, the request is:  Where is use of `linCmt()` best documented?  And, can that be linked to or updated in the `?lin_cmt` docs?","billdenney",1,1
-"nlmixrdevelopment/nlmixr","linCmt() Detection Issue?","https://github.com/nlmixrdevelopment/nlmixr/issues/537","open",2021-06-29,2021-06-29,NA,0,"I just tried to make a 2-compartment linear compartmental model using `linCmt()`, but when I looked at the summary output, it said that it was a 1-compartment model.  Am I doing something wrong or is there a typo in the printout for the model?
+So, the request is:  Where is use of `linCmt()` best documented?  And, can that be linked to or updated in the `?lin_cmt` docs?","billdenney",1,0
+"nlmixrdevelopment/nlmixr","linCmt() Detection Issue?","https://github.com/nlmixrdevelopment/nlmixr/issues/537","closed",2021-06-29,2021-06-30,2021-06-30,3,"I just tried to make a 2-compartment linear compartmental model using `linCmt()`, but when I looked at the summary output, it said that it was a 1-compartment model.  Am I doing something wrong or is there a typo in the printout for the model?
 
 The specific line below is ""RxODE-based 1-compartment model with first-order absorption"" which I thought should say ""2-compartment"" instead of ""1-compartment"".
 
@@ -24983,4 +24997,48 @@ nlmixr(twocmt)
 ```
 
 <sup>Created on 2021-06-28 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
-","billdenney",1,1
+","billdenney",1,0
+"nlmixrdevelopment/nlmixr","Bad issue","https://github.com/nlmixrdevelopment/nlmixr/issues/538","closed",2021-06-30,2021-06-30,2021-06-30,0,"Meant to be Issue #536 ","mattfidler",0,0
+"openpharma/staged.dependencies","can repo access be tested?","https://github.com/openpharma/staged.dependencies/issues/19","open",2021-06-30,2021-06-30,NA,0,"Every now and then I get the error
+
+```
+ Error in git2r::clone(url = repo_url, local_path = repo_dir, credentials = creds,  : 
+  Error in 'git2r_clone': unexpected HTTP status code: 404 
+```
+
+can we make this error message somehow more concise? e.g.
+- no access to host
+- invalid TOKEN
+- repository does not exist
+- html error message
+
+","waddella",1,1
+"openpharma/staged.dependencies","dependency_graph bug","https://github.com/openpharma/staged.dependencies/issues/20","open",2021-06-30,2021-06-30,NA,0,"I get:
+
+```
+> staged.dependencies::dependency_graph()
+ Error: Problem with `mutate()` column `title`.
+ℹ `title = get_edge_tooltip(.data$from, .data$to, .data$listed_by)`.
+x `title` must return compatible vectors across groups
+ℹ Result type for group 1 (from = ""NEST/goshawk @ https://github.roche.com"", to = ""NEST/utils.nest @ https://github.roche.com""): <character>.
+ℹ Result type for group 16 (from = ""NEST/tern @ https://github.roche.com"", to = ""NEST/scda @ https://github.roche.com""): <list>.
+Run `rlang::last_error()` to see where the error occurred. 
+```","waddella",1,1
+"openpharma/staged.dependencies","make `upstream_repos` and `downstream_repos` optional","https://github.com/openpharma/staged.dependencies/issues/18","open",2021-06-30,2021-06-30,NA,0,"in the `yaml` file as not all repos require them","waddella",1,1
+"openpharma/staged.dependencies","reset --hard origin/<branch>","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-06-30,NA,0,"I ran into the issue:
+
+```
+Error in install_repo_add_sha(repo_dir) : 
+  The git directory /home/users/waddella/.staged.dependencies/packages_cache/NEST_test.nest_681a713a88fd31f16f5c7a97bc0d5592 contains changes.
+Calls: sourceWithProgress ... eval -> do.call -> <Anonymous> -> install_repo_add_sha
+Execution halted
+```
+and when I check the repo I get
+
+![image](https://user-images.githubusercontent.com/7786462/123940418-7751b800-d999-11eb-86a7-d0c5b8a85ed6.png)
+
+and in particular with `git diff`
+
+![image](https://user-images.githubusercontent.com/7786462/123940609-a23c0c00-d999-11eb-8cb0-475e7322e3c8.png)
+
+Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",1,1
