@@ -4,7 +4,7 @@
 "atorus-research","Tplyr","atorus-research/Tplyr",NA,"2021-03-16T14:00:46Z","R",155.1
 "atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDSIC compliance.","2021-05-28T18:54:14Z","R",3.9
 "Merck","pkglite","Merck/pkglite","Compact Package Representations","2021-06-11T19:49:04Z","R",0.7
-"nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-06-16T03:25:00Z","Rich Text Format",877.7
+"nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-06-30T03:24:46Z","Rich Text Format",877.7
 "Novartis","peax","Novartis/peax","Peax is a tool for interactive visual pattern search and exploration in epigenomic data based on unsupervised representation learning with autoencoders","2021-06-15T17:13:05Z","Jupyter Notebook",52.5
 "Novartis","pisces","Novartis/pisces","PISCES is a pipeline for rapid transcript quantitation, genetic fingerprinting, and quality control assessment of RNAseq libraries using Salmon.","2021-04-15T14:51:01Z","Python",18.1
 "Novartis","xgxr","Novartis/xgxr","R package for supporting exploratory graphics at http://opensource.nibr.com/xgx","2021-04-26T18:44:37Z","R",46.4
@@ -16,7 +16,7 @@
 "openpharma","ReadStat","openpharma/ReadStat","Command-line tool (+ C library) for converting SAS, Stata, and SPSS files 💾","2020-09-26T06:39:12Z","C",1.8
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
 "openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-06-11T10:55:26Z","R",85.9
-"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-06-29T12:04:54Z","R",0.2
+"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-06-30T08:49:11Z","R",0.2
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
@@ -26,4 +26,4 @@
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-06-28T14:14:55Z","R",0.3
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-06-29T11:54:55Z","R",97.2
 "Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-06-29T20:04:05Z","R",1.1
-"Roche","rtables","Roche/rtables","Reporting tables with R","2021-06-26T09:27:43Z","R",5.5
+"Roche","rtables","Roche/rtables","Reporting tables with R","2021-06-30T09:26:12Z","R",5.5
