@@ -24026,9 +24026,9 @@ Rough troubleshooting train of thought:
 a) By inspecting the plot components I noticed that the desired label actually ends up in the plot data.
 b) Experiment around with priorities of ggplot scales and labels
 c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",18,6
-"openpharma/visR","In the absence of a specified x-label or a data-derived label, should the x-axis be blank?","https://github.com/openpharma/visR/issues/213","open",2021-06-08,2021-06-08,NA,0,"See title.
+"openpharma/visR","In the absence of a specified x-label or a data-derived label, should the x-axis be blank?","https://github.com/openpharma/visR/issues/213","open",2021-06-08,2021-07-02,NA,2,"See title.
 
-Related to the comments in PR https://github.com/openpharma/visR/pull/211 and https://github.com/openpharma/visR/pull/212.","timtreis",15,15
+Related to the comments in PR https://github.com/openpharma/visR/pull/211 and https://github.com/openpharma/visR/pull/212.","timtreis",24,0
 "Roche/ggtips","Stroke color","https://github.com/Roche/ggtips/pull/65","closed",2021-06-09,2021-06-28,2021-06-09,1,"","cosi1",0,-19
 "nlmixrdevelopment/nlmixr","The data returned by nlmixr are not the same as the input data","https://github.com/nlmixrdevelopment/nlmixr/issues/530","closed",2021-06-09,2021-06-10,2021-06-10,9,"The following reprex shows the problem if you compare the output of the last two calls to `subset`. The listed data should be the same, but in the nlmixr output some of the data for the parent compound are attributed to the metabolite `m1`.
 
@@ -24933,7 +24933,7 @@ write_rtf(file = ""rtf_colheader_test2.rtf"")
 ```","elong0527",4,-3
 "Roche/respectables","remap variable names","https://github.com/Roche/respectables/issues/27","open",2021-06-24,2021-06-24,NA,0,"if a generating function produces more than 1 variable then the variable names in the returned data.frame might not be the ones that are expected in the recipe. We might have to add a remapping column or use a order based renaming approach.","waddella",2,2
 "Novartis/pisces","Add ""tidy"" data output as an option","https://github.com/Novartis/pisces/issues/16","open",2021-06-25,2021-06-25,NA,0,"I accidentally removed the tidy data format from my last update. This time I will add a `--tidy` flag for `pisces summarize-expression` that will change outputs to tall/tidy shape.","mdshw5",1,1
-"Roche/rtables","fix html colspan bug","https://github.com/Roche/rtables/pull/209","closed",2021-06-25,2021-06-26,2021-06-26,1,"@gmbecker please review and approve. Then merge `pre-release` into your working branch.","waddella",1,0
+"Roche/rtables","fix html colspan bug","https://github.com/Roche/rtables/pull/209","closed",2021-06-25,2021-07-02,2021-06-26,1,"@gmbecker please review and approve. Then merge `pre-release` into your working branch.","waddella",1,-6
 "Roche/rtables","rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.","https://github.com/Roche/rtables/issues/208","open",2021-06-25,2021-06-25,NA,1,"rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.
 
 ```r
@@ -24965,6 +24965,7 @@ Notice that the cells in the first row of `result` span two cells of other colum
 Then I would like to try joint PK-PD model which incorporating individual predicted PK parameters and observed PD events with time record, which is PK-categorical PD model. As far as I know the ensence of such approach is to redefine the likelihood function as those in NONMEM. However, I have no idea whether it could be resolved in nlmixr. If it is allowed, could you please tell me how to handle this?","diabloyg",4,0
 "openpharma/staged.dependencies","implemented recursive version of check_downstream","https://github.com/openpharma/staged.dependencies/pull/16","closed",2021-06-27,2021-06-30,2021-06-30,6,"","maximilianmordig",3,0
 "atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",2,2
+"Merck/r2rtf","allow verbose argument in `rtf_encode`","https://github.com/Merck/r2rtf/pull/38","closed",2021-06-28,2021-07-02,2021-07-02,1,"","elong0527",4,0
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
 "openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-06-28,NA,0,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",2,2
 "AstraZeneca/kallisto","Update methods.py","https://github.com/AstraZeneca/kallisto/pull/36","open",2021-06-28,2021-06-30,NA,2,"**return statement causes the control flow to be disrupted**
@@ -25167,3 +25168,122 @@ riskmetric:
 - covr_coverage [Broken?]
 
 ","timtreis",1,1
+"openpharma/visR","'riskmetric' doesn't recognise our vignettes","https://github.com/openpharma/visR/issues/234","closed",2021-07-02,2021-07-02,2021-07-02,2,"#### Issue description
+
+When assessing `visR` with `riskmetric`, it doesn't recognise the existence of our vignettes.
+
+#### Steps to reproduce the issue
+
+![image](https://user-images.githubusercontent.com/12818242/124235931-2a472080-db16-11eb-81db-f9fddcc03956.png)
+
+#### What's the expected result?
+
+- We do have vignettes, so it should be 1
+
+
+#### What's the actual result?
+
+- It's 0
+
+
+#### Additional details / screenshot
+","timtreis",0,0
+"pharmaR/riskmetric","Data the score is calculated on differs based on whether the package is installed locally or not","https://github.com/pharmaR/riskmetric/issues/206","open",2021-07-02,2021-07-02,NA,0,"I tried to automatically scrape all of CRAN for riskmetric scores and quickly noticed that the results massively favoured locally installed packages. After some more digging, it seems that, when pulling from CRAN instead of local, many of the metrics fail.  
+
+Is this behaviour local to my machine?
+
+![image](https://user-images.githubusercontent.com/12818242/124266295-1233c900-db37-11eb-96e9-47e438f293e3.png)
+![image](https://user-images.githubusercontent.com/12818242/124266554-6ccd2500-db37-11eb-8605-1bbe1ab02bd6.png)
+","timtreis",0,0
+"nlmixrdevelopment/nlmixr","Development Idea: Library of model snippets and model expansion","https://github.com/nlmixrdevelopment/nlmixr/issues/541","open",2021-07-02,2021-07-02,NA,0,"Somewhat related to #540
+
+To be very clear from the outset, I think that this would likely reside in another package than nlmixr, but it would be very tightly related.  One common naming syntax for packages like this is something like `nlmixrExtra`.
+
+My thought here is something like an `nlmixr_tran()` function that would perform pre-processing of models to expand commonly-used model structures.
+
+```r
+library(nlmixrExtra)
+onecmt <- function() {
+  ini({
+    lCl <- 1.6
+    lVc <- log(18)
+    lVmax <- log(0.1)
+    lC50 <- log(100)
+    eta_Cl ~ 0.1
+    prop_err <- c(0, 0.2, 1)
+  })
+  model({
+    Cl <- exp(lCl + eta_Cl)
+    Vc <- exp(lVc)
+    Vmax <- exp(lVmax)
+    mm_c50 <- exp(lC50)
+    cp <- TMDD_Michaelis_Menten(CL=Cl, Vc=Vc, Vmax=Vmax, C50=mm_c50, compartment=central)
+    cp ~ prop(prop_err)
+  })
+}
+onecmt_expanded <- nlmixr_tran(onecmt)
+```
+
+`nlmixr_tran()` would modify the model and return that modified model (or perhaps go ahead and call nlmixr with that modified model if `estimate=TRUE` or something like that).
+
+The output of `onecmt_expanded` would expand out the `linear_pk()` function to look like:
+
+```r
+function() {
+  ini({
+    lCl <- 1.6
+    lVc <- log(18)
+    lVmax <- log(0.1)
+    lC50 <- log(100)
+    eta_Cl ~ 0.1
+    prop_err <- c(0, 0.2, 1)
+  })
+  model({
+    Cl <- exp(lCl + eta_Cl)
+    Vc <- exp(lVc)
+    Vmax <- exp(lVmax)
+    mm_c50 <- exp(lC50)
+    d/dt(central) = -central*Cl/Vc - central*Vmax/(central/Vc + mm_c50)
+    cp <- central/Vc
+    cp ~ prop(prop_err)
+  })
+}
+```
+
+With an expansion mechanism (as suggested with `nlmixr_trans()`), it would be comparatively straight-forward to make the substitution functions like `TMDD_Michaelis_Menten()`.","billdenney",0,0
+"nlmixrdevelopment/nlmixr","Feature Request: linCmt() on the right hand side with less automation","https://github.com/nlmixrdevelopment/nlmixr/issues/540","open",2021-07-02,2021-07-02,NA,0,"I have a model where I want to simultaneously use two `linCmt()` PK models while fitting the PD model.  But, I think that `linCmt()` is only valid on the left hand side of an error model assignment (i.e. `linCmt() ~ prop(prop.err)`).
+
+The feature request here has a few different parts to attempt to have the goal of using it for different drugs in the same model.
+
+1. Can `linCmt()` go on the right hand side of an assignment statement (e.g. `cp = linCmt()`)?  Maybe it already can, but I have not seen documentation of an example of that.
+2. Can a new version of linCmt be made where it can accept named arguments rather than auto-detecting the parameters?  The goal of this part is that you could work with more than one drug at a time.  (This is a bit different than using DVID or some other method like that because of the idea that I may want to work with more than one `linCmt()` drug at the same time.  If I need to do a calculation like `cp_drug1 = linCmt([parameters for drug 1])`, `cp_drug2 = linCmt([parameters for drug 2])`, and then some calculation with `cp_drug1` and `cp_drug2` such as a competitive Emax model, I can't immediately think of a way to do that.)
+
+An example of what I'd like to be able to do is below.
+
+```r
+library(nlmixr)
+double_onecmt <- function() {
+  ini({
+    lCl1 <- 1.6      ; label(""Cl drug 1 (L/hr)"")
+    lVc1 <- log(18)  ; label(""Vc drug 1 (L)"")
+    eta_Cl1 ~ 0.1 ; label(""BSV Cl drug 1 "")
+    prop_err1 <- c(0, 0.2, 1)
+    lCl2 <- 1.6      ; label(""Cl drug 2 (L/hr)"")
+    lVc2 <- log(18)  ; label(""Vc drug 2 (L)"")
+    eta_Cl2 ~ 0.1 ; label(""BSV Cl drug 2"")
+    prop_err2 <- c(0, 0.2, 1)
+  })
+  model({
+    Cl1 <- exp(lCl1 + eta_Cl1)
+    Vc1 <- exp(lVc1)
+    Cl2 <- exp(lCl2 + eta_Cl2)
+    Vc2 <- exp(lVc2)
+    cp1 <- linCmt(CL=Cl1, Vc=Vc1)
+    cp2 <- linCmt(CL=Cl2, Vc=Vc2)
+    cp1 ~ prop(prop_err1)
+    cp2 ~ prop(prop_err2)
+  })
+}
+nlmixr(double_onecmt)
+```","billdenney",0,0
+"Merck/pkglite","update github action","https://github.com/Merck/pkglite/pull/17","open",2021-07-02,2021-07-02,NA,0,"","elong0527",0,0
