@@ -14,7 +14,7 @@
 "nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-06-30T03:24:46Z","Rich Text Format",877.7
 "Novartis","peax","Novartis/peax","Peax is a tool for interactive visual pattern search and exploration in epigenomic data based on unsupervised representation learning with autoencoders","2021-06-15T17:13:05Z","Jupyter Notebook",52.5
 "Novartis","pisces","Novartis/pisces","PISCES is a pipeline for rapid transcript quantitation, genetic fingerprinting, and quality control assessment of RNAseq libraries using Salmon.","2021-04-15T14:51:01Z","Python",18.1
-"Novartis","xgxr","Novartis/xgxr","R package for supporting exploratory graphics at http://opensource.nibr.com/xgx","2021-04-26T18:44:37Z","R",46.4
+"Novartis","xgxr","Novartis/xgxr","R package for supporting exploratory graphics at http://opensource.nibr.com/xgx","2021-07-01T15:00:47Z","R",48.2
 "openpharma","CTP","openpharma/CTP","R package providing functions for creating the closure set of multiple hypotheses and performing closed testing procedures.","2021-04-28T07:51:30Z","R",2.5
 "openpharma","facetsr","openpharma/facetsr","This package is using html widgets to wrap facets into R","2020-11-30T12:37:13Z","R",2.1
 "openpharma","GithubMetrics","openpharma/GithubMetrics","gh wrapper for easier management of Github related study metadata","2021-06-28T07:38:30Z","R",0.3
@@ -34,4 +34,4 @@
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-06-28T14:14:55Z","R",0.3
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-06-29T11:54:55Z","R",97.2
 "Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-06-29T20:04:05Z","R",1.1
-"Roche","rtables","Roche/rtables","Reporting tables with R","2021-06-30T09:26:12Z","R",5.5
+"Roche","rtables","Roche/rtables","Reporting tables with R","2021-07-01T12:48:43Z","R",5.5
