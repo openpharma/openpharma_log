@@ -24893,7 +24893,7 @@ Here are two suggestions to be discussed:
 
 ![CICD check downstream dependencies](https://user-images.githubusercontent.com/7786462/123961744-fc949700-d9b0-11eb-8e3b-31288cbd7e4f.png)
 
-","waddella",8,1
+","waddella",9,2
 "openpharma/staged.dependencies","yaml file should include the repo and host for current project","https://github.com/openpharma/staged.dependencies/issues/11","closed",2021-06-23,2021-06-30,2021-06-30,1,"so that in check downstream should
 
 1. install all upstream (local or remote as per `local` argument)
@@ -24968,7 +24968,7 @@ Then I would like to try joint PK-PD model which incorporating individual predic
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
 "openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-06-28,NA,0,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",2,2
 "AstraZeneca/kallisto","Update methods.py","https://github.com/AstraZeneca/kallisto/pull/36","open",2021-06-28,2021-06-30,NA,2,"**return statement causes the control flow to be disrupted**
-making the else / elif block here unnecessary. This doesn't mean you can not use it, but it is recommended to refactor this for a better readability.","albernsrya",3,1
+making the else / elif block here unnecessary. This doesn't mean you can not use it, but it is recommended to refactor this for a better readability.","albernsrya",4,2
 "nlmixrdevelopment/nlmixr","Documentation Request: Update lincmt docs","https://github.com/nlmixrdevelopment/nlmixr/issues/536","closed",2021-06-29,2021-06-30,2021-06-30,2,"I'm wanting to use `linCmt()` in a new model, but I'm having trouble figuring out how to make use of it specifically.  I looked to the `lin_cmt` documentation, but that didn't show how to use it.  I went to https://nlmixrdevelopment.github.io/RxODE/articles/RxODE-model-types.html#solved-compartment-models, but in the original post where I found it, said that it is outdated.  (Maybe it is now up to date.)
 
 So, the request is:  Where is use of `linCmt()` best documented?  And, can that be linked to or updated in the `?lin_cmt` docs?","billdenney",1,0
@@ -25044,7 +25044,7 @@ can we make this error message somehow more concise? e.g.
 - repository does not exist
 - html error message
 
-","waddella",1,1
+","waddella",2,2
 "openpharma/staged.dependencies","dependency_graph bug","https://github.com/openpharma/staged.dependencies/issues/20","open",2021-06-30,2021-06-30,NA,0,"I get:
 
 ```
@@ -25055,8 +25055,8 @@ x `title` must return compatible vectors across groups
 ℹ Result type for group 1 (from = ""NEST/goshawk @ https://github.roche.com"", to = ""NEST/utils.nest @ https://github.roche.com""): <character>.
 ℹ Result type for group 16 (from = ""NEST/tern @ https://github.roche.com"", to = ""NEST/scda @ https://github.roche.com""): <list>.
 Run `rlang::last_error()` to see where the error occurred. 
-```","waddella",1,1
-"openpharma/staged.dependencies","make `upstream_repos` and `downstream_repos` optional","https://github.com/openpharma/staged.dependencies/issues/18","open",2021-06-30,2021-06-30,NA,0,"in the `yaml` file as not all repos require them","waddella",1,1
+```","waddella",2,2
+"openpharma/staged.dependencies","make `upstream_repos` and `downstream_repos` optional","https://github.com/openpharma/staged.dependencies/issues/18","open",2021-06-30,2021-06-30,NA,0,"in the `yaml` file as not all repos require them","waddella",2,2
 "openpharma/staged.dependencies","reset --hard origin/<branch>","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-06-30,NA,0,"I ran into the issue:
 
 ```
@@ -25073,4 +25073,97 @@ and in particular with `git diff`
 
 ![image](https://user-images.githubusercontent.com/7786462/123940609-a23c0c00-d999-11eb-8cb0-475e7322e3c8.png)
 
-Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",1,1
+Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",2,2
+"Novartis/xgxr","Add a BugReports line to point people to GitHub","https://github.com/Novartis/xgxr/pull/44","closed",2021-07-01,2021-07-01,2021-07-01,1,"I wasn't aware that there was a GitHub repository for xgxr.  This will make it so the BugReports on CRAN will point people here.","billdenney",0,0
+"Novartis/xgxr","Feature suggestion: blq_trans for showing measurements below the LLOQ","https://github.com/Novartis/xgxr/issues/45","open",2021-07-01,2021-07-01,NA,1,"This is related to kestrel99/pmxTools#23 (more accurately, it replaces that).  It is also related to #21.
+
+**Describe the feature**
+Plotting values below the LLOQ with ggplot does not always clearly represent the data.  A specific issue relates to the fact that zeros on the log scale are on the axis and difficult to observe.
+
+The features are described with the example below:
+
+``` r
+# Loading the local copy of the code from the PR
+source(""c:/git/Not_my_repositories/xgxr/R/blq_trans.R"")
+library(tidyverse)
+
+# First, a normal plot
+ggplot(data=data.frame(x=1:10, y=1:10), aes(x=x, y=y)) +
+  geom_point()
+```
+
+![](https://i.imgur.com/NU3OK4w.png)
+
+``` r
+# Data are censored to 0.5*LLOQ, and the axis text shows ""<[LLOQ value]"" rather
+# than a number
+ggplot(data=data.frame(x=1:10, y=1:10), aes(x=x, y=y)) +
+  geom_point() +
+  scale_x_continuous(trans=blq_trans(lloq=3))
+```
+
+![](https://i.imgur.com/SFTGtM2.png)
+
+``` r
+# If you prefer a different location than 0.5*LLOQ, you can provide that with
+# the multiplier
+ggplot(data=data.frame(x=1:10, y=1:10), aes(x=x, y=y)) +
+  geom_point() +
+  scale_x_continuous(trans=blq_trans(lloq=3, multiplier=0.9))
+```
+
+![](https://i.imgur.com/OMvJkQd.png)
+
+``` r
+# If you prefer different text than ""<[LLOQ value]"", you can provide that with
+# the lloq_text argument
+ggplot(data=data.frame(x=1:10, y=1:10), aes(x=x, y=y)) +
+  geom_point() +
+  scale_x_continuous(trans=blq_trans(lloq=3, multiplier=0.9, lloq_text=""BLQ plotting is handy""))
+```
+
+![](https://i.imgur.com/eQThFk6.png)
+
+``` r
+# It can work for both axes simultaneously
+ggplot(data=data.frame(x=1:10, y=1:10), aes(x=x, y=y)) +
+  geom_point() +
+  scale_x_continuous(trans=blq_trans(lloq=3)) +
+  scale_y_continuous(trans=blq_trans(lloq=3))
+```
+
+![](https://i.imgur.com/10MCw1N.png)
+
+``` r
+# Log scale works, too (with blq_log_trans)
+ggplot(data=data.frame(x=1:10, y=1:10), aes(x=x, y=y)) +
+  geom_point() +
+  scale_x_continuous(trans=blq_log_trans(lloq=3))
+```
+
+![](https://i.imgur.com/3ufBBfm.png)
+
+<sup>Created on 2021-07-01 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
+","billdenney",1,1
+"Novartis/xgxr","Implement blq_trans()","https://github.com/Novartis/xgxr/pull/46","open",2021-07-01,2021-07-01,NA,0,"Implements feature suggested in #45 ","billdenney",1,1
+"Novartis/xgxr","Update docs","https://github.com/Novartis/xgxr/pull/47","open",2021-07-01,2021-07-01,NA,0,"While working on the previous PR, this documentation automatically updated.  There is no code change here; it just updates the docs to be current with the code.","billdenney",1,1
+"openpharma/visR","Use 'testthat' to keep our package in shape","https://github.com/openpharma/visR/issues/233","open",2021-07-01,2021-07-01,NA,0,"As briefly discussed in Slack, we could use `testthat` to perform various checks to keep our codebase in line with CRAN requirements. Additionally, if we decide to advertise our package's `riskmetric` score, we could also integrate checks for that.
+
+CRAN:
+- No T/F, but TRUE/FALSE
+- ...
+
+riskmetric:
+- ""NEWS file contains entry for current version number""
+- has_vignettes
+- has_bug_reports_url
+- export_help
+- has_website
+- r_cmd_check [Broken?]
+- remote_checks [Broken?]
+- has_maintainer 
+- has_news
+- has_source_control
+- covr_coverage [Broken?]
+
+","timtreis",1,1
