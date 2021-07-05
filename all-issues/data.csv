@@ -25188,13 +25188,13 @@ When assessing `visR` with `riskmetric`, it doesn't recognise the existence of o
 
 #### Additional details / screenshot
 ","timtreis",0,0
-"pharmaR/riskmetric","Data the score is calculated on differs based on whether the package is installed locally or not","https://github.com/pharmaR/riskmetric/issues/206","open",2021-07-02,2021-07-04,NA,1,"I tried to automatically scrape all of CRAN for riskmetric scores and quickly noticed that the results massively favoured locally installed packages. After some more digging, it seems that, when pulling from CRAN instead of local, many of the metrics fail.  
+"pharmaR/riskmetric","Data the score is calculated on differs based on whether the package is installed locally or not","https://github.com/pharmaR/riskmetric/issues/206","open",2021-07-02,2021-07-05,NA,2,"I tried to automatically scrape all of CRAN for riskmetric scores and quickly noticed that the results massively favoured locally installed packages. After some more digging, it seems that, when pulling from CRAN instead of local, many of the metrics fail.  
 
 Is this behaviour local to my machine?
 
 ![image](https://user-images.githubusercontent.com/12818242/124266295-1233c900-db37-11eb-96e9-47e438f293e3.png)
 ![image](https://user-images.githubusercontent.com/12818242/124266554-6ccd2500-db37-11eb-8605-1bbe1ab02bd6.png)
-","timtreis",3,1
+","timtreis",3,0
 "nlmixrdevelopment/nlmixr","Development Idea: Library of model snippets and model expansion","https://github.com/nlmixrdevelopment/nlmixr/issues/541","open",2021-07-02,2021-07-02,NA,0,"Somewhat related to #540
 
 To be very clear from the outset, I think that this would likely reside in another package than nlmixr, but it would be very tightly related.  One common naming syntax for packages like this is something like `nlmixrExtra`.
@@ -25287,3 +25287,36 @@ double_onecmt <- function() {
 nlmixr(double_onecmt)
 ```","billdenney",0,0
 "Merck/pkglite","update github action","https://github.com/Merck/pkglite/pull/17","open",2021-07-02,2021-07-02,NA,0,"","elong0527",0,0
+"openpharma/visR","CRAN Package Check throws warning for 4 machines due to `invalid 'path' argument` in Time_to_event_analysis.Rmd","https://github.com/openpharma/visR/issues/236","open",2021-07-05,2021-07-05,NA,3,"#### Issue description
+
+When checking the CRAN logs for visR 2.0.0, we get a `NOTE` for 3 machines (r-devel-linux-x86_64-fedora-clang, r-devel-linux-x86_64-fedora-gcc, r-devel-windows-x86_64-gcc10-UCRT):
+
+```
+    Namespace in Imports field not imported from: 'parcats'
+    All declared Imports should be used.
+```
+
+Additionally, we get the same `NOTE` and a `WARNING` for 4 more machines (r-patched-solaris-x86, r-release-macos-arm64, r-release-macos-x86_64, r-oldrel-macos-x86_64):
+
+```
+    --- re-building ‘Time_to_event_analysis.Rmd’ using rmarkdown
+    Warning in engine$weave(file, quiet = quiet, encoding = enc) :
+    Pandoc (>= 1.12.3) not available. Falling back to R Markdown v1.
+    Quitting from lines 101-105 (Time_to_event_analysis.Rmd)
+    Error: processing vignette 'Time_to_event_analysis.Rmd' failed with diagnostics:
+    invalid 'path' argument
+    --- failed re-building ‘Time_to_event_analysis.Rmd’
+```
+
+#### Steps to reproduce the issue
+
+- Look at https://cran.r-project.org/web/checks/check_results_visR.html
+
+#### What's the expected result?
+
+- Status == ""OK"" on all machines
+
+#### What's the actual result?
+
+![image](https://user-images.githubusercontent.com/12818242/124429791-99b74d00-dd6e-11eb-87b2-8c45274dda97.png)
+","timtreis",0,0
