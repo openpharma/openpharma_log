@@ -25188,13 +25188,13 @@ When assessing `visR` with `riskmetric`, it doesn't recognise the existence of o
 
 #### Additional details / screenshot
 ","timtreis",0,0
-"pharmaR/riskmetric","Data the score is calculated on differs based on whether the package is installed locally or not","https://github.com/pharmaR/riskmetric/issues/206","open",2021-07-02,2021-07-02,NA,0,"I tried to automatically scrape all of CRAN for riskmetric scores and quickly noticed that the results massively favoured locally installed packages. After some more digging, it seems that, when pulling from CRAN instead of local, many of the metrics fail.  
+"pharmaR/riskmetric","Data the score is calculated on differs based on whether the package is installed locally or not","https://github.com/pharmaR/riskmetric/issues/206","open",2021-07-02,2021-07-04,NA,1,"I tried to automatically scrape all of CRAN for riskmetric scores and quickly noticed that the results massively favoured locally installed packages. After some more digging, it seems that, when pulling from CRAN instead of local, many of the metrics fail.  
 
 Is this behaviour local to my machine?
 
 ![image](https://user-images.githubusercontent.com/12818242/124266295-1233c900-db37-11eb-96e9-47e438f293e3.png)
 ![image](https://user-images.githubusercontent.com/12818242/124266554-6ccd2500-db37-11eb-8605-1bbe1ab02bd6.png)
-","timtreis",0,0
+","timtreis",3,1
 "nlmixrdevelopment/nlmixr","Development Idea: Library of model snippets and model expansion","https://github.com/nlmixrdevelopment/nlmixr/issues/541","open",2021-07-02,2021-07-02,NA,0,"Somewhat related to #540
 
 To be very clear from the outset, I think that this would likely reside in another package than nlmixr, but it would be very tightly related.  One common naming syntax for packages like this is something like `nlmixrExtra`.
