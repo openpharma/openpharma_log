@@ -23868,11 +23868,11 @@ Features included:
 
 Refer to additional branch-protection related governance settings here: https://github.com/Roche/respectables/settings/branch_protection_rules/20730306","dinakar29",3,0
 "Roche/respectables","Governance for contributions and project management","https://github.com/Roche/respectables/issues/18","open",2021-05-28,2021-05-28,NA,0,"Add basic governance standards for easier project management and auto-tagging of bugs and feature requests. Also add default code owners for auto-assigning reviewers during pull requests.","dinakar29",26,26
-"Roche/respectables","20 - Basic Github actions","https://github.com/Roche/respectables/pull/21","open",2021-05-30,2021-06-30,NA,3,"Track Issue #20
+"Roche/respectables","20 - Basic Github actions","https://github.com/Roche/respectables/pull/21","closed",2021-05-30,2021-07-05,2021-07-05,9,"Track Issue #20
 
 Starter Github actions to enhance DX (developer experience).
 Most of these have been borrowed from https://github.com/r-lib/actions/tree/master/examples and some have been lifted-and-shifted from CircleCI
-","dinakar29",32,1
+","dinakar29",36,0
 "Roche/respectables","Github Actions over CircleCI","https://github.com/Roche/respectables/issues/20","open",2021-05-30,2021-05-30,NA,1,"Github actions workflows is increasing in popularity in the OSS community, we should look into utilizing it over CircleCI. Some of the advantages of GH actions over CircleCI include:
 
 * Simple and easy to understand workflow definition syntax
@@ -25194,7 +25194,7 @@ Is this behaviour local to my machine?
 
 ![image](https://user-images.githubusercontent.com/12818242/124266295-1233c900-db37-11eb-96e9-47e438f293e3.png)
 ![image](https://user-images.githubusercontent.com/12818242/124266554-6ccd2500-db37-11eb-8605-1bbe1ab02bd6.png)
-","timtreis",3,0
+","timtreis",4,1
 "nlmixrdevelopment/nlmixr","Development Idea: Library of model snippets and model expansion","https://github.com/nlmixrdevelopment/nlmixr/issues/541","open",2021-07-02,2021-07-02,NA,0,"Somewhat related to #540
 
 To be very clear from the outset, I think that this would likely reside in another package than nlmixr, but it would be very tightly related.  One common naming syntax for packages like this is something like `nlmixrExtra`.
@@ -25319,4 +25319,17 @@ Additionally, we get the same `NOTE` and a `WARNING` for 4 more machines (r-patc
 #### What's the actual result?
 
 ![image](https://user-images.githubusercontent.com/12818242/124429791-99b74d00-dd6e-11eb-87b2-8c45274dda97.png)
-","timtreis",0,0
+","timtreis",1,1
+"Roche/respectables","document argument","https://github.com/Roche/respectables/issues/28","open",2021-07-05,2021-07-05,NA,1,"gen_reljoin_table argumet keep needs to be documented","waddella",1,1
+"atorus-research/pharmaRTF","Update with tibble 3.1.0 breaks read_hf","https://github.com/atorus-research/pharmaRTF/issues/6","open",2021-07-05,2021-07-05,NA,0,"Thanks to @dawnye for this report in https://github.com/atorus-research/CDISC_pilot_replication/issues/7.
+
+With tibble 3.1.0 even `my_tibble[FALSE, ""notAColumn""] <- 1` will result in a new column being created. This is [intended behavior](https://github.com/tidyverse/tibble/issues/846) for tibble now. This breaks `fill_missing_data()` which is an unexported function in read_hf.R. This is the offending line:
+```
+ .data[is.na(.data[var]), var] <- correct_defaults(var)
+```
+`correct_defaults` returns NULL when var is 'type'. This would never happen in an actual hf_file but even if it returns null, tibble is trying to add a new column and failing because its not a vector, a bare list, a data frame or a matrix.
+
+Thankfully this is an easy fix. Either add type as a option in the `correct_defaults` as a blank matrix, or add an if statement like the following:
+```
+if(any(is.na(.data[[var]]))
+          .data[is.na(.data[[var]]), var] <- correct_defaults(var)","elimillera",1,1
