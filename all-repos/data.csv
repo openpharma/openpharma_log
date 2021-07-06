@@ -23,7 +23,7 @@
 "openpharma","ReadStat","openpharma/ReadStat","Command-line tool (+ C library) for converting SAS, Stata, and SPSS files 💾","2020-09-26T06:39:12Z","C",1.8
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
 "openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-06-11T10:55:26Z","R",85.9
-"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-06-30T08:49:11Z","R",0.2
+"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-07-05T21:35:40Z","R",0.3
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
@@ -34,5 +34,5 @@
 "Roche","crmPack","Roche/crmPack","Object-Oriented Implementation of CRM Designs","2021-02-19T20:47:26Z","R",62.5
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-06-28T14:14:55Z","R",0.3
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-06-29T11:54:55Z","R",97.2
-"Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-06-29T20:04:05Z","R",1.1
+"Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-07-05T23:56:36Z","R",0.9
 "Roche","rtables","Roche/rtables","Reporting tables with R","2021-07-02T07:31:43Z","R",5.5
