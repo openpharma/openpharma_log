@@ -25286,7 +25286,7 @@ double_onecmt <- function() {
 }
 nlmixr(double_onecmt)
 ```","billdenney",0,0
-"Merck/pkglite","update github action","https://github.com/Merck/pkglite/pull/17","open",2021-07-02,2021-07-02,NA,0,"","elong0527",0,0
+"Merck/pkglite","update github action","https://github.com/Merck/pkglite/pull/17","closed",2021-07-02,2021-07-06,2021-07-06,0,"","elong0527",4,0
 "openpharma/visR","CRAN Package Check throws warning for 4 machines due to `invalid 'path' argument` in Time_to_event_analysis.Rmd","https://github.com/openpharma/visR/issues/236","open",2021-07-05,2021-07-05,NA,3,"#### Issue description
 
 When checking the CRAN logs for visR 2.0.0, we get a `NOTE` for 3 machines (r-devel-linux-x86_64-fedora-clang, r-devel-linux-x86_64-fedora-gcc, r-devel-windows-x86_64-gcc10-UCRT):
