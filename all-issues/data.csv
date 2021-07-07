@@ -24545,7 +24545,7 @@ Z201 <- function() {
 
 [dataset.zip](https://github.com/nlmixrdevelopment/nlmixr/files/6645852/dataset.zip)
 ","yjung1",16,1
-"nlmixrdevelopment/nlmixr","Help request: `library(nlmixr)` failing when using version 1.1.1-5","https://github.com/nlmixrdevelopment/nlmixr/issues/532","open",2021-06-14,2021-06-14,NA,2,"Firstly, thank you for your efforts on developing this package. 
+"nlmixrdevelopment/nlmixr","Help request: `library(nlmixr)` failing when using version 1.1.1-5","https://github.com/nlmixrdevelopment/nlmixr/issues/532","closed",2021-06-14,2021-07-06,2021-07-06,3,"Firstly, thank you for your efforts on developing this package. 
 
 I am working with version 1.1.1-5 on R 3.6.3. I appreciate that a lot of work has gone into the package since then but do not have the option of updating.
  
@@ -24556,7 +24556,7 @@ My feeling is that the cause is a non-R dependency problem but this error isn't 
 
 The OS is redhat 7.7 eus repos. I have successfully used the same version of the package on other servers with the same OS, R packages, system dependencies and install process but it's failing on a new server. 
 
-Any pointers would be much appreciated! I'll try to provide any additional information that you think may help you diagnose the problem. Thanks in advance.","erp31",9,9
+Any pointers would be much appreciated! I'll try to provide any additional information that you think may help you diagnose the problem. Thanks in advance.","erp31",22,0
 "openpharma/visR","Release/cran june2021","https://github.com/openpharma/visR/pull/226","closed",2021-06-14,2021-06-14,2021-06-14,0,"Merge release branch back to develop","bailliem",0,0
 "Roche/respectables","renv","https://github.com/Roche/respectables/issues/25","open",2021-06-14,2021-06-14,NA,0,"control external package dependencies with `renv`","waddella",9,9
 "openpharma/visR","Update main with released cran version","https://github.com/openpharma/visR/pull/228","closed",2021-06-14,2021-06-15,2021-06-15,0,"Merging the release branch in to main, including update to readme with cran badge. 
@@ -25188,13 +25188,13 @@ When assessing `visR` with `riskmetric`, it doesn't recognise the existence of o
 
 #### Additional details / screenshot
 ","timtreis",0,0
-"pharmaR/riskmetric","Data the score is calculated on differs based on whether the package is installed locally or not","https://github.com/pharmaR/riskmetric/issues/206","open",2021-07-02,2021-07-05,NA,2,"I tried to automatically scrape all of CRAN for riskmetric scores and quickly noticed that the results massively favoured locally installed packages. After some more digging, it seems that, when pulling from CRAN instead of local, many of the metrics fail.  
+"pharmaR/riskmetric","Data the score is calculated on differs based on whether the package is installed locally or not","https://github.com/pharmaR/riskmetric/issues/206","open",2021-07-02,2021-07-06,NA,4,"I tried to automatically scrape all of CRAN for riskmetric scores and quickly noticed that the results massively favoured locally installed packages. After some more digging, it seems that, when pulling from CRAN instead of local, many of the metrics fail.  
 
 Is this behaviour local to my machine?
 
 ![image](https://user-images.githubusercontent.com/12818242/124266295-1233c900-db37-11eb-96e9-47e438f293e3.png)
 ![image](https://user-images.githubusercontent.com/12818242/124266554-6ccd2500-db37-11eb-8605-1bbe1ab02bd6.png)
-","timtreis",4,1
+","timtreis",5,1
 "nlmixrdevelopment/nlmixr","Development Idea: Library of model snippets and model expansion","https://github.com/nlmixrdevelopment/nlmixr/issues/541","open",2021-07-02,2021-07-02,NA,0,"Somewhat related to #540
 
 To be very clear from the outset, I think that this would likely reside in another package than nlmixr, but it would be very tightly related.  One common naming syntax for packages like this is something like `nlmixrExtra`.
@@ -25319,8 +25319,8 @@ Additionally, we get the same `NOTE` and a `WARNING` for 4 more machines (r-patc
 #### What's the actual result?
 
 ![image](https://user-images.githubusercontent.com/12818242/124429791-99b74d00-dd6e-11eb-87b2-8c45274dda97.png)
-","timtreis",1,1
-"Roche/respectables","document argument","https://github.com/Roche/respectables/issues/28","open",2021-07-05,2021-07-05,NA,1,"gen_reljoin_table argumet keep needs to be documented","waddella",1,1
+","timtreis",2,2
+"Roche/respectables","document argument","https://github.com/Roche/respectables/issues/28","open",2021-07-05,2021-07-06,NA,2,"gen_reljoin_table argumet keep needs to be documented","waddella",2,1
 "atorus-research/pharmaRTF","Update with tibble 3.1.0 breaks read_hf","https://github.com/atorus-research/pharmaRTF/issues/6","open",2021-07-05,2021-07-05,NA,0,"Thanks to @dawnye for this report in https://github.com/atorus-research/CDISC_pilot_replication/issues/7.
 
 With tibble 3.1.0 even `my_tibble[FALSE, ""notAColumn""] <- 1` will result in a new column being created. This is [intended behavior](https://github.com/tidyverse/tibble/issues/846) for tibble now. This breaks `fill_missing_data()` which is an unexported function in read_hf.R. This is the offending line:
@@ -25332,4 +25332,66 @@ With tibble 3.1.0 even `my_tibble[FALSE, ""notAColumn""] <- 1` will result in a 
 Thankfully this is an easy fix. Either add type as a option in the `correct_defaults` as a blank matrix, or add an if statement like the following:
 ```
 if(any(is.na(.data[[var]]))
-          .data[is.na(.data[[var]]), var] <- correct_defaults(var)","elimillera",1,1
+          .data[is.na(.data[[var]]), var] <- correct_defaults(var)","elimillera",2,2
+"Roche/respectables","29 - Enhance R CMD check workflow","https://github.com/Roche/respectables/pull/30","closed",2021-07-06,2021-07-06,2021-07-06,3,"<!-- Thank you for your contribution! -->
+
+## Checklist
+
+- [x] My pull request is linked to a Github issue
+- [x] I have reviewed the Contribution guidelines
+
+## Description
+
+Enhancements to the R CMD check workflow. ","dinakar29",0,0
+"Roche/ggtips","Add 'wrap' parameter + optimize addCustomContents()","https://github.com/Roche/ggtips/pull/68","open",2021-07-06,2021-07-06,NA,0,"This is an attempt at optimizing the workflow of ggtips. Changes so far:
+- Wrapping of long text is now turned off by default. This can be changed by using `wrap = TRUE`.
+- Code in an auxiliary function `addCustomContents()` was mistakenly always executed, even when there was no callback. This has been fixed.","cosi1",1,1
+"Roche/ggtips","Can the plots be exported to SVG files?","https://github.com/Roche/ggtips/issues/69","open",2021-07-06,2021-07-06,NA,1,"See question in title -- although now that I think about it, the tooltips might be relying on some JavaScript in the Shiny app...
+Regardless, I'd love to be able to export some of the interactivity to an SVG file. Can you please let me know if this is possible?
+
+Thanks,
+Zoe","zmeers",1,1
+"pharmaR/riskmetric","Class hierarchy of pkg_remote isn't maintained","https://github.com/pharmaR/riskmetric/issues/207","open",2021-07-06,2021-07-06,NA,0,"Thanks to a bug report, #206 - it looks like our recent overhaul of the class constructors (#203) dropped some of the intermediate classes needed for metric inheritance.
+
+Using the example in that bug report,
+
+```r
+pkg_visR <- pkg_ref(""visR"")  # when not installed
+class(pkg_visR)
+#> # produces:
+#> c(""pkg_cran_remote"", ""pkg_ref"", ""environment"") 
+#> # expect:
+#> c(""pkg_cran_remote"", ""pkg_remote"", ""pkg_ref"", ""environment"") 
+```
+
+As described in `?pkg_ref`, we expect that `pkg_remote` is a superclass of `pkg_cran_remote`, `pkg_bioc_remote` and `pkg_git_remote`. 
+
+Because of this, many metrics for cran and biocondcutor remotes fail to inherit generic metrics implemented for `pkg_remote`s.","dgkf",1,1
+"Roche/respectables","conditional PR publishing on fail","https://github.com/Roche/respectables/issues/29","open",2021-07-06,2021-07-06,NA,0,"@dinakar29 please post the `Post check output as comment` only if  `R CMD check` results in errors, warnings, or notes. It would be good to post the title: 
+
+`R CMD check` resulted in `Status: 2 WANRNINGS, 1 NOTE`
+
+> <R CMD check 00check.log>","waddella",1,1
+"openpharma/visR","Draft - WIP","https://github.com/openpharma/visR/pull/237","open",2021-07-06,2021-07-06,NA,0,"","timtreis",1,1
+"pharmaR/riskmetric","Fix an oversight in classes applied to pkg_ref when source is explicitly provided","https://github.com/pharmaR/riskmetric/pull/208","open",2021-07-06,2021-07-06,NA,1,"As reported in #206 & isolated in #207, a user discovered an issue where `pkg_remote` methods weren't being dispatched upon because this superclass was omitted from `pkg_*_remote` subclasses. 
+
+I added in a programmatically accessible class hierarchy (nested list) which is traversed in search of valid `source` classes, and applies the entire class hierarchy to the resulting object. eg
+
+```r
+class(pkg_ref(""mypkg"", source = ""pkg_cran_remote""))
+#> c(""pkg_cran_remote"", ""pkg_remote"", ""pkg_ref"", ""environment"")
+
+class(pkg_ref(""mypkg"", source = ""pkg_install""))
+#> c(""pkg_install"", ""pkg_ref"", ""environment"")
+```
+
+Only concern I have with this approach is allowing users to extend with their own subclasses, but we can cross that bridge when we get there. I don't see any demand for that functionality quite yet. 
+
+@elimillera - would you mind taking a look since most of the changes affect code that was introduced in #203?
+
+Closes #206, #207
+
+---
+
+Since this is actually a fairly crippling bug for remote package refs, I think this might warrant a resubmission to CRAN for the patch release.
+","dgkf",1,1
