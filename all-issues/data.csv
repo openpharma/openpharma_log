@@ -4819,7 +4819,7 @@ When I looked closely I found that it is looking for g++.exe in a different path
 "nlmixrdevelopment/nlmixr","Use Mac OSX toolchain for install options","https://github.com/nlmixrdevelopment/nlmixr/issues/179","closed",2019-05-24,2020-09-10,2020-09-10,2,"https://github.com/rmacoslib/r-macos-rtools#how-do-i-use-the-installer
 
 @RichardHooijmaijers perhaps you can try this out to see how it works?  You might need it since the C++14 requirement of stan...","mattfidler",475,0
-"Roche/ggtips","Example app creates Rplots.pdf file","https://github.com/Roche/ggtips/issues/4","open",2019-05-26,2019-05-26,NA,0,"when you run the app there is file that should be removed or not created in inst/example directory.","jcubic",759,759
+"Roche/ggtips","Example app creates Rplots.pdf file","https://github.com/Roche/ggtips/issues/4","closed",2019-05-26,2021-07-07,2021-07-07,0,"when you run the app there is file that should be removed or not created in inst/example directory.","jcubic",773,0
 "Roche/ggtips","Preview image","https://github.com/Roche/ggtips/pull/5","closed",2019-05-26,2019-08-09,2019-05-27,0,"Preview image, see updated README","jcubic",1,-74
 "nlmixrdevelopment/nlmixr","Checking convergence: dependence on initial values","https://github.com/nlmixrdevelopment/nlmixr/issues/181","closed",2019-05-27,2019-07-09,2019-07-06,14,"I am somewhat worried about the convergence of an `nlmixr` fit (some of the estimated values are suspiciously close to their initial values). I thought of investigating this by re-running the fit with several different initial values, to see how stable the result is, i.e. whether the estimated effects are the same more or less independently of the initial value.
 
@@ -7388,10 +7388,10 @@ The output is the origin of the error in `nameToGrob` function:
 As far as I can tell my change is not breaking anything in the package. I checked unit tests and the demo app. ","mjakubczak",1,0
 "nlmixrdevelopment/nlmixr","Comments in the model break piping.","https://github.com/nlmixrdevelopment/nlmixr/issues/220","closed",2019-08-12,2020-09-10,2020-09-10,1,"","mattfidler",395,0
 "Roche/ggtips","better README + changelog for 0.2.0","https://github.com/Roche/ggtips/pull/20","closed",2019-08-13,2019-08-13,2019-08-13,0,"I've update README to include info about options + added version 0.2.0 into changelog.","jcubic",0,0
-"Roche/ggtips","Failing tests","https://github.com/Roche/ggtips/issues/21","open",2019-08-13,2020-05-06,NA,6,"https://travis-ci.org/Roche/ggtips/jobs/571269675
+"Roche/ggtips","Failing tests","https://github.com/Roche/ggtips/issues/21","closed",2019-08-13,2021-07-07,2021-07-07,6,"https://travis-ci.org/Roche/ggtips/jobs/571269675
 
 ![travis](https://user-images.githubusercontent.com/280241/62939137-d8396c80-bdd0-11e9-8f42-a23d86f9f570.png)
-","jcubic",680,413
+","jcubic",694,0
 "Roche/ggtips","fix position of right aligned tooltip","https://github.com/Roche/ggtips/pull/19","closed",2019-08-13,2019-08-13,2019-08-13,0,"There where 2 problems
 1. visible in demo offset because of wrong calculation
 2. When creating library you should always use css classes with prefix so they don't interact with user CSS code (this is what was happening in Roche Maestro project).","jcubic",0,0
@@ -9069,7 +9069,7 @@ I would like to estimate a model with a D1 parameter (nonmem wording) using linC
 Best regards
 Nicolas
 ","nsk64",0,0
-"nlmixrdevelopment/nlmixr","Survival Model in nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/261","open",2019-12-11,2020-07-10,NA,2,"I am working on the ISOP time to event graphical diagnostics paper and was about to suggest including some nlmixr ways to fit simple time to event without time varying predictors and without more than one event by subject. The below is not working.
+"nlmixrdevelopment/nlmixr","Survival Model in nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/261","open",2019-12-11,2021-07-07,NA,3,"I am working on the ISOP time to event graphical diagnostics paper and was about to suggest including some nlmixr ways to fit simple time to event without time varying predictors and without more than one event by subject. The below is not working.
 Can you please let me know if this is possible and how É
 ```r
 library(survival)
@@ -9098,7 +9098,7 @@ inits$OMGA=list(ETA[1]~0.0001)
 
 fit = gnlmm(llik, lung, inits, pars, sys1,
             control=list(trace=TRUE))
-```","smouksassi",560,348
+```","smouksassi",575,1
 "nlmixrdevelopment/nlmixr","Baseline value","https://github.com/nlmixrdevelopment/nlmixr/issues/263","closed",2019-12-16,2019-12-17,2019-12-16,6,"Is it possible to add a baseline (from the dataset) value to add()?
 I tried different options but none was successful.
 
@@ -16408,9 +16408,9 @@ Best Regards,
 Thomas","thomasjsln",6,0
 "nlmixrdevelopment/nlmixr","Pressure test `logit` and `probit` functions in SAEM and FOCEi","https://github.com/nlmixrdevelopment/nlmixr/issues/420","closed",2020-10-16,2020-11-19,2020-11-19,1,"","mattfidler",34,0
 "nlmixrdevelopment/nlmixr","Transform information is in the development nlmixr tables","https://github.com/nlmixrdevelopment/nlmixr/issues/419","closed",2020-10-16,2020-10-16,2020-10-16,0,"Needs to be removed.","mattfidler",0,0
-"Roche/ggtips","Update changelog","https://github.com/Roche/ggtips/issues/56","open",2020-10-16,2020-10-17,NA,1,"The changelog need to be updated with all the fixes that was done recently. 
+"Roche/ggtips","Update changelog","https://github.com/Roche/ggtips/issues/56","closed",2020-10-16,2021-07-07,2021-07-07,1,"The changelog need to be updated with all the fixes that was done recently. 
 
-Maybe we should do releases. In one of my FOSS projects, I use devel branch and keep updating changelog and release is just merge to master --no-ff and tag. ","jcubic",250,249
+Maybe we should do releases. In one of my FOSS projects, I use devel branch and keep updating changelog and release is just merge to master --no-ff and tag. ","jcubic",264,0
 "Roche/rtables","`indent_mod` of `analyze` does not work anymore","https://github.com/Roche/rtables/issues/107","closed",2020-10-19,2020-10-21,2020-10-21,1,"Just trying to do the looping of `analyze` calls, where I need to fix indentation outside of the afun, and I tried with `indent_mod` but that does not work. Here a (not realistic) toy example:
 
 ```r
@@ -25046,7 +25046,7 @@ can we make this error message somehow more concise? e.g.
 - html error message
 
 ","waddella",2,2
-"openpharma/staged.dependencies","dependency_graph bug","https://github.com/openpharma/staged.dependencies/issues/20","open",2021-06-30,2021-06-30,NA,0,"I get:
+"openpharma/staged.dependencies","dependency_graph bug","https://github.com/openpharma/staged.dependencies/issues/20","open",2021-06-30,2021-07-07,NA,1,"I get:
 
 ```
 > staged.dependencies::dependency_graph()
@@ -25056,9 +25056,9 @@ x `title` must return compatible vectors across groups
 ℹ Result type for group 1 (from = ""NEST/goshawk @ https://github.roche.com"", to = ""NEST/utils.nest @ https://github.roche.com""): <character>.
 ℹ Result type for group 16 (from = ""NEST/tern @ https://github.roche.com"", to = ""NEST/scda @ https://github.roche.com""): <list>.
 Run `rlang::last_error()` to see where the error occurred. 
-```","waddella",2,2
+```","waddella",8,1
 "openpharma/staged.dependencies","make `upstream_repos` and `downstream_repos` optional","https://github.com/openpharma/staged.dependencies/issues/18","open",2021-06-30,2021-06-30,NA,0,"in the `yaml` file as not all repos require them","waddella",2,2
-"openpharma/staged.dependencies","reset --hard origin/<branch>","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-06-30,NA,0,"I ran into the issue:
+"openpharma/staged.dependencies","reset --hard origin/<branch>","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-07-07,NA,1,"I ran into the issue:
 
 ```
 Error in install_repo_add_sha(repo_dir) : 
@@ -25074,7 +25074,7 @@ and in particular with `git diff`
 
 ![image](https://user-images.githubusercontent.com/7786462/123940609-a23c0c00-d999-11eb-8cb0-475e7322e3c8.png)
 
-Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",2,2
+Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",8,1
 "Novartis/xgxr","Add a BugReports line to point people to GitHub","https://github.com/Novartis/xgxr/pull/44","closed",2021-07-01,2021-07-01,2021-07-01,1,"I wasn't aware that there was a GitHub repository for xgxr.  This will make it so the BugReports on CRAN will point people here.","billdenney",0,0
 "Novartis/xgxr","Feature suggestion: blq_trans for showing measurements below the LLOQ","https://github.com/Novartis/xgxr/issues/45","open",2021-07-01,2021-07-01,NA,1,"This is related to kestrel99/pmxTools#23 (more accurately, it replaces that).  It is also related to #21.
 
@@ -25188,13 +25188,13 @@ When assessing `visR` with `riskmetric`, it doesn't recognise the existence of o
 
 #### Additional details / screenshot
 ","timtreis",0,0
-"pharmaR/riskmetric","Data the score is calculated on differs based on whether the package is installed locally or not","https://github.com/pharmaR/riskmetric/issues/206","open",2021-07-02,2021-07-06,NA,4,"I tried to automatically scrape all of CRAN for riskmetric scores and quickly noticed that the results massively favoured locally installed packages. After some more digging, it seems that, when pulling from CRAN instead of local, many of the metrics fail.  
+"pharmaR/riskmetric","Data the score is calculated on differs based on whether the package is installed locally or not","https://github.com/pharmaR/riskmetric/issues/206","closed",2021-07-02,2021-07-07,2021-07-07,5,"I tried to automatically scrape all of CRAN for riskmetric scores and quickly noticed that the results massively favoured locally installed packages. After some more digging, it seems that, when pulling from CRAN instead of local, many of the metrics fail.  
 
 Is this behaviour local to my machine?
 
 ![image](https://user-images.githubusercontent.com/12818242/124266295-1233c900-db37-11eb-96e9-47e438f293e3.png)
 ![image](https://user-images.githubusercontent.com/12818242/124266554-6ccd2500-db37-11eb-8605-1bbe1ab02bd6.png)
-","timtreis",5,1
+","timtreis",5,0
 "nlmixrdevelopment/nlmixr","Development Idea: Library of model snippets and model expansion","https://github.com/nlmixrdevelopment/nlmixr/issues/541","open",2021-07-02,2021-07-02,NA,0,"Somewhat related to #540
 
 To be very clear from the outset, I think that this would likely reside in another package than nlmixr, but it would be very tightly related.  One common naming syntax for packages like this is something like `nlmixrExtra`.
@@ -25320,7 +25320,7 @@ Additionally, we get the same `NOTE` and a `WARNING` for 4 more machines (r-patc
 
 ![image](https://user-images.githubusercontent.com/12818242/124429791-99b74d00-dd6e-11eb-87b2-8c45274dda97.png)
 ","timtreis",2,2
-"Roche/respectables","document argument","https://github.com/Roche/respectables/issues/28","open",2021-07-05,2021-07-06,NA,2,"gen_reljoin_table argumet keep needs to be documented","waddella",2,1
+"Roche/respectables","document argument","https://github.com/Roche/respectables/issues/28","open",2021-07-05,2021-07-06,NA,2,"gen_reljoin_table argumet keep needs to be documented","waddella",3,2
 "atorus-research/pharmaRTF","Update with tibble 3.1.0 breaks read_hf","https://github.com/atorus-research/pharmaRTF/issues/6","open",2021-07-05,2021-07-05,NA,0,"Thanks to @dawnye for this report in https://github.com/atorus-research/CDISC_pilot_replication/issues/7.
 
 With tibble 3.1.0 even `my_tibble[FALSE, ""notAColumn""] <- 1` will result in a new column being created. This is [intended behavior](https://github.com/tidyverse/tibble/issues/846) for tibble now. This breaks `fill_missing_data()` which is an unexported function in read_hf.R. This is the offending line:
@@ -25345,13 +25345,13 @@ if(any(is.na(.data[[var]]))
 Enhancements to the R CMD check workflow. ","dinakar29",0,0
 "Roche/ggtips","Add 'wrap' parameter + optimize addCustomContents()","https://github.com/Roche/ggtips/pull/68","open",2021-07-06,2021-07-06,NA,0,"This is an attempt at optimizing the workflow of ggtips. Changes so far:
 - Wrapping of long text is now turned off by default. This can be changed by using `wrap = TRUE`.
-- Code in an auxiliary function `addCustomContents()` was mistakenly always executed, even when there was no callback. This has been fixed.","cosi1",1,1
+- Code in an auxiliary function `addCustomContents()` was mistakenly always executed, even when there was no callback. This has been fixed.","cosi1",2,2
 "Roche/ggtips","Can the plots be exported to SVG files?","https://github.com/Roche/ggtips/issues/69","open",2021-07-06,2021-07-06,NA,1,"See question in title -- although now that I think about it, the tooltips might be relying on some JavaScript in the Shiny app...
 Regardless, I'd love to be able to export some of the interactivity to an SVG file. Can you please let me know if this is possible?
 
 Thanks,
-Zoe","zmeers",1,1
-"pharmaR/riskmetric","Class hierarchy of pkg_remote isn't maintained","https://github.com/pharmaR/riskmetric/issues/207","open",2021-07-06,2021-07-06,NA,0,"Thanks to a bug report, #206 - it looks like our recent overhaul of the class constructors (#203) dropped some of the intermediate classes needed for metric inheritance.
+Zoe","zmeers",2,2
+"pharmaR/riskmetric","Class hierarchy of pkg_remote isn't maintained","https://github.com/pharmaR/riskmetric/issues/207","closed",2021-07-06,2021-07-07,2021-07-07,0,"Thanks to a bug report, #206 - it looks like our recent overhaul of the class constructors (#203) dropped some of the intermediate classes needed for metric inheritance.
 
 Using the example in that bug report,
 
@@ -25366,14 +25366,14 @@ class(pkg_visR)
 
 As described in `?pkg_ref`, we expect that `pkg_remote` is a superclass of `pkg_cran_remote`, `pkg_bioc_remote` and `pkg_git_remote`. 
 
-Because of this, many metrics for cran and biocondcutor remotes fail to inherit generic metrics implemented for `pkg_remote`s.","dgkf",1,1
+Because of this, many metrics for cran and biocondcutor remotes fail to inherit generic metrics implemented for `pkg_remote`s.","dgkf",1,0
 "Roche/respectables","conditional PR publishing on fail","https://github.com/Roche/respectables/issues/29","open",2021-07-06,2021-07-06,NA,0,"@dinakar29 please post the `Post check output as comment` only if  `R CMD check` results in errors, warnings, or notes. It would be good to post the title: 
 
 `R CMD check` resulted in `Status: 2 WANRNINGS, 1 NOTE`
 
-> <R CMD check 00check.log>","waddella",1,1
+> <R CMD check 00check.log>","waddella",2,2
 "openpharma/visR","Draft - WIP","https://github.com/openpharma/visR/pull/237","open",2021-07-06,2021-07-06,NA,0,"","timtreis",1,1
-"pharmaR/riskmetric","Fix an oversight in classes applied to pkg_ref when source is explicitly provided","https://github.com/pharmaR/riskmetric/pull/208","open",2021-07-06,2021-07-06,NA,1,"As reported in #206 & isolated in #207, a user discovered an issue where `pkg_remote` methods weren't being dispatched upon because this superclass was omitted from `pkg_*_remote` subclasses. 
+"pharmaR/riskmetric","Fix an oversight in classes applied to pkg_ref when source is explicitly provided","https://github.com/pharmaR/riskmetric/pull/208","closed",2021-07-06,2021-07-07,2021-07-07,2,"As reported in #206 & isolated in #207, a user discovered an issue where `pkg_remote` methods weren't being dispatched upon because this superclass was omitted from `pkg_*_remote` subclasses. 
 
 I added in a programmatically accessible class hierarchy (nested list) which is traversed in search of valid `source` classes, and applies the entire class hierarchy to the resulting object. eg
 
@@ -25394,4 +25394,16 @@ Closes #206, #207
 ---
 
 Since this is actually a fairly crippling bug for remote package refs, I think this might warrant a resubmission to CRAN for the patch release.
-","dgkf",1,1
+","dgkf",1,0
+"openpharma/visR","testthat file dedicated to verify compliance with CRAN guidelines ","https://github.com/openpharma/visR/pull/237","open",2021-07-06,2021-07-07,NA,0,"This test automatically scans the relevant parts of our codebase for possible violations of additional style guidelines we received during the CRAN submission process. Generally, a list of files is retrieved which is then searched analysed using a regex pattern specific to the respective issue. If found, the test fails and the file and line of the issue are printed into the test log.
+
+```
+# Specifications ---------------------------------------------------------------
+#' T1. Our codebase doesn't violate CRAN style-guidelines.
+#' T1.1 TRUE/FALSE are used instead of T/F.
+#' T1.2 Each function documentation contains a \value{} tag.
+#' T1.3 The existence of packages is not checked through 'installed.packages()'.
+#' T1.4 No \dontrun{} tags unless the code actually takes a long time.
+#' T1.5 The use of 'options()' is immediately preemptively reverted.
+```","timtreis",2,1
+"openpharma/staged.dependencies","add metadata to description file","https://github.com/openpharma/staged.dependencies/pull/22","open",2021-07-07,2021-07-07,NA,0,"","maximilianmordig",1,1
