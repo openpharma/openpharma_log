@@ -9098,7 +9098,7 @@ inits$OMGA=list(ETA[1]~0.0001)
 
 fit = gnlmm(llik, lung, inits, pars, sys1,
             control=list(trace=TRUE))
-```","smouksassi",575,1
+```","smouksassi",576,2
 "nlmixrdevelopment/nlmixr","Baseline value","https://github.com/nlmixrdevelopment/nlmixr/issues/263","closed",2019-12-16,2019-12-17,2019-12-16,6,"Is it possible to add a baseline (from the dataset) value to add()?
 I tried different options but none was successful.
 
@@ -20709,7 +20709,7 @@ I really appreciate any help you can provide.","Dorota-D",2,0
 "Merck/pkglite","unit test for sanitize file collection","https://github.com/Merck/pkglite/pull/1","closed",2021-03-08,2021-03-15,2021-03-15,3,"","ashirazist",7,0
 "pharmaR/riskmetric","create a badge for riskmetric ","https://github.com/pharmaR/riskmetric/issues/189","open",2021-03-09,2021-03-09,NA,0,"Joe suggested us to allow package developer to put a badge on their github readme file","elong0527",106,106
 "pharmaR/riskmetric","remove pkg_ref_cache_function_coverage","https://github.com/pharmaR/riskmetric/pull/188","closed",2021-03-09,2021-03-31,2021-03-16,1,"","elong0527",7,-15
-"Roche/Global-HTA-Evidence-Open","[MAIC}: Cannot pass arguments to `optim`","https://github.com/Roche/Global-HTA-Evidence-Open/issues/2","open",2021-03-10,2021-05-26,NA,0,"The `estimate_weights()` function does not have  a `...` argument allowing a user to pass arguments to `optim()` even though the documentation says this is possible.","dincerti",105,28
+"Roche/Global-HTA-Evidence-Open","[MAIC}: Cannot pass arguments to `optim`","https://github.com/Roche/Global-HTA-Evidence-Open/issues/2","closed",2021-03-10,2021-07-08,2021-07-08,0,"The `estimate_weights()` function does not have  a `...` argument allowing a user to pass arguments to `optim()` even though the documentation says this is possible.","dincerti",120,0
 "Roche/rtables","Error in `value_at` for layout with overall column","https://github.com/Roche/rtables/issues/172","closed",2021-03-10,2021-04-08,2021-04-08,5,"It's not possible to extract the cell value using `value_at` when the table layout includes an overall column:
 
 ```
@@ -24018,14 +24018,14 @@ goodrec2 <- tribble(~variables, ~dependencies, ~func, ~func_args, ~keep,
 
 we are closing the #22 and those couple of lines were left","waddella",19,19
 "openpharma/visR","Bugfix/20210605 xlabel","https://github.com/openpharma/visR/pull/211","open",2021-06-05,2021-06-10,NA,0,"","timtreis",18,13
-"openpharma/visR","Changed the way the x- and y-axis labels are applied","https://github.com/openpharma/visR/pull/212","open",2021-06-05,2021-06-17,NA,6,"Very minor change that however fixes the previous incompatibility with ggplot2s' xlab/ylab commands.
+"openpharma/visR","Changed the way the x- and y-axis labels are applied","https://github.com/openpharma/visR/pull/212","open",2021-06-05,2021-07-08,NA,6,"Very minor change that however fixes the previous incompatibility with ggplot2s' xlab/ylab commands.
 
 Adresses issue https://github.com/openpharma/visR/issues/207
 
 Rough troubleshooting train of thought:
 a) By inspecting the plot components I noticed that the desired label actually ends up in the plot data.
 b) Experiment around with priorities of ggplot scales and labels
-c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",18,6
+c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",34,1
 "openpharma/visR","In the absence of a specified x-label or a data-derived label, should the x-axis be blank?","https://github.com/openpharma/visR/issues/213","open",2021-06-08,2021-07-02,NA,2,"See title.
 
 Related to the comments in PR https://github.com/openpharma/visR/pull/211 and https://github.com/openpharma/visR/pull/212.","timtreis",24,0
@@ -24397,13 +24397,13 @@ Credit: Viktor Szabados
 https://www.statisticshowto.com/benjamini-hochberg-procedure/
 
 https://cpb-us-w2.wpmucdn.com/blog.nus.edu.sg/dist/0/3425/files/2018/10/Understanding-Benjamini-Hochberg-method-2ijolq0.pdf","erblast",0,0
-"Roche/Global-HTA-Evidence-Open","flexsurvPlus: Excel Gamma distribution is incorrect","https://github.com/Roche/Global-HTA-Evidence-Open/issues/3","open",2021-06-11,2021-06-11,NA,0,"In the vignette (https://roche.github.io/Global-HTA-Evidence-Open/Rpackages/flexsurvPlus/docs/articles/Survival_analysis_theory.html) it is suggested that the following function should be used in excel:
+"Roche/Global-HTA-Evidence-Open","flexsurvPlus: Excel Gamma distribution is incorrect","https://github.com/Roche/Global-HTA-Evidence-Open/issues/3","closed",2021-06-11,2021-07-08,2021-07-08,0,"In the vignette (https://roche.github.io/Global-HTA-Evidence-Open/Rpackages/flexsurvPlus/docs/articles/Survival_analysis_theory.html) it is suggested that the following function should be used in excel:
 1-((EXP(GAMMALN(rate)) * GAMMA.DIST(shape * time,rate,1,TRUE))/GAMMA(rate)
 
 This is incorrect. The following formula should be used:
 1-GAMMA.DIST(time, shape, 1/(rate),TRUE) 
 
-Functions correct but documentation needs updating","iain-t-bennett-roche",12,12
+Functions correct but documentation needs updating","iain-t-bennett-roche",27,0
 "openpharma/visR","Retired table_caption and table_download for later release","https://github.com/openpharma/visR/pull/225","closed",2021-06-11,2021-06-11,2021-06-11,1,"","timtreis",0,0
 "Roche/respectables","25 renv","https://github.com/Roche/respectables/pull/26","open",2021-06-14,2021-06-17,NA,0,"add `renv.lock` file and update `README.md`","waddella",9,6
 "openpharma/visR","add cran badge to readme. minor additions to visR and data adtte docu…","https://github.com/openpharma/visR/pull/227","closed",2021-06-14,2021-06-14,2021-06-14,0,"…ment descriptions.","bailliem",0,0
@@ -24782,6 +24782,20 @@ The result looks fine in the console but in html format, ~the last 3 columns are
 
 ![image](https://user-images.githubusercontent.com/43623360/122472190-3ebfe080-cf8e-11eb-900e-12cd43d6c34c.png)
 ","anajens",7,2
+"Roche/rtables","as_html should include tiltes and footnotes","https://github.com/Roche/rtables/issues/205","open",2021-06-17,2021-07-08,NA,2,"The plain text version of this table includes the titles and footnotes, but the html version does not. Is this expected? 
+
+```r
+basic_table(title = ""ABC"", main_footer = ""XYZ"") %>%
+  split_cols_by(""ARM"") %>%
+  analyze(""AGE"") %>%
+  build_table(ex_adsl) %>%
+  Viewer()
+```
+
+![image](https://user-images.githubusercontent.com/43623360/122318034-75ddb580-ceec-11eb-9169-65046157ecd6.png)
+
+
+","anajens",22,1
 "Roche/rtables","Is there a way to bold row labels for html tables?","https://github.com/Roche/rtables/issues/206","open",2021-06-17,2021-06-17,NA,0,"`Viewer` has the argument `row.names.bold` which does not seem to be in use right now. I'm wondering if there is an alternative simple way to add the markup?  For example, with `** My Label **`
 
 ```r
@@ -25056,7 +25070,7 @@ x `title` must return compatible vectors across groups
 ℹ Result type for group 1 (from = ""NEST/goshawk @ https://github.roche.com"", to = ""NEST/utils.nest @ https://github.roche.com""): <character>.
 ℹ Result type for group 16 (from = ""NEST/tern @ https://github.roche.com"", to = ""NEST/scda @ https://github.roche.com""): <list>.
 Run `rlang::last_error()` to see where the error occurred. 
-```","waddella",8,1
+```","waddella",9,2
 "openpharma/staged.dependencies","make `upstream_repos` and `downstream_repos` optional","https://github.com/openpharma/staged.dependencies/issues/18","open",2021-06-30,2021-06-30,NA,0,"in the `yaml` file as not all repos require them","waddella",2,2
 "openpharma/staged.dependencies","reset --hard origin/<branch>","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-07-07,NA,1,"I ran into the issue:
 
@@ -25074,7 +25088,7 @@ and in particular with `git diff`
 
 ![image](https://user-images.githubusercontent.com/7786462/123940609-a23c0c00-d999-11eb-8cb0-475e7322e3c8.png)
 
-Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",8,1
+Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",9,2
 "Novartis/xgxr","Add a BugReports line to point people to GitHub","https://github.com/Novartis/xgxr/pull/44","closed",2021-07-01,2021-07-01,2021-07-01,1,"I wasn't aware that there was a GitHub repository for xgxr.  This will make it so the BugReports on CRAN will point people here.","billdenney",0,0
 "Novartis/xgxr","Feature suggestion: blq_trans for showing measurements below the LLOQ","https://github.com/Novartis/xgxr/issues/45","open",2021-07-01,2021-07-01,NA,1,"This is related to kestrel99/pmxTools#23 (more accurately, it replaces that).  It is also related to #21.
 
@@ -25395,7 +25409,7 @@ Closes #206, #207
 
 Since this is actually a fairly crippling bug for remote package refs, I think this might warrant a resubmission to CRAN for the patch release.
 ","dgkf",1,0
-"openpharma/visR","testthat file dedicated to verify compliance with CRAN guidelines ","https://github.com/openpharma/visR/pull/237","open",2021-07-06,2021-07-07,NA,0,"This test automatically scans the relevant parts of our codebase for possible violations of additional style guidelines we received during the CRAN submission process. Generally, a list of files is retrieved which is then searched analysed using a regex pattern specific to the respective issue. If found, the test fails and the file and line of the issue are printed into the test log.
+"openpharma/visR","testthat file dedicated to verify compliance with CRAN guidelines ","https://github.com/openpharma/visR/pull/237","closed",2021-07-06,2021-07-08,2021-07-08,1,"This test automatically scans the relevant parts of our codebase for possible violations of additional style guidelines we received during the CRAN submission process. Generally, a list of files is retrieved which is then searched analysed using a regex pattern specific to the respective issue. If found, the test fails and the file and line of the issue are printed into the test log.
 
 ```
 # Specifications ---------------------------------------------------------------
@@ -25405,5 +25419,28 @@ Since this is actually a fairly crippling bug for remote package refs, I think t
 #' T1.3 The existence of packages is not checked through 'installed.packages()'.
 #' T1.4 No \dontrun{} tags unless the code actually takes a long time.
 #' T1.5 The use of 'options()' is immediately preemptively reverted.
-```","timtreis",2,1
-"openpharma/staged.dependencies","add metadata to description file","https://github.com/openpharma/staged.dependencies/pull/22","open",2021-07-07,2021-07-07,NA,0,"","maximilianmordig",1,1
+```","timtreis",2,0
+"openpharma/staged.dependencies","add metadata to description file","https://github.com/openpharma/staged.dependencies/pull/22","open",2021-07-07,2021-07-07,NA,0,"","maximilianmordig",2,2
+"Merck/r2rtf","`text_format` issue with all value equal to `""""`","https://github.com/Merck/r2rtf/issues/40","open",2021-07-08,2021-07-08,NA,0,"An error below shall be avoid. 
+
+```
+library(r2rtf)
+
+f <- rep("""", ncol(iris))
+
+iris %>% 
+  rtf_body(text_format = f)
+```
+
+hot fix: 
+
+```
+library(r2rtf)
+
+f <- rep("""", ncol(iris))
+
+if(all(f == """")) f <- NULL
+
+iris %>% 
+  rtf_body(text_format = f)
+```","elong0527",1,1
