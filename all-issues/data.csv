@@ -9069,7 +9069,7 @@ I would like to estimate a model with a D1 parameter (nonmem wording) using linC
 Best regards
 Nicolas
 ","nsk64",0,0
-"nlmixrdevelopment/nlmixr","Survival Model in nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/261","open",2019-12-11,2021-07-07,NA,3,"I am working on the ISOP time to event graphical diagnostics paper and was about to suggest including some nlmixr ways to fit simple time to event without time varying predictors and without more than one event by subject. The below is not working.
+"nlmixrdevelopment/nlmixr","Survival Model in nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/261","open",2019-12-11,2021-07-09,NA,5,"I am working on the ISOP time to event graphical diagnostics paper and was about to suggest including some nlmixr ways to fit simple time to event without time varying predictors and without more than one event by subject. The below is not working.
 Can you please let me know if this is possible and how É
 ```r
 library(survival)
@@ -9098,7 +9098,7 @@ inits$OMGA=list(ETA[1]~0.0001)
 
 fit = gnlmm(llik, lung, inits, pars, sys1,
             control=list(trace=TRUE))
-```","smouksassi",576,2
+```","smouksassi",577,1
 "nlmixrdevelopment/nlmixr","Baseline value","https://github.com/nlmixrdevelopment/nlmixr/issues/263","closed",2019-12-16,2019-12-17,2019-12-16,6,"Is it possible to add a baseline (from the dataset) value to add()?
 I tried different options but none was successful.
 
@@ -23628,7 +23628,7 @@ You can trigger Dependabot actions by commenting on this PR:
 You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/Novartis/peax/network/alerts).
 
 </details>","dependabot[bot]",34,0
-"Roche/rtables","New split function - a multidimensional generalization of current split family functions","https://github.com/Roche/rtables/issues/203","open",2021-05-12,2021-06-17,NA,13,"Hi @gmbecker ( @danielinteractive - FYI )
+"Roche/rtables","New split function - a multidimensional generalization of current split family functions","https://github.com/Roche/rtables/issues/203","open",2021-05-12,2021-07-09,NA,15,"Hi @gmbecker ( @danielinteractive - FYI )
 
 The issue I am raising here is quite similar to recent #109 (`trim_levels_by_map`), but it is more generic.
 
@@ -23708,7 +23708,7 @@ I would be thankful, if you could share your thoughts on this idea, especially i
 
 Thank you.
 
-W.","ghost",42,6
+W.","ghost",59,1
 "openpharma/visR","update","https://github.com/openpharma/visR/pull/179","closed",2021-05-13,2021-05-13,2021-05-13,0,"","SHAESEN2",0,0
 "openpharma/visR","Test/add annotation","https://github.com/openpharma/visR/pull/180","closed",2021-05-14,2021-05-22,2021-05-22,1,"","SHAESEN2",8,0
 "Roche/respectables","Add some examples to documentation","https://github.com/Roche/respectables/pull/12","closed",2021-05-18,2021-05-28,2021-05-28,0,"closes #6 
@@ -24025,7 +24025,7 @@ Adresses issue https://github.com/openpharma/visR/issues/207
 Rough troubleshooting train of thought:
 a) By inspecting the plot components I noticed that the desired label actually ends up in the plot data.
 b) Experiment around with priorities of ggplot scales and labels
-c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",34,1
+c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",35,2
 "openpharma/visR","In the absence of a specified x-label or a data-derived label, should the x-axis be blank?","https://github.com/openpharma/visR/issues/213","open",2021-06-08,2021-07-02,NA,2,"See title.
 
 Related to the comments in PR https://github.com/openpharma/visR/pull/211 and https://github.com/openpharma/visR/pull/212.","timtreis",24,0
@@ -24795,7 +24795,7 @@ basic_table(title = ""ABC"", main_footer = ""XYZ"") %>%
 ![image](https://user-images.githubusercontent.com/43623360/122318034-75ddb580-ceec-11eb-9169-65046157ecd6.png)
 
 
-","anajens",22,1
+","anajens",23,2
 "Roche/rtables","Is there a way to bold row labels for html tables?","https://github.com/Roche/rtables/issues/206","open",2021-06-17,2021-06-17,NA,0,"`Viewer` has the argument `row.names.bold` which does not seem to be in use right now. I'm wondering if there is an alternative simple way to add the markup?  For example, with `** My Label **`
 
 ```r
@@ -25443,4 +25443,36 @@ if(all(f == """")) f <- NULL
 
 iris %>% 
   rtf_body(text_format = f)
-```","elong0527",1,1
+```","elong0527",2,2
+"Roche/rtables","Better api for specifying column location in tables with nested columns","https://github.com/Roche/rtables/issues/210","open",2021-07-09,2021-07-09,NA,0,"It would be nice to be able to specify exactly which columns to select when extracting info with `row_values`. Example:
+
+```r
+> tbl <- basic_table() %>%
++   split_cols_by(""ARM"") %>%
++   split_cols_by(""STRATA2"") %>%
++   analyze(""AEDECOD"") %>%
++   build_table(ex_adae, ex_adsl)
+> 
+> first_row <- collect_leaves(tbl[1,])[[1]]
+> vals <- row_values(first_row)
+> vals
+$`A: Drug X.S1`
+[1] 31
+
+$`A: Drug X.S2`
+[1] 33
+
+$`B: Placebo.S1`
+[1] 29
+
+$`B: Placebo.S2`
+[1] 33
+
+$`C: Combination.S1`
+[1] 32
+
+$`C: Combination.S2`
+[1] 56
+```
+
+Using column names or paths would be nicer than extracting values by index.","anajens",1,1
