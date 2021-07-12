@@ -23628,7 +23628,7 @@ You can trigger Dependabot actions by commenting on this PR:
 You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/Novartis/peax/network/alerts).
 
 </details>","dependabot[bot]",34,0
-"Roche/rtables","New split function - a multidimensional generalization of current split family functions","https://github.com/Roche/rtables/issues/203","open",2021-05-12,2021-07-09,NA,15,"Hi @gmbecker ( @danielinteractive - FYI )
+"Roche/rtables","New split function - a multidimensional generalization of current split family functions","https://github.com/Roche/rtables/issues/203","open",2021-05-12,2021-07-10,NA,15,"Hi @gmbecker ( @danielinteractive - FYI )
 
 The issue I am raising here is quite similar to recent #109 (`trim_levels_by_map`), but it is more generic.
 
@@ -23708,7 +23708,7 @@ I would be thankful, if you could share your thoughts on this idea, especially i
 
 Thank you.
 
-W.","ghost",59,1
+W.","ghost",61,2
 "openpharma/visR","update","https://github.com/openpharma/visR/pull/179","closed",2021-05-13,2021-05-13,2021-05-13,0,"","SHAESEN2",0,0
 "openpharma/visR","Test/add annotation","https://github.com/openpharma/visR/pull/180","closed",2021-05-14,2021-05-22,2021-05-22,1,"","SHAESEN2",8,0
 "Roche/respectables","Add some examples to documentation","https://github.com/Roche/respectables/pull/12","closed",2021-05-18,2021-05-28,2021-05-28,0,"closes #6 
@@ -25476,3 +25476,10 @@ $`C: Combination.S2`
 ```
 
 Using column names or paths would be nicer than extracting values by index.","anajens",1,1
+"atorus-research/pharmaRTF","Gap between column titles and table body in LibreOffice Writer","https://github.com/atorus-research/pharmaRTF/issues/7","open",2021-07-10,2021-07-10,NA,0,"Hi,
+
+Thanks for creating this. One thing that I have noticed is that the generated RTF files look different in LibreOffice Writer compared to how they look in Microsoft Word. In LibreOffice, there is an extra gap between the column heading and the table body that is not present in Word. While it looks as if things are being rendered differently, it this something that can be addressed?
+
+Many thanks,
+
+John","kpl05",2,2
