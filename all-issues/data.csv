@@ -9069,7 +9069,7 @@ I would like to estimate a model with a D1 parameter (nonmem wording) using linC
 Best regards
 Nicolas
 ","nsk64",0,0
-"nlmixrdevelopment/nlmixr","Survival Model in nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/261","open",2019-12-11,2021-07-09,NA,5,"I am working on the ISOP time to event graphical diagnostics paper and was about to suggest including some nlmixr ways to fit simple time to event without time varying predictors and without more than one event by subject. The below is not working.
+"nlmixrdevelopment/nlmixr","Survival Model in nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/261","open",2019-12-11,2021-07-12,NA,8,"I am working on the ISOP time to event graphical diagnostics paper and was about to suggest including some nlmixr ways to fit simple time to event without time varying predictors and without more than one event by subject. The below is not working.
 Can you please let me know if this is possible and how É
 ```r
 library(survival)
@@ -9098,7 +9098,7 @@ inits$OMGA=list(ETA[1]~0.0001)
 
 fit = gnlmm(llik, lung, inits, pars, sys1,
             control=list(trace=TRUE))
-```","smouksassi",577,1
+```","smouksassi",580,1
 "nlmixrdevelopment/nlmixr","Baseline value","https://github.com/nlmixrdevelopment/nlmixr/issues/263","closed",2019-12-16,2019-12-17,2019-12-16,6,"Is it possible to add a baseline (from the dataset) value to add()?
 I tried different options but none was successful.
 
@@ -11574,7 +11574,7 @@ There are another four packages in the enhanced category. I will need help to un
 "nlmixrdevelopment/nlmixr","Fix deprecation warning","https://github.com/nlmixrdevelopment/nlmixr/pull/295","closed",2020-06-10,2020-06-22,2020-06-12,0,"This fixes a deprecation warning for `as.tbl()`.  (The removal of other documentation happened automatically during `devtools::document()`.)
 
 This is noted in nlmixrdevelopment/RxODE#170","billdenney",2,-10
-"Roche/rtables","here are some things that I have been working on","https://github.com/Roche/rtables/pull/31","closed",2020-06-10,2020-06-18,2020-06-18,1,"especially have a look at summary","waddella",8,0
+"Roche/rtables","here are some things that I have been working on","https://github.com/Roche/rtables/pull/31","closed",2020-06-10,2021-07-12,2020-06-18,1,"especially have a look at summary","waddella",8,-389
 "pharmaR/riskmetric","remove rvest package dependency ","https://github.com/pharmaR/riskmetric/issues/127","closed",2020-06-10,2020-07-22,2020-07-22,0,"Follow-up issue #99 
 
 Below is a list of functions we used  
@@ -13900,11 +13900,11 @@ All the testing suites of models are written in this manner so this needs to be 
 - [ ] I have added tests to cover my changes.
 - [ ] All new and existing tests passed.
 ","atorus-research",0,0
-"Roche/rtables","latest changes","https://github.com/Roche/rtables/pull/57","closed",2020-07-31,2020-11-30,2020-11-30,0,"Hi @gmbecker can you please merge the `aw_july_08` branch into `gabe_table_tree` and then delete `aw_july_08`. Please use
+"Roche/rtables","latest changes","https://github.com/Roche/rtables/pull/57","closed",2020-07-31,2021-07-12,2020-11-30,0,"Hi @gmbecker can you please merge the `aw_july_08` branch into `gabe_table_tree` and then delete `aw_july_08`. Please use
 
 ![image](https://user-images.githubusercontent.com/7786462/89032754-a39e2800-d335-11ea-8c28-192939de6d57.png)
 
-and not squash merge.","waddella",122,0
+and not squash merge.","waddella",122,-224
 "nlmixrdevelopment/nlmixr","preconditionFit","https://github.com/nlmixrdevelopment/nlmixr/pull/384","closed",2020-07-31,2020-08-01,2020-08-01,0,"Allow preconditionFit to possibly replace covariance type","mattfidler",1,0
 "nlmixrdevelopment/nlmixr","Vupil bootstrap4","https://github.com/nlmixrdevelopment/nlmixr/pull/383","closed",2020-07-31,2020-08-03,2020-08-03,0,"@vupil can you review this and make sure you agree with the changes.","mattfidler",3,0
 "Roche/rtables","the following code should give a table with 1 column and 0 rows:","https://github.com/Roche/rtables/issues/58","closed",2020-08-04,2020-12-16,2020-12-16,2,"```r
@@ -18440,11 +18440,11 @@ cell_values(tbl, c(""AGE"", ""Mean""),  c(""ARM"", ""B: Placebo""))
 ```
 ","waddella",2,0
 "Roche/rtables","delete redesign folder","https://github.com/Roche/rtables/issues/144","closed",2020-12-06,2020-12-07,2020-12-07,0,"@gmbecker I am OK to delete the `redesign` folder. Please have a quick look and if you don't see any issue please delete the folder","waddella",1,0
-"Roche/rtables","Table structure","https://github.com/Roche/rtables/pull/146","closed",2020-12-06,2020-12-07,2020-12-07,0,"@gmbecker, please have a look. I have worked on documentation and on the structure summaries. 
+"Roche/rtables","Table structure","https://github.com/Roche/rtables/pull/146","closed",2020-12-06,2021-07-12,2020-12-07,0,"@gmbecker, please have a look. I have worked on documentation and on the structure summaries. 
 
 Especially have a look at the pkgdown website.
 
-The `col_paths_summary` function needs work (i.e. I think the `make_col_df` needs more work first)","waddella",1,0
+The `col_paths_summary` function needs work (i.e. I think the `make_col_df` needs more work first)","waddella",1,-217
 "Novartis/pisces","pisces dependencies command fails","https://github.com/Novartis/pisces/issues/2","closed",2020-12-08,2020-12-08,2020-12-08,2,"The installation of R dependencies fails, appearing to attempt installation of a development version of renv. Similar issue here https://github.com/rstudio/renv/issues/511. 
 
 ```shell
@@ -18563,10 +18563,10 @@ length(unqlens) == 1 || (0 %in% unqlens && length(unqlens) ==  .... is not TRUE
 
 Either improve error message or make it work. To be honest I don't see the reason why it shouldn't work. I would expect a table with a lot of 0s and few 1s","pawelru",0,0
 "Novartis/pisces","Detect binaries automatically if they are in the PATH","https://github.com/Novartis/pisces/issues/4","open",2020-12-10,2020-12-14,NA,1,"Path to Salmon binary is now hardcoded. It would be better when PISCES would check if salmon is in the PATH eg. like here https://stackoverflow.com/questions/377017/test-if-executable-exists-in-python.","guma44",195,191
-"Roche/rtables","Add `.df_col` as rtables argument for `analyze()`.","https://github.com/Roche/rtables/pull/150","open",2020-12-11,2021-04-26,NA,4,"This addresses a need we identified in https://github.com/Roche/rtables/issues/117.
+"Roche/rtables","Add `.df_col` as rtables argument for `analyze()`.","https://github.com/Roche/rtables/pull/150","closed",2020-12-11,2021-07-12,2021-07-12,5,"This addresses a need we identified in https://github.com/Roche/rtables/issues/117.
 
 It would be great if you could have a look at this. One problem is here still that
-it only works when there is a single column split. It does not work correctly when there are two or more column splits. Maybe there is a simple way to make it work?...","danielinteractive",194,58
+it only works when there is a single column split. It does not work correctly when there are two or more column splits. Maybe there is a simple way to make it work?...","danielinteractive",213,0
 "Roche/rtables","append_topleft labels dropped when table column is extracted","https://github.com/Roche/rtables/issues/148","closed",2020-12-11,2020-12-11,2020-12-11,1,"Please see example below.
 
 ```
@@ -20520,9 +20520,9 @@ vpc(fit2, obs_cols=list(idv=""tad""), sim_cols=list(idv=""tad""))
 
 @jfstanding
 ","mattfidler",117,117
-"Roche/rtables","add lintr configuration, set tab = 4 ps","https://github.com/Roche/rtables/pull/169","closed",2021-02-28,2021-02-28,2021-02-28,0,"& address lintr issues in 00tabletrees.R
+"Roche/rtables","add lintr configuration, set tab = 4 ps","https://github.com/Roche/rtables/pull/169","closed",2021-02-28,2021-07-12,2021-02-28,0,"& address lintr issues in 00tabletrees.R
 
-@gmbecker, please merge before you continue working.","waddella",0,0
+@gmbecker, please merge before you continue working.","waddella",0,-134
 "Roche/Global-HTA-Evidence-Open","[MAIC]: R CMD check failure ""T used instead of TRUE""","https://github.com/Roche/Global-HTA-Evidence-Open/issues/1","closed",2021-03-01,2021-05-26,2021-05-26,1,"I'm trying to check this package before use and was running into a few issues. 
 
 I'm receiving errors when trying to run the examples for this package, either independently via `tools::testInstalledPackage(""MAIC"", types = ""examples"")` or as part of `R CMD check` (via `devtools::check(""./MAIC"")`).
@@ -23015,9 +23015,9 @@ There may be a situation when `plot$data` does not easily match tooltip data. Ch
 This is in `gabe_tabletree_work ` branch.
 
 ","anajens",0,0
-"Roche/rtables","Example of using referential footnotes ","https://github.com/Roche/rtables/issues/197","open",2021-05-06,2021-06-17,NA,3,"@gmbecker would you be able to add some examples showing how to add referential footnotes? 
+"Roche/rtables","Example of using referential footnotes ","https://github.com/Roche/rtables/issues/197","open",2021-05-06,2021-07-13,NA,4,"@gmbecker would you be able to add some examples showing how to add referential footnotes? 
 
-I remember earlier you shared some slides showing the various places in a table that can support these footnotes but going through the changes on `gabe_tabletree_work` I can't find the documentation of this. Maybe a vignette on this would be helpful?","anajens",48,6
+I remember earlier you shared some slides showing the various places in a table that can support these footnotes but going through the changes on `gabe_tabletree_work` I can't find the documentation of this. Maybe a vignette on this would be helpful?","anajens",68,0
 "Roche/rtables","export_as_txt is not exported","https://github.com/Roche/rtables/issues/195","closed",2021-05-06,2021-05-06,2021-05-06,0,"This is on `gabe_tabletree` branch. Not sure if this is because this feature is experimental but it seems like `export_as_txt` would be a very useful function.","anajens",0,0
 "Roche/rtables","Tables in Viewer are difficult to read","https://github.com/Roche/rtables/issues/194","closed",2021-05-06,2021-05-19,2021-05-17,6,"I'm testing `gabe_table_tree` branch and noticed that the Viewer output looks different. 
 - Columns are too crowded, there needs to be some cell padding
@@ -24018,14 +24018,14 @@ goodrec2 <- tribble(~variables, ~dependencies, ~func, ~func_args, ~keep,
 
 we are closing the #22 and those couple of lines were left","waddella",19,19
 "openpharma/visR","Bugfix/20210605 xlabel","https://github.com/openpharma/visR/pull/211","open",2021-06-05,2021-06-10,NA,0,"","timtreis",18,13
-"openpharma/visR","Changed the way the x- and y-axis labels are applied","https://github.com/openpharma/visR/pull/212","open",2021-06-05,2021-07-08,NA,6,"Very minor change that however fixes the previous incompatibility with ggplot2s' xlab/ylab commands.
+"openpharma/visR","Changed the way the x- and y-axis labels are applied","https://github.com/openpharma/visR/pull/212","open",2021-06-05,2021-07-12,NA,6,"Very minor change that however fixes the previous incompatibility with ggplot2s' xlab/ylab commands.
 
 Adresses issue https://github.com/openpharma/visR/issues/207
 
 Rough troubleshooting train of thought:
 a) By inspecting the plot components I noticed that the desired label actually ends up in the plot data.
 b) Experiment around with priorities of ggplot scales and labels
-c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",35,2
+c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",38,1
 "openpharma/visR","In the absence of a specified x-label or a data-derived label, should the x-axis be blank?","https://github.com/openpharma/visR/issues/213","open",2021-06-08,2021-07-02,NA,2,"See title.
 
 Related to the comments in PR https://github.com/openpharma/visR/pull/211 and https://github.com/openpharma/visR/pull/212.","timtreis",24,0
@@ -25483,3 +25483,35 @@ Thanks for creating this. One thing that I have noticed is that the generated RT
 Many thanks,
 
 John","kpl05",2,2
+"Roche/rtables","add github action","https://github.com/Roche/rtables/pull/211","open",2021-07-12,2021-07-12,NA,3,"","waddella",1,1
+"nlmixrdevelopment/nlmixr","Error: linCmt are not supported in RxODE","https://github.com/nlmixrdevelopment/nlmixr/issues/543","open",2021-07-12,2021-07-13,NA,4,"Based on the discussion in #540, I thought the following was allowed.  Can you please help me understand how to use linCmt on the right hand side?
+
+``` r
+library(nlmixr)
+
+nlmixr_onecmt_fixed <- function() {
+  ini({
+    tcl <- log(c(0, .1, 10)) ; label(""Clearance (L/kg/hr)"")
+    tv <- log(0.1); label(""log V (L/kg)"")
+    add_sd <- 0.7
+  })
+  model({
+    cl <- exp(tcl)
+    v <- exp(tv)
+    # unit conversion
+    cp <- linCmt()*1000/v
+    cp ~ add(add_sd)
+  })
+}
+
+fit <- nlmixr(nlmixr_onecmt_fixed, data=theo_sd, control=list(print=0), est=""focei"")
+#> > creating full model...
+#> > pruning branches (`if`/`else`)...
+#> v done
+#> > loading into symengine environment...
+#> Error: function 'linCmt' or its derivatives are not supported in RxODE
+```
+
+<sup>Created on 2021-07-12 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
+","billdenney",1,0
+"Roche/rtables","Sync v0.3.8 with master branch","https://github.com/Roche/rtables/issues/212","open",2021-07-12,2021-07-12,NA,0,"Tag from latest internal Roche release is not yet reflected here.","anajens",1,1
