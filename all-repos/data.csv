@@ -11,7 +11,7 @@
 "Merck","r2rtf","Merck/r2rtf","Easily Create Production-Ready Rich Text Format (RTF) Table and Figure","2021-07-02T19:20:22Z","R",6.4
 "Merck","rCPDMS","Merck/rCPDMS","Chemoproteomics Data Analysis","2019-07-08T17:30:01Z","R",0.3
 "Merck","simtrial","Merck/simtrial",NA,"2021-06-11T22:30:44Z","R",2.7
-"nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-07-11T04:55:32Z","Rich Text Format",877.9
+"nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-07-12T23:17:00Z","Rich Text Format",877.9
 "Novartis","peax","Novartis/peax","Peax is a tool for interactive visual pattern search and exploration in epigenomic data based on unsupervised representation learning with autoencoders","2021-06-15T17:13:05Z","Jupyter Notebook",52.5
 "Novartis","pisces","Novartis/pisces","PISCES is a pipeline for rapid transcript quantitation, genetic fingerprinting, and quality control assessment of RNAseq libraries using Salmon.","2021-07-09T18:44:43Z","Python",18.1
 "Novartis","xgxr","Novartis/xgxr","R package for supporting exploratory graphics at http://opensource.nibr.com/xgx","2021-07-01T15:00:47Z","R",48.2
@@ -35,4 +35,4 @@
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-07-06T11:36:54Z","R",0.3
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-07-09T13:52:34Z","R",99
 "Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-07-06T18:02:35Z","R",1
-"Roche","rtables","Roche/rtables","Reporting tables with R","2021-07-07T10:48:04Z","R",5.5
+"Roche","rtables","Roche/rtables","Reporting tables with R","2021-07-12T18:17:39Z","R",5.5
