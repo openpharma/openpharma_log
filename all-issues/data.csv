@@ -9069,7 +9069,7 @@ I would like to estimate a model with a D1 parameter (nonmem wording) using linC
 Best regards
 Nicolas
 ","nsk64",0,0
-"nlmixrdevelopment/nlmixr","Survival Model in nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/261","open",2019-12-11,2021-07-12,NA,8,"I am working on the ISOP time to event graphical diagnostics paper and was about to suggest including some nlmixr ways to fit simple time to event without time varying predictors and without more than one event by subject. The below is not working.
+"nlmixrdevelopment/nlmixr","Survival Model in nlmixr","https://github.com/nlmixrdevelopment/nlmixr/issues/261","open",2019-12-11,2021-07-13,NA,11,"I am working on the ISOP time to event graphical diagnostics paper and was about to suggest including some nlmixr ways to fit simple time to event without time varying predictors and without more than one event by subject. The below is not working.
 Can you please let me know if this is possible and how É
 ```r
 library(survival)
@@ -9098,7 +9098,7 @@ inits$OMGA=list(ETA[1]~0.0001)
 
 fit = gnlmm(llik, lung, inits, pars, sys1,
             control=list(trace=TRUE))
-```","smouksassi",580,1
+```","smouksassi",582,2
 "nlmixrdevelopment/nlmixr","Baseline value","https://github.com/nlmixrdevelopment/nlmixr/issues/263","closed",2019-12-16,2019-12-17,2019-12-16,6,"Is it possible to add a baseline (from the dataset) value to add()?
 I tried different options but none was successful.
 
@@ -23015,9 +23015,9 @@ There may be a situation when `plot$data` does not easily match tooltip data. Ch
 This is in `gabe_tabletree_work ` branch.
 
 ","anajens",0,0
-"Roche/rtables","Example of using referential footnotes ","https://github.com/Roche/rtables/issues/197","open",2021-05-06,2021-07-13,NA,4,"@gmbecker would you be able to add some examples showing how to add referential footnotes? 
+"Roche/rtables","Example of using referential footnotes ","https://github.com/Roche/rtables/issues/197","open",2021-05-06,2021-07-13,NA,8,"@gmbecker would you be able to add some examples showing how to add referential footnotes? 
 
-I remember earlier you shared some slides showing the various places in a table that can support these footnotes but going through the changes on `gabe_tabletree_work` I can't find the documentation of this. Maybe a vignette on this would be helpful?","anajens",68,0
+I remember earlier you shared some slides showing the various places in a table that can support these footnotes but going through the changes on `gabe_tabletree_work` I can't find the documentation of this. Maybe a vignette on this would be helpful?","anajens",70,2
 "Roche/rtables","export_as_txt is not exported","https://github.com/Roche/rtables/issues/195","closed",2021-05-06,2021-05-06,2021-05-06,0,"This is on `gabe_tabletree` branch. Not sure if this is because this feature is experimental but it seems like `export_as_txt` would be a very useful function.","anajens",0,0
 "Roche/rtables","Tables in Viewer are difficult to read","https://github.com/Roche/rtables/issues/194","closed",2021-05-06,2021-05-19,2021-05-17,6,"I'm testing `gabe_table_tree` branch and noticed that the Viewer output looks different. 
 - Columns are too crowded, there needs to be some cell padding
@@ -23266,7 +23266,7 @@ loaded via a namespace (and not attached):
 "pharmaR/riskmetric","[R CMD check fix] moving jsonlite to suggests","https://github.com/pharmaR/riskmetric/pull/202","closed",2021-05-11,2021-05-11,2021-05-11,1,"`jsonlite` is unused in package code, and only used in tests. Moving to `Suggests` section of depends.","dgkf",0,0
 "openpharma/visR","Api/plot visr rename","https://github.com/openpharma/visR/pull/178","closed",2021-05-11,2021-05-11,2021-05-11,0,"","bailliem",0,0
 "Roche/rtables","Gabe tabletree work","https://github.com/Roche/rtables/pull/201","closed",2021-05-11,2021-05-11,2021-05-11,0,"Bundle of fixes for bugs reported by @anajens and her team.","gmbecker",0,0
-"Roche/rtables","Indentation of analysis rows under `insert_rrow`","https://github.com/Roche/rtables/issues/202","open",2021-05-11,2021-05-11,NA,0,"Currently, when using `insert_rrow` with a label row only the first set of analysis rows are indented. However if a non label row is inserted, all rows below are indented. Is this intentional? 
+"Roche/rtables","Indentation of analysis rows under `insert_rrow`","https://github.com/Roche/rtables/issues/202","closed",2021-05-11,2021-07-14,2021-07-14,1,"Currently, when using `insert_rrow` with a label row only the first set of analysis rows are indented. However if a non label row is inserted, all rows below are indented. Is this intentional? 
 
 ```r
 library(rtables)
@@ -23331,7 +23331,7 @@ other attached packages:
 
 loaded via a namespace (and not attached):
 [1] compiler_3.6.3  htmltools_0.4.0 tools_3.6.3     Rcpp_1.0.4.6    digest_0.6.25   packrat_0.5.0   rlang_0.4.9
-```","anajens",43,43
+```","anajens",64,0
 "nlmixrdevelopment/nlmixr","issue with changing model features","https://github.com/nlmixrdevelopment/nlmixr/issues/528","closed",2021-05-11,2021-05-15,2021-05-15,5,"It is a great functionality to change model features as described in model piping tutorial (https://nlmixrdevelopment.github.io/nlmixr/articles/modelPiping.html). I was experimenting with automating model selection process and run into trouble with this functionality. I was trying to add an additional if/else statement into the model (related to https://github.com/nlmixrdevelopment/nlmixr/issues/521). 
 Below is an example:
 
@@ -23711,6 +23711,9 @@ Thank you.
 W.","ghost",61,2
 "openpharma/visR","update","https://github.com/openpharma/visR/pull/179","closed",2021-05-13,2021-05-13,2021-05-13,0,"","SHAESEN2",0,0
 "openpharma/visR","Test/add annotation","https://github.com/openpharma/visR/pull/180","closed",2021-05-14,2021-05-22,2021-05-22,1,"","SHAESEN2",8,0
+"Merck/r2rtf","Submit to CRAN Task View","https://github.com/Merck/r2rtf/issues/26","closed",2021-05-16,2021-07-13,2021-07-13,0,"https://cran.r-project.org/web/views/ReproducibleResearch.html
+
+https://github.com/jdblischak/reproducible-research-ctv/issues/28","elong0527",58,0
 "Roche/respectables","Add some examples to documentation","https://github.com/Roche/respectables/pull/12","closed",2021-05-18,2021-05-28,2021-05-28,0,"closes #6 
 
 @gmbecker I have added a few examples to the `table_recipe_utils.R` documentation using `roxygen2`, please take a look - thanks!","edelarua",10,0
@@ -23883,6 +23886,9 @@ Most of these have been borrowed from https://github.com/r-lib/actions/tree/mast
 "openpharma/visR","rename summarize to avoid masking of dplyr summarize","https://github.com/openpharma/visR/issues/196","closed",2021-05-30,2021-05-31,2021-05-31,0,"The default utility function for summarizing data in get_tableone is called `summarize` and thus overwrites the dplyr _summarize_ function. Rename to something else","cschaerfe",1,0
 "openpharma/visR","Renamed summary functions for table 1","https://github.com/openpharma/visR/pull/197","closed",2021-05-30,2021-05-31,2021-05-31,2,"","cschaerfe",1,0
 "openpharma/visR","Fixed issue in which the data source got duplicated when interacting.","https://github.com/openpharma/visR/pull/200","closed",2021-05-31,2021-05-31,2021-05-31,1,"In response to an (ancient) open issue.","timtreis",0,0
+"openpharma/visR","Should we expand the cicd testing via rhub (and re-render readme)?","https://github.com/openpharma/visR/issues/202","open",2021-05-31,2021-07-13,NA,8,"https://r-hub.github.io/rhub/articles/rhub.html
+
+above lets you test across many more platforms- should we look to more than the current few platforms?","epijim",45,2
 "openpharma/visR","Should we expand the cicd testing via rhub?","https://github.com/openpharma/visR/issues/202","open",2021-05-31,2021-05-31,NA,1,"https://r-hub.github.io/rhub/articles/rhub.html
 
 above lets you test across many more platforms- should we look to more than the current few platforms?","epijim",23,23
@@ -23891,7 +23897,7 @@ above lets you test across many more platforms- should we look to more than the 
 Want to check that we can merge to master from a clean develop and that documentation automatically builds. ","bailliem",1,0
 "Roche/ggtips","don't set transparency by default","https://github.com/Roche/ggtips/pull/64","closed",2021-06-01,2021-06-01,2021-06-01,0,"It's better to leave transparency to the user (original version didn't have `...` for `ggplot2::ggsave`)","jcubic",0,0
 "openpharma/visR","Vignette to demonstrate the use of the styling functions","https://github.com/openpharma/visR/pull/204","closed",2021-06-01,2021-06-05,2021-06-02,0,"","timtreis",1,-3
-"openpharma/visR","x_units is not used in the presence of x_label","https://github.com/openpharma/visR/issues/203","open",2021-06-01,2021-06-02,NA,1,"#### Issue description
+"openpharma/visR","x_units is not used in the presence of x_label","https://github.com/openpharma/visR/issues/203","closed",2021-06-01,2021-07-14,2021-07-14,2,"#### Issue description
 When specifying the `x_units` parameter in `visR::visr()`, it doesn't end up in the plot.
 
 
@@ -23925,14 +23931,14 @@ lung_suvival_object %>%
 - A plot with ""Time"" as the x-axis label
 
 #### Additional details / screenshot
-","timtreis",22,21
+","timtreis",43,0
 "Roche/respectables","4 make a unit test","https://github.com/Roche/respectables/pull/22","closed",2021-06-02,2021-06-04,2021-06-04,3,"@gmbecker I made a unit test for the `subjid_func` function to review. I'm not sure if there's a reason why the `test.R` file was commented out so I left it how it was.
 
 close #22 ","edelarua",2,0
 "openpharma/visR","Add cran release document","https://github.com/openpharma/visR/pull/208","closed",2021-06-02,2021-06-02,2021-06-02,0,"","bailliem",0,0
 "openpharma/visR","Align develop with current release branch","https://github.com/openpharma/visR/pull/205","closed",2021-06-02,2021-06-02,2021-06-02,0,"Level up develop with current Release/cran june2021","bailliem",0,0
 "openpharma/visR","Build main site","https://github.com/openpharma/visR/pull/206","closed",2021-06-02,2021-06-02,2021-06-02,0,"Rebuild the main documentation","bailliem",0,0
-"openpharma/visR","Not all ggplot2 theming options are actually applied to our plot","https://github.com/openpharma/visR/issues/207","open",2021-06-02,2021-06-02,NA,0,"#### Issue description
+"openpharma/visR","Not all ggplot2 theming options are actually applied to our plot","https://github.com/openpharma/visR/issues/207","closed",2021-06-02,2021-07-13,2021-07-13,0,"#### Issue description
 
 Not all ggplot2 aesthetics modifications are applied to the plot. 
 
@@ -23972,7 +23978,7 @@ p +
 
 
 #### Additional details / screenshot
-","timtreis",21,21
+","timtreis",41,0
 "openpharma/visR","Merge in CICD changes","https://github.com/openpharma/visR/pull/210","closed",2021-06-03,2021-06-04,2021-06-04,1,"This doesn't effect the R package - readme and CICD fixes
 
 Closes #209 ","epijim",1,0
@@ -24017,18 +24023,18 @@ goodrec2 <- tribble(~variables, ~dependencies, ~func, ~func_args, ~keep,
 ```
 
 we are closing the #22 and those couple of lines were left","waddella",19,19
-"openpharma/visR","Bugfix/20210605 xlabel","https://github.com/openpharma/visR/pull/211","open",2021-06-05,2021-06-10,NA,0,"","timtreis",18,13
-"openpharma/visR","Changed the way the x- and y-axis labels are applied","https://github.com/openpharma/visR/pull/212","open",2021-06-05,2021-07-12,NA,6,"Very minor change that however fixes the previous incompatibility with ggplot2s' xlab/ylab commands.
+"openpharma/visR","Bugfix/20210605 xlabel","https://github.com/openpharma/visR/pull/211","closed",2021-06-05,2021-07-13,2021-07-13,1,"","timtreis",38,0
+"openpharma/visR","Changed the way the x- and y-axis labels are applied","https://github.com/openpharma/visR/pull/212","closed",2021-06-05,2021-07-13,2021-07-13,6,"Very minor change that however fixes the previous incompatibility with ggplot2s' xlab/ylab commands.
 
 Adresses issue https://github.com/openpharma/visR/issues/207
 
 Rough troubleshooting train of thought:
 a) By inspecting the plot components I noticed that the desired label actually ends up in the plot data.
 b) Experiment around with priorities of ggplot scales and labels
-c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",38,1
-"openpharma/visR","In the absence of a specified x-label or a data-derived label, should the x-axis be blank?","https://github.com/openpharma/visR/issues/213","open",2021-06-08,2021-07-02,NA,2,"See title.
+c) We're currently setting the labels through the scales which seems to make them ""write-protected"" to the xlab/ylab commands.","timtreis",38,0
+"openpharma/visR","In the absence of a specified x-label or a data-derived label, should the x-axis be blank?","https://github.com/openpharma/visR/issues/213","closed",2021-06-08,2021-07-13,2021-07-13,2,"See title.
 
-Related to the comments in PR https://github.com/openpharma/visR/pull/211 and https://github.com/openpharma/visR/pull/212.","timtreis",24,0
+Related to the comments in PR https://github.com/openpharma/visR/pull/211 and https://github.com/openpharma/visR/pull/212.","timtreis",35,0
 "Roche/ggtips","Stroke color","https://github.com/Roche/ggtips/pull/65","closed",2021-06-09,2021-06-28,2021-06-09,1,"","cosi1",0,-19
 "nlmixrdevelopment/nlmixr","The data returned by nlmixr are not the same as the input data","https://github.com/nlmixrdevelopment/nlmixr/issues/530","closed",2021-06-09,2021-06-10,2021-06-10,9,"The following reprex shows the problem if you compare the output of the last two calls to `subset`. The listed data should be the same, but in the nlmixr output some of the data for the parent compound are attributed to the metabolite `m1`.
 
@@ -24948,7 +24954,7 @@ write_rtf(file = ""rtf_colheader_test2.rtf"")
 "Roche/respectables","remap variable names","https://github.com/Roche/respectables/issues/27","open",2021-06-24,2021-06-24,NA,0,"if a generating function produces more than 1 variable then the variable names in the returned data.frame might not be the ones that are expected in the recipe. We might have to add a remapping column or use a order based renaming approach.","waddella",2,2
 "Novartis/pisces","Add ""tidy"" data output as an option","https://github.com/Novartis/pisces/issues/16","open",2021-06-25,2021-06-25,NA,0,"I accidentally removed the tidy data format from my last update. This time I will add a `--tidy` flag for `pisces summarize-expression` that will change outputs to tall/tidy shape.","mdshw5",1,1
 "Roche/rtables","fix html colspan bug","https://github.com/Roche/rtables/pull/209","closed",2021-06-25,2021-07-02,2021-06-26,1,"@gmbecker please review and approve. Then merge `pre-release` into your working branch.","waddella",1,-6
-"Roche/rtables","rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.","https://github.com/Roche/rtables/issues/208","open",2021-06-25,2021-06-25,NA,1,"rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.
+"Roche/rtables","rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.","https://github.com/Roche/rtables/issues/208","closed",2021-06-25,2021-07-14,2021-07-14,3,"rtables::as_html duplicates the first row cells when split_cols_by_multivar is used with more than one variable.
 
 ```r
 library(rtables)
@@ -24973,7 +24979,7 @@ Notice that the cells in the first row of `result` span two cells of other colum
     <th class="" text-center"" colspan=""2"">0</th>
   </tr>
 ...
-```","kpagacz",1,1
+```","kpagacz",19,0
 "nlmixrdevelopment/nlmixr","Any approah modeling PK-binominal PD or PK-ordered categorical PD data in nlmixr?","https://github.com/nlmixrdevelopment/nlmixr/issues/535","closed",2021-06-26,2021-06-30,2021-06-30,2,"Hi@mattfidler, recently I'd like to model the PK-adverse event model to demonstrate the exposure-safety relaionship. The preliminary approach was to first do popPK modeling, then have individual exposure prediction, and finally link individual exposure to adverse events using logistic regression or survival analysis. However, such approach disconnected PK and PD, and if logistic regression is used the time information of events is ignored.
 
 Then I would like to try joint PK-PD model which incorporating individual predicted PK parameters and observed PD events with time record, which is PK-categorical PD model. As far as I know the ensence of such approach is to redefine the likelihood function as those in NONMEM. However, I have no idea whether it could be resolved in nlmixr. If it is allowed, could you please tell me how to handle this?","diabloyg",4,0
@@ -24981,7 +24987,7 @@ Then I would like to try joint PK-PD model which incorporating individual predic
 "atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",2,2
 "Merck/r2rtf","allow verbose argument in `rtf_encode`","https://github.com/Merck/r2rtf/pull/38","closed",2021-06-28,2021-07-02,2021-07-02,1,"","elong0527",4,0
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
-"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-06-28,NA,0,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",2,2
+"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-07-13,NA,1,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",17,2
 "AstraZeneca/kallisto","Update methods.py","https://github.com/AstraZeneca/kallisto/pull/36","open",2021-06-28,2021-06-30,NA,2,"**return statement causes the control flow to be disrupted**
 making the else / elif block here unnecessary. This doesn't mean you can not use it, but it is recommended to refactor this for a better readability.","albernsrya",4,2
 "nlmixrdevelopment/nlmixr","Documentation Request: Update lincmt docs","https://github.com/nlmixrdevelopment/nlmixr/issues/536","closed",2021-06-29,2021-06-30,2021-06-30,2,"I'm wanting to use `linCmt()` in a new model, but I'm having trouble figuring out how to make use of it specifically.  I looked to the `lin_cmt` documentation, but that didn't show how to use it.  I went to https://nlmixrdevelopment.github.io/RxODE/articles/RxODE-model-types.html#solved-compartment-models, but in the original post where I found it, said that it is outdated.  (Maybe it is now up to date.)
@@ -25060,7 +25066,21 @@ can we make this error message somehow more concise? e.g.
 - html error message
 
 ","waddella",2,2
-"openpharma/staged.dependencies","dependency_graph bug","https://github.com/openpharma/staged.dependencies/issues/20","open",2021-06-30,2021-07-07,NA,1,"I get:
+"openpharma/staged.dependencies","clearer error messages around git repositories","https://github.com/openpharma/staged.dependencies/issues/19","open",2021-06-30,2021-07-13,NA,0,"Every now and then I get the error
+
+```
+ Error in git2r::clone(url = repo_url, local_path = repo_dir, credentials = creds,  : 
+  Error in 'git2r_clone': unexpected HTTP status code: 404 
+```
+
+can we make this error message somehow more concise? e.g.
+- no access to host
+- invalid TOKEN
+- repository does not exist (that took me once a long time to figure out)
+- html error message
+
+","waddella",15,2
+"openpharma/staged.dependencies","dependency_graph bug","https://github.com/openpharma/staged.dependencies/issues/20","open",2021-06-30,2021-07-13,NA,2,"I get:
 
 ```
 > staged.dependencies::dependency_graph()
@@ -25070,9 +25090,9 @@ x `title` must return compatible vectors across groups
 ℹ Result type for group 1 (from = ""NEST/goshawk @ https://github.roche.com"", to = ""NEST/utils.nest @ https://github.roche.com""): <character>.
 ℹ Result type for group 16 (from = ""NEST/tern @ https://github.roche.com"", to = ""NEST/scda @ https://github.roche.com""): <list>.
 Run `rlang::last_error()` to see where the error occurred. 
-```","waddella",9,2
+```","waddella",15,2
 "openpharma/staged.dependencies","make `upstream_repos` and `downstream_repos` optional","https://github.com/openpharma/staged.dependencies/issues/18","open",2021-06-30,2021-06-30,NA,0,"in the `yaml` file as not all repos require them","waddella",2,2
-"openpharma/staged.dependencies","reset --hard origin/<branch>","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-07-07,NA,1,"I ran into the issue:
+"openpharma/staged.dependencies","reset --hard origin/<branch>","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-07-13,NA,2,"I ran into the issue:
 
 ```
 Error in install_repo_add_sha(repo_dir) : 
@@ -25088,7 +25108,7 @@ and in particular with `git diff`
 
 ![image](https://user-images.githubusercontent.com/7786462/123940609-a23c0c00-d999-11eb-8cb0-475e7322e3c8.png)
 
-Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",9,2
+Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",15,2
 "Novartis/xgxr","Add a BugReports line to point people to GitHub","https://github.com/Novartis/xgxr/pull/44","closed",2021-07-01,2021-07-01,2021-07-01,1,"I wasn't aware that there was a GitHub repository for xgxr.  This will make it so the BugReports on CRAN will point people here.","billdenney",0,0
 "Novartis/xgxr","Feature suggestion: blq_trans for showing measurements below the LLOQ","https://github.com/Novartis/xgxr/issues/45","open",2021-07-01,2021-07-01,NA,1,"This is related to kestrel99/pmxTools#23 (more accurately, it replaces that).  It is also related to #21.
 
@@ -25162,7 +25182,7 @@ ggplot(data=data.frame(x=1:10, y=1:10), aes(x=x, y=y)) +
 ","billdenney",1,1
 "Novartis/xgxr","Implement blq_trans()","https://github.com/Novartis/xgxr/pull/46","open",2021-07-01,2021-07-01,NA,0,"Implements feature suggested in #45 ","billdenney",1,1
 "Novartis/xgxr","Update docs","https://github.com/Novartis/xgxr/pull/47","open",2021-07-01,2021-07-01,NA,0,"While working on the previous PR, this documentation automatically updated.  There is no code change here; it just updates the docs to be current with the code.","billdenney",1,1
-"openpharma/visR","Use 'testthat' to keep our package in shape","https://github.com/openpharma/visR/issues/233","open",2021-07-01,2021-07-01,NA,0,"As briefly discussed in Slack, we could use `testthat` to perform various checks to keep our codebase in line with CRAN requirements. Additionally, if we decide to advertise our package's `riskmetric` score, we could also integrate checks for that.
+"openpharma/visR","Use 'testthat' to keep our package in shape","https://github.com/openpharma/visR/issues/233","closed",2021-07-01,2021-07-14,2021-07-14,0,"As briefly discussed in Slack, we could use `testthat` to perform various checks to keep our codebase in line with CRAN requirements. Additionally, if we decide to advertise our package's `riskmetric` score, we could also integrate checks for that.
 
 CRAN:
 - No T/F, but TRUE/FALSE
@@ -25181,7 +25201,7 @@ riskmetric:
 - has_source_control
 - covr_coverage [Broken?]
 
-","timtreis",1,1
+","timtreis",13,0
 "openpharma/visR","'riskmetric' doesn't recognise our vignettes","https://github.com/openpharma/visR/issues/234","closed",2021-07-02,2021-07-02,2021-07-02,2,"#### Issue description
 
 When assessing `visR` with `riskmetric`, it doesn't recognise the existence of our vignettes.
@@ -25357,14 +25377,14 @@ if(any(is.na(.data[[var]]))
 ## Description
 
 Enhancements to the R CMD check workflow. ","dinakar29",0,0
-"Roche/ggtips","Add 'wrap' parameter + optimize addCustomContents()","https://github.com/Roche/ggtips/pull/68","open",2021-07-06,2021-07-06,NA,0,"This is an attempt at optimizing the workflow of ggtips. Changes so far:
+"Roche/ggtips","Add 'wrap' parameter + optimize addCustomContents()","https://github.com/Roche/ggtips/pull/68","open",2021-07-06,2021-07-14,NA,0,"This is an attempt at optimizing the workflow of ggtips. Changes so far:
 - Wrapping of long text is now turned off by default. This can be changed by using `wrap = TRUE`.
-- Code in an auxiliary function `addCustomContents()` was mistakenly always executed, even when there was no callback. This has been fixed.","cosi1",2,2
-"Roche/ggtips","Can the plots be exported to SVG files?","https://github.com/Roche/ggtips/issues/69","open",2021-07-06,2021-07-06,NA,1,"See question in title -- although now that I think about it, the tooltips might be relying on some JavaScript in the Shiny app...
+- Code in an auxiliary function `addCustomContents()` was mistakenly always executed, even when there was no callback. This has been fixed.","cosi1",9,1
+"Roche/ggtips","Can the plots be exported to SVG files?","https://github.com/Roche/ggtips/issues/69","open",2021-07-06,2021-07-13,NA,2,"See question in title -- although now that I think about it, the tooltips might be relying on some JavaScript in the Shiny app...
 Regardless, I'd love to be able to export some of the interactivity to an SVG file. Can you please let me know if this is possible?
 
 Thanks,
-Zoe","zmeers",2,2
+Zoe","zmeers",9,2
 "pharmaR/riskmetric","Class hierarchy of pkg_remote isn't maintained","https://github.com/pharmaR/riskmetric/issues/207","closed",2021-07-06,2021-07-07,2021-07-07,0,"Thanks to a bug report, #206 - it looks like our recent overhaul of the class constructors (#203) dropped some of the intermediate classes needed for metric inheritance.
 
 Using the example in that bug report,
@@ -25420,8 +25440,8 @@ Since this is actually a fairly crippling bug for remote package refs, I think t
 #' T1.4 No \dontrun{} tags unless the code actually takes a long time.
 #' T1.5 The use of 'options()' is immediately preemptively reverted.
 ```","timtreis",2,0
-"openpharma/staged.dependencies","add metadata to description file","https://github.com/openpharma/staged.dependencies/pull/22","open",2021-07-07,2021-07-07,NA,0,"","maximilianmordig",2,2
-"Merck/r2rtf","`text_format` issue with all value equal to `""""`","https://github.com/Merck/r2rtf/issues/40","open",2021-07-08,2021-07-08,NA,0,"An error below shall be avoid. 
+"openpharma/staged.dependencies","add metadata to description file","https://github.com/openpharma/staged.dependencies/pull/22","closed",2021-07-07,2021-07-13,2021-07-13,0,"","maximilianmordig",6,0
+"Merck/r2rtf","`text_format` issue with all value equal to `""""`","https://github.com/Merck/r2rtf/issues/40","open",2021-07-08,2021-07-13,NA,2,"An error below shall be avoid. 
 
 ```
 library(r2rtf)
@@ -25443,7 +25463,7 @@ if(all(f == """")) f <- NULL
 
 iris %>% 
   rtf_body(text_format = f)
-```","elong0527",2,2
+```","elong0527",7,2
 "Roche/rtables","Better api for specifying column location in tables with nested columns","https://github.com/Roche/rtables/issues/210","open",2021-07-09,2021-07-09,NA,0,"It would be nice to be able to specify exactly which columns to select when extracting info with `row_values`. Example:
 
 ```r
@@ -25476,6 +25496,38 @@ $`C: Combination.S2`
 ```
 
 Using column names or paths would be nicer than extracting values by index.","anajens",1,1
+"Roche/rtables","Column-Path based API for extracting values from Row objects","https://github.com/Roche/rtables/issues/210","open",2021-07-09,2021-07-14,NA,9,"It would be nice to be able to specify exactly which columns to select when extracting info with `row_values`. Example:
+
+```r
+> tbl <- basic_table() %>%
++   split_cols_by(""ARM"") %>%
++   split_cols_by(""STRATA2"") %>%
++   analyze(""AEDECOD"") %>%
++   build_table(ex_adae, ex_adsl)
+> 
+> first_row <- collect_leaves(tbl[1,])[[1]]
+> vals <- row_values(first_row)
+> vals
+$`A: Drug X.S1`
+[1] 31
+
+$`A: Drug X.S2`
+[1] 33
+
+$`B: Placebo.S1`
+[1] 29
+
+$`B: Placebo.S2`
+[1] 33
+
+$`C: Combination.S1`
+[1] 32
+
+$`C: Combination.S2`
+[1] 56
+```
+
+Using column names or paths would be nicer than extracting values by index.","anajens",6,1
 "atorus-research/pharmaRTF","Gap between column titles and table body in LibreOffice Writer","https://github.com/atorus-research/pharmaRTF/issues/7","open",2021-07-10,2021-07-10,NA,0,"Hi,
 
 Thanks for creating this. One thing that I have noticed is that the generated RTF files look different in LibreOffice Writer compared to how they look in Microsoft Word. In LibreOffice, there is an extra gap between the column heading and the table body that is not present in Word. While it looks as if things are being rendered differently, it this something that can be addressed?
@@ -25483,7 +25535,7 @@ Thanks for creating this. One thing that I have noticed is that the generated RT
 Many thanks,
 
 John","kpl05",2,2
-"Roche/rtables","add github action","https://github.com/Roche/rtables/pull/211","open",2021-07-12,2021-07-12,NA,3,"","waddella",1,1
+"Roche/rtables","add github action","https://github.com/Roche/rtables/pull/211","closed",2021-07-12,2021-07-13,2021-07-13,3,"","waddella",1,0
 "nlmixrdevelopment/nlmixr","Error: linCmt are not supported in RxODE","https://github.com/nlmixrdevelopment/nlmixr/issues/543","open",2021-07-12,2021-07-13,NA,4,"Based on the discussion in #540, I thought the following was allowed.  Can you please help me understand how to use linCmt on the right hand side?
 
 ``` r
@@ -25514,4 +25566,174 @@ fit <- nlmixr(nlmixr_onecmt_fixed, data=theo_sd, control=list(print=0), est=""fo
 
 <sup>Created on 2021-07-12 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
 ","billdenney",1,0
-"Roche/rtables","Sync v0.3.8 with master branch","https://github.com/Roche/rtables/issues/212","open",2021-07-12,2021-07-12,NA,0,"Tag from latest internal Roche release is not yet reflected here.","anajens",1,1
+"Roche/rtables","Sync v0.3.8 with master branch","https://github.com/Roche/rtables/issues/212","open",2021-07-12,2021-07-14,NA,1,"Tag from latest internal Roche release is not yet reflected here.","anajens",3,1
+"openpharma/staged.dependencies","add github action","https://github.com/openpharma/staged.dependencies/pull/23","closed",2021-07-13,2021-07-13,2021-07-13,4,"","waddella",0,0
+"Merck/r2rtf","bug fix for text_format = """"","https://github.com/Merck/r2rtf/pull/42","closed",2021-07-13,2021-07-13,2021-07-13,0,"- resolve issue descrived in #40","elong0527",0,0
+"pharmaR/riskmetric","How to integrate metrics from other packages?","https://github.com/pharmaR/riskmetric/issues/209","open",2021-07-13,2021-07-13,NA,0,"As the audience of `riskmetric` grows, we're seeing new packages that offer really compelling metrics, but might introduce new dependencies, drastically increase runtime or only apply in niche applications. One of our design goals has always been extensibility, yet we don't have any concrete examples of how a package might extend riskmetric. 
+
+I've added the [Package Integration](https://github.com/pharmaR/riskmetric/labels/Package%20Integration) label to track our backlog specific to packages which may want to register metrics with `riskmetric`. 
+
+## Design
+
+### Option 1: All metrics created in `riskmetric`
+
+Perhaps the most straightforward solution is just to implement metrics within `riskmetric`. However, this would bloat our dependency footprint and runtimes meaning that we may want to build more interfaces to restricting which sets of metrics get run. 
+
+### Option 2: All metrics created in `riskmetric`, but only run if `Suggests` dependency is installed
+
+As a way of mitigating this management, perhaps we could only turn on these behaviors when those dependencies are available. However, this feels like an enormous amount of dependency management, which really should be handled by the package installation instead.
+
+### Option 3: Offshoot packages (eg, `riskmetric.<use case>`)
+
+Alternatively, we could develop more focused packages - perhaps by theme such as `riskmetric.security`, or by package that is integrated such as `riskmetric.srr`or `riskmetric.autotest`. This would let us fragment metrics among a few different extension packages so that specific metric classes or packages handle all the bookkeeping for their own dependencies.
+
+### Option 4: Encourage packages to refer to `riskmetric` via `Enhances`
+
+I think the devil might be in the details with this one, but we could aim to make it as easy as possible for other packages to register metrics that enhance `riskmetric` - possibly without even taking on a direct dependency since all of our extensions operate through S3 dispatch. I think this could be the most comfortable way to encourage extensions and we could rely on a canonical way of tracking enhancement via the DESCRIPTION `Enhances` field. I think a proof-of-concept would be needed to make sure this is feasible before encouraging this path forward, though. 
+
+### Option ... ? 
+
+Open to suggestions.
+
+## Action Items
+
+Whatever path we take, I think we could use a new vignette showing how to integrate new metrics that bring niche or intensive metrics to `riskmetric`. 
+
+
+","dgkf",2,2
+"pharmaR/riskmetric","Integration with `goodpractice`","https://github.com/pharmaR/riskmetric/issues/214","open",2021-07-13,2021-07-13,NA,0,"[`goodpractice`](https://github.com/MangoTheCat/goodpractice) looks like it covers a whole litany of best practices that are often a good heuristic for developers familiarity with software development practices, even if many of these decisions don't inherently mean that a package is of poor quality. This can be an excellent quick measure of package quality.
+
+---
+
+Please refer to #209 to help consider how package integrations should be managed","dgkf",2,2
+"pharmaR/riskmetric","Integration with `pkgnet`","https://github.com/pharmaR/riskmetric/issues/215","open",2021-07-13,2021-07-13,NA,0,"[`pkgnet`](https://github.com/uptake/pkgnet) provides a few cool analyses that might be useful for surfacing as metrics. Both dependency graphs, as well as within-package function graphs. For example, I believe we could use various graph metrics such as a hub or authority score to weight the importance of function unit test coverage, offering new ways to present weighted sums of function coverage that might better reflect how those functions are used. 
+
+---
+
+Please refer to #209 to help consider how package integrations should be managed","dgkf",2,2
+"pharmaR/riskmetric","Integrations with `oysteR`","https://github.com/pharmaR/riskmetric/issues/210","open",2021-07-13,2021-07-13,NA,2,"Thanks @csgillespie for reaching out at useR! - This looks like a really cool package to integrate with. 
+
+[`oysteR`](https://github.com/sonatype-nexus-community/oysteR/) looks like an awesome resource for identifying security vulnerabilities in packages. From a brief readthrough, it looks like it compares a package against the [Sonatype OSS Index](https://ossindex.sonatype.org/), identifying known vulnerabilities. 
+
+---
+
+Please refer to #209 to help consider how package integrations should be managed","dgkf",2,2
+"pharmaR/riskmetric","Integrations with `valtools`","https://github.com/pharmaR/riskmetric/issues/213","open",2021-07-13,2021-07-13,NA,0,"PhUSE's [`valtools`](https://github.com/phuse-org/valtools/) represents a way of linking requirements as roxygen tags through to unit tests as a way of building a traceability matrix to ensure that proclaimed package specification requirements are met and tested. 
+
+This is a bit of a different lens through which to interpret unit testing that isn't covered by canonical measures such as code coverage. 
+
+---
+
+Please refer to #209 to help consider how package integrations should be managed","dgkf",2,2
+"pharmaR/riskmetric","Integrations with ROpenSci's `autotest`","https://github.com/pharmaR/riskmetric/issues/211","open",2021-07-13,2021-07-14,NA,1,"@mpadge has been cranking out awesome package analytics tools this past year, and it might be high-time that we start pulling them in! 
+
+Just to recap, [`autotest`](https://github.com/ropensci-review-tools/autotest) stresses functions by throwing randomized inputs at it aiming to catch edge cases that can be easy to overlook during development (eg negative values, missingness, other similar classes). I'm sure I'm still oversimplifying things, but nevertheless this would be a great measure for package function stability/resilience. 
+
+---
+
+Please refer to #209 to help consider how package integrations should be managed","dgkf",2,1
+"pharmaR/riskmetric","Integrations with ROpenSci's `srr`","https://github.com/pharmaR/riskmetric/issues/212","open",2021-07-13,2021-07-14,NA,1,"I'm still learning about @mpadge's `srr`, but I think there might be some opportunities for metrics here. Perhaps to measure the adherence to statistical development best practices and documented reference implementations. 
+
+Perhaps as we start to see `srr` being adopted in new packages we might have a more tangible example of what metrics are important and we can start to think about how to surface those through `riskmetric`. 
+
+---
+
+Please refer to #209 to help consider how package integrations should be managed","dgkf",2,1
+"Roche/rtables","Pagination exact line count issue","https://github.com/Roche/rtables/issues/213","open",2021-07-13,2021-07-13,NA,0,"Posted initially as comment in #197 by @anajens
+
+Thanks @gmbecker for the nice examples! I've had a chance to play around some more and things are working nicely. I found one case where the pagination does not quite work. I wonder if there are additional tests pagination features need to work with referential footnotes? For example:
+
+```r
+analysisfun2 <- function(x, cutoff,  ...) {
+  mn <- mean(x)
+  if(mn >= cutoff)
+    cf = list(mean = ""Elevated group mean"")
+  else
+    cf = list()
+  in_rows(mean = mean(x),
+          range = range(x),
+          .row_footnotes = list(range = ""range footnote""),
+          .cell_footnotes = cf,
+          .formats = list(mean = ""xx.x"", range = ""xx - xx""))
+}
+lyt2 <- basic_table(
+  title = ""title"",
+  subtitles = ""xx"",
+  main_footer = ""footer""
+  ) %>%
+  split_cols_by(""ARM"") %>%
+  analyze(""AGE"", afun = analysisfun2, extra_args = list(cutoff = mean(ex_adsl$AGE))) %>%
+  analyze(""COUNTRY"")
+tbl <- build_table(lyt2, ex_adsl)
+tbl
+
+export_as_txt(tbl, ""t_ref_footers.txt"", paginate = TRUE)
+```
+
+`tbl` looks good
+```
+title
+xx
+
+-----------------------------------------------------
+              A: Drug X   B: Placebo   C: Combination
+-----------------------------------------------------
+AGE                                                  
+  mean          33.8       35.4 {1}       35.4 {2}   
+  range {3}    21 - 50     21 - 62        20 - 69    
+COUNTRY                                              
+  CHN            74           81             64      
+  USA            10           13             17      
+  BRA            13           7              10      
+  PAK            12           9              10      
+  NGA             8           7              11      
+  RUS             5           8              6       
+  JPN             5           4              9       
+  GBR             4           3              2       
+  CAN             3           2              3       
+  CHE             0           0              0       
+-----------------------------------------------------
+
+{1} - Elevated group mean
+{2} - Elevated group mean
+{3} - range footnote
+-----------------------------------------------------
+
+footer
+```
+
+But trying to paginate gives error:
+```
+ Error in find_pag(pagdf, start, guess, rlpp = adjrlpp, min_siblings = min_siblings,  : 
+  Unable to find any valid pagination between 1 and 6 
+```
+
+_Originally posted by @anajens in https://github.com/Roche/rtables/issues/197#issuecomment-878678639_","gmbecker",2,2
+"Merck/r2rtf","update function to allow inputs with zero length","https://github.com/Merck/r2rtf/pull/41","closed",2021-07-13,2021-07-13,2021-07-13,1,"1. minor update on match_arg()
+2. pass CMD check","yesimiao",0,0
+"Roche/rtables","Deprecate insert_rrow support for TableTree objects?","https://github.com/Roche/rtables/issues/214","open",2021-07-14,2021-07-14,NA,2,"When analyzing the behavior in #202 a number of problematic corner cases for `insert_rrow` in non-trivial tables occurred to me. While we can easily continue to support `insert_rrow` for `ElementaryTable` objects, its not clear we can in the general case in a way that is both coherent and likely to be useful rather than confusing to the user.
+
+# Ambiguities
+
+## LabelRow in position that does not correspond to a substructure
+
+Currently this works, and a labelrow is placed whre a DataRow would have been, but I am fairly confident this is ultimately a broken table structure. Even if it is not, it is will make retrieving the cell values of the table or subtable not have the expected dimensions.
+
+## LabelRow in a position where multiple subtables with non-visible label rows are present between two visible rows.
+
+This is ambiguous. We could choose to always do minimum depth or always maximum depth from amongst the options, but those will have very different resulting indentation structures and its not clear one or the other is always what the user will want.
+
+## Label row at a position where a visible label row already exists in the structure
+
+I don't think it should replace the existing label, as this is an insert operation, but if we put it in as a normal child we have the same issues we did above. 
+
+## DataRow in position that spans structural breaks
+
+This is supported now, and is ""greedy"", ie it will always be the last sibling of the previous row rather than the first sibling of the trailing row corresponding to the position. This is ""correct"" in that it avoids issues where the trailing row is a label, and thus cannot have a preceeding direct sibling that is a Data row, but it is also not unambiguously what the user is going to want.
+
+There may be others.
+
+Thoughts @anajens @waddella @danielinteractive ?
+","gmbecker",1,1
+"Roche/ggtips","JS optimization","https://github.com/Roche/ggtips/pull/71","closed",2021-07-14,2021-07-14,2021-07-14,0,"Optimize JS, plus code that handles pie-charts. It probably will not change after pie-chars will be added.","jcubic",0,0
+"Roche/ggtips","Pie charts","https://github.com/Roche/ggtips/pull/70","closed",2021-07-14,2021-07-14,2021-07-14,0,"Adding the code that optimizes the JS part. It have Marcin changes to pie-charts that are created as Spike. Please check if it's ok to have this in the repo. And if not I will try to extract the code with a cherry pick. Or create a new branch with just optimization changes.","jcubic",0,0
