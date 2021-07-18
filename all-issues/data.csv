@@ -11044,7 +11044,7 @@ Any help would be appreciated!
 - Added scoring for package coverage, returning total coverage as returned from `covr`
 - Updated `summarize_risk` to handle `NA`s 
 - Updated `.risk_weights` to include default weights for recently added metrics","dgkf",0,0
-"Roche/ggtips","argument height","https://github.com/Roche/ggtips/issues/30","open",2020-04-27,2020-04-30,NA,6,"If I don't specify the height in plotwithTooltips a get the error:
+"Roche/ggtips","argument height","https://github.com/Roche/ggtips/issues/30","open",2020-04-27,2021-07-16,NA,7,"If I don't specify the height in plotwithTooltips a get the error:
 Error object 'height' not found
 if i do specify it: 
 ggtips::plotWithTooltips(plot, varDict = varDict, height = 750)
@@ -11105,7 +11105,7 @@ The ggplot works when not using in in renderPlot
 
 what i'm i doing wrong?
 
-regards","wietse1",422,419
+regards","wietse1",447,2
 "nlmixrdevelopment/nlmixr","Problem validating RxODE","https://github.com/nlmixrdevelopment/nlmixr/issues/289","closed",2020-04-27,2020-06-30,2020-05-01,29,"Hi, I tried to install nlmixr on Centos7. After installation of RxODE, I tried to validate the installation with the ""library(RxODE); rxTest();"" command under a R session. However, it found various problems and eventually it quit prematurely complaining too many problems found. These error are shown below:
 
 test-rxIs.R:12: skip: rxIs tests
@@ -23264,6 +23264,7 @@ loaded via a namespace (and not attached):
 ```
 ","anajens",0,0
 "pharmaR/riskmetric","[R CMD check fix] moving jsonlite to suggests","https://github.com/pharmaR/riskmetric/pull/202","closed",2021-05-11,2021-05-11,2021-05-11,1,"`jsonlite` is unused in package code, and only used in tests. Moving to `Suggests` section of depends.","dgkf",0,0
+"AstraZeneca/kallisto","Add isotropic electrostatic energy to eeq.","https://github.com/AstraZeneca/kallisto/pull/35","open",2021-05-11,2021-07-17,NA,0,"This will enable the calculation of isotropic electrostatic energies from the A matrix, the X vector, and the solved atomic partial charges within the eeq part.","f3rmion",68,1
 "openpharma/visR","Api/plot visr rename","https://github.com/openpharma/visR/pull/178","closed",2021-05-11,2021-05-11,2021-05-11,0,"","bailliem",0,0
 "Roche/rtables","Gabe tabletree work","https://github.com/Roche/rtables/pull/201","closed",2021-05-11,2021-05-11,2021-05-11,0,"Bundle of fixes for bugs reported by @anajens and her team.","gmbecker",0,0
 "Roche/rtables","Indentation of analysis rows under `insert_rrow`","https://github.com/Roche/rtables/issues/202","closed",2021-05-11,2021-07-14,2021-07-14,1,"Currently, when using `insert_rrow` with a label row only the first set of analysis rows are indented. However if a non label row is inserted, all rows below are indented. Is this intentional? 
@@ -25377,9 +25378,9 @@ if(any(is.na(.data[[var]]))
 ## Description
 
 Enhancements to the R CMD check workflow. ","dinakar29",0,0
-"Roche/ggtips","Add 'wrap' parameter + optimize addCustomContents()","https://github.com/Roche/ggtips/pull/68","open",2021-07-06,2021-07-14,NA,0,"This is an attempt at optimizing the workflow of ggtips. Changes so far:
+"Roche/ggtips","Add 'wrap' parameter + optimize addCustomContents()","https://github.com/Roche/ggtips/pull/68","closed",2021-07-06,2021-07-16,2021-07-16,1,"This is an attempt at optimizing the workflow of ggtips. Changes so far:
 - Wrapping of long text is now turned off by default. This can be changed by using `wrap = TRUE`.
-- Code in an auxiliary function `addCustomContents()` was mistakenly always executed, even when there was no callback. This has been fixed.","cosi1",9,1
+- Code in an auxiliary function `addCustomContents()` was mistakenly always executed, even when there was no callback. This has been fixed.","cosi1",10,0
 "Roche/ggtips","Can the plots be exported to SVG files?","https://github.com/Roche/ggtips/issues/69","open",2021-07-06,2021-07-13,NA,2,"See question in title -- although now that I think about it, the tooltips might be relying on some JavaScript in the Shiny app...
 Regardless, I'd love to be able to export some of the interactivity to an SVG file. Can you please let me know if this is possible?
 
@@ -25441,7 +25442,7 @@ Since this is actually a fairly crippling bug for remote package refs, I think t
 #' T1.5 The use of 'options()' is immediately preemptively reverted.
 ```","timtreis",2,0
 "openpharma/staged.dependencies","add metadata to description file","https://github.com/openpharma/staged.dependencies/pull/22","closed",2021-07-07,2021-07-13,2021-07-13,0,"","maximilianmordig",6,0
-"Merck/r2rtf","`text_format` issue with all value equal to `""""`","https://github.com/Merck/r2rtf/issues/40","open",2021-07-08,2021-07-13,NA,2,"An error below shall be avoid. 
+"Merck/r2rtf","`text_format` issue with all value equal to `""""`","https://github.com/Merck/r2rtf/issues/40","closed",2021-07-08,2021-07-17,2021-07-17,2,"An error below shall be avoid. 
 
 ```
 library(r2rtf)
@@ -25463,7 +25464,7 @@ if(all(f == """")) f <- NULL
 
 iris %>% 
   rtf_body(text_format = f)
-```","elong0527",7,2
+```","elong0527",9,0
 "Roche/rtables","Better api for specifying column location in tables with nested columns","https://github.com/Roche/rtables/issues/210","open",2021-07-09,2021-07-09,NA,0,"It would be nice to be able to specify exactly which columns to select when extracting info with `row_values`. Example:
 
 ```r
@@ -25737,3 +25738,43 @@ Thoughts @anajens @waddella @danielinteractive ?
 ","gmbecker",1,1
 "Roche/ggtips","JS optimization","https://github.com/Roche/ggtips/pull/71","closed",2021-07-14,2021-07-14,2021-07-14,0,"Optimize JS, plus code that handles pie-charts. It probably will not change after pie-chars will be added.","jcubic",0,0
 "Roche/ggtips","Pie charts","https://github.com/Roche/ggtips/pull/70","closed",2021-07-14,2021-07-14,2021-07-14,0,"Adding the code that optimizes the JS part. It have Marcin changes to pie-charts that are created as Spike. Please check if it's ok to have this in the repo. And if not I will try to extract the code with a cherry pick. Or create a new branch with just optimization changes.","jcubic",0,0
+"Roche/rtables","186 export table as pdf","https://github.com/Roche/rtables/pull/217","open",2021-07-16,2021-07-16,NA,2,"@gmbecker lets discuss the `export_as_pdf` and `export_as_txt` in our next meeting. We also need to address the page i of n part if we paginate. Please have a look and let me know what you think so far of the two export functions.","waddella",2,2
+"phuse-org/valtools","cheatsheet p2","https://github.com/phuse-org/valtools/issues/178","open",2021-07-16,2021-07-16,NA,0,"- add mapping from {valtools} to functions in the wild
+- add summary of workflows for different validation modes","mariev",2,2
+"Roche/respectables","Data generation with a recipe with one variable returns a vector","https://github.com/Roche/respectables/issues/32","open",2021-07-16,2021-07-16,NA,0,"@gmbecker I have noticed that if you only specify one variable, a vector instead of a data frame gets returned. Is this intended?
+
+Here is a simple reproducible example:
+
+```
+gen_table_data(10, recipe = tribble(
+  ~variables, ~dependencies, ~func, ~func_args,
+  ""test"", no_deps, function(n, ...) {
+    1:n
+    },  NULL
+))
+```","edelarua",2,2
+"Roche/respectables","Documentation of generating functions ","https://github.com/Roche/respectables/issues/31","open",2021-07-16,2021-07-16,NA,0,"@gmbecker can you please update your documentation to be more specific concerning the definition of `n` and `.df` in generating functions arguments?","edelarua",2,2
+"nlmixrdevelopment/nlmixr","Feature request: More specific parameter near boundary error message","https://github.com/nlmixrdevelopment/nlmixr/issues/544","open",2021-07-16,2021-07-16,NA,0,"I just ran a model where a parameter ended near its boundary.  This is an obvious model problem, but a minor update that I think would help is to give the name of the parameter in the warning message to help more rapidly identify the issue.
+
+The specific error message is ""parameter estimate near boundary; covariance not calculated"".  It appears to come from here:
+
+https://github.com/nlmixrdevelopment/nlmixr/blob/e91c61a127eeb565e3841c93e1134ba3b879e71e/src/inner.cpp#L5308-L5311
+
+(I had hoped to be able to make a PR for this, but since it's C++ code, I'm not the best person to code it.)","billdenney",2,2
+"Roche/rtables","internally proposed change around funargs","https://github.com/Roche/rtables/pull/216","open",2021-07-16,2021-07-16,NA,4,"@gmbecker please have a look at the proposed change, the internal team has found this to solve some issues we get in `tern` (internal software) when preparing the switch to R 4.1.","waddella",2,2
+"nlmixrdevelopment/nlmixr","Question/Documentation Request:  How are output columns calculated in the presence of censoring?","https://github.com/nlmixrdevelopment/nlmixr/issues/545","closed",2021-07-16,2021-07-17,2021-07-17,2,"I have mouse tumor growth data that I am modeling.  With it, I have low censoring (<1 mm^3 is considered censored) and high censoring (after euthanasia, the tumor is bigger than it was at euthanasia).
+
+It's not exactly clear to me how the output columns are calculated in censored results.  Is this documented somewhere, and is there a better way to calculate them?
+
+What I think I'm seeing based on the outputs in my model are:
+
+* DV: cumulative distribution function value at IPRED
+* IPRED: value of the measurement (estimated actual value, not probability density estimate)
+* IRES: DV - IPRED
+* IWRES: IRES/[residual error model standard deviation]
+
+I would have thought that the following would be the column outputs
+
+* DV: simply copying over the DV from the input dataset
+* IPRED: cumulative distribution function since it is a censored row
+* IRES and IWRES would likely be missing since given the above two, DV and IPRED would not be comparable","billdenney",1,0
