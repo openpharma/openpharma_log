@@ -16492,7 +16492,7 @@ Step 2: run `riskmetric` for each of the package independently
 Step 3: run package `assess` and `score` for each package
 Step 4: calculate the overall risk of the cohort. Weight can be set based on the type of package. (e.g. directly used by user, dependency package)  
 
-","elong0527",275,1
+","elong0527",281,7
 "Roche/rtables","unit testing of print","https://github.com/Roche/rtables/issues/108","closed",2020-10-19,2021-04-21,2021-04-21,1,"","waddella",184,0
 "Roche/rtables","Can we change the ""all obs"" title of the default column?","https://github.com/Roche/rtables/issues/110","closed",2020-10-20,2020-10-23,2020-10-22,2,"Can we change the ""all obs"" title of the default column?","danielinteractive",2,-1
 "Roche/rtables","Question on how to account for metadata info in pruning","https://github.com/Roche/rtables/issues/109","closed",2020-10-20,2021-04-13,2021-04-13,5,"Sometimes splitting on factor levels introduces row combinations in a table which are not realistic or possible based on metadata information. For such cases, we would like to come up with an approach to prune based on table data but also taking into account the metadata.
@@ -20588,6 +20588,10 @@ I think that this might be a result of these undeclared dependencies required to
 "openpharma/visR","Added function to round numbers in strings","https://github.com/openpharma/visR/pull/113","closed",2021-03-04,2021-03-04,2021-03-04,0,"","timtreis",0,0
 "nlmixrdevelopment/nlmixr","Bug: InnerOpt1 in calculating S covariance and other matrices can fail (then R crashes)","https://github.com/nlmixrdevelopment/nlmixr/issues/485","closed",2021-03-04,2021-03-05,2021-03-05,1,"Revealed in Solaris check","mattfidler",1,0
 "openpharma/visR","Changed names of util files","https://github.com/openpharma/visR/pull/115","closed",2021-03-04,2021-03-04,2021-03-04,0,"","rebecca-albrecht",0,0
+"AstraZeneca/kallisto","Feature request: solvent accessible surface area (SASA)","https://github.com/AstraZeneca/kallisto/issues/10","open",2021-03-04,2021-07-26,NA,4,"**Describe the solution you'd like**
+Implement solvent accessible surface area (SASA) using an angular Lebedev-Laikov grid as described in ""A quadrature formula for the sphere of the 131st algebraic order of accuracy"", Doklady Mathematics, Vol. 59, No. 3, 1999, pp. 477-481.
+Extend present grid implementation in ``src/grid.py`` to cover finer grids and use the defined gridpoints to construct a SASA.
+","f3rmion",145,1
 "openpharma/visR","Modified function to not throw a warning when using default parameter…","https://github.com/openpharma/visR/pull/116","closed",2021-03-04,2021-03-11,2021-03-11,0,"…s without changing plotting behaviour","timtreis",7,0
 "Novartis/pisces","pip wheels break pisces post-install process","https://github.com/Novartis/pisces/issues/11","closed",2021-03-04,2021-03-24,2021-03-24,0,"https://www.python.org/dev/peps/pep-0427/#file-contents
 https://stackoverflow.com/questions/24263774/post-install-script-after-installing-a-wheel
@@ -23264,7 +23268,7 @@ loaded via a namespace (and not attached):
 ```
 ","anajens",0,0
 "pharmaR/riskmetric","[R CMD check fix] moving jsonlite to suggests","https://github.com/pharmaR/riskmetric/pull/202","closed",2021-05-11,2021-05-11,2021-05-11,1,"`jsonlite` is unused in package code, and only used in tests. Moving to `Suggests` section of depends.","dgkf",0,0
-"AstraZeneca/kallisto","Add isotropic electrostatic energy to eeq.","https://github.com/AstraZeneca/kallisto/pull/35","open",2021-05-11,2021-07-17,NA,0,"This will enable the calculation of isotropic electrostatic energies from the A matrix, the X vector, and the solved atomic partial charges within the eeq part.","f3rmion",68,1
+"AstraZeneca/kallisto","Add isotropic electrostatic energy to eeq.","https://github.com/AstraZeneca/kallisto/pull/35","open",2021-05-11,2021-07-17,NA,0,"This will enable the calculation of isotropic electrostatic energies from the A matrix, the X vector, and the solved atomic partial charges within the eeq part.","f3rmion",77,10
 "openpharma/visR","Api/plot visr rename","https://github.com/openpharma/visR/pull/178","closed",2021-05-11,2021-05-11,2021-05-11,0,"","bailliem",0,0
 "Roche/rtables","Gabe tabletree work","https://github.com/Roche/rtables/pull/201","closed",2021-05-11,2021-05-11,2021-05-11,0,"Bundle of fixes for bugs reported by @anajens and her team.","gmbecker",0,0
 "Roche/rtables","Indentation of analysis rows under `insert_rrow`","https://github.com/Roche/rtables/issues/202","closed",2021-05-11,2021-07-14,2021-07-14,1,"Currently, when using `insert_rrow` with a label row only the first set of analysis rows are indented. However if a non label row is inserted, all rows below are indented. Is this intentional? 
@@ -24988,9 +24992,11 @@ Then I would like to try joint PK-PD model which incorporating individual predic
 "atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",2,2
 "Merck/r2rtf","allow verbose argument in `rtf_encode`","https://github.com/Merck/r2rtf/pull/38","closed",2021-06-28,2021-07-02,2021-07-02,1,"","elong0527",4,0
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
-"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-07-19,NA,2,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",23,2
-"AstraZeneca/kallisto","Update methods.py","https://github.com/AstraZeneca/kallisto/pull/36","open",2021-06-28,2021-06-30,NA,2,"**return statement causes the control flow to be disrupted**
-making the else / elif block here unnecessary. This doesn't mean you can not use it, but it is recommended to refactor this for a better readability.","albernsrya",4,2
+"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-07-19,NA,2,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",29,8
+"AstraZeneca/kallisto","Update methods.py","https://github.com/AstraZeneca/kallisto/pull/36","open",2021-06-28,2021-07-26,NA,3,"**return statement causes the control flow to be disrupted**
+making the else / elif block here unnecessary. This doesn't mean you can not use it, but it is recommended to refactor this for a better readability.","albernsrya",29,1
+"AstraZeneca/kallisto","Update rmsd.py","https://github.com/AstraZeneca/kallisto/pull/37","closed",2021-06-28,2021-07-26,2021-07-26,1,"**The if statement can be replaced with 'var = bool(test)'**
+refactored into a simplified statement, increasing its readability.","albernsrya",28,0
 "nlmixrdevelopment/nlmixr","Documentation Request: Update lincmt docs","https://github.com/nlmixrdevelopment/nlmixr/issues/536","closed",2021-06-29,2021-06-30,2021-06-30,2,"I'm wanting to use `linCmt()` in a new model, but I'm having trouble figuring out how to make use of it specifically.  I looked to the `lin_cmt` documentation, but that didn't show how to use it.  I went to https://nlmixrdevelopment.github.io/RxODE/articles/RxODE-model-types.html#solved-compartment-models, but in the original post where I found it, said that it is outdated.  (Maybe it is now up to date.)
 
 So, the request is:  Where is use of `linCmt()` best documented?  And, can that be linked to or updated in the `?lin_cmt` docs?","billdenney",1,0
@@ -25093,7 +25099,7 @@ x `title` must return compatible vectors across groups
 Run `rlang::last_error()` to see where the error occurred. 
 ```","waddella",15,2
 "openpharma/staged.dependencies","make `upstream_repos` and `downstream_repos` optional","https://github.com/openpharma/staged.dependencies/issues/18","open",2021-06-30,2021-06-30,NA,0,"in the `yaml` file as not all repos require them","waddella",2,2
-"openpharma/staged.dependencies","reset --hard origin/<branch>","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-07-13,NA,2,"I ran into the issue:
+"openpharma/staged.dependencies","reset --hard origin/<branch>","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-07-22,NA,4,"I ran into the issue:
 
 ```
 Error in install_repo_add_sha(repo_dir) : 
@@ -25109,7 +25115,7 @@ and in particular with `git diff`
 
 ![image](https://user-images.githubusercontent.com/7786462/123940609-a23c0c00-d999-11eb-8cb0-475e7322e3c8.png)
 
-Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",15,2
+Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",27,5
 "Novartis/xgxr","Add a BugReports line to point people to GitHub","https://github.com/Novartis/xgxr/pull/44","closed",2021-07-01,2021-07-01,2021-07-01,1,"I wasn't aware that there was a GitHub repository for xgxr.  This will make it so the BugReports on CRAN will point people here.","billdenney",0,0
 "Novartis/xgxr","Feature suggestion: blq_trans for showing measurements below the LLOQ","https://github.com/Novartis/xgxr/issues/45","open",2021-07-01,2021-07-01,NA,1,"This is related to kestrel99/pmxTools#23 (more accurately, it replaces that).  It is also related to #21.
 
@@ -25778,7 +25784,7 @@ I would have thought that the following would be the column outputs
 * DV: simply copying over the DV from the input dataset
 * IPRED: cumulative distribution function since it is a censored row
 * IRES and IWRES would likely be missing since given the above two, DV and IPRED would not be comparable","billdenney",1,0
-"nlmixrdevelopment/nlmixr","Error using plot.dyn.ID","https://github.com/nlmixrdevelopment/nlmixr/issues/546","open",2021-07-19,2021-07-19,NA,0,"Hello,
+"nlmixrdevelopment/nlmixr","Error using plot.dyn.ID","https://github.com/nlmixrdevelopment/nlmixr/issues/546","open",2021-07-19,2021-07-22,NA,1,"Hello,
 
 Thanks for your package.
 
@@ -26071,7 +26077,7 @@ plot(fit)
 ```
 
 <sup>Created on 2021-07-19 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
-","gcaligari",2,2
+","gcaligari",8,5
 "Roche/rtables","rtables - cell numerical (fraction) output alignment","https://github.com/Roche/rtables/issues/218","open",2021-07-19,2021-07-19,NA,2,"Hi @gmbecker, @anajens 
 
 How feasible would be to improve numerical output alignment in a cell? For example
@@ -26118,6 +26124,369 @@ In other words, the numbers should be aligned according to their significance di
  30
 ```
 
-","wwojciech",2,2
-"Roche/rtables","`reffn_at_path<-` for postprocessing ","https://github.com/Roche/rtables/issues/219","open",2021-07-20,2021-07-20,NA,0,"as discussed with @anajens ","gmbecker",1,1
-"openpharma/staged.dependencies","dependency_table to only search for upstream dependencies","https://github.com/openpharma/staged.dependencies/issues/25","open",2021-07-20,2021-07-20,NA,0,"please add an argument for only listing upstream dependencies when calling `dependency_table`","waddella",1,1
+","wwojciech",8,8
+"Roche/rtables","`reffn_at_path<-` for postprocessing ","https://github.com/Roche/rtables/issues/219","open",2021-07-20,2021-07-20,NA,0,"as discussed with @anajens ","gmbecker",7,7
+"openpharma/staged.dependencies","dependency_table to only search for upstream dependencies","https://github.com/openpharma/staged.dependencies/issues/25","open",2021-07-20,2021-07-20,NA,0,"please add an argument for only listing upstream dependencies when calling `dependency_table`","waddella",7,7
+"openpharma/visR","Added missing tests for apply_theme.R, utils_general.R and tableone.R","https://github.com/openpharma/visR/pull/239","open",2021-07-21,2021-07-25,NA,0,"This commit should bring test coverage for apply_theme.R, utils_general.R and tableone.R to 100 %
+
+This PR includes the following:
+1) bugfix for https://github.com/openpharma/visR/issues/240
+2) Remaining test coverage for `apply_theme.R`
+3) Remaining test coverage for `utils_general.R`
+4) Remaining test coverage for `tableone.R`","timtreis",6,2
+"pharmaR/riskmetric","Risk Assessment app alignment with riskmetric","https://github.com/pharmaR/riskmetric/issues/216","open",2021-07-21,2021-07-21,NA,1,"Hi team, since `riskmetric` is already in CRAN, I think the `risk assessment app` would benefit from the team's feedback. What is the best way to get feedback from the team? Would you like me to give a quick demo on the next `riskmetric` meeting?
+
+Potential discussion topics:
+- How to better align the app with the package?
+- There are many features that can be added to the app, but among those, which one would be beneficial for current or even future features of `riskmetric`?
+- How to increase visibility of the app?
+
+@dgkf, @elong0527, @emilliman5 ","marlycormar",6,6
+"Roche/rtables","write a  print_formats that prints the cell formats instead the cell values","https://github.com/Roche/rtables/issues/220","open",2021-07-21,2021-07-21,NA,0,"also add `formats_only = FALSE` argument to `toString` method for `VTableTree`
+ 
+
+we can discuss the name later","waddella",6,6
+"nlmixrdevelopment/nlmixr","%RSE for IIV terms and residual variability","https://github.com/nlmixrdevelopment/nlmixr/issues/547","closed",2021-07-22,2021-07-23,2021-07-23,1,"Is there a way to get %RSE of ETA terms and the proportional residual error from a nlmixr fit (version 2.0.4)? I could not find these in the fit object or in any examples. Thanks in advance for any help.","Andy00000000000",1,0
+"openpharma/visR","tableone.R doesn't use 'footnote' argument","https://github.com/openpharma/visR/issues/240","open",2021-07-22,2021-07-22,NA,0,"#### Issue description
+
+`visR::tableone()` accepts `footnote` as an argument but doesn't pass it on to render.
+
+#### What's the expected result?
+
+- It should be passed on.
+
+
+#### What's the actual result?
+
+- It isn't.
+
+
+#### Additional details / screenshot
+
+![image](https://user-images.githubusercontent.com/12818242/126668106-1ba1e5f2-bebc-4cac-aa4a-79b480d93200.png)
+","timtreis",5,5
+"openpharma/staged.dependencies","yaml validator for staged_dependencies","https://github.com/openpharma/staged.dependencies/issues/26","open",2021-07-22,2021-07-22,NA,0,"","waddella",5,5
+"Roche/rtables","Add github actions CI to gabe_tabletree_work branch","https://github.com/Roche/rtables/issues/222","closed",2021-07-23,2021-07-23,2021-07-23,5,"@dinakar29 @waddella 
+","gmbecker",0,0
+"Roche/rtables","Missing attributes for layouts with `add_overall_level` ","https://github.com/Roche/rtables/issues/221","open",2021-07-23,2021-07-23,NA,0,"It looks like layouts with `add_overall_level` have empty names:
+
+```
+> tbl <- basic_table() %>%
++   split_cols_by(""ARM"") %>%
++   add_overall_col(""ALL"") %>%
++   analyze(""AGE"") %>%
++   build_table(ex_adsl)
+> 
+> names(tbl)
+[1] """" """" """" """"
+```
+
+Also, there is a warning when `col_info` is used:
+```
+An InstantiatedColumnInfo object
+Columns:
+A: Drug X (ARM)
+B: Placebo (ARM)
+C: Combination (ARM)
+ALL (XXX)
+
+Warning message:
+In payloadmsg(spl) :
+  don't nkow how to make payload print message for Split of classAllSplit
+```
+
+This may be related to https://github.com/Roche/rtables/issues/183.","anajens",4,4
+"openpharma/visR","Bring utils_visr.R to 100 % test coverage.","https://github.com/openpharma/visR/pull/242","open",2021-07-25,2021-07-25,NA,0,"Possible bug in `align_plots()`.
+
+Do we even use `legendopts()`?","timtreis",2,2
+"openpharma/visR","visR::AlignPlots() doesn't conform to naming conventions","https://github.com/openpharma/visR/issues/241","open",2021-07-25,2021-07-25,NA,0,"#### Issue description
+
+ `visR::AlignPlots()` doesn't conform to naming conventions.
+
+It should also be renamed to snake_case.","timtreis",2,2
+"openpharma/visR","Bring render.R to 100 % test coverage.","https://github.com/openpharma/visR/pull/243","open",2021-07-26,2021-07-26,NA,0,"Includes error handling of the respective functions as well as tests to cover the specific behaviour.","timtreis",1,1
+"nlmixrdevelopment/nlmixr","Crash with rxSolve() attempt of simulation","https://github.com/nlmixrdevelopment/nlmixr/issues/549","open",2021-07-26,2021-07-26,NA,1,"Related to #548 (in that I'm still trying to make that simulation), the below code crashes R at the `rxSolve()` call:
+
+```r
+library(nlmixr)
+
+linear_twocmt_iiv_growth <- function() {
+  ini({
+    tcl <- fixed(log(0.01)) ; label(""Clearance (L/kg/hr)"")
+    tq <- fixed(log(0.05)) ; label(""Intercompartmental clearance (L/kg/hr)"")
+    tv <- fixed(log(1.5)) ; label(""Volume central (L/kg)"")
+    tv1 <- fixed(log(2)) ; label(""Volume peripheral (L/kg)"")
+    
+    tktr <- log(c(0.00001, 0.03, 3)) ; label(""Transit compartment rate (1/hr)"")
+    slope <- c(-2, -0.02, 2) ; label(""Slope on growth rate ((ng/mL)/hr)"")
+    ltumorgrowth <- log(c(0.0001, 0.01, 1)) ; label(""Baseline tumor exponential growth rate (1/hr)"")
+
+    iiv_tumorgrowth ~ 0.1 ; label(""Inter-individual variability in baseline tumor exponential growth rate"")
+
+    prop_sd <- 0.2 ; label(""Proportional error for tumor volume (fraction)"")
+    add_sd <- 100 ; label(""Additive error for tumor volume (mm^3)"")
+  })
+  drake::no_deps(model({
+    cl <- exp(tcl)
+    q <- exp(tq)
+    v <- exp(tv)
+    v1 <- exp(tv1)
+    kcp <- q/v
+    kpc <- q/v1
+    ktr <- exp(tktr)
+    TUMOR(0) <- TUMORBL
+    
+    d/dt(CENTRAL) = -cl/v * CENTRAL - kcp*CENTRAL + kpc*PERIPH1
+    d/dt(PERIPH1) = kcp*CENTRAL - kpc*PERIPH1
+    # unit conversion
+    cp <- CENTRAL/v*1000
+    d/dt(TRANSIT) = ktr*(cp - TRANSIT)
+    tumorgrowth <- exp(ltumorgrowth + iiv_tumorgrowth)
+    ktumor <- tumorgrowth + slope*TRANSIT
+    d/dt(TUMOR) = ktumor*TUMOR
+    TUMOR ~ add(add_sd) + prop(prop_sd)
+  }))
+}
+
+sim_dose <-
+  data.frame(
+    ID=1:50,
+    time=0,
+    amt=rep(seq(0, 20, by=5), each=10),
+    evid=1,
+    cmt=""CENTRAL"",
+    mdv=1,
+    TUMORBL=100
+  )
+
+sim_obs <-
+  expand.grid(
+    ID=1:50,
+    time=(0:60)*24,
+    amt=0,
+    evid=0,
+    cmt=""TUMOR"",
+    mdv=0,
+    TUMORBL=100
+  )
+
+sim_data <- rbind(sim_dose, sim_obs)
+sim_data <- sim_data[order(sim_data$ID, sim_data$time), ]
+
+model <- nlmixr(linear_twocmt_iiv_growth)
+simulation <- rxSolve(model, events=sim_data)
+```
+
+My sessionInfo is:
+
+```r
+> sessionInfo()
+R version 4.1.0 (2021-05-18)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 19043)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=English_United States.1252  LC_CTYPE=English_United States.1252    LC_MONETARY=English_United States.1252 LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] nlmixr_2.0.4
+
+loaded via a namespace (and not attached):
+ [1] styler_1.5.1        tidyselect_1.1.1    xfun_0.24           purrr_0.3.4         lattice_0.20-44     RxODE_1.0.9         colorspace_2.0-2    vctrs_0.3.8         generics_0.1.0     
+[10] htmltools_0.5.1.1   yaml_2.2.1          utf8_1.2.1          rlang_0.4.11        pillar_1.6.1        glue_1.4.2          withr_2.4.2         DBI_1.1.1           lbfgsb3c_2020-3.2  
+[19] lifecycle_1.0.0     n1qn1_6.0.1-10      munsell_0.5.0       gtable_0.3.0        stringfish_0.15.1   evaluate_0.14       memoise_2.0.0       RApiSerialize_0.1.0 knitr_1.33         
+[28] callr_3.7.0         fastmap_1.1.0       ps_1.6.0            parallel_4.1.0      sys_3.4             fansi_0.5.0         highr_0.9           Rcpp_1.0.7          clipr_0.7.1        
+[37] backports_1.2.1     scales_1.1.1        checkmate_2.0.0     cachem_1.0.5        RcppParallel_5.1.4  fs_1.5.0            brew_1.0-6          ggplot2_3.3.5       digest_0.6.27      
+[46] lotri_0.3.1         processx_3.5.2      dplyr_1.0.7         qs_0.24.1           grid_4.1.0          cli_3.0.1           tools_4.1.0         magrittr_2.0.1      tibble_3.1.2       
+[55] PreciseSums_0.4     crayon_1.4.1        pkgconfig_2.0.3     ellipsis_0.3.2      data.table_1.14.0   reprex_2.0.0        assertthat_0.2.1    rmarkdown_2.9       rstudioapi_0.13    
+[64] R6_2.5.0            nlme_3.1-152        units_0.7-2         compiler_4.1.0     
+```","billdenney",1,1
+"nlmixrdevelopment/nlmixr","Feature Request: Allow rxSolve to take in an un-solved nlmixr function definition","https://github.com/nlmixrdevelopment/nlmixr/issues/550","open",2021-07-26,2021-07-26,NA,4,"Related to #548 in that I'm still trying to make that simulation...
+
+It would be helpful if rxSolve could allow the object to be an nlmixr function definition (i.e. a function with an `ini()` and `model()`).
+
+An example of the desired functionality is below.  If that is out of scope, a clearer error message would help rather than ""`rxSolveSEXP(object, .ctl, .nms, .xtra, params, events, inits, : Not compatible with STRSXP: [type=NULL].`""
+
+``` r
+library(nlmixr)
+
+linear_twocmt_iiv_growth <- function() {
+  ini({
+    tcl <- fixed(log(0.01)) ; label(""Clearance (L/kg/hr)"")
+    tq <- fixed(log(0.05)) ; label(""Intercompartmental clearance (L/kg/hr)"")
+    tv <- fixed(log(1.5)) ; label(""Volume central (L/kg)"")
+    tv1 <- fixed(log(2)) ; label(""Volume peripheral (L/kg)"")
+    
+    tktr <- log(c(0.00001, 0.03, 3)) ; label(""Transit compartment rate (1/hr)"")
+    slope <- c(-2, -0.02, 2) ; label(""Slope on growth rate ((ng/mL)/hr)"")
+    ltumorgrowth <- log(c(0.0001, 0.01, 1)) ; label(""Baseline tumor exponential growth rate (1/hr)"")
+
+    iiv_tumorgrowth ~ 0.1 ; label(""Inter-individual variability in baseline tumor exponential growth rate"")
+
+    prop_sd <- 0.2 ; label(""Proportional error for tumor volume (fraction)"")
+    add_sd <- 100 ; label(""Additive error for tumor volume (mm^3)"")
+  })
+  drake::no_deps(model({
+    cl <- exp(tcl)
+    q <- exp(tq)
+    v <- exp(tv)
+    v1 <- exp(tv1)
+    kcp <- q/v
+    kpc <- q/v1
+    ktr <- exp(tktr)
+    TUMOR(0) <- TUMORBL
+    
+    d/dt(CENTRAL) = -cl/v * CENTRAL - kcp*CENTRAL + kpc*PERIPH1
+    d/dt(PERIPH1) = kcp*CENTRAL - kpc*PERIPH1
+    # unit conversion
+    cp <- CENTRAL/v*1000
+    d/dt(TRANSIT) = ktr*(cp - TRANSIT)
+    tumorgrowth <- exp(ltumorgrowth + iiv_tumorgrowth)
+    ktumor <- tumorgrowth + slope*TRANSIT
+    d/dt(TUMOR) = ktumor*TUMOR
+    TUMOR ~ add(add_sd) + prop(prop_sd)
+  }))
+}
+
+sim_dose <-
+  data.frame(
+    ID=1:50,
+    time=0,
+    amt=rep(seq(0, 20, by=5), each=10),
+    evid=1,
+    cmt=""CENTRAL"",
+    mdv=1,
+    TUMORBL=100
+  )
+
+sim_obs <-
+  expand.grid(
+    ID=1:50,
+    time=(0:60)*24,
+    amt=0,
+    evid=0,
+    cmt=""TUMOR"",
+    mdv=0,
+    TUMORBL=100
+  )
+
+sim_data <- rbind(sim_dose, sim_obs)
+sim_data <- sim_data[order(sim_data$ID, sim_data$time), ]
+
+simulation <- rxSolve(linear_twocmt_iiv_growth, events=sim_data)
+#> Error in rxSolveSEXP(object, .ctl, .nms, .xtra, params, events, inits, : Not compatible with STRSXP: [type=NULL].
+```
+
+<sup>Created on 2021-07-26 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
+
+","billdenney",1,1
+"nlmixrdevelopment/nlmixr","getVarCov() fails with what I think is due to fixed parameters and parameter near boundary error","https://github.com/nlmixrdevelopment/nlmixr/issues/551","open",2021-07-26,2021-07-26,NA,1,"Related to #548 in that I'm stopping trying to make the simulation work for now, and I'm going to describe the issue that I was trying to get to without a direct reprex.
+
+While estimating a model, I got the warning at the end:
+
+```
+6: In (function (uif, data, est = NULL, control = list(), ..., sum.prod = FALSE,  :
+  parameter estimate near boundary; covariance not calculated
+ use 'getVarCov' to calculate anyway
+```
+
+I didn't see which parameter appeared to be near its boundary, so I assume that it is one of the fixed parameters (see the model in #548 and the request in #544).
+
+So, I called `getVarCov(model_linear_iiv)`, and that resulted in the following error:
+
+```
+> getVarCov(model_linear_iiv)
+> creating full model...
+> pruning branches (`if`/`else`)...
+√ done
+> loading into symengine environment...
+√ done
+> creating full model...
+> pruning branches (`if`/`else`)...
+√ done
+> loading into symengine environment...
+√ done
+> calculate jacobian
+[====|====|====|====|====|====|====|====|====|====] 0:00:00 
+
+> calculate sensitivities
+[====|====|====|====|====|====|====|====|====|====] 0:00:00 
+
+> calculate d(f)/d(eta)
+[====|====|====|====|====|====|====|====|====|====] 0:00:00 
+
+> calculate d(R^2)/d(eta)
+[====|====|====|====|====|====|====|====|====|====] 0:00:00 
+
+> finding duplicate expressions in inner model...
+[====|====|====|====|====|====|====|====|====|====] 0:00:00 
+
+> optimizing duplicate expressions in inner model...
+[====|====|====|====|====|====|====|====|====|====] 0:00:00 
+
+> finding duplicate expressions in EBE model...
+[====|====|====|====|====|====|====|====|====|====] 0:00:00 
+
+> optimizing duplicate expressions in EBE model...
+[====|====|====|====|====|====|====|====|====|====] 0:00:00 
+
+> compiling inner model...
+√ done
+> compiling EBE model...
+√ done
+Needed Covariates:
+[1] ""TUMORBL""
+Error in .fitFun(.ret) : theta mismatch op_focei.ntheta 9, ntheta: 6
+
+Error in foceiFit.data.frame0(data = .dat, inits = .inits, PKpars = .uif$theta.pars,  : 
+  Could not fit data.
+```
+
+... and I'm done adding new issues for now.  :)","billdenney",1,1
+"atorus-research/metacore","Make package compatible with {dplyr} < 1.0.0","https://github.com/atorus-research/metacore/issues/2","open",2021-07-26,2021-07-26,NA,1,"I just tried to install {metacore} into our validated R environment at Roche which still uses {dplyr} 0.8.5. Unfortunately, the installation failed.
+
+```
+Error: object ‘c_across’ is not exported by 'namespace:dplyr'
+Execution halted
+ERROR: lazy loading failed for package ‘metacore’
+* removing ‘/home/bceuser/neitmant/admiral.roche/renv/staging/1/metacore’
+```
+
+Could you adjust your code such that it works with older dplyr versions?
+
+I'd be happy to edit the matrix config of your `R CMD check` workflow such that it runs also on earlier R versions with older packages. I did that for {admiral} and it proved to be very valuable for ensuring that the package works on our kind of old production environment.","thomas-neitmann",1,1
+"nlmixrdevelopment/nlmixr","ED50 using ML & AIC: Phoenix NLME and PROC NLMIXED","https://github.com/nlmixrdevelopment/nlmixr/issues/552","open",2021-07-27,2021-07-27,NA,0,"Hi,
+
+I am very fresh to the r so please excuse my limitations for nlmixr and r.
+
+My Interest is to calculate ED50 and Emax of dose response study (skin blanching) using ML and AIC criteria.
+
+I have prepared SAS code using PROC NLMIXED for Emax and ED50 and results are matching with phoenix NMLE -Emax modeling.
+
+Now I wanted to develop the code with r using nlmixr and need help from the experts.
+Below is model text for NLME
+test(){
+	covariate(C)
+	E = Emax * C / (EC50 + C)
+	error(EEps = 1)
+	observe(EObs(C) = E + EEps)
+	stparm(EC50 = tvEC50)
+	stparm(Emax = tvEmax + nEmax)
+	fixef(tvEC50 = c(, 1, ))
+	fixef(tvEmax = c(, 1, ))
+	ranef(diag(nEmax) = c(1))
+}
+
+Please find data which were used for the calculation and result for Emax and ED50 were -6.4 and 52.5 .
+
+Can anyone help me to build r code using nlmixr
+
+[AUEC.zip](https://github.com/nlmixrdevelopment/nlmixr/files/6884707/AUEC.zip)
+
+","hrishikesh1985",0,0
