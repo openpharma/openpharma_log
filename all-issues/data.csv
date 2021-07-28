@@ -16492,7 +16492,7 @@ Step 2: run `riskmetric` for each of the package independently
 Step 3: run package `assess` and `score` for each package
 Step 4: calculate the overall risk of the cohort. Weight can be set based on the type of package. (e.g. directly used by user, dependency package)  
 
-","elong0527",281,7
+","elong0527",282,8
 "Roche/rtables","unit testing of print","https://github.com/Roche/rtables/issues/108","closed",2020-10-19,2021-04-21,2021-04-21,1,"","waddella",184,0
 "Roche/rtables","Can we change the ""all obs"" title of the default column?","https://github.com/Roche/rtables/issues/110","closed",2020-10-20,2020-10-23,2020-10-22,2,"Can we change the ""all obs"" title of the default column?","danielinteractive",2,-1
 "Roche/rtables","Question on how to account for metadata info in pruning","https://github.com/Roche/rtables/issues/109","closed",2020-10-20,2021-04-13,2021-04-13,5,"Sometimes splitting on factor levels introduces row combinations in a table which are not realistic or possible based on metadata information. For such cases, we would like to come up with an approach to prune based on table data but also taking into account the metadata.
@@ -20591,7 +20591,7 @@ I think that this might be a result of these undeclared dependencies required to
 "AstraZeneca/kallisto","Feature request: solvent accessible surface area (SASA)","https://github.com/AstraZeneca/kallisto/issues/10","open",2021-03-04,2021-07-26,NA,4,"**Describe the solution you'd like**
 Implement solvent accessible surface area (SASA) using an angular Lebedev-Laikov grid as described in ""A quadrature formula for the sphere of the 131st algebraic order of accuracy"", Doklady Mathematics, Vol. 59, No. 3, 1999, pp. 477-481.
 Extend present grid implementation in ``src/grid.py`` to cover finer grids and use the defined gridpoints to construct a SASA.
-","f3rmion",145,1
+","f3rmion",146,2
 "openpharma/visR","Modified function to not throw a warning when using default parameter…","https://github.com/openpharma/visR/pull/116","closed",2021-03-04,2021-03-11,2021-03-11,0,"…s without changing plotting behaviour","timtreis",7,0
 "Novartis/pisces","pip wheels break pisces post-install process","https://github.com/Novartis/pisces/issues/11","closed",2021-03-04,2021-03-24,2021-03-24,0,"https://www.python.org/dev/peps/pep-0427/#file-contents
 https://stackoverflow.com/questions/24263774/post-install-script-after-installing-a-wheel
@@ -24992,9 +24992,9 @@ Then I would like to try joint PK-PD model which incorporating individual predic
 "atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",2,2
 "Merck/r2rtf","allow verbose argument in `rtf_encode`","https://github.com/Merck/r2rtf/pull/38","closed",2021-06-28,2021-07-02,2021-07-02,1,"","elong0527",4,0
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
-"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-07-19,NA,2,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",29,8
+"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-07-19,NA,2,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",30,9
 "AstraZeneca/kallisto","Update methods.py","https://github.com/AstraZeneca/kallisto/pull/36","open",2021-06-28,2021-07-26,NA,3,"**return statement causes the control flow to be disrupted**
-making the else / elif block here unnecessary. This doesn't mean you can not use it, but it is recommended to refactor this for a better readability.","albernsrya",29,1
+making the else / elif block here unnecessary. This doesn't mean you can not use it, but it is recommended to refactor this for a better readability.","albernsrya",30,2
 "AstraZeneca/kallisto","Update rmsd.py","https://github.com/AstraZeneca/kallisto/pull/37","closed",2021-06-28,2021-07-26,2021-07-26,1,"**The if statement can be replaced with 'var = bool(test)'**
 refactored into a simplified statement, increasing its readability.","albernsrya",28,0
 "nlmixrdevelopment/nlmixr","Documentation Request: Update lincmt docs","https://github.com/nlmixrdevelopment/nlmixr/issues/536","closed",2021-06-29,2021-06-30,2021-06-30,2,"I'm wanting to use `linCmt()` in a new model, but I'm having trouble figuring out how to make use of it specifically.  I looked to the `lin_cmt` documentation, but that didn't show how to use it.  I went to https://nlmixrdevelopment.github.io/RxODE/articles/RxODE-model-types.html#solved-compartment-models, but in the original post where I found it, said that it is outdated.  (Maybe it is now up to date.)
@@ -25115,7 +25115,7 @@ and in particular with `git diff`
 
 ![image](https://user-images.githubusercontent.com/7786462/123940609-a23c0c00-d999-11eb-8cb0-475e7322e3c8.png)
 
-Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",27,5
+Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",28,6
 "Novartis/xgxr","Add a BugReports line to point people to GitHub","https://github.com/Novartis/xgxr/pull/44","closed",2021-07-01,2021-07-01,2021-07-01,1,"I wasn't aware that there was a GitHub repository for xgxr.  This will make it so the BugReports on CRAN will point people here.","billdenney",0,0
 "Novartis/xgxr","Feature suggestion: blq_trans for showing measurements below the LLOQ","https://github.com/Novartis/xgxr/issues/45","open",2021-07-01,2021-07-01,NA,1,"This is related to kestrel99/pmxTools#23 (more accurately, it replaces that).  It is also related to #21.
 
@@ -25387,11 +25387,11 @@ Enhancements to the R CMD check workflow. ","dinakar29",0,0
 "Roche/ggtips","Add 'wrap' parameter + optimize addCustomContents()","https://github.com/Roche/ggtips/pull/68","closed",2021-07-06,2021-07-16,2021-07-16,1,"This is an attempt at optimizing the workflow of ggtips. Changes so far:
 - Wrapping of long text is now turned off by default. This can be changed by using `wrap = TRUE`.
 - Code in an auxiliary function `addCustomContents()` was mistakenly always executed, even when there was no callback. This has been fixed.","cosi1",10,0
-"Roche/ggtips","Can the plots be exported to SVG files?","https://github.com/Roche/ggtips/issues/69","open",2021-07-06,2021-07-13,NA,2,"See question in title -- although now that I think about it, the tooltips might be relying on some JavaScript in the Shiny app...
+"Roche/ggtips","Can the plots be exported to SVG files?","https://github.com/Roche/ggtips/issues/69","closed",2021-07-06,2021-07-28,2021-07-28,2,"See question in title -- although now that I think about it, the tooltips might be relying on some JavaScript in the Shiny app...
 Regardless, I'd love to be able to export some of the interactivity to an SVG file. Can you please let me know if this is possible?
 
 Thanks,
-Zoe","zmeers",9,2
+Zoe","zmeers",22,0
 "pharmaR/riskmetric","Class hierarchy of pkg_remote isn't maintained","https://github.com/pharmaR/riskmetric/issues/207","closed",2021-07-06,2021-07-07,2021-07-07,0,"Thanks to a bug report, #206 - it looks like our recent overhaul of the class constructors (#203) dropped some of the intermediate classes needed for metric inheritance.
 
 Using the example in that bug report,
@@ -26077,7 +26077,7 @@ plot(fit)
 ```
 
 <sup>Created on 2021-07-19 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
-","gcaligari",8,5
+","gcaligari",9,6
 "Roche/rtables","rtables - cell numerical (fraction) output alignment","https://github.com/Roche/rtables/issues/218","open",2021-07-19,2021-07-19,NA,2,"Hi @gmbecker, @anajens 
 
 How feasible would be to improve numerical output alignment in a cell? For example
@@ -26124,16 +26124,16 @@ In other words, the numbers should be aligned according to their significance di
  30
 ```
 
-","wwojciech",8,8
-"Roche/rtables","`reffn_at_path<-` for postprocessing ","https://github.com/Roche/rtables/issues/219","open",2021-07-20,2021-07-20,NA,0,"as discussed with @anajens ","gmbecker",7,7
-"openpharma/staged.dependencies","dependency_table to only search for upstream dependencies","https://github.com/openpharma/staged.dependencies/issues/25","open",2021-07-20,2021-07-20,NA,0,"please add an argument for only listing upstream dependencies when calling `dependency_table`","waddella",7,7
+","wwojciech",9,9
+"Roche/rtables","`reffn_at_path<-` for postprocessing ","https://github.com/Roche/rtables/issues/219","open",2021-07-20,2021-07-20,NA,0,"as discussed with @anajens ","gmbecker",8,8
+"openpharma/staged.dependencies","dependency_table to only search for upstream dependencies","https://github.com/openpharma/staged.dependencies/issues/25","open",2021-07-20,2021-07-20,NA,0,"please add an argument for only listing upstream dependencies when calling `dependency_table`","waddella",8,8
 "openpharma/visR","Added missing tests for apply_theme.R, utils_general.R and tableone.R","https://github.com/openpharma/visR/pull/239","open",2021-07-21,2021-07-25,NA,0,"This commit should bring test coverage for apply_theme.R, utils_general.R and tableone.R to 100 %
 
 This PR includes the following:
 1) bugfix for https://github.com/openpharma/visR/issues/240
 2) Remaining test coverage for `apply_theme.R`
 3) Remaining test coverage for `utils_general.R`
-4) Remaining test coverage for `tableone.R`","timtreis",6,2
+4) Remaining test coverage for `tableone.R`","timtreis",7,3
 "pharmaR/riskmetric","Risk Assessment app alignment with riskmetric","https://github.com/pharmaR/riskmetric/issues/216","open",2021-07-21,2021-07-21,NA,1,"Hi team, since `riskmetric` is already in CRAN, I think the `risk assessment app` would benefit from the team's feedback. What is the best way to get feedback from the team? Would you like me to give a quick demo on the next `riskmetric` meeting?
 
 Potential discussion topics:
@@ -26141,11 +26141,11 @@ Potential discussion topics:
 - There are many features that can be added to the app, but among those, which one would be beneficial for current or even future features of `riskmetric`?
 - How to increase visibility of the app?
 
-@dgkf, @elong0527, @emilliman5 ","marlycormar",6,6
+@dgkf, @elong0527, @emilliman5 ","marlycormar",7,7
 "Roche/rtables","write a  print_formats that prints the cell formats instead the cell values","https://github.com/Roche/rtables/issues/220","open",2021-07-21,2021-07-21,NA,0,"also add `formats_only = FALSE` argument to `toString` method for `VTableTree`
  
 
-we can discuss the name later","waddella",6,6
+we can discuss the name later","waddella",7,7
 "nlmixrdevelopment/nlmixr","%RSE for IIV terms and residual variability","https://github.com/nlmixrdevelopment/nlmixr/issues/547","closed",2021-07-22,2021-07-23,2021-07-23,1,"Is there a way to get %RSE of ETA terms and the proportional residual error from a nlmixr fit (version 2.0.4)? I could not find these in the fit object or in any examples. Thanks in advance for any help.","Andy00000000000",1,0
 "openpharma/visR","tableone.R doesn't use 'footnote' argument","https://github.com/openpharma/visR/issues/240","open",2021-07-22,2021-07-22,NA,0,"#### Issue description
 
@@ -26164,8 +26164,8 @@ we can discuss the name later","waddella",6,6
 #### Additional details / screenshot
 
 ![image](https://user-images.githubusercontent.com/12818242/126668106-1ba1e5f2-bebc-4cac-aa4a-79b480d93200.png)
-","timtreis",5,5
-"openpharma/staged.dependencies","yaml validator for staged_dependencies","https://github.com/openpharma/staged.dependencies/issues/26","open",2021-07-22,2021-07-22,NA,0,"","waddella",5,5
+","timtreis",6,6
+"openpharma/staged.dependencies","yaml validator for staged_dependencies","https://github.com/openpharma/staged.dependencies/issues/26","open",2021-07-22,2021-07-22,NA,0,"","waddella",6,6
 "Roche/rtables","Add github actions CI to gabe_tabletree_work branch","https://github.com/Roche/rtables/issues/222","closed",2021-07-23,2021-07-23,2021-07-23,5,"@dinakar29 @waddella 
 ","gmbecker",0,0
 "Roche/rtables","Missing attributes for layouts with `add_overall_level` ","https://github.com/Roche/rtables/issues/221","open",2021-07-23,2021-07-23,NA,0,"It looks like layouts with `add_overall_level` have empty names:
@@ -26195,16 +26195,16 @@ In payloadmsg(spl) :
   don't nkow how to make payload print message for Split of classAllSplit
 ```
 
-This may be related to https://github.com/Roche/rtables/issues/183.","anajens",4,4
+This may be related to https://github.com/Roche/rtables/issues/183.","anajens",5,5
 "openpharma/visR","Bring utils_visr.R to 100 % test coverage.","https://github.com/openpharma/visR/pull/242","open",2021-07-25,2021-07-25,NA,0,"Possible bug in `align_plots()`.
 
-Do we even use `legendopts()`?","timtreis",2,2
+Do we even use `legendopts()`?","timtreis",3,3
 "openpharma/visR","visR::AlignPlots() doesn't conform to naming conventions","https://github.com/openpharma/visR/issues/241","open",2021-07-25,2021-07-25,NA,0,"#### Issue description
 
  `visR::AlignPlots()` doesn't conform to naming conventions.
 
-It should also be renamed to snake_case.","timtreis",2,2
-"openpharma/visR","Bring render.R to 100 % test coverage.","https://github.com/openpharma/visR/pull/243","open",2021-07-26,2021-07-26,NA,0,"Includes error handling of the respective functions as well as tests to cover the specific behaviour.","timtreis",1,1
+It should also be renamed to snake_case.","timtreis",3,3
+"openpharma/visR","Bring render.R to 100 % test coverage.","https://github.com/openpharma/visR/pull/243","open",2021-07-26,2021-07-28,NA,0,"Includes error handling of the respective functions as well as tests to cover the specific behaviour.","timtreis",2,0
 "nlmixrdevelopment/nlmixr","Crash with rxSolve() attempt of simulation","https://github.com/nlmixrdevelopment/nlmixr/issues/549","open",2021-07-26,2021-07-26,NA,1,"Related to #548 (in that I'm still trying to make that simulation), the below code crashes R at the `rxSolve()` call:
 
 ```r
@@ -26306,7 +26306,7 @@ loaded via a namespace (and not attached):
 [46] lotri_0.3.1         processx_3.5.2      dplyr_1.0.7         qs_0.24.1           grid_4.1.0          cli_3.0.1           tools_4.1.0         magrittr_2.0.1      tibble_3.1.2       
 [55] PreciseSums_0.4     crayon_1.4.1        pkgconfig_2.0.3     ellipsis_0.3.2      data.table_1.14.0   reprex_2.0.0        assertthat_0.2.1    rmarkdown_2.9       rstudioapi_0.13    
 [64] R6_2.5.0            nlme_3.1-152        units_0.7-2         compiler_4.1.0     
-```","billdenney",1,1
+```","billdenney",2,2
 "nlmixrdevelopment/nlmixr","Feature Request: Allow rxSolve to take in an un-solved nlmixr function definition","https://github.com/nlmixrdevelopment/nlmixr/issues/550","open",2021-07-26,2021-07-26,NA,4,"Related to #548 in that I'm still trying to make that simulation...
 
 It would be helpful if rxSolve could allow the object to be an nlmixr function definition (i.e. a function with an `ini()` and `model()`).
@@ -26385,7 +26385,7 @@ simulation <- rxSolve(linear_twocmt_iiv_growth, events=sim_data)
 
 <sup>Created on 2021-07-26 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
 
-","billdenney",1,1
+","billdenney",2,2
 "nlmixrdevelopment/nlmixr","getVarCov() fails with what I think is due to fixed parameters and parameter near boundary error","https://github.com/nlmixrdevelopment/nlmixr/issues/551","open",2021-07-26,2021-07-26,NA,1,"Related to #548 in that I'm stopping trying to make the simulation work for now, and I'm going to describe the issue that I was trying to get to without a direct reprex.
 
 While estimating a model, I got the warning at the end:
@@ -26448,8 +26448,8 @@ Error in foceiFit.data.frame0(data = .dat, inits = .inits, PKpars = .uif$theta.p
   Could not fit data.
 ```
 
-... and I'm done adding new issues for now.  :)","billdenney",1,1
-"atorus-research/metacore","Make package compatible with {dplyr} < 1.0.0","https://github.com/atorus-research/metacore/issues/2","open",2021-07-26,2021-07-26,NA,1,"I just tried to install {metacore} into our validated R environment at Roche which still uses {dplyr} 0.8.5. Unfortunately, the installation failed.
+... and I'm done adding new issues for now.  :)","billdenney",2,2
+"atorus-research/metacore","Make package compatible with {dplyr} < 1.0.0","https://github.com/atorus-research/metacore/issues/2","open",2021-07-26,2021-07-28,NA,2,"I just tried to install {metacore} into our validated R environment at Roche which still uses {dplyr} 0.8.5. Unfortunately, the installation failed.
 
 ```
 Error: object ‘c_across’ is not exported by 'namespace:dplyr'
@@ -26460,7 +26460,7 @@ ERROR: lazy loading failed for package ‘metacore’
 
 Could you adjust your code such that it works with older dplyr versions?
 
-I'd be happy to edit the matrix config of your `R CMD check` workflow such that it runs also on earlier R versions with older packages. I did that for {admiral} and it proved to be very valuable for ensuring that the package works on our kind of old production environment.","thomas-neitmann",1,1
+I'd be happy to edit the matrix config of your `R CMD check` workflow such that it runs also on earlier R versions with older packages. I did that for {admiral} and it proved to be very valuable for ensuring that the package works on our kind of old production environment.","thomas-neitmann",2,0
 "nlmixrdevelopment/nlmixr","ED50 using ML & AIC: Phoenix NLME and PROC NLMIXED","https://github.com/nlmixrdevelopment/nlmixr/issues/552","open",2021-07-27,2021-07-27,NA,0,"Hi,
 
 I am very fresh to the r so please excuse my limitations for nlmixr and r.
@@ -26489,4 +26489,73 @@ Can anyone help me to build r code using nlmixr
 
 [AUEC.zip](https://github.com/nlmixrdevelopment/nlmixr/files/6884707/AUEC.zip)
 
-","hrishikesh1985",0,0
+","hrishikesh1985",1,1
+"atorus-research/xportr","Remove references to DataDef","https://github.com/atorus-research/xportr/issues/2","open",2021-07-27,2021-07-27,NA,0,"It looks like we have some references to DataDef hanging around from before it was renamed to metacore. 
+
+https://github.com/atorus-research/xportr/search?q=DataDef
+
+These need to be cleaned out. ","mstackhouse",1,1
+"atorus-research/metacore","dplyr < v1.0.0 compatibility","https://github.com/atorus-research/metacore/pull/3","open",2021-07-28,2021-07-28,NA,2,"Per #2, the use of `dplyr::c_across()` creates a requirement for the use of dplyr 1.0.0 or later. A lot of our target environments could very well still be using pre 1.0.0 versions so it's well worth it to eliminate the  single line that creates this dependency. 
+
+@statasaurus let me know if you see any issue with this solution. I tried to preserve your methodology of using `c_across()` and make sure the solution is functionally the same. So for this line, any column that beings with `where` will be concatenated and delimited with a space.
+
+All existing tests pass. R CMD check passes as well. ","mstackhouse",0,0
+"atorus-research/metacore","Import `everything()` from {tidyselect}","https://github.com/atorus-research/metacore/pull/4","closed",2021-07-28,2021-07-28,2021-07-28,0,"Wile newer version of {tidyr}do re-export `everything()` this is not the case with legacy versions. Thus, on older systems the installation of {metacore} fails.","thomas-neitmann",0,0
+"atorus-research/metacore","Run check with old R/package versions","https://github.com/atorus-research/metacore/pull/5","closed",2021-07-28,2021-07-28,2021-07-28,3,"As mentioned in #2 I added two additional runs to your `R CMD check`'s matrix config. These are R 3.5 and R 3.6 with packages installed using MRAN snapshots from the release dates of version 3.5.3 and 3.6.3. If you want to keep backward compatibility going forward then I'd suggest to include this in your workflow. ","thomas-neitmann",0,0
+"Roche/ggtips","Scrolling page over plot break tooltips","https://github.com/Roche/ggtips/issues/72","open",2021-07-28,2021-07-28,NA,0,"If you're on plot and you scroll the page it breaks the tooltips. This is because of optimization, the position of the plot is retrieved when a user hovers over a plot.
+
+The solution is to handle scroll event (possibility using passive event so it don't trigger a warning in Chrome).","jcubic",0,0
+"nlmixrdevelopment/nlmixr","Should I turn foceiControl(transitAbs) to ""FALSE"" if I hardcode it into the ODE?","https://github.com/nlmixrdevelopment/nlmixr/issues/553","open",2021-07-28,2021-07-28,NA,0,"Hi Matthew, 
+
+May I check if I need to turn the `foceiControl(transAbs=FALSE)` if I hardcode the transit absorption compartment to the model. 
+
+The model code I use is shown below: 
+
+```{r} 
+iteration_17 <- function(){
+  ini({
+    
+    tktr <- log(6)   
+    tn   <- log(0.9)     
+    tka  <- log(0.35)   
+    tcl  <- log(60)   
+    tv2  <- log(95)   
+    feff <- -0.4   
+    ncov <- -0.3
+    
+    eta.ka ~ 0.1
+    eta.cl+eta.v2~c(1,
+                    0.1,1)
+    
+    add.err  <- 0.01
+    prop.err <- 0.1
+  })
+  
+  model({
+    
+    ktr <- exp(tktr)     
+    n   <- exp(tn)                       
+    ka  <- exp(tka + eta.ka + (ncov*FOOD))
+    cl  <- exp(tcl + eta.cl)
+    v2  <- exp(tv2 + eta.v2)
+    f   <- 1 + feff*FOOD 
+    
+    Dose  = 250         # all subjects received 250mg
+    lnfac = log(2.5066) + (n + 0.5)*log(n) - n 
+    
+    d/dt(depot)  = exp(log(f*Dose) + log(ktr) + n*log(ktr*t) - ktr*t - lnfac) - ka*depot 
+    d/dt(center) = ka*depot - cl/v2*center 
+ 
+    cp           = center/v2 
+    cp           ~ prop(prop.err) + add(add.err)
+  })
+}
+
+fit.iteration_17 <- nlmixr(iteration_17, data = met.merged3, est = ""focei"",
+                               table = tableControl(cwres = TRUE, npde = TRUE), foceiControl(transitAbs = FALSE))
+
+```
+Thank you very much. Any feedback on this matter is much appreciated. ","WenYao-Mak",0,0
+"Roche/ggtips","Toggle tooltips throw error when hovering over plot","https://github.com/Roche/ggtips/issues/73","open",2021-07-28,2021-07-28,NA,0,"When you enable tooltips and then on the same plot you disable them it doesn't remove the event for proximity and mousemove and it tries to calculate distance when it has no optimization data stored in each point. and throw an error.
+
+The solution is to check if points have data saved before processing.","jcubic",0,0
