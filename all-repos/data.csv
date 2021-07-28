@@ -1,6 +1,6 @@
 "org","repo","full_name","description","updated_at","language","MB"
 "AstraZeneca","kallisto","AstraZeneca/kallisto","Efficiently calculate 3D-atomic/molecular features for quantitative structure-activity relationship approaches.","2021-07-17T16:04:43Z","Python",0.4
-"atorus-research","metacore","atorus-research/metacore",NA,"2021-06-11T09:56:34Z","R",1.9
+"atorus-research","metacore","atorus-research/metacore",NA,"2021-07-28T13:19:43Z","R",2
 "atorus-research","pharmaRTF","atorus-research/pharmaRTF","Enhanced RTF wrapper written in R for use with existing R tables packages such as huxtable or GT","2021-05-27T17:06:29Z","R",2.4
 "atorus-research","Tplyr","atorus-research/Tplyr",NA,"2021-07-13T15:34:25Z","R",155.1
 "atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDSIC compliance.","2021-05-28T18:54:14Z","R",3.9
@@ -11,7 +11,7 @@
 "Merck","r2rtf","Merck/r2rtf","Easily Create Production-Ready Rich Text Format (RTF) Table and Figure","2021-07-13T21:19:31Z","R",6.4
 "Merck","rCPDMS","Merck/rCPDMS","Chemoproteomics Data Analysis","2019-07-08T17:30:01Z","R",0.3
 "Merck","simtrial","Merck/simtrial",NA,"2021-06-11T22:30:44Z","R",2.7
-"nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-07-21T00:23:15Z","Rich Text Format",877.9
+"nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-07-28T02:09:37Z","Rich Text Format",877.9
 "Novartis","peax","Novartis/peax","Peax is a tool for interactive visual pattern search and exploration in epigenomic data based on unsupervised representation learning with autoencoders","2021-06-15T17:13:05Z","Jupyter Notebook",52.5
 "Novartis","pisces","Novartis/pisces","PISCES is a pipeline for rapid transcript quantitation, genetic fingerprinting, and quality control assessment of RNAseq libraries using Salmon.","2021-07-09T18:44:43Z","Python",18.1
 "Novartis","xgxr","Novartis/xgxr","R package for supporting exploratory graphics at http://opensource.nibr.com/xgx","2021-07-01T15:00:47Z","R",48.2
@@ -21,7 +21,7 @@
 "openpharma","GithubMetrics","openpharma/GithubMetrics","gh wrapper for easier management of Github related study metadata","2021-06-28T07:38:30Z","R",0.3
 "openpharma","icd_hierarchies","openpharma/icd_hierarchies","ICD9 and ICD10 conversion from JSON and XML tree format into tabular (leveled) data","2020-05-08T13:11:04Z","Unsure",0
 "openpharma","pypharma_nlp","openpharma/pypharma_nlp","A repository for the code used at the PyPharma Conference NLP Turorial.","2020-04-16T09:43:32Z","Jupyter Notebook",28
-"openpharma","quality_risk_assesment_clinical_trials","openpharma/quality_risk_assesment_clinical_trials",NA,"2021-07-27T14:26:53Z","Unsure",0
+"openpharma","quality_risk_assesment_clinical_trials","openpharma/quality_risk_assesment_clinical_trials",NA,"2021-07-28T15:16:03Z","Unsure",3.8
 "openpharma","RDO","openpharma/RDO","Reproducible Data Objects (RDO) in R ","2020-03-09T14:00:55Z","R",0.5
 "openpharma","ReadStat","openpharma/ReadStat","Command-line tool (+ C library) for converting SAS, Stata, and SPSS files 💾","2020-09-26T06:39:12Z","C",1.8
 "openpharma","rpkgs-actions","openpharma/rpkgs-actions",NA,"2021-06-09T07:15:06Z","Unsure",0
@@ -31,7 +31,7 @@
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
-"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-07-26T09:24:49Z","R",46.4
+"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-07-28T11:02:11Z","R",46.4
 "pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-07-21T17:12:11Z","R",1.4
 "phuse-org","aesummaries","phuse-org/aesummaries","PHUSE Forest Plot Project Repository","2021-06-11T14:09:04Z","HTML",2.7
 "phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-07-21T21:02:06Z","R",1.5
