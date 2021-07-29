@@ -26461,7 +26461,7 @@ ERROR: lazy loading failed for package ‘metacore’
 Could you adjust your code such that it works with older dplyr versions?
 
 I'd be happy to edit the matrix config of your `R CMD check` workflow such that it runs also on earlier R versions with older packages. I did that for {admiral} and it proved to be very valuable for ensuring that the package works on our kind of old production environment.","thomas-neitmann",3,1
-"nlmixrdevelopment/nlmixr","ED50 using ML & AIC: Phoenix NLME and PROC NLMIXED","https://github.com/nlmixrdevelopment/nlmixr/issues/552","open",2021-07-27,2021-07-27,NA,0,"Hi,
+"nlmixrdevelopment/nlmixr","ED50 using ML & AIC: Phoenix NLME and PROC NLMIXED","https://github.com/nlmixrdevelopment/nlmixr/issues/552","open",2021-07-27,2021-07-29,NA,3,"Hi,
 
 I am very fresh to the r so please excuse my limitations for nlmixr and r.
 
@@ -26489,7 +26489,7 @@ Can anyone help me to build r code using nlmixr
 
 [AUEC.zip](https://github.com/nlmixrdevelopment/nlmixr/files/6884707/AUEC.zip)
 
-","hrishikesh1985",2,2
+","hrishikesh1985",2,0
 "atorus-research/xportr","Remove references to DataDef","https://github.com/atorus-research/xportr/issues/2","open",2021-07-27,2021-07-27,NA,0,"It looks like we have some references to DataDef hanging around from before it was renamed to metacore. 
 
 https://github.com/atorus-research/xportr/search?q=DataDef
@@ -26505,7 +26505,7 @@ All existing tests pass. R CMD check passes as well. ","mstackhouse",1,1
 "Roche/ggtips","Scrolling page over plot break tooltips","https://github.com/Roche/ggtips/issues/72","open",2021-07-28,2021-07-28,NA,0,"If you're on plot and you scroll the page it breaks the tooltips. This is because of optimization, the position of the plot is retrieved when a user hovers over a plot.
 
 The solution is to handle scroll event (possibility using passive event so it don't trigger a warning in Chrome).","jcubic",1,1
-"nlmixrdevelopment/nlmixr","Should I turn foceiControl(transitAbs) to ""FALSE"" if I hardcode it into the ODE?","https://github.com/nlmixrdevelopment/nlmixr/issues/553","open",2021-07-28,2021-07-28,NA,0,"Hi Matthew, 
+"nlmixrdevelopment/nlmixr","Should I turn foceiControl(transitAbs) to ""FALSE"" if I hardcode it into the ODE?","https://github.com/nlmixrdevelopment/nlmixr/issues/553","closed",2021-07-28,2021-07-29,2021-07-29,1,"Hi Matthew, 
 
 May I check if I need to turn the `foceiControl(transAbs=FALSE)` if I hardcode the transit absorption compartment to the model. 
 
@@ -26555,7 +26555,7 @@ fit.iteration_17 <- nlmixr(iteration_17, data = met.merged3, est = ""focei"",
                                table = tableControl(cwres = TRUE, npde = TRUE), foceiControl(transitAbs = FALSE))
 
 ```
-Thank you very much. Any feedback on this matter is much appreciated. ","WenYao-Mak",1,1
+Thank you very much. Any feedback on this matter is much appreciated. ","WenYao-Mak",1,0
 "Roche/ggtips","Toggle tooltips throw error when hovering over plot","https://github.com/Roche/ggtips/issues/73","open",2021-07-28,2021-07-28,NA,0,"When you enable tooltips and then on the same plot you disable them it doesn't remove the event for proximity and mousemove and it tries to calculate distance when it has no optimization data stored in each point. and throw an error.
 
 The solution is to check if points have data saved before processing.","jcubic",1,1
