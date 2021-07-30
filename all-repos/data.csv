@@ -1,6 +1,6 @@
 "org","repo","full_name","description","updated_at","language","MB"
 "AstraZeneca","kallisto","AstraZeneca/kallisto","Efficiently calculate 3D-atomic/molecular features for quantitative structure-activity relationship approaches.","2021-07-17T16:04:43Z","Python",0.4
-"atorus-research","metacore","atorus-research/metacore",NA,"2021-07-28T13:19:43Z","R",2
+"atorus-research","metacore","atorus-research/metacore",NA,"2021-07-29T13:24:17Z","R",2
 "atorus-research","pharmaRTF","atorus-research/pharmaRTF","Enhanced RTF wrapper written in R for use with existing R tables packages such as huxtable or GT","2021-05-27T17:06:29Z","R",2.4
 "atorus-research","Tplyr","atorus-research/Tplyr",NA,"2021-07-13T15:34:25Z","R",155.1
 "atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDSIC compliance.","2021-05-28T18:54:14Z","R",3.9
@@ -19,6 +19,7 @@
 "openpharma","facetsr","openpharma/facetsr","This package is using html widgets to wrap facets into R","2020-11-30T12:37:13Z","R",2.1
 "openpharma","GithubMetrics","openpharma/GithubMetrics","gh wrapper for easier management of Github related study metadata","2021-06-28T07:38:30Z","R",0.3
 "openpharma","pypharma_nlp","openpharma/pypharma_nlp","A repository for the code used at the PyPharma Conference NLP Turorial.","2020-04-16T09:43:32Z","Jupyter Notebook",28
+"openpharma","quality_risk_assesment_clinical_trials","openpharma/quality_risk_assesment_clinical_trials","code repo with analysis code for  Koneswarakantha B., Ménard T. ""An update on statistical modeling for quality risk assessment of clinical trials""","2021-07-29T07:19:12Z","HTML",6.8
 "openpharma","RDO","openpharma/RDO","Reproducible Data Objects (RDO) in R ","2020-03-09T14:00:55Z","R",0.5
 "openpharma","ReadStat","openpharma/ReadStat","Command-line tool (+ C library) for converting SAS, Stata, and SPSS files 💾","2020-09-26T06:39:12Z","C",1.8
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
@@ -27,13 +28,13 @@
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
-"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-07-28T11:02:11Z","R",46.4
-"pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-07-21T17:12:11Z","R",1.4
+"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-07-29T19:35:04Z","R",46.5
+"pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-07-29T21:18:00Z","R",1.4
 "phuse-org","aesummaries","phuse-org/aesummaries","PHUSE Forest Plot Project Repository","2021-06-11T14:09:04Z","HTML",2.7
 "phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-07-21T21:02:06Z","R",1.5
 "Roche","crmPack","Roche/crmPack","Object-Oriented Implementation of CRM Designs","2021-02-19T20:47:26Z","R",62.5
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-07-16T12:28:25Z","R",0.3
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-07-09T13:52:34Z","R",99
-"Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-07-13T13:44:02Z","R",1
+"Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-07-29T15:04:23Z","R",1
 "Roche","rtables","Roche/rtables","Reporting tables with R","2021-07-23T19:32:05Z","R",5.5
 "UCL","RefbasedMI","UCL/RefbasedMI","Multiple imputation sensitivity analysis for longitudinal trials ","2021-07-16T10:11:48Z","R",9.2
