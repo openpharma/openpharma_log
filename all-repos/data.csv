@@ -1,5 +1,9 @@
 "org","repo","full_name","description","updated_at","language","MB"
 "AstraZeneca","kallisto","AstraZeneca/kallisto","Efficiently calculate 3D-atomic/molecular features for quantitative structure-activity relationship approaches.","2021-07-17T16:04:43Z","Python",0.4
+"atorus-research","metacore","atorus-research/metacore",NA,"2021-07-29T13:24:17Z","R",2
+"atorus-research","pharmaRTF","atorus-research/pharmaRTF","Enhanced RTF wrapper written in R for use with existing R tables packages such as huxtable or GT","2021-05-27T17:06:29Z","R",2.4
+"atorus-research","Tplyr","atorus-research/Tplyr",NA,"2021-07-13T15:34:25Z","R",155.1
+"atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDSIC compliance.","2021-05-28T18:54:14Z","R",3.9
 "EliLillyCo","rfacts","EliLillyCo/rfacts","Call FACTS from R on Linux","2021-04-23T17:13:49Z","R",0.4
 "insightsengineering","r-license-report","insightsengineering/r-license-report","Github Actions to generate an R Package Dependencies' License Report","2021-06-29T19:57:04Z","R",0
 "Merck","gsDesign2","Merck/gsDesign2","Group Sequential Design Under Non-Proportional Hazards","2021-06-11T22:27:22Z","R",1.7
