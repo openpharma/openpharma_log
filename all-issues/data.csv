@@ -16166,7 +16166,7 @@ I played around a bit and found an easy solution:
     max_time = max(time_ticks)
   }
 ```","SHAESEN2",171,0
-"openpharma/visR","Forest Plot","https://github.com/openpharma/visR/issues/90","open",2020-10-14,2021-02-06,NA,0,"## Idea
+"openpharma/visR","Forest Plot","https://github.com/openpharma/visR/issues/90","open",2020-10-14,2021-08-02,NA,0,"## Idea
 
 **What is your idea for a new plot/table?**
 Not only meta-analyses, but also cohort overviews or results of cox PH models and other regression models are often shown in ForestPlots. @bailliem had some initial ideas, but we haven't gotten around to fully implement this visualisation and help would be appreciated
@@ -16183,7 +16183,7 @@ Example for cohort overview from Morris et al.
 There are the [forestplot](https://cran.r-project.org/web/packages/forestplot/vignettes/forestplot.html) and [forestmodel](https://github.com/NikNakk/forestmodel) packages on CRAN as well as potentially some good ideas in the [ggforest function of the survminer package](https://rpkgs.datanovia.com/survminer/reference/ggforest.html). Ideally, this would be implemented using ggplot2 only.
 
 **Are you interested to implement this yourself?**
-@bailliem started, but not sure how it goes bandwidth wide.","cschaerfe",252,137
+@bailliem started, but not sure how it goes bandwidth wide.","cschaerfe",293,1
 "Roche/ggtips","multiple panels ranges","https://github.com/Roche/ggtips/pull/55","closed",2020-10-14,2020-10-16,2020-10-16,0,"","marcin-kam",2,0
 "atorus-research/pharmaRTF","Question on using pharmaRTF in reporting","https://github.com/atorus-research/pharmaRTF/issues/3","closed",2020-10-14,2020-10-16,2020-10-16,1,"Is it possible to use this package to generate a word report which has proper table formatting as shown in this package but also with proper table numbering and referencing? ","zhenglei-gao",2,0
 "openpharma/visR","KM plot show quantiles","https://github.com/openpharma/visR/issues/93","open",2020-10-15,2020-10-15,NA,0,"Add drop lines to show quantiles of the KM distribution.
@@ -20591,7 +20591,7 @@ I think that this might be a result of these undeclared dependencies required to
 "AstraZeneca/kallisto","Feature request: solvent accessible surface area (SASA)","https://github.com/AstraZeneca/kallisto/issues/10","open",2021-03-04,2021-07-26,NA,4,"**Describe the solution you'd like**
 Implement solvent accessible surface area (SASA) using an angular Lebedev-Laikov grid as described in ""A quadrature formula for the sphere of the 131st algebraic order of accuracy"", Doklady Mathematics, Vol. 59, No. 3, 1999, pp. 477-481.
 Extend present grid implementation in ``src/grid.py`` to cover finer grids and use the defined gridpoints to construct a SASA.
-","f3rmion",151,7
+","f3rmion",152,8
 "openpharma/visR","Modified function to not throw a warning when using default parameter…","https://github.com/openpharma/visR/pull/116","closed",2021-03-04,2021-03-11,2021-03-11,0,"…s without changing plotting behaviour","timtreis",7,0
 "Novartis/pisces","pip wheels break pisces post-install process","https://github.com/Novartis/pisces/issues/11","closed",2021-03-04,2021-03-24,2021-03-24,0,"https://www.python.org/dev/peps/pep-0427/#file-contents
 https://stackoverflow.com/questions/24263774/post-install-script-after-installing-a-wheel
@@ -20926,7 +20926,7 @@ If accepted, branch can be merged and deleted.","timtreis",33,0
 * shortened title
 * added explicit references to visR and dplyr:: functions ","bailliem",6,0
 "openpharma/visR","Doc/km vignette review","https://github.com/openpharma/visR/pull/139","closed",2021-03-19,2021-03-19,2021-03-19,0,"Minor editorial updates to vignette ","bailliem",0,0
-"openpharma/visR","Removed one useless sanity check in add_CNSR.R;  Added test for warning when style=ribbon with linetype specified","https://github.com/openpharma/visR/pull/136","closed",2021-03-19,2021-03-19,2021-03-19,0,"","timtreis",0,0
+"openpharma/visR","Removed one useless sanity check in add_CNSR.R;  Added test for warning when style=ribbon with linetype specified","https://github.com/openpharma/visR/pull/136","closed",2021-03-19,2021-08-02,2021-03-19,0,"","timtreis",0,-136
 "openpharma/visR","removed unnecessary code","https://github.com/openpharma/visR/pull/133","closed",2021-03-19,2021-03-19,2021-03-19,0,"","SHAESEN2",0,0
 "atorus-research/Tplyr","Sorting AE table by descending count when the counts are not unique","https://github.com/atorus-research/Tplyr/issues/10","open",2021-03-19,2021-03-22,NA,2,"Hi folks,
 I am going through this example of an AE table using the CDISC adsl and adae data.
@@ -22407,7 +22407,7 @@ fit <- nlmixr(object=test_model, data=d_sim_time, est=""focei"")
 ```
 
 <sup>Created on 2021-04-27 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
-","billdenney",97,4
+","billdenney",98,5
 "nlmixrdevelopment/nlmixr","Slight code simplification","https://github.com/nlmixrdevelopment/nlmixr/pull/515","closed",2021-04-27,2021-05-25,2021-05-25,5,"I was looking through the code for something else, and I thought that this looked a bit easier to read as I was looking for the other thing.  If not of interest, no worries closing it without committing it.","billdenney",28,0
 "Roche/rtables","gt render function","https://github.com/Roche/rtables/issues/192","open",2021-04-28,2021-04-28,NA,0,"It would be good to have a export/render function to a `gt` object so that `rtables` can be rendered in formats such as doc and rtf. This will address the issue #16 originally submitted by @elong0527.","waddella",56,56
 "Roche/rtables","Horizontal Pagination","https://github.com/Roche/rtables/issues/193","open",2021-04-28,2021-04-28,NA,0,"let's discuss in our next meeting","waddella",56,56
@@ -24028,7 +24028,7 @@ goodrec2 <- tribble(~variables, ~dependencies, ~func, ~func_args, ~keep,
 ```
 
 we are closing the #22 and those couple of lines were left","waddella",19,19
-"openpharma/visR","Bugfix/20210605 xlabel","https://github.com/openpharma/visR/pull/211","closed",2021-06-05,2021-07-13,2021-07-13,1,"","timtreis",38,0
+"openpharma/visR","Bugfix/20210605 xlabel","https://github.com/openpharma/visR/pull/211","closed",2021-06-05,2021-08-02,2021-07-13,1,"","timtreis",38,-20
 "openpharma/visR","Changed the way the x- and y-axis labels are applied","https://github.com/openpharma/visR/pull/212","closed",2021-06-05,2021-07-13,2021-07-13,6,"Very minor change that however fixes the previous incompatibility with ggplot2s' xlab/ylab commands.
 
 Adresses issue https://github.com/openpharma/visR/issues/207
@@ -24416,7 +24416,7 @@ This is incorrect. The following formula should be used:
 
 Functions correct but documentation needs updating","iain-t-bennett-roche",27,0
 "openpharma/visR","Retired table_caption and table_download for later release","https://github.com/openpharma/visR/pull/225","closed",2021-06-11,2021-06-11,2021-06-11,1,"","timtreis",0,0
-"Roche/respectables","25 renv","https://github.com/Roche/respectables/pull/26","open",2021-06-14,2021-06-17,NA,0,"add `renv.lock` file and update `README.md`","waddella",9,6
+"Roche/respectables","25 renv","https://github.com/Roche/respectables/pull/26","closed",2021-06-14,2021-08-02,2021-08-02,1,"add `renv.lock` file and update `README.md`","waddella",49,0
 "openpharma/visR","add cran badge to readme. minor additions to visR and data adtte docu…","https://github.com/openpharma/visR/pull/227","closed",2021-06-14,2021-06-14,2021-06-14,0,"…ment descriptions.","bailliem",0,0
 "nlmixrdevelopment/nlmixr","Help please: dual absorption nlmixr model (first+zero)","https://github.com/nlmixrdevelopment/nlmixr/issues/531","open",2021-06-14,2021-06-29,NA,15,"Hello, 
 I was trying to fit a dual absorption model using the dataset that shows dual absorption.
@@ -24992,9 +24992,9 @@ Then I would like to try joint PK-PD model which incorporating individual predic
 "atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",2,2
 "Merck/r2rtf","allow verbose argument in `rtf_encode`","https://github.com/Merck/r2rtf/pull/38","closed",2021-06-28,2021-07-02,2021-07-02,1,"","elong0527",4,0
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
-"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-07-29,NA,4,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",35,4
+"openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","open",2021-06-28,2021-07-29,NA,4,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",36,5
 "AstraZeneca/kallisto","Update methods.py","https://github.com/AstraZeneca/kallisto/pull/36","open",2021-06-28,2021-07-26,NA,3,"**return statement causes the control flow to be disrupted**
-making the else / elif block here unnecessary. This doesn't mean you can not use it, but it is recommended to refactor this for a better readability.","albernsrya",35,7
+making the else / elif block here unnecessary. This doesn't mean you can not use it, but it is recommended to refactor this for a better readability.","albernsrya",36,8
 "AstraZeneca/kallisto","Update rmsd.py","https://github.com/AstraZeneca/kallisto/pull/37","closed",2021-06-28,2021-07-26,2021-07-26,1,"**The if statement can be replaced with 'var = bool(test)'**
 refactored into a simplified statement, increasing its readability.","albernsrya",28,0
 "nlmixrdevelopment/nlmixr","Documentation Request: Update lincmt docs","https://github.com/nlmixrdevelopment/nlmixr/issues/536","closed",2021-06-29,2021-06-30,2021-06-30,2,"I'm wanting to use `linCmt()` in a new model, but I'm having trouble figuring out how to make use of it specifically.  I looked to the `lin_cmt` documentation, but that didn't show how to use it.  I went to https://nlmixrdevelopment.github.io/RxODE/articles/RxODE-model-types.html#solved-compartment-models, but in the original post where I found it, said that it is outdated.  (Maybe it is now up to date.)
@@ -25087,7 +25087,7 @@ can we make this error message somehow more concise? e.g.
 - html error message
 
 ","waddella",15,2
-"openpharma/staged.dependencies","dependency_graph bug","https://github.com/openpharma/staged.dependencies/issues/20","open",2021-06-30,2021-07-30,NA,4,"I get:
+"openpharma/staged.dependencies","dependency_graph bug","https://github.com/openpharma/staged.dependencies/issues/20","closed",2021-06-30,2021-08-02,2021-08-02,4,"I get:
 
 ```
 > staged.dependencies::dependency_graph()
@@ -25097,9 +25097,9 @@ x `title` must return compatible vectors across groups
 ℹ Result type for group 1 (from = ""NEST/goshawk @ https://github.roche.com"", to = ""NEST/utils.nest @ https://github.roche.com""): <character>.
 ℹ Result type for group 16 (from = ""NEST/tern @ https://github.roche.com"", to = ""NEST/scda @ https://github.roche.com""): <list>.
 Run `rlang::last_error()` to see where the error occurred. 
-```","waddella",33,3
+```","waddella",33,0
 "openpharma/staged.dependencies","make `upstream_repos` and `downstream_repos` optional","https://github.com/openpharma/staged.dependencies/issues/18","open",2021-06-30,2021-06-30,NA,0,"in the `yaml` file as not all repos require them","waddella",2,2
-"openpharma/staged.dependencies","repeated dependency issue","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-07-30,NA,5,"I ran into the issue:
+"openpharma/staged.dependencies","repeated dependency issue","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-08-02,NA,6,"I ran into the issue:
 
 ```
 Error in install_repo_add_sha(repo_dir) : 
@@ -25115,7 +25115,7 @@ and in particular with `git diff`
 
 ![image](https://user-images.githubusercontent.com/7786462/123940609-a23c0c00-d999-11eb-8cb0-475e7322e3c8.png)
 
-Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",33,3
+Can you please run `git reset --hard origin/<branch>` to avoid this issue ","waddella",34,1
 "openpharma/staged.dependencies","reset --hard origin/<branch>","https://github.com/openpharma/staged.dependencies/issues/21","open",2021-06-30,2021-07-22,NA,4,"I ran into the issue:
 
 ```
@@ -26143,7 +26143,7 @@ In other words, the numbers should be aligned according to their significance di
 
 ","wwojciech",10,10
 "Roche/rtables","`reffn_at_path<-` for postprocessing ","https://github.com/Roche/rtables/issues/219","open",2021-07-20,2021-07-20,NA,0,"as discussed with @anajens ","gmbecker",10,10
-"openpharma/staged.dependencies","dependency_table to only search for upstream dependencies","https://github.com/openpharma/staged.dependencies/issues/25","open",2021-07-20,2021-07-30,NA,0,"please add an argument for only listing upstream dependencies when calling `dependency_table`","waddella",13,3
+"openpharma/staged.dependencies","dependency_table to only search for upstream dependencies","https://github.com/openpharma/staged.dependencies/issues/25","open",2021-07-20,2021-07-30,NA,0,"please add an argument for only listing upstream dependencies when calling `dependency_table`","waddella",14,4
 "openpharma/visR","Added missing tests for apply_theme.R, utils_general.R and tableone.R","https://github.com/openpharma/visR/pull/239","closed",2021-07-21,2021-07-30,2021-07-30,3,"This commit should bring test coverage for apply_theme.R, utils_general.R and tableone.R to 100 %
 
 This PR includes the following:
@@ -26182,7 +26182,7 @@ we can discuss the name later","waddella",10,10
 
 ![image](https://user-images.githubusercontent.com/12818242/126668106-1ba1e5f2-bebc-4cac-aa4a-79b480d93200.png)
 ","timtreis",8,0
-"openpharma/staged.dependencies","yaml validator for staged_dependencies","https://github.com/openpharma/staged.dependencies/issues/26","open",2021-07-22,2021-07-29,NA,0,"","waddella",11,4
+"openpharma/staged.dependencies","yaml validator for staged_dependencies","https://github.com/openpharma/staged.dependencies/issues/26","open",2021-07-22,2021-07-29,NA,0,"","waddella",12,5
 "Roche/rtables","Add github actions CI to gabe_tabletree_work branch","https://github.com/Roche/rtables/issues/222","closed",2021-07-23,2021-07-23,2021-07-23,5,"@dinakar29 @waddella 
 ","gmbecker",0,0
 "Roche/rtables","Missing attributes for layouts with `add_overall_level` ","https://github.com/Roche/rtables/issues/221","open",2021-07-23,2021-07-23,NA,0,"It looks like layouts with `add_overall_level` have empty names:
@@ -26402,7 +26402,7 @@ simulation <- rxSolve(linear_twocmt_iiv_growth, events=sim_data)
 
 <sup>Created on 2021-07-26 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
 
-","billdenney",7,4
+","billdenney",8,5
 "nlmixrdevelopment/nlmixr","getVarCov() fails with what I think is due to fixed parameters and parameter near boundary error","https://github.com/nlmixrdevelopment/nlmixr/issues/551","open",2021-07-26,2021-07-26,NA,1,"Related to #548 in that I'm stopping trying to make the simulation work for now, and I'm going to describe the issue that I was trying to get to without a direct reprex.
 
 While estimating a model, I got the warning at the end:
@@ -26465,7 +26465,7 @@ Error in foceiFit.data.frame0(data = .dat, inits = .inits, PKpars = .uif$theta.p
   Could not fit data.
 ```
 
-... and I'm done adding new issues for now.  :)","billdenney",7,7
+... and I'm done adding new issues for now.  :)","billdenney",8,8
 "atorus-research/metacore","Make package compatible with {dplyr} < 1.0.0","https://github.com/atorus-research/metacore/issues/2","closed",2021-07-26,2021-07-29,2021-07-29,3,"I just tried to install {metacore} into our validated R environment at Roche which still uses {dplyr} 0.8.5. Unfortunately, the installation failed.
 
 ```
@@ -26506,12 +26506,12 @@ Can anyone help me to build r code using nlmixr
 
 [AUEC.zip](https://github.com/nlmixrdevelopment/nlmixr/files/6884707/AUEC.zip)
 
-","hrishikesh1985",6,3
+","hrishikesh1985",7,4
 "atorus-research/xportr","Remove references to DataDef","https://github.com/atorus-research/xportr/issues/2","open",2021-07-27,2021-07-27,NA,0,"It looks like we have some references to DataDef hanging around from before it was renamed to metacore. 
 
 https://github.com/atorus-research/xportr/search?q=DataDef
 
-These need to be cleaned out. ","mstackhouse",6,6
+These need to be cleaned out. ","mstackhouse",7,7
 "atorus-research/metacore","dplyr < v1.0.0 compatibility","https://github.com/atorus-research/metacore/pull/3","closed",2021-07-28,2021-07-29,2021-07-29,2,"Per #2, the use of `dplyr::c_across()` creates a requirement for the use of dplyr 1.0.0 or later. A lot of our target environments could very well still be using pre 1.0.0 versions so it's well worth it to eliminate the  single line that creates this dependency. 
 
 @statasaurus let me know if you see any issue with this solution. I tried to preserve your methodology of using `c_across()` and make sure the solution is functionally the same. So for this line, any column that beings with `where` will be concatenated and delimited with a space.
@@ -26521,7 +26521,7 @@ All existing tests pass. R CMD check passes as well. ","mstackhouse",1,0
 "atorus-research/metacore","Run check with old R/package versions","https://github.com/atorus-research/metacore/pull/5","closed",2021-07-28,2021-07-28,2021-07-28,3,"As mentioned in #2 I added two additional runs to your `R CMD check`'s matrix config. These are R 3.5 and R 3.6 with packages installed using MRAN snapshots from the release dates of version 3.5.3 and 3.6.3. If you want to keep backward compatibility going forward then I'd suggest to include this in your workflow. ","thomas-neitmann",0,0
 "Roche/ggtips","Scrolling page over plot break tooltips","https://github.com/Roche/ggtips/issues/72","open",2021-07-28,2021-07-28,NA,0,"If you're on plot and you scroll the page it breaks the tooltips. This is because of optimization, the position of the plot is retrieved when a user hovers over a plot.
 
-The solution is to handle scroll event (possibility using passive event so it don't trigger a warning in Chrome).","jcubic",5,5
+The solution is to handle scroll event (possibility using passive event so it don't trigger a warning in Chrome).","jcubic",6,6
 "nlmixrdevelopment/nlmixr","Should I turn foceiControl(transitAbs) to ""FALSE"" if I hardcode it into the ODE?","https://github.com/nlmixrdevelopment/nlmixr/issues/553","closed",2021-07-28,2021-07-29,2021-07-29,1,"Hi Matthew, 
 
 May I check if I need to turn the `foceiControl(transAbs=FALSE)` if I hardcode the transit absorption compartment to the model. 
@@ -26575,10 +26575,10 @@ fit.iteration_17 <- nlmixr(iteration_17, data = met.merged3, est = ""focei"",
 Thank you very much. Any feedback on this matter is much appreciated. ","WenYao-Mak",1,0
 "Roche/ggtips","Toggle tooltips throw error when hovering over plot","https://github.com/Roche/ggtips/issues/73","open",2021-07-28,2021-07-28,NA,0,"When you enable tooltips and then on the same plot you disable them it doesn't remove the event for proximity and mousemove and it tries to calculate distance when it has no optimization data stored in each point. and throw an error.
 
-The solution is to check if points have data saved before processing.","jcubic",5,5
-"openpharma/staged.dependencies","add renv.lock and remove staged_dependency.yaml","https://github.com/openpharma/staged.dependencies/issues/28","open",2021-07-29,2021-07-29,NA,0,"... and point to respectables and synthetic.cdisc.data as a reference of usage","waddella",4,4
-"Roche/respectables","add staged depenency","https://github.com/Roche/respectables/issues/33","open",2021-07-29,2021-07-29,NA,0,"with `synthetic.cdisc.data` as a downstream dependency","waddella",4,4
-"Roche/respectables","Add staged.dependencies","https://github.com/Roche/respectables/pull/34","open",2021-07-29,2021-07-30,NA,6,"Closes #33 
+The solution is to check if points have data saved before processing.","jcubic",6,6
+"openpharma/staged.dependencies","add renv.lock and remove staged_dependency.yaml","https://github.com/openpharma/staged.dependencies/issues/28","open",2021-07-29,2021-07-29,NA,0,"... and point to respectables and synthetic.cdisc.data as a reference of usage","waddella",5,5
+"Roche/respectables","add staged depenency","https://github.com/Roche/respectables/issues/33","closed",2021-07-29,2021-08-02,2021-08-02,0,"with `synthetic.cdisc.data` as a downstream dependency","waddella",4,0
+"Roche/respectables","Add staged.dependencies","https://github.com/Roche/respectables/pull/34","closed",2021-07-29,2021-08-02,2021-08-02,7,"Closes #33 
 
 Replaces master with main in gh action workflows as main is now the default branch
 
@@ -26587,13 +26587,13 @@ Replaced the current build-check-install with one which uses staged.dependencies
 and if you remove that check then it still fails e.g. as the version of git on the rocker image is too old for `git branch --show-current`
 ![image](https://user-images.githubusercontent.com/15201933/127515935-b15669da-d079-412f-a108-e37dd41f17fc.png)
 
-Suggest putting an issue in the appropriate place if we need the gh action to work with rocker 3.6.3 image","nikolas-burkoff",4,3
+Suggest putting an issue in the appropriate place if we need the gh action to work with rocker 3.6.3 image","nikolas-burkoff",4,0
 "openpharma/quality_risk_assesment_clinical_trials","Dev","https://github.com/openpharma/quality_risk_assesment_clinical_trials/pull/1","closed",2021-07-29,2021-07-29,2021-07-29,0,"","erblast",0,0
-"atorus-research/metacore","Export `create_tbl()`","https://github.com/atorus-research/metacore/issues/6","open",2021-07-29,2021-07-29,NA,1,"@statasaurus Thanks again for helping with building the Roche spec reader. After making some minor adjustments the reader now works properly and I incorporated it within an internal package. However, as the reader function makes use of the un-exported `create_tbl()` function I get a Note when running `R CMD check` which is not acceptable according to our package validation guidelines. Thus, please export this function. Thank you!","thomas-neitmann",4,4
-"openpharma/staged.dependencies","investigate credentials package","https://github.com/openpharma/staged.dependencies/issues/27","open",2021-07-29,2021-07-29,NA,0,"as proposed @nikolas-burkoff, please see https://ropensci.org/blog/2020/07/07/github-pat/ and update `README.md` if found useful","waddella",4,4
+"atorus-research/metacore","Export `create_tbl()`","https://github.com/atorus-research/metacore/issues/6","open",2021-07-29,2021-07-29,NA,1,"@statasaurus Thanks again for helping with building the Roche spec reader. After making some minor adjustments the reader now works properly and I incorporated it within an internal package. However, as the reader function makes use of the un-exported `create_tbl()` function I get a Note when running `R CMD check` which is not acceptable according to our package validation guidelines. Thus, please export this function. Thank you!","thomas-neitmann",5,5
+"openpharma/staged.dependencies","investigate credentials package","https://github.com/openpharma/staged.dependencies/issues/27","open",2021-07-29,2021-08-02,NA,1,"as proposed @nikolas-burkoff, please see https://ropensci.org/blog/2020/07/07/github-pat/ and update `README.md` if found useful","waddella",5,1
 "atorus-research/metacore","Remove {gt} from Vignette usage","https://github.com/atorus-research/metacore/issues/7","open",2021-07-29,2021-07-29,NA,1,"The first release of {gt} was 2020-03-31. Our github workflow is set up right now to test on a R 3.6 snapshot from 2020-02-29 and a R 3.5 snapshot from earlier. This causes a build error because {gt} doesn't exist on the MRAN snapshot from that time period. 
 
-This is a simple fix as we just need to remove the use of {gt} and replace with another HTML table package. ","mstackhouse",4,4
+This is a simple fix as we just need to remove the use of {gt} and replace with another HTML table package. ","mstackhouse",5,5
 "pharmaR/riskmetric","WIP: Release v0.1.1","https://github.com/pharmaR/riskmetric/pull/217","open",2021-07-29,2021-07-29,NA,2,"## Release Overview
 
 - Incorporating #208, fixing an issue with subclassing introduced during concrete type constructor api overhaul
@@ -26606,26 +26606,27 @@ This is a simple fix as we just need to remove the use of {gt} and replace with 
 - [x] Tag approved package version commit with release tag (`v#.#.#`)
 - [ ] Merge any changes needed for release back into `master`
 - [ ] Create a release on GitHub
-","dgkf",4,4
+","dgkf",5,5
 "openpharma/staged.dependencies","28renv@main","https://github.com/openpharma/staged.dependencies/pull/29","open",2021-07-30,2021-07-30,NA,4,"Closes #28 ","nikolas-burkoff",3,3
-"openpharma/staged.dependencies","add valiation of staged.dependencies yaml output","https://github.com/openpharma/staged.dependencies/pull/30","open",2021-07-30,2021-07-30,NA,2,"Closes #26 
+"openpharma/staged.dependencies","Add renv and update README","https://github.com/openpharma/staged.dependencies/pull/29","open",2021-07-30,2021-08-02,NA,8,"Closes #28 and Closes #31","nikolas-burkoff",4,1
+"openpharma/staged.dependencies","add valiation of staged.dependencies yaml output","https://github.com/openpharma/staged.dependencies/pull/30","open",2021-07-30,2021-08-02,NA,2,"Closes #26 
 
 So I couldn't find a nice package to do this for us like [cerberus](https://github.com/pyeve/cerberus) - does anyone know one?
 
 But as our schema is very simple so I've written a simple validator which allows a little bit of freedom if our specs change - without needing a rewrite - but is not a full parser (which would be overkill here) 
 
-Also added a huge pile of tests to check it's working as expected - yay TDD.","nikolas-burkoff",3,3
+Also added a huge pile of tests to check it's working as expected - yay TDD.","nikolas-burkoff",4,1
 "openpharma/visR","Added missing test case","https://github.com/openpharma/visR/pull/245","closed",2021-07-30,2021-07-30,2021-07-30,0,"","timtreis",0,0
 "openpharma/visR","Added test for non-unique PARAM/PARAMCD","https://github.com/openpharma/visR/pull/246","closed",2021-07-30,2021-07-30,2021-07-30,0,"","timtreis",0,0
 "openpharma/visR","Changed test to reflect actual code behaviour","https://github.com/openpharma/visR/pull/244","closed",2021-07-30,2021-07-30,2021-07-30,0,"","timtreis",0,0
-"openpharma/staged.dependencies","Clarify Readme","https://github.com/openpharma/staged.dependencies/issues/31","open",2021-07-30,2021-07-30,NA,0,"please have @dinakar29 review it","waddella",3,3
+"openpharma/staged.dependencies","Clarify Readme","https://github.com/openpharma/staged.dependencies/issues/31","open",2021-07-30,2021-07-30,NA,0,"please have @dinakar29 review it","waddella",4,4
 "openpharma/staged.dependencies","create a reference action","https://github.com/openpharma/staged.dependencies/issues/32","open",2021-07-30,2021-07-30,NA,0,"with new `stringi`
-","waddella",3,3
-"openpharma/staged.dependencies","investigate if you can build the dependency graph without the cloning the repos","https://github.com/openpharma/staged.dependencies/issues/35","open",2021-07-30,2021-07-30,NA,0,"You would use:
+","waddella",4,4
+"openpharma/staged.dependencies","investigate if you can build the dependency graph without the cloning the repos","https://github.com/openpharma/staged.dependencies/issues/35","open",2021-07-30,2021-08-02,NA,2,"You would use:
 
   - `gh` and the rest api (graphql) to get the available branches
   - only download the `DESCRIPTION` and `staged_dependecies.yaml` files from the chosen branch
-  - repeat to build the entire graph ","waddella",3,3
+  - repeat to build the entire graph ","waddella",4,1
 "openpharma/visR","Possible bug in how align_plots() works?","https://github.com/openpharma/visR/issues/247","open",2021-07-30,2021-08-01,NA,1,"#### Issue description
 
 While writing tests for it, I could never cover or trigger a certain part of the function. Generally, parts of the function don't seem very robust. I assume there is a functional bug and not all lines are actually used to achieve what it currently does.
@@ -26638,14 +26639,14 @@ While writing tests for it, I could never cover or trigger a certain part of the
 
 Based on my testing it seems that lines 36-38 and 44-47 do what they're supposed to. That way, 49-58 defaults to x, never jumping into the if-condition. In my tests, `legends.widths` only ever returned `NULL`, even when properly aligning the widths. Therefore, `max.legends.width` defaults to `-Inf`. It seems this behaviour doesn't keep the code from working though. 
 
-Also, the function could be written in a more maintenance-friendly way, e.g. [line 38](https://github.com/openpharma/visR/blob/a8e790e29fc6f2448bc7daed955c6de63a2805cd/R/utils_visr.R#L54).","timtreis",3,1
-"openpharma/staged.dependencies","remove current repo in staged_dependencies.yaml if","https://github.com/openpharma/staged.dependencies/issues/36","open",2021-07-30,2021-07-30,NA,0,"that remote information can be placed into the `DESCRIPTION` file or the remote of the current upstream","waddella",3,3
-"openpharma/staged.dependencies","shallow clone (caching)","https://github.com/openpharma/staged.dependencies/issues/34","open",2021-07-30,2021-07-30,NA,0,"for automation, such that not all the packages are cached in each CI build","waddella",3,3
-"openpharma/staged.dependencies","testing strategy","https://github.com/openpharma/staged.dependencies/issues/33","open",2021-07-30,2021-07-30,NA,0,"@maximilianmordig please join the discussion","waddella",3,3
+Also, the function could be written in a more maintenance-friendly way, e.g. [line 38](https://github.com/openpharma/visR/blob/a8e790e29fc6f2448bc7daed955c6de63a2805cd/R/utils_visr.R#L54).","timtreis",4,2
+"openpharma/staged.dependencies","remove current repo in staged_dependencies.yaml if","https://github.com/openpharma/staged.dependencies/issues/36","open",2021-07-30,2021-08-02,NA,1,"that remote information can be placed into the `DESCRIPTION` file or the remote of the current upstream","waddella",4,1
+"openpharma/staged.dependencies","shallow clone (caching)","https://github.com/openpharma/staged.dependencies/issues/34","open",2021-07-30,2021-08-02,NA,1,"for automation, such that not all the packages are cached in each CI build","waddella",4,1
+"openpharma/staged.dependencies","testing strategy","https://github.com/openpharma/staged.dependencies/issues/33","open",2021-07-30,2021-08-02,NA,1,"@maximilianmordig please join the discussion","waddella",4,1
 "openpharma/visR","riskmetric badge links to the icon?","https://github.com/openpharma/visR/issues/248","open",2021-07-31,2021-07-31,NA,0,"#### Issue description
 
 On https://github.com/openpharma/visR, the `riskmetric` badge links to https://camo.githubusercontent.com/e3f32ab3f7f85cbaa9772eded025a12a25929ce352211677c732883ef163fe45/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7269736b6d65747269632d302e34332d677265656e, which opens the image itself in a new tab. Maybe it'd be nicer to link this to https://github.com/pharmaR/riskmetric?
-","timtreis",2,2
+","timtreis",3,3
 "Roche/rtables","typo in build_table description, rtables v. 0.3.8","https://github.com/Roche/rtables/issues/223","open",2021-08-01,2021-08-01,NA,0,"Dear team,
 
 In v. 0.3.8 there is a typo in the description of `build_table` function:
@@ -26653,4 +26654,54 @@ In v. 0.3.8 there is a typo in the description of `build_table` function:
 `Layouts are used to describe a table pre-data. build_rable is used to create a table using a layout and a dataset.`
 
 Instead of `build_rable` it should say `build_table`
-","armenic",1,1
+","armenic",2,2
+"openpharma/staged.dependencies","config.yaml is global","https://github.com/openpharma/staged.dependencies/issues/39","open",2021-08-02,2021-08-02,NA,1,"We have `config.yaml` to store ""local packages"" but this is then fixed for all projects you are working on on your current machine (and if this list is different for different projects you'll need to keep editing it as you switch between them)","nikolas-burkoff",1,1
+"openpharma/visR","Feature: add_highlight()","https://github.com/openpharma/visR/pull/250","open",2021-08-02,2021-08-02,NA,0,"","timtreis",1,1
+"openpharma/staged.dependencies","Fix graph bug","https://github.com/openpharma/staged.dependencies/pull/41","closed",2021-08-02,2021-08-02,2021-08-02,1,"Thanks @pawelru - that fixed it
+
+![image](https://user-images.githubusercontent.com/15201933/127844140-659a134c-4cdf-4b85-882b-26d2fd254a61.png)
+
+Closes #20 
+
+Though see #40 ","nikolas-burkoff",0,0
+"openpharma/visR","Function to highlight one or more specific strata in a survival plot","https://github.com/openpharma/visR/issues/249","open",2021-08-02,2021-08-02,NA,0,"## Idea
+
+**What is your idea for a new plot/table?**
+A function that can be integrated in the normal piping order of our plots to highlight a specific strata.
+
+**Do you have any examples you can share of what it looks like?**
+Here's a screenshot of a prototype version.
+![image](https://user-images.githubusercontent.com/12818242/127901467-3759884a-5876-49e3-a6e5-bf65c5e45bac.png)
+
+
+**What potential packages/functions could be used to make this plot?**
+`ggplot2` + `visR`
+
+**Are you interested to implement this yourself?**
+Yes","timtreis",1,1
+"openpharma/staged.dependencies","Graph sizing not working well","https://github.com/openpharma/staged.dependencies/issues/40","open",2021-08-02,2021-08-02,NA,1,"The size seems fixed and not covering the whole viewer:
+
+![image](https://user-images.githubusercontent.com/15201933/127843798-9cfbcfce-ca6e-4f63-867c-7480b0dd831a.png)
+
+When I try to zoom in:
+![image](https://user-images.githubusercontent.com/15201933/127843869-ecbd9c7d-5f55-4618-8366-467eefc727cf.png)
+","nikolas-burkoff",1,1
+"openpharma/staged.dependencies","Move example to public github","https://github.com/openpharma/staged.dependencies/issues/37","open",2021-08-02,2021-08-02,NA,1,"README states:
+
+See https://code.roche.com/maximilian_oliver.mordig/stageddeps.water and the related packages. 
+Decide where they should be moved to - ideally somewhere where everyone who has access to staged.dependencies has read access to.
+
+We should update README as well (can also then remove references to respectables and synthetic.rcdsic.data)","nikolas-burkoff",1,1
+"openpharma/staged.dependencies","Re-running dependency_table produces error","https://github.com/openpharma/staged.dependencies/issues/38","open",2021-08-02,2021-08-02,NA,2,"![image](https://user-images.githubusercontent.com/15201933/127840043-5f2ae1ad-4825-407a-bf34-c77455dc3237.png)
+
+and then running it again produces a different error:
+
+![image](https://user-images.githubusercontent.com/15201933/127841540-f9add927-a239-404f-93c4-c6f1fd9bb511.png)
+","nikolas-burkoff",1,1
+"openpharma/staged.dependencies","Replace topological sort ","https://github.com/openpharma/staged.dependencies/pull/42","open",2021-08-02,2021-08-02,NA,2,"Closes #21 (does not address #38)
+
+Replace topological sort with non-recursive version from teal and added tests
+
+Also test by adding test.nest into tern's staged_dependencies.yaml file
+
+@waddella - after this we should revert the commits which changed the yaml files in NEST package and retest.","nikolas-burkoff",1,1
