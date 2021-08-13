@@ -26,7 +26,13 @@
 "openpharma","ReadStat","openpharma/ReadStat","Command-line tool (+ C library) for converting SAS, Stata, and SPSS files 💾","2020-09-26T06:39:12Z","C",1.8
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
 "openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-06-11T10:55:26Z","R",85.9
-"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-08-11T20:58:14Z","R",0.5
+"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-08-12T17:18:51Z","R",0.6
+"openpharma","stageddeps.elecinfra","openpharma/stageddeps.elecinfra","Dummy R Package for testing staged dependencies","2021-08-12T17:50:13Z","R",0
+"openpharma","stageddeps.electricity","openpharma/stageddeps.electricity","Dummy R Package for testing staged dependencies","2021-08-12T17:51:16Z","R",0
+"openpharma","stageddeps.food","openpharma/stageddeps.food","Dummy R Package for testing staged.dependencies","2021-08-12T17:51:31Z","R",0
+"openpharma","stageddeps.garden","openpharma/stageddeps.garden","Dummy R Package for testing staged.dependencies","2021-08-12T17:51:42Z","R",0
+"openpharma","stageddeps.house","openpharma/stageddeps.house","Dummy R Package for testing staged.dependencies","2021-08-12T17:51:52Z","R",0
+"openpharma","stageddeps.water","openpharma/stageddeps.water","Dummy R Package for testing staged dependencies","2021-08-12T17:52:01Z","R",0
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
