@@ -24028,6 +24028,7 @@ goodrec2 <- tribble(~variables, ~dependencies, ~func, ~func_args, ~keep,
 ```
 
 we are closing the #22 and those couple of lines were left","waddella",19,19
+"Roche/synthetic.cdisc.data","Fix all R CMD check warnings and errors","https://github.com/Roche/synthetic.cdisc.data/issues/2","open",2021-06-04,2021-08-03,NA,2,"... if there are any","waddella",70,10
 "openpharma/visR","Bugfix/20210605 xlabel","https://github.com/openpharma/visR/pull/211","closed",2021-06-05,2021-08-02,2021-07-13,1,"","timtreis",38,-20
 "openpharma/visR","Changed the way the x- and y-axis labels are applied","https://github.com/openpharma/visR/pull/212","closed",2021-06-05,2021-07-13,2021-07-13,6,"Very minor change that however fixes the previous incompatibility with ggplot2s' xlab/ylab commands.
 
@@ -26587,7 +26588,11 @@ Thank you very much. Any feedback on this matter is much appreciated. ","WenYao-
 "Roche/ggtips","Toggle tooltips throw error when hovering over plot","https://github.com/Roche/ggtips/issues/73","closed",2021-07-28,2021-08-11,2021-08-11,1,"When you enable tooltips and then on the same plot you disable them it doesn't remove the event for proximity and mousemove and it tries to calculate distance when it has no optimization data stored in each point. and throw an error.
 
 The solution is to check if points have data saved before processing.","jcubic",14,0
+"Roche/synthetic.cdisc.data","Action","https://github.com/Roche/synthetic.cdisc.data/pull/6","closed",2021-07-29,2021-08-03,2021-08-03,1,"Closes #4 
+
+Also fixed R CMD CHECK warnings ","nikolas-burkoff",5,0
 "openpharma/staged.dependencies","add renv.lock and remove staged_dependency.yaml","https://github.com/openpharma/staged.dependencies/issues/28","closed",2021-07-29,2021-08-03,2021-08-03,0,"... and point to respectables and synthetic.cdisc.data as a reference of usage","waddella",5,0
+"Roche/synthetic.cdisc.data","add staged dependency ","https://github.com/Roche/synthetic.cdisc.data/issues/4","closed",2021-07-29,2021-08-03,2021-08-03,0,"","waddella",5,0
 "Roche/respectables","add staged depenency","https://github.com/Roche/respectables/issues/33","closed",2021-07-29,2021-08-02,2021-08-02,0,"with `synthetic.cdisc.data` as a downstream dependency","waddella",4,0
 "Roche/respectables","Add staged.dependencies","https://github.com/Roche/respectables/pull/34","closed",2021-07-29,2021-08-02,2021-08-02,7,"Closes #33 
 
@@ -26631,9 +26636,11 @@ Also added a huge pile of tests to check it's working as expected - yay TDD.","n
 "openpharma/visR","Added test for non-unique PARAM/PARAMCD","https://github.com/openpharma/visR/pull/246","closed",2021-07-30,2021-07-30,2021-07-30,0,"","timtreis",0,0
 "openpharma/visR","Changed test to reflect actual code behaviour","https://github.com/openpharma/visR/pull/244","closed",2021-07-30,2021-07-30,2021-07-30,0,"","timtreis",0,0
 "openpharma/staged.dependencies","Clarify Readme","https://github.com/openpharma/staged.dependencies/issues/31","closed",2021-07-30,2021-08-03,2021-08-03,0,"please have @dinakar29 review it","waddella",4,0
-"openpharma/staged.dependencies","create a reference action","https://github.com/openpharma/staged.dependencies/issues/32","open",2021-07-30,2021-08-03,NA,0,"with new `stringi`
+"openpharma/staged.dependencies","create a reference action","https://github.com/openpharma/staged.dependencies/issues/32","open",2021-07-30,2021-08-13,NA,0,"with new `stringi`
 
-based on the action step we already have","waddella",14,10
+based on the action step we already have
+
+Also update github action (optional downstream testing maybe based on command) from here https://github.com/openpharma/staged.dependencies/issues/55#issue-961788643","waddella",14,0
 "openpharma/staged.dependencies","investigate if you can build the dependency graph without the cloning the repos","https://github.com/openpharma/staged.dependencies/issues/35","open",2021-07-30,2021-08-05,NA,4,"You would use:
 
   - `gh` and the rest api (graphql) to get the available branches
@@ -26704,12 +26711,12 @@ See https://code.roche.com/maximilian_oliver.mordig/stageddeps.water and the rel
 Decide where they should be moved to - ideally somewhere where everyone who has access to staged.dependencies has read access to.
 
 We should update README as well (can also then remove references to respectables and synthetic.rcdsic.data)","nikolas-burkoff",10,7
-"openpharma/staged.dependencies","Move example to public github and update README and roxygen examples","https://github.com/openpharma/staged.dependencies/issues/37","open",2021-08-02,2021-08-12,NA,5,"README states:
+"openpharma/staged.dependencies","Move example to public github and update README and roxygen examples","https://github.com/openpharma/staged.dependencies/issues/37","open",2021-08-02,2021-08-13,NA,6,"README states:
 
 See https://code.roche.com/maximilian_oliver.mordig/stageddeps.water and the related packages. 
 Decide where they should be moved to - ideally somewhere where everyone who has access to staged.dependencies has read access to.
 
-We should update README as well (can also then remove references to respectables and synthetic.rcdsic.data)","nikolas-burkoff",11,1
+We should update README as well (can also then remove references to respectables and synthetic.rcdsic.data)","nikolas-burkoff",11,0
 "openpharma/staged.dependencies","Re-running dependency_table produces error","https://github.com/openpharma/staged.dependencies/issues/38","closed",2021-08-02,2021-08-03,2021-08-03,3,"![image](https://user-images.githubusercontent.com/15201933/127840043-5f2ae1ad-4825-407a-bf34-c77455dc3237.png)
 
 and then running it again produces a different error:
@@ -26801,7 +26808,7 @@ This PR branches off on PR #48 (which in my opinion needs to be rewritten).","ma
 remotes::install_github(""openpharma/staged.dependencies"")
 ```","waddella",6,0
 "openpharma/staged.dependencies","Fix progress bar in addin","https://github.com/openpharma/staged.dependencies/issues/56","open",2021-08-05,2021-08-05,NA,0,NA,"nikolas-burkoff",8,8
-"openpharma/staged.dependencies","make sure that test downstream works","https://github.com/openpharma/staged.dependencies/issues/55","open",2021-08-05,2021-08-12,NA,0,"and then update github action (optional downstream testing maybe based on command)","waddella",8,1
+"openpharma/staged.dependencies","make sure that test downstream works","https://github.com/openpharma/staged.dependencies/issues/55","closed",2021-08-05,2021-08-13,2021-08-13,1,"and then update github action (optional downstream testing maybe based on command)","waddella",8,0
 "openpharma/staged.dependencies","staged.dependencies::install_deps() - lack of message to the user","https://github.com/openpharma/staged.dependencies/issues/53","open",2021-08-05,2021-08-05,NA,2,"We find out that `staged.dependencies::install_deps()` is quite time consuming although the problem is lack of interaction with the user. Especially as the are not action on the screen for a long time. There should be some message to the user like `cat(""Please wait, we preparing sth for you ... \n"")`.","Polkas",8,8
 "openpharma/staged.dependencies","test if nest environment can be installed on a base rocker/r-base container","https://github.com/openpharma/staged.dependencies/issues/54","open",2021-08-05,2021-08-12,NA,1,"depends on #49 ","waddella",8,1
 "openpharma/visR","test license check","https://github.com/openpharma/visR/pull/251","open",2021-08-05,2021-08-05,NA,0,NA,"epijim",8,8
@@ -26853,7 +26860,7 @@ I think that worked on R 3.6.3, but I would have to check.","waddella",0,0
 "Roche/rtables","ensure sfunargs is a list","https://github.com/Roche/rtables/pull/226","closed",2021-08-06,2021-08-06,2021-08-06,2,"closes #225 
 ","waddella",0,0
 "Novartis/pisces","Fix exon ordering for minus strand transcripts in #15","https://github.com/Novartis/pisces/pull/17","closed",2021-08-06,2021-08-06,2021-08-06,0,NA,"mdshw5",0,0
-"openpharma/staged.dependencies","implemented function to rcmd build, check and install to a directory","https://github.com/openpharma/staged.dependencies/pull/58","open",2021-08-06,2021-08-12,NA,5,"Closes issue #52 ","maximilianmordig",7,1
+"openpharma/staged.dependencies","implemented function to rcmd build, check and install to a directory","https://github.com/openpharma/staged.dependencies/pull/58","open",2021-08-06,2021-08-13,NA,6,"Closes issue #52 ","maximilianmordig",7,0
 "atorus-research/metacore","Issue 6","https://github.com/atorus-research/metacore/pull/8","open",2021-08-06,2021-08-06,NA,1,"Exported the `create_tbl()` function to address @thomas-neitmann's comments in #6. ","mstackhouse",7,7
 "openpharma/staged.dependencies","other package seems to be installed if it is in the staged dependency","https://github.com/openpharma/staged.dependencies/issues/59","closed",2021-08-06,2021-08-12,2021-08-12,2,"You can recreate the issue with `osprey` when adding `random.cdisc.data` into the upstream dependencies and then running
 
@@ -27003,8 +27010,18 @@ Closes issue #60 ","maximilianmordig",1,0
 "phuse-org/valtools","suppress dialog box","https://github.com/phuse-org/valtools/issues/184","open",2021-08-11,2021-08-11,NA,0,"when running `vt_validate_report`  an R gui dialog box prompting package download/update may pop up. Although this closes automatically during course of report generation, it is distracting and gives the (incorrect) impression that the user's environment is being modified. 
 
 Recommended action is to suppress the visibility of the dialog.","mariev",2,2
-"openpharma/staged.dependencies","55downstream@main","https://github.com/openpharma/staged.dependencies/pull/68","open",2021-08-12,2021-08-12,NA,2,"So this fixes the ""make sure test downstream works"" part of #55 -
+"openpharma/staged.dependencies","55downstream@main","https://github.com/openpharma/staged.dependencies/pull/68","closed",2021-08-12,2021-08-13,2021-08-13,2,"Closes #55 (the action part having been moved to #32 )
 
-If we're happy with this then I'll merge and un-assign myself from #55 and let @dinakar29 take over the ""and then update github action (optional downstream testing maybe based on command)"" part of the issue (or move that to be part of #32)","nikolas-burkoff",1,1
-"openpharma/staged.dependencies","added support to install from remote repos rather than just a local p…","https://github.com/openpharma/staged.dependencies/pull/69","open",2021-08-12,2021-08-12,NA,3,"…roject
-Closes #46 ","maximilianmordig",1,1
+","nikolas-burkoff",1,0
+"openpharma/staged.dependencies","added support to install from remote repos rather than just a local p…","https://github.com/openpharma/staged.dependencies/pull/69","open",2021-08-12,2021-08-13,NA,3,"…roject
+Closes #46 ","maximilianmordig",1,0
+"openpharma/staged.dependencies","added instructions to include home rprofile","https://github.com/openpharma/staged.dependencies/pull/70","open",2021-08-13,2021-08-13,NA,1,"Closes #50 ","maximilianmordig",0,0
+"openpharma/staged.dependencies","Allow examples to work on Windows","https://github.com/openpharma/staged.dependencies/issues/71","open",2021-08-13,2021-08-13,NA,0,"..and do not copy renv directory into local cache
+","nikolas-burkoff",0,0
+"openpharma/staged.dependencies","ignore the renv folder when copying local repo to cache","https://github.com/openpharma/staged.dependencies/pull/74","open",2021-08-13,2021-08-13,NA,3,"Closes #71 ","nikolas-burkoff",0,0
+"openpharma/staged.dependencies","Simplify input args to main functions","https://github.com/openpharma/staged.dependencies/issues/73","open",2021-08-13,2021-08-13,NA,0,"See here:
+
+https://github.com/openpharma/staged.dependencies/pull/58#discussion_r687851505
+
+Could even have a default_host argument (set to https://github.com say) so you don't even need to specify the host for every repo.","nikolas-burkoff",0,0
+"openpharma/staged.dependencies","Streamline codebase","https://github.com/openpharma/staged.dependencies/issues/72","open",2021-08-13,2021-08-13,NA,0,"There are lots of quite similar functions which get the dependency structure and then do something - are there ways to refactor so the getting the dependency structure is easier to maintain","nikolas-burkoff",0,0
