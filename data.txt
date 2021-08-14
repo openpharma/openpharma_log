@@ -1,6 +1,6 @@
 - path: all-commits
   name: all-commits
-  rows: 8102
+  rows: 8113
   cols: 4
   description: Raw data on all the commits
   type: table
