@@ -43,7 +43,7 @@
 "Roche","crmPack","Roche/crmPack","Object-Oriented Implementation of CRM Designs","2021-02-19T20:47:26Z","R",62.5
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-08-11T14:13:13Z","R",0.3
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-08-03T12:56:51Z","R",99.5
-"Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-08-04T08:28:56Z","R",1.3
+"Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-08-14T17:42:28Z","R",1.3
 "Roche","rtables","Roche/rtables","Reporting tables with R","2021-08-13T20:07:21Z","R",5.6
 "Roche","synthetic.cdisc.data","Roche/synthetic.cdisc.data",NA,"2021-08-06T22:46:41Z","R",0.2
 "UCL","RefbasedMI","UCL/RefbasedMI","Multiple imputation sensitivity analysis for longitudinal trials ","2021-08-04T11:48:55Z","R",9.3
