@@ -22127,7 +22127,7 @@ Also in the Details section of `summarize_row_groups`","anajens",58,58
 "Roche/rtables","function to map a data.frame to an elementary table","https://github.com/Roche/rtables/issues/189","closed",2021-04-26,2021-05-05,2021-05-05,0,"maybe with an argument of which column to take as row names","waddella",9,0
 "Novartis/xgxr","Ggcolortheme","https://github.com/Novartis/xgxr/pull/43","open",2021-04-26,2021-04-26,NA,0,"This is a pull request to have the powerpoint color extraction routine added to xgxr.  It will be used in a ggplot color theme that is based on an arbitrary powerpoint presentation.  For example if you had a Novartis presentation, or a BMS presentation you could use either to match the colors of the default presentation.","mattfidler",58,58
 "Roche/rtables","make an pdf output function","https://github.com/Roche/rtables/issues/186","open",2021-04-26,2021-04-26,NA,0,"`as_pdf`","waddella",58,58
-"Roche/rtables","Referential Footnotes: Columns","https://github.com/Roche/rtables/issues/187","closed",2021-04-26,2021-08-13,2021-08-13,1,"","waddella",109,0
+"Roche/rtables","Referential Footnotes: Columns","https://github.com/Roche/rtables/issues/187","closed",2021-04-26,2021-08-17,2021-08-13,2,"","waddella",109,-4
 "Roche/rtables","revisit `add_overall` discussion","https://github.com/Roche/rtables/issues/183","open",2021-04-26,2021-04-26,NA,1,"Some time ago we talked about deprecating `add_overall`:
 
 >lets deprecate the `add_overall` function on `gabe_tabletree_work` and @anajens please start using `add_overall_level` for the release in 4 months.
@@ -25592,7 +25592,7 @@ fit <- nlmixr(nlmixr_onecmt_fixed, data=theo_sd, control=list(print=0), est=""fo
 
 <sup>Created on 2021-07-12 by the [reprex package](https://reprex.tidyverse.org) (v2.0.0)</sup>
 ","billdenney",1,0
-"Roche/rtables","Sync v0.3.8 with master branch","https://github.com/Roche/rtables/issues/212","open",2021-07-12,2021-07-14,NA,1,"Tag from latest internal Roche release is not yet reflected here.","anajens",3,1
+"Roche/rtables","Sync v0.3.8 with master branch","https://github.com/Roche/rtables/issues/212","closed",2021-07-12,2021-08-17,2021-08-17,1,"Tag from latest internal Roche release is not yet reflected here.","anajens",36,0
 "openpharma/staged.dependencies","add github action","https://github.com/openpharma/staged.dependencies/pull/23","closed",2021-07-13,2021-07-13,2021-07-13,4,"","waddella",0,0
 "Merck/r2rtf","bug fix for text_format = """"","https://github.com/Merck/r2rtf/pull/42","closed",2021-07-13,2021-07-13,2021-07-13,0,"- resolve issue descrived in #40","elong0527",0,0
 "pharmaR/riskmetric","How to integrate metrics from other packages?","https://github.com/pharmaR/riskmetric/issues/209","open",2021-07-13,2021-07-13,NA,0,"As the audience of `riskmetric` grows, we're seeing new packages that offer really compelling metrics, but might introduce new dependencies, drastically increase runtime or only apply in niche applications. One of our design goals has always been extensibility, yet we don't have any concrete examples of how a package might extend riskmetric. 
@@ -26640,7 +26640,7 @@ Also added a huge pile of tests to check it's working as expected - yay TDD.","n
 
 based on the action step we already have
 
-Also update github action (optional downstream testing maybe based on command) from here https://github.com/openpharma/staged.dependencies/issues/55#issue-961788643","waddella",18,4
+Also update github action (optional downstream testing maybe based on command) from here https://github.com/openpharma/staged.dependencies/issues/55#issue-961788643","waddella",19,5
 "openpharma/staged.dependencies","investigate if you can build the dependency graph without the cloning the repos","https://github.com/openpharma/staged.dependencies/issues/35","open",2021-07-30,2021-08-05,NA,4,"You would use:
 
   - `gh` and the rest api (graphql) to get the available branches
@@ -26675,7 +26675,7 @@ In v. 0.3.8 there is a typo in the description of `build_table` function:
 Instead of `build_rable` it should say `build_table`
 ","armenic",10,10
 "openpharma/staged.dependencies","config.yaml is global","https://github.com/openpharma/staged.dependencies/issues/39","closed",2021-08-02,2021-08-12,2021-08-12,2,"We have `config.yaml` to store ""local packages"" but this is then fixed for all projects you are working on on your current machine (and if this list is different for different projects you'll need to keep editing it as you switch between them)","nikolas-burkoff",10,0
-"openpharma/visR","Feature: add_highlight()","https://github.com/openpharma/visR/pull/250","open",2021-08-02,2021-08-16,NA,0,"","timtreis",15,1
+"openpharma/visR","Feature: add_highlight()","https://github.com/openpharma/visR/pull/250","open",2021-08-02,2021-08-17,NA,0,"","timtreis",16,1
 "openpharma/staged.dependencies","Fix graph bug","https://github.com/openpharma/staged.dependencies/pull/41","closed",2021-08-02,2021-08-02,2021-08-02,1,"Thanks @pawelru - that fixed it
 
 ![image](https://user-images.githubusercontent.com/15201933/127844140-659a134c-4cdf-4b85-882b-26d2fd254a61.png)
@@ -26716,7 +26716,7 @@ We should update README as well (can also then remove references to respectables
 See https://code.roche.com/maximilian_oliver.mordig/stageddeps.water and the related packages. 
 Decide where they should be moved to - ideally somewhere where everyone who has access to staged.dependencies has read access to.
 
-We should update README as well (can also then remove references to respectables and synthetic.rcdsic.data)","nikolas-burkoff",15,4
+We should update README as well (can also then remove references to respectables and synthetic.rcdsic.data)","nikolas-burkoff",16,5
 "openpharma/staged.dependencies","Re-running dependency_table produces error","https://github.com/openpharma/staged.dependencies/issues/38","closed",2021-08-02,2021-08-03,2021-08-03,3,"![image](https://user-images.githubusercontent.com/15201933/127840043-5f2ae1ad-4825-407a-bf34-c77455dc3237.png)
 
 and then running it again produces a different error:
@@ -26741,7 +26741,7 @@ so that you could call
 install_all(c(""github.com/abc"", ""github.com/xyz""))
 ```
 
-note this is related to #52 ","waddella",14,5
+note this is related to #52 ","waddella",15,6
 "openpharma/staged.dependencies","Make the example setup public ","https://github.com/openpharma/staged.dependencies/issues/47","closed",2021-08-03,2021-08-04,2021-08-04,1,".. in the readme file","waddella",1,0
 "openpharma/staged.dependencies","replace unlink with dir_delete","https://github.com/openpharma/staged.dependencies/pull/43","closed",2021-08-03,2021-08-03,2021-08-03,5,"Closes #38 (see https://github.com/openpharma/staged.dependencies/issues/38#issuecomment-891680364)
 
@@ -26810,7 +26810,7 @@ remotes::install_github(""openpharma/staged.dependencies"")
 "openpharma/staged.dependencies","Fix progress bar in addin","https://github.com/openpharma/staged.dependencies/issues/56","open",2021-08-05,2021-08-05,NA,0,NA,"nikolas-burkoff",10,10
 "openpharma/staged.dependencies","make sure that test downstream works","https://github.com/openpharma/staged.dependencies/issues/55","closed",2021-08-05,2021-08-13,2021-08-13,1,"and then update github action (optional downstream testing maybe based on command)","waddella",8,0
 "openpharma/staged.dependencies","staged.dependencies::install_deps() - lack of message to the user","https://github.com/openpharma/staged.dependencies/issues/53","open",2021-08-05,2021-08-05,NA,2,"We find out that `staged.dependencies::install_deps()` is quite time consuming although the problem is lack of interaction with the user. Especially as the are not action on the screen for a long time. There should be some message to the user like `cat(""Please wait, we preparing sth for you ... \n"")`.","Polkas",10,10
-"openpharma/staged.dependencies","test if nest environment can be installed on a base rocker/r-base container","https://github.com/openpharma/staged.dependencies/issues/54","open",2021-08-05,2021-08-13,NA,1,"depends on #49 ","waddella",12,4
+"openpharma/staged.dependencies","test if nest environment can be installed on a base rocker/r-base container","https://github.com/openpharma/staged.dependencies/issues/54","open",2021-08-05,2021-08-13,NA,1,"depends on #49 ","waddella",13,5
 "openpharma/visR","test license check","https://github.com/openpharma/visR/pull/251","open",2021-08-05,2021-08-05,NA,0,NA,"epijim",10,10
 "phuse-org/valtools","Add hex and cheat sheet flow","https://github.com/phuse-org/valtools/pull/180","closed",2021-08-06,2021-08-10,2021-08-10,7,"- Adding the hex sticker developed by @mayagans and the cheatsheet by @mariev
 - updating readme to show both","thebioengineer",4,0
@@ -26902,9 +26902,9 @@ Warning messages:
   Error in 'git2r_remote_ls'
 
 ```","waddella",6,0
-"phuse-org/valtools","Validation packets","https://github.com/phuse-org/valtools/pull/181","open",2021-08-06,2021-08-17,NA,1,"- Adds a function to explicitly support the validation process to ""external software""
+"phuse-org/valtools","Validation packets","https://github.com/phuse-org/valtools/pull/181","open",2021-08-06,2021-08-17,NA,4,"- Adds a function to explicitly support the validation process to ""external software""
 - Adds template for packet that trims expectation of function authors
-- Adds vignette for the process of validation external to a package","thebioengineer",11,0
+- Adds vignette for the process of validation external to a package","thebioengineer",12,1
 "Merck/pkglite","Guess filetype for files without extensions","https://github.com/Merck/pkglite/issues/18","open",2021-08-09,2021-08-09,NA,0,"When evaluating file specifications to create file collections, we should follow this:
 
 - If a file has a known extensions, mark it as text or binary based on the dictionary (implemented)
@@ -26912,7 +26912,7 @@ Warning messages:
     - Guess if the file is (canonically) text, otherwise mark them as binary
         -  I'd prefer zlib's algorithm: https://github.com/madler/zlib/blob/master/doc/txtvsbin.txt
         - If a file does not have any content, then mark it as binary
-- Document this flow in the specification section","nanxstats",8,8
+- Document this flow in the specification section","nanxstats",9,9
 "openpharma/staged.dependencies","installation of staged.dependencies on docker gives warnings","https://github.com/openpharma/staged.dependencies/issues/61","open",2021-08-09,2021-08-09,NA,0,"I get the following when running `remotes::install_github(""openpharma/staged.dependencies"")` on docker (`ghcr.io/insightsengineering/rstudio_4.1.0_bioc_3.13:latest`):
 
 ```r
@@ -26921,15 +26921,15 @@ Warning messages:
   cannot create dir '/home/users/sabanesd/.staged.dependencies', reason 'No such file or directory'
 2: In file.create(to[okay]) :
   cannot create file '/home/users/sabanesd/.staged.dependencies', reason 'No such file or directory'
-```","danielinteractive",8,8
+```","danielinteractive",9,9
 "openpharma/staged.dependencies","Staged Dependencies: All Upstream Dependencies excluding this package - new feature request.","https://github.com/openpharma/staged.dependencies/issues/62","open",2021-08-09,2021-08-12,NA,2,"Hi
 
 I am using RStudio add-in to install all upstream dependencies. This features also tries to build and install my current package I am working on, and which is not ready.
 Is there any way to create a separate add-in which installs all the upstream dependencies but without building the package I am currently working on?
 Thanks
 
-W.","wwojciech",8,5
-"Merck/pkglite","Use stop(call. = FALSE)","https://github.com/Merck/pkglite/issues/19","open",2021-08-09,2021-08-09,NA,0,"Use `stop(call. = FALSE)` is recommended by https://style.tidyverse.org/error-messages.html","nanxstats",8,8
+W.","wwojciech",9,6
+"Merck/pkglite","Use stop(call. = FALSE)","https://github.com/Merck/pkglite/issues/19","open",2021-08-09,2021-08-09,NA,0,"Use `stop(call. = FALSE)` is recommended by https://style.tidyverse.org/error-messages.html","nanxstats",9,9
 "openpharma/staged.dependencies","Add upgrade staged.dependencies addin","https://github.com/openpharma/staged.dependencies/pull/63","closed",2021-08-10,2021-08-11,2021-08-11,1,"Closes #57 
 
 ![image](https://user-images.githubusercontent.com/15201933/128831045-91efd517-a8e9-489a-9fed-e5d1c2f3326a.png)
@@ -26957,7 +26957,7 @@ library(rtables)
 # your reproducible example here
 
 ```
-","gmbecker",7,7
+","gmbecker",8,8
 "nlmixrdevelopment/nlmixr","error with tidy(): Column name `effect` must not be duplicated","https://github.com/nlmixrdevelopment/nlmixr/issues/554","closed",2021-08-10,2021-08-11,2021-08-11,3,"I'm getting the following error when using broom.mixed::tidy(fit.s, effects=""fixed"")
 Error: Column name `effect` must not be duplicated.
 
@@ -26988,14 +26988,14 @@ Thanks
 Nick  (@npaszty ) - FYI;","wwojciech",0,0
 "phuse-org/valtools","Test coverage improvements","https://github.com/phuse-org/valtools/pull/182","open",2021-08-10,2021-08-11,NA,0,"Reviewing missed code by tests 
 - adding unit tests where reasonable
-- identifying as acceptable to skip","thebioengineer",7,6
+- identifying as acceptable to skip","thebioengineer",8,7
 "Roche/ggtips","DIVOS-8798: fix shrinking tooltips","https://github.com/Roche/ggtips/pull/76","closed",2021-08-11,2021-08-11,2021-08-11,0,"There was issue when scrolling and moving cursor on top of the plot, where tooltips where shrinking.
 I have no idea why there was `max-width` instead of just `width` it seems that this fixes the issue.","jcubic",0,0
 "openpharma/staged.dependencies","Handle discrepancies between yaml files and DESCRIPTION files","https://github.com/openpharma/staged.dependencies/issues/66","open",2021-08-11,2021-08-11,NA,0,"Check that each yaml file correctly matches its description file for upstream and current repos and it matches the description files of all its downstream repos and produce a useful error if there are any mismatches.
 
 This would make the code much more robust - especially if different cases were tested.
 
-Follow on issue from https://github.com/openpharma/staged.dependencies/pull/65","nikolas-burkoff",6,6
+Follow on issue from https://github.com/openpharma/staged.dependencies/pull/65","nikolas-burkoff",7,7
 "openpharma/staged.dependencies","improve error message when a yaml file has an incorrect upstream repo","https://github.com/openpharma/staged.dependencies/pull/65","closed",2021-08-11,2021-08-12,2021-08-12,4,"So this closes #59 (this only closes the specific case mentioned there by improving the error message)
 
 Test by adding say rcd into osprey's yaml file as an upstream repo:
@@ -27006,7 +27006,7 @@ To solve the more general case is a lot more work and has been postponed to http
 
 Closes issue #60 ","maximilianmordig",1,0
 "Roche/ggtips","Migrate to GH Actions","https://github.com/Roche/ggtips/pull/75","closed",2021-08-11,2021-08-11,2021-08-11,0,NA,"cosi1",0,0
-"phuse-org/valtools","open as opposed to overwrite","https://github.com/phuse-org/valtools/issues/183","open",2021-08-11,2021-08-11,NA,0,"create_item will automatically overwrite a file - we should add a check for it to see if a file exists before calling file.create. If the file exists, just return the path (what the function does already) and do not call file.create.","thebioengineer",6,6
+"phuse-org/valtools","open as opposed to overwrite","https://github.com/phuse-org/valtools/issues/183","open",2021-08-11,2021-08-11,NA,0,"create_item will automatically overwrite a file - we should add a check for it to see if a file exists before calling file.create. If the file exists, just return the path (what the function does already) and do not call file.create.","thebioengineer",7,7
 "phuse-org/valtools","suppress dialog box","https://github.com/phuse-org/valtools/issues/184","closed",2021-08-11,2021-08-13,2021-08-13,1,"when running `vt_validate_report`  an R gui dialog box prompting package download/update may pop up. Although this closes automatically during course of report generation, it is distracting and gives the (incorrect) impression that the user's environment is being modified. 
 
 Recommended action is to suppress the visibility of the dialog.","mariev",2,0
@@ -27014,28 +27014,28 @@ Recommended action is to suppress the visibility of the dialog.","mariev",2,0
 
 ","nikolas-burkoff",1,0
 "openpharma/staged.dependencies","added support to install from remote repos rather than just a local p…","https://github.com/openpharma/staged.dependencies/pull/69","open",2021-08-12,2021-08-13,NA,3,"…roject
-Closes #46 ","maximilianmordig",5,4
+Closes #46 ","maximilianmordig",6,5
 "openpharma/staged.dependencies","added instructions to include home rprofile","https://github.com/openpharma/staged.dependencies/pull/70","closed",2021-08-13,2021-08-13,2021-08-13,1,"Closes #50 ","maximilianmordig",0,0
-"openpharma/staged.dependencies","adding tests for checkout_repo with mocking framework mockery","https://github.com/openpharma/staged.dependencies/pull/75","open",2021-08-13,2021-08-13,NA,0,NA,"maximilianmordig",4,4
+"openpharma/staged.dependencies","adding tests for checkout_repo with mocking framework mockery","https://github.com/openpharma/staged.dependencies/pull/75","open",2021-08-13,2021-08-13,NA,0,NA,"maximilianmordig",5,5
 "openpharma/staged.dependencies","Allow examples to work on Windows","https://github.com/openpharma/staged.dependencies/issues/71","open",2021-08-13,2021-08-13,NA,2,"..and do not copy renv directory into local cache
-","nikolas-burkoff",4,4
-"openpharma/staged.dependencies","ignore the renv folder when copying local repo to cache","https://github.com/openpharma/staged.dependencies/pull/74","open",2021-08-13,2021-08-13,NA,5,"Closes #71 ","nikolas-burkoff",4,4
+","nikolas-burkoff",5,5
+"openpharma/staged.dependencies","ignore the renv folder when copying local repo to cache","https://github.com/openpharma/staged.dependencies/pull/74","open",2021-08-13,2021-08-17,NA,5,"Closes #71 ","nikolas-burkoff",5,1
 "openpharma/staged.dependencies","Simplify input args to main functions","https://github.com/openpharma/staged.dependencies/issues/73","open",2021-08-13,2021-08-13,NA,0,"See here:
 
 https://github.com/openpharma/staged.dependencies/pull/58#discussion_r687851505
 
-Could even have a default_host argument (set to https://github.com say) so you don't even need to specify the host for every repo.","nikolas-burkoff",4,4
-"openpharma/staged.dependencies","Streamline codebase","https://github.com/openpharma/staged.dependencies/issues/72","open",2021-08-13,2021-08-13,NA,0,"There are lots of quite similar functions which get the dependency structure and then do something - are there ways to refactor so the getting the dependency structure is easier to maintain","nikolas-burkoff",4,4
-"phuse-org/valtools","Testing figure comparisons","https://github.com/phuse-org/valtools/pull/185","open",2021-08-13,2021-08-13,NA,0,"Vignette on how to perform figure comparisons within {valtools}","thebioengineer",4,4
-"Roche/respectables","Update check badge","https://github.com/Roche/respectables/pull/35","open",2021-08-14,2021-08-14,NA,0,"<!-- Thank you for your contribution! -->
+Could even have a default_host argument (set to https://github.com say) so you don't even need to specify the host for every repo.","nikolas-burkoff",5,5
+"openpharma/staged.dependencies","Streamline codebase","https://github.com/openpharma/staged.dependencies/issues/72","open",2021-08-13,2021-08-13,NA,0,"There are lots of quite similar functions which get the dependency structure and then do something - are there ways to refactor so the getting the dependency structure is easier to maintain","nikolas-burkoff",5,5
+"phuse-org/valtools","Testing figure comparisons","https://github.com/phuse-org/valtools/pull/185","open",2021-08-13,2021-08-13,NA,0,"Vignette on how to perform figure comparisons within {valtools}","thebioengineer",5,5
+"Roche/respectables","Update check badge","https://github.com/Roche/respectables/pull/35","closed",2021-08-14,2021-08-17,2021-08-17,1,"<!-- Thank you for your contribution! -->
 
 ## Description
 
-Fixes the R CMD check badge.","dinakar29",3,3
-"phuse-org/aesummaries","""prominent"" forest plot","https://github.com/phuse-org/aesummaries/issues/5","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",1,1
+Fixes the R CMD check badge.","dinakar29",3,0
+"phuse-org/aesummaries","""prominent"" forest plot","https://github.com/phuse-org/aesummaries/issues/5","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",2,2
 "atorus-research/xportr","Description file not lining up with pkgdown site","https://github.com/atorus-research/xportr/issues/3","open",2021-08-16,2021-08-16,NA,0,"![image](https://user-images.githubusercontent.com/10111024/129500919-207ff0a0-6d90-44a5-a546-88295e61ccf1.png)
-","bms63",1,1
+","bms63",2,2
 "phuse-org/aesummaries","Dotplot","https://github.com/phuse-org/aesummaries/issues/4","closed",2021-08-16,2021-08-16,2021-08-16,0,NA,"MayaGans",0,0
-"phuse-org/aesummaries","filter by prevalence ","https://github.com/phuse-org/aesummaries/issues/8","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",1,1
-"phuse-org/aesummaries","sorting","https://github.com/phuse-org/aesummaries/issues/6","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",1,1
-"phuse-org/aesummaries","width of netlify page","https://github.com/phuse-org/aesummaries/issues/7","open",2021-08-16,2021-08-16,NA,0,NA,"MayaGans",1,1
+"phuse-org/aesummaries","filter by prevalence ","https://github.com/phuse-org/aesummaries/issues/8","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",2,2
+"phuse-org/aesummaries","sorting","https://github.com/phuse-org/aesummaries/issues/6","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",2,2
+"phuse-org/aesummaries","width of netlify page","https://github.com/phuse-org/aesummaries/issues/7","open",2021-08-16,2021-08-16,NA,0,NA,"MayaGans",2,2
