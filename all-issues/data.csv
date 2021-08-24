@@ -20291,7 +20291,7 @@ WEEK 4 DAY 29
 WEEK 5 DAY 36                                          
   Mean            1.26        -0.59          -0.92 
 ```
-","anajens",196,5
+","anajens",197,6
 "Roche/rtables","Add labels from row splits to table header","https://github.com/Roche/rtables/issues/164","closed",2021-02-08,2021-04-28,2021-04-28,6,"It would be very helpful and increase readability if users can choose if labels from row-splits and `analyze` / `summarize_row_groups` should be added as a row labels or added to the header of a table.
 
 Here's an example:
@@ -24990,7 +24990,7 @@ Notice that the cells in the first row of `result` span two cells of other colum
 
 Then I would like to try joint PK-PD model which incorporating individual predicted PK parameters and observed PD events with time record, which is PK-categorical PD model. As far as I know the ensence of such approach is to redefine the likelihood function as those in NONMEM. However, I have no idea whether it could be resolved in nlmixr. If it is allowed, could you please tell me how to handle this?","diabloyg",4,0
 "openpharma/staged.dependencies","implemented recursive version of check_downstream","https://github.com/openpharma/staged.dependencies/pull/16","closed",2021-06-27,2021-08-12,2021-06-30,5,"","maximilianmordig",3,-43
-"atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-06-28,NA,0,"","statasaurus",2,2
+"atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-08-23,NA,1,"","statasaurus",57,1
 "Merck/r2rtf","allow verbose argument in `rtf_encode`","https://github.com/Merck/r2rtf/pull/38","closed",2021-06-28,2021-07-02,2021-07-02,1,"","elong0527",4,0
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
 "openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","closed",2021-06-28,2021-08-06,2021-08-06,9,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",39,0
@@ -26636,11 +26636,13 @@ Also added a huge pile of tests to check it's working as expected - yay TDD.","n
 "openpharma/visR","Added test for non-unique PARAM/PARAMCD","https://github.com/openpharma/visR/pull/246","closed",2021-07-30,2021-07-30,2021-07-30,0,"","timtreis",0,0
 "openpharma/visR","Changed test to reflect actual code behaviour","https://github.com/openpharma/visR/pull/244","closed",2021-07-30,2021-07-30,2021-07-30,0,"","timtreis",0,0
 "openpharma/staged.dependencies","Clarify Readme","https://github.com/openpharma/staged.dependencies/issues/31","closed",2021-07-30,2021-08-03,2021-08-03,0,"please have @dinakar29 review it","waddella",4,0
-"openpharma/staged.dependencies","create a reference action","https://github.com/openpharma/staged.dependencies/issues/32","open",2021-07-30,2021-08-13,NA,0,"with new `stringi`
+"openpharma/staged.dependencies","create a reference action","https://github.com/openpharma/staged.dependencies/issues/32","open",2021-07-30,2021-08-23,NA,0,"with new `stringi`
 
 based on the action step we already have
 
-Also update github action (optional downstream testing maybe based on command) from here https://github.com/openpharma/staged.dependencies/issues/55#issue-961788643","waddella",24,10
+Also update github action (optional downstream testing maybe based on command) from here https://github.com/openpharma/staged.dependencies/issues/55#issue-961788643
+
+Add check yamls consistent to action - see here #82 ","waddella",25,1
 "openpharma/staged.dependencies","investigate if you can build the dependency graph without the cloning the repos","https://github.com/openpharma/staged.dependencies/issues/35","open",2021-07-30,2021-08-05,NA,4,"You would use:
 
   - `gh` and the rest api (graphql) to get the available branches
@@ -26661,7 +26663,7 @@ Based on my testing it seems that lines 36-38 and 44-47 do what they're supposed
 Also, the function could be written in a more maintenance-friendly way, e.g. [line 38](https://github.com/openpharma/visR/blob/a8e790e29fc6f2448bc7daed955c6de63a2805cd/R/utils_visr.R#L54).","timtreis",16,10
 "openpharma/staged.dependencies","remove current repo in staged_dependencies.yaml if","https://github.com/openpharma/staged.dependencies/issues/36","closed",2021-07-30,2021-08-03,2021-08-03,3,"that remote information can be placed into the `DESCRIPTION` file or the remote of the current upstream","waddella",4,0
 "openpharma/staged.dependencies","shallow clone (caching)","https://github.com/openpharma/staged.dependencies/issues/34","closed",2021-07-30,2021-08-03,2021-08-03,1,"for automation, such that not all the packages are cached in each CI build","waddella",4,0
-"openpharma/staged.dependencies","testing strategy","https://github.com/openpharma/staged.dependencies/issues/33","open",2021-07-30,2021-08-18,NA,3,"@maximilianmordig please join the discussion","waddella",24,5
+"openpharma/staged.dependencies","testing strategy","https://github.com/openpharma/staged.dependencies/issues/33","open",2021-07-30,2021-08-18,NA,3,"@maximilianmordig please join the discussion","waddella",25,6
 "openpharma/visR","riskmetric badge links to the icon?","https://github.com/openpharma/visR/issues/248","open",2021-07-31,2021-07-31,NA,0,"#### Issue description
 
 On https://github.com/openpharma/visR, the `riskmetric` badge links to https://camo.githubusercontent.com/e3f32ab3f7f85cbaa9772eded025a12a25929ce352211677c732883ef163fe45/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7269736b6d65747269632d302e34332d677265656e, which opens the image itself in a new tab. Maybe it'd be nicer to link this to https://github.com/pharmaR/riskmetric?
@@ -26861,7 +26863,7 @@ I think that worked on R 3.6.3, but I would have to check.","waddella",0,0
 ","waddella",0,0
 "Novartis/pisces","Fix exon ordering for minus strand transcripts in #15","https://github.com/Novartis/pisces/pull/17","closed",2021-08-06,2021-08-06,2021-08-06,0,NA,"mdshw5",0,0
 "openpharma/staged.dependencies","implemented function to rcmd build, check and install to a directory","https://github.com/openpharma/staged.dependencies/pull/58","closed",2021-08-06,2021-08-13,2021-08-13,6,"Closes issue #52 ","maximilianmordig",7,0
-"atorus-research/metacore","Issue 6","https://github.com/atorus-research/metacore/pull/8","open",2021-08-06,2021-08-06,NA,1,"Exported the `create_tbl()` function to address @thomas-neitmann's comments in #6. ","mstackhouse",10,10
+"atorus-research/metacore","Issue 6","https://github.com/atorus-research/metacore/pull/8","open",2021-08-06,2021-08-23,NA,2,"Exported the `create_tbl()` function to address @thomas-neitmann's comments in #6. ","mstackhouse",18,1
 "openpharma/staged.dependencies","other package seems to be installed if it is in the staged dependency","https://github.com/openpharma/staged.dependencies/issues/59","closed",2021-08-06,2021-08-12,2021-08-12,2,"You can recreate the issue with `osprey` when adding `random.cdisc.data` into the upstream dependencies and then running
 
 ```
@@ -26988,7 +26990,7 @@ Thanks
 Nick  (@npaszty ) - FYI;","wwojciech",0,0
 "phuse-org/valtools","Test coverage improvements","https://github.com/phuse-org/valtools/pull/182","open",2021-08-10,2021-08-20,NA,0,"Reviewing missed code by tests 
 - adding unit tests where reasonable
-- identifying as acceptable to skip","thebioengineer",13,3
+- identifying as acceptable to skip","thebioengineer",14,4
 "Roche/ggtips","DIVOS-8798: fix shrinking tooltips","https://github.com/Roche/ggtips/pull/76","closed",2021-08-11,2021-08-11,2021-08-11,0,"There was issue when scrolling and moving cursor on top of the plot, where tooltips where shrinking.
 I have no idea why there was `max-width` instead of just `width` it seems that this fixes the issue.","jcubic",0,0
 "openpharma/staged.dependencies","Handle discrepancies between yaml files and DESCRIPTION files","https://github.com/openpharma/staged.dependencies/issues/66","open",2021-08-11,2021-08-11,NA,0,"Check that each yaml file correctly matches its description file for upstream and current repos and it matches the description files of all its downstream repos and produce a useful error if there are any mismatches.
@@ -27013,33 +27015,33 @@ Recommended action is to suppress the visibility of the dialog.","mariev",2,0
 "openpharma/staged.dependencies","55downstream@main","https://github.com/openpharma/staged.dependencies/pull/68","closed",2021-08-12,2021-08-13,2021-08-13,2,"Closes #55 (the action part having been moved to #32 )
 
 ","nikolas-burkoff",1,0
-"openpharma/staged.dependencies","added support to install from remote repos rather than just a local p…","https://github.com/openpharma/staged.dependencies/pull/69","open",2021-08-12,2021-08-19,NA,5,"…roject
-Closes #46 ","maximilianmordig",11,4
+"openpharma/staged.dependencies","added support to install from remote repos rather than just a local p…","https://github.com/openpharma/staged.dependencies/pull/69","open",2021-08-12,2021-08-23,NA,6,"…roject
+Closes #46 ","maximilianmordig",12,1
 "openpharma/staged.dependencies","added instructions to include home rprofile","https://github.com/openpharma/staged.dependencies/pull/70","closed",2021-08-13,2021-08-13,2021-08-13,1,"Closes #50 ","maximilianmordig",0,0
-"openpharma/staged.dependencies","adding tests for checkout_repo with mocking framework mockery","https://github.com/openpharma/staged.dependencies/pull/75","open",2021-08-13,2021-08-19,NA,0,NA,"maximilianmordig",10,4
+"openpharma/staged.dependencies","adding tests for checkout_repo with mocking framework mockery","https://github.com/openpharma/staged.dependencies/pull/75","open",2021-08-13,2021-08-23,NA,0,NA,"maximilianmordig",11,1
 "openpharma/staged.dependencies","Allow examples to work on Windows","https://github.com/openpharma/staged.dependencies/issues/71","open",2021-08-13,2021-08-13,NA,2,"..and do not copy renv directory into local cache
 ","nikolas-burkoff",10,10
-"openpharma/staged.dependencies","ignore the renv folder when copying local repo to cache","https://github.com/openpharma/staged.dependencies/pull/74","open",2021-08-13,2021-08-19,NA,6,"Closes #71 ","nikolas-burkoff",10,4
-"openpharma/staged.dependencies","Simplify input args to main functions","https://github.com/openpharma/staged.dependencies/issues/73","open",2021-08-13,2021-08-13,NA,0,"See here:
+"openpharma/staged.dependencies","ignore the renv folder when copying local repo to cache","https://github.com/openpharma/staged.dependencies/pull/74","open",2021-08-13,2021-08-23,NA,6,"Closes #71 ","nikolas-burkoff",11,1
+"openpharma/staged.dependencies","Simplify input args to main functions","https://github.com/openpharma/staged.dependencies/issues/73","open",2021-08-13,2021-08-23,NA,1,"See here:
 
 https://github.com/openpharma/staged.dependencies/pull/58#discussion_r687851505
 
-Could even have a default_host argument (set to https://github.com say) so you don't even need to specify the host for every repo.","nikolas-burkoff",10,10
-"openpharma/staged.dependencies","Streamline codebase","https://github.com/openpharma/staged.dependencies/issues/72","open",2021-08-13,2021-08-19,NA,1,"There are lots of quite similar functions which get the dependency structure and then do something - are there ways to refactor so the getting the dependency structure is easier to maintain","nikolas-burkoff",10,4
-"phuse-org/valtools","Testing figure comparisons","https://github.com/phuse-org/valtools/pull/185","open",2021-08-13,2021-08-19,NA,0,"Vignette on how to perform figure comparisons within {valtools}","thebioengineer",10,4
+Could even have a default_host argument (set to https://github.com say) so you don't even need to specify the host for every repo.","nikolas-burkoff",11,1
+"openpharma/staged.dependencies","Streamline codebase","https://github.com/openpharma/staged.dependencies/issues/72","open",2021-08-13,2021-08-19,NA,1,"There are lots of quite similar functions which get the dependency structure and then do something - are there ways to refactor so the getting the dependency structure is easier to maintain","nikolas-burkoff",11,5
+"phuse-org/valtools","Testing figure comparisons","https://github.com/phuse-org/valtools/pull/185","open",2021-08-13,2021-08-19,NA,0,"Vignette on how to perform figure comparisons within {valtools}","thebioengineer",11,5
 "Roche/respectables","Update check badge","https://github.com/Roche/respectables/pull/35","closed",2021-08-14,2021-08-17,2021-08-17,1,"<!-- Thank you for your contribution! -->
 
 ## Description
 
 Fixes the R CMD check badge.","dinakar29",3,0
-"phuse-org/aesummaries","""prominent"" forest plot","https://github.com/phuse-org/aesummaries/issues/5","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",7,7
+"phuse-org/aesummaries","""prominent"" forest plot","https://github.com/phuse-org/aesummaries/issues/5","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",8,8
 "atorus-research/xportr","Description file not lining up with pkgdown site","https://github.com/atorus-research/xportr/issues/3","open",2021-08-16,2021-08-16,NA,0,"![image](https://user-images.githubusercontent.com/10111024/129500919-207ff0a0-6d90-44a5-a546-88295e61ccf1.png)
-","bms63",7,7
+","bms63",8,8
 "phuse-org/aesummaries","Dotplot","https://github.com/phuse-org/aesummaries/issues/4","closed",2021-08-16,2021-08-16,2021-08-16,0,NA,"MayaGans",0,0
-"phuse-org/aesummaries","filter by prevalence ","https://github.com/phuse-org/aesummaries/issues/8","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",7,7
-"phuse-org/aesummaries","sorting","https://github.com/phuse-org/aesummaries/issues/6","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",7,7
-"phuse-org/aesummaries","width of netlify page","https://github.com/phuse-org/aesummaries/issues/7","open",2021-08-16,2021-08-16,NA,0,NA,"MayaGans",7,7
-"Novartis/pisces","Add gene description to annotation matrix","https://github.com/Novartis/pisces/issues/18","open",2021-08-18,2021-08-18,NA,0,"From the GTF file we will need to capture the gene description annotation.","mdshw5",5,5
+"phuse-org/aesummaries","filter by prevalence ","https://github.com/phuse-org/aesummaries/issues/8","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",8,8
+"phuse-org/aesummaries","sorting","https://github.com/phuse-org/aesummaries/issues/6","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",8,8
+"phuse-org/aesummaries","width of netlify page","https://github.com/phuse-org/aesummaries/issues/7","open",2021-08-16,2021-08-16,NA,0,NA,"MayaGans",8,8
+"Novartis/pisces","Add gene description to annotation matrix","https://github.com/Novartis/pisces/issues/18","open",2021-08-18,2021-08-18,NA,0,"From the GTF file we will need to capture the gene description annotation.","mdshw5",6,6
 "Roche/rtables","add type=width argument to nchar function","https://github.com/Roche/rtables/issues/231","open",2021-08-18,2021-08-18,NA,1,"Issue originally reported by lil128 on Jul 24, 2020
 
 > this is not an issue, but a feature enhancement.
@@ -27058,13 +27060,13 @@ rtable(
 
 > you can see that the layout is not correct. though using nchar(type=""width"") does not always solve the issue(depending on the font you choose: these characters does not always occupy twice the width of the alphabets)
 
-","anajens",5,5
+","anajens",6,6
 "Roche/rtables","Adding a function converting rtable to flextable","https://github.com/Roche/rtables/issues/228","open",2021-08-18,2021-08-18,NA,1,"Originally requested by wangj29
 
-> In order to support auto writing into .pptx and .docx, we would like to have a coercion function within the rtables package that transform an rtable object to a flextable one.","anajens",5,5
+> In order to support auto writing into .pptx and .docx, we would like to have a coercion function within the rtables package that transform an rtable object to a flextable one.","anajens",6,6
 "phuse-org/valtools","Dynamic Referencing with Coverage","https://github.com/phuse-org/valtools/issues/187","open",2021-08-18,2021-08-18,NA,0,"If using Dynamic Referencing tags (##tc:my_id), scraping the coverage fails because the reference is not transformed before splitting of the roxygen tag occurs, causing splitting at the first `:`.
 
-","thebioengineer",5,5
+","thebioengineer",6,6
 "Roche/rtables","expand output formats","https://github.com/Roche/rtables/issues/232","open",2021-08-18,2021-08-18,NA,1,"Originally reported by @kieranjmartin on Apr 30, 2021
 
 > In general, it would be good to expand the as_ methods to cover the following:
@@ -27077,7 +27079,7 @@ rtable(
 > Less core ideas that could be useful for transmitting/modifying information
 > 
 > - as_json
-> - as_xml","anajens",5,5
+> - as_xml","anajens",6,6
 "Roche/rtables","feature requests","https://github.com/Roche/rtables/issues/229","open",2021-08-18,2021-08-19,NA,3,"Initially reported by @kieranjmartin on Feb 26, 2020 (for initial version of `rtables`)
 
 > 1. Good methods to glue together tables vertically and horizontally
@@ -27086,7 +27088,7 @@ rtable(
 > 4. Accessor methods for modifying rtables simply
 > 5. rtabulate should support multiple splits
 > 6. More control over alignment
-> 7. Much more sophistication in as_html(), and the ability to modify the html object both before and after without actively rewriting the html code","anajens",5,4
+> 7. Much more sophistication in as_html(), and the ability to modify the html object both before and after without actively rewriting the html code","anajens",6,5
 "Roche/rtables","How to construct a multi col header","https://github.com/Roche/rtables/issues/234","open",2021-08-18,2021-08-19,NA,3,"Issue originally reported by @kieranjmartin
 
 > I know you are encouraged to use the in built arguments to construct a table, but if I wanted to construct a table manually I'm not quite clear on how to do this.
@@ -27123,7 +27125,7 @@ errors.
 > Error in rbind(header_content$span, body_spans) :
 > number of columns of matrices must match (see arg 2)
 > 
-> This is in version 0.3.8","anajens",5,4
+> This is in version 0.3.8","anajens",6,5
 "Roche/rtables","Improve printing of rtables ","https://github.com/Roche/rtables/issues/230","open",2021-08-18,2021-08-18,NA,1," Issue originally reported by @thomas-neitmann on Jul 15, 2020:
 
 >The current printing of an rtable with the dashed line underneath the header looks rather poor.
@@ -27149,7 +27151,7 @@ ________________________________________________________________________________
 Age
   n                            134                   134                   132      
 
-```","anajens",5,5
+```","anajens",6,6
 "Roche/rtables","Prepare package for lintr checks ","https://github.com/Roche/rtables/issues/233","open",2021-08-18,2021-08-18,NA,0,"Issue originally reported by @gogonzo on Apr 30, 2021
 
 > Please include .lintr file and fix lintr v2.0.0 issues. For this repo object_name_linter (CamelCase or snake_case) should be ignored.
@@ -27158,11 +27160,11 @@ Age
 
 ```
 linters: with_defaults(line_length_linter(120), cyclocomp_linter = NULL, )
-```","anajens",5,5
+```","anajens",6,6
 "openpharma/staged.dependencies","update examples","https://github.com/openpharma/staged.dependencies/pull/76","closed",2021-08-18,2021-08-18,2021-08-18,1,"Closes #37 ","nikolas-burkoff",0,0
 "phuse-org/valtools","vt_scrape_tags_from assumes all files within the validation/* folder to be viable to be scraped from.","https://github.com/phuse-org/valtools/issues/186","open",2021-08-18,2021-08-18,NA,0,"https://github.com/phuse-org/valtools/blob/595c343471b26a60a12b52fcdac3d220af813e2a/R/scrape_authors.R#L50
 
-this line assumes that all files within the specified dir are reasonable to parse - which is not reasonable always. Ie. Supplementary files living within those folders.","thebioengineer",5,5
+this line assumes that all files within the specified dir are reasonable to parse - which is not reasonable always. Ie. Supplementary files living within those folders.","thebioengineer",6,6
 "Roche/rtables","warning from pkgdown::build_site","https://github.com/Roche/rtables/issues/235","open",2021-08-18,2021-08-18,NA,0,"Originally reported by @pawelru
 
 ```
@@ -27177,24 +27179,152 @@ Topics missing from index:
 * export_as_tsv
 * tt_at_path
 * update_ref_indexing 
-```","anajens",5,5
+```","anajens",6,6
 "openpharma/staged.dependencies","App add-on not working if missing visNetwork","https://github.com/openpharma/staged.dependencies/issues/79","open",2021-08-19,2021-08-19,NA,0,"![image](https://user-images.githubusercontent.com/12943682/130095368-16934fb6-6a04-44bc-91f0-58ac65cd2f90.png)
 
-We need to put `visNetwork` into the package dependency.","pawelru",4,4
-"openpharma/staged.dependencies","Create a `use_staged.dependencies()` function","https://github.com/openpharma/staged.dependencies/issues/78","open",2021-08-19,2021-08-19,NA,0,"Which adds a dummy yaml file to the repo and adds it to the rbuildignore file","nikolas-burkoff",4,4
+We need to put `visNetwork` into the package dependency.","pawelru",5,5
+"openpharma/staged.dependencies","Create a `use_staged.dependencies()` function","https://github.com/openpharma/staged.dependencies/issues/78","open",2021-08-19,2021-08-19,NA,0,"Which adds a dummy yaml file to the repo and adds it to the rbuildignore file","nikolas-burkoff",5,5
 "openpharma/staged.dependencies","Red errors in the app if missing GITHUB_PAT","https://github.com/openpharma/staged.dependencies/issues/80","open",2021-08-19,2021-08-19,NA,0,"
 ![image](https://user-images.githubusercontent.com/12943682/130096011-b8c86750-b183-483f-92be-1509255f180e.png)
 
 
 This is highly probable that the public API functions fail on this as well.
 
-","pawelru",4,4
+","pawelru",5,5
 "openpharma/staged.dependencies","Restart R after installing packages","https://github.com/openpharma/staged.dependencies/issues/77","open",2021-08-19,2021-08-19,NA,0,"Would it not be good to always Restart the R session after Installing Packages through staged.dependencies?
 otherwise a previously loaded package version would still be around, and it can be confusing for the user
-","nikolas-burkoff",4,4
+","nikolas-burkoff",5,5
 "phuse-org/valtools","Update tests and remove cases where coverage tag has no "":"" as allowable","https://github.com/phuse-org/valtools/pull/188","closed",2021-08-19,2021-08-19,2021-08-19,0,"Update coverage scraping with more informative error with what the actual error is for the parsing of the coverage.","thebioengineer",0,0
-"openpharma/visR","WIP table two, no review required yet","https://github.com/openpharma/visR/pull/252","open",2021-08-19,2021-08-20,NA,0,NA,"timtreis",4,3
-"phuse-org/valtools","Hotfix coverage matrix","https://github.com/phuse-org/valtools/pull/189","open",2021-08-20,2021-08-21,NA,1,"fixes ordering of coverage matrix","mariev",3,2
+"openpharma/visR","WIP table two, no review required yet","https://github.com/openpharma/visR/pull/252","open",2021-08-19,2021-08-20,NA,0,NA,"timtreis",5,4
+"phuse-org/valtools","Hotfix coverage matrix","https://github.com/phuse-org/valtools/pull/189","closed",2021-08-20,2021-08-23,2021-08-23,1,"fixes ordering of coverage matrix","mariev",3,0
 "openpharma/visR","Prepare to add automated validation report (once open sourced use real template)","https://github.com/openpharma/visR/issues/253","open",2021-08-22,2021-08-22,NA,1,"Working on validation branch - but using a dummy template
 
-https://github.com/openpharma/visR/actions/runs/1155402110","epijim",1,1
+https://github.com/openpharma/visR/actions/runs/1155402110","epijim",2,2
+"openpharma/staged.dependencies","32refactor@main","https://github.com/openpharma/staged.dependencies/pull/83","open",2021-08-23,2021-08-23,NA,1,"Closes #72 
+
+TODOs:
+- Big code review and any changes 
+- Further tests that everything is working (both formal but also informal)
+- Roxygen + README
+- pass R CMD CHECK
+- ideally get functionality from PRs #74 and #69
+- any changes to lower level functions
+
+We'll then ask @waddella and @pawelru to take a look before merging ","nikolas-burkoff",1,1
+"Merck/r2rtf","clean default value per #44","https://github.com/Merck/r2rtf/pull/45","closed",2021-08-23,2021-08-23,2021-08-23,0,NA,"elong0527",0,0
+"openpharma/staged.dependencies","direction = `c(""upstream"", ""downstream"")` is confusing","https://github.com/openpharma/staged.dependencies/issues/81","open",2021-08-23,2021-08-23,NA,0,"Currently:
+
+- _upstream_ repos in package's dep tree
+- _downstream_ repos which have package in their dep tree
+- _c(upstream, downstream)_ all repos being co-developed
+
+Proposal:
+- _upstream_ repos in package's dep tree
+- _downstream_ repos which have package in their dep tree
+- _c(upstream, downstream)_ union of upstream and downstream
+- _all_ all repos being co-developed","nikolas-burkoff",1,1
+"Merck/r2rtf","How to show multiple lines in page header or footer?","https://github.com/Merck/r2rtf/issues/43","open",2021-08-23,2021-08-24,NA,2,"Is there a way to add multiple lines of words (or a empty underline) with different alignments in the page header and footer?  Or is there a way to insert a table (with multiple lines or top/bottom border) in the page header or footer?","DawnYe",1,0
+"openpharma/staged.dependencies","Incorporate `update_with_direct_deps` into `roxygen`  and automation workflow ","https://github.com/openpharma/staged.dependencies/issues/82","open",2021-08-23,2021-08-23,NA,1,"i.e. 
+```
+ staged.dependencies::document() <- function(...) {
+   devtools::document(...)
+   update_with_direct_deps()   
+}
+```
+- give a warning if `update_with_direct_deps` changes the yaml file (as it suggests another repo will need changing too)
+- add `check_yamls_consistent` into the github action #32 ","nikolas-burkoff",1,1
+"Merck/r2rtf","remove load_all","https://github.com/Merck/r2rtf/pull/46","open",2021-08-23,2021-08-23,NA,0,NA,"elong0527",1,1
+"Merck/r2rtf","The Font size doesn't consistency between function default value and the Arguments description","https://github.com/Merck/r2rtf/issues/44","closed",2021-08-23,2021-08-23,2021-08-23,1,"Take an example: [rtf_page_header](https://merck.github.io/r2rtf/reference/rtf_page_header.html)
+
+```
+rtf_page_header(
+  tbl,
+  text = ""Page \\pagenumber of \\pagefield"",
+  text_font = 1,
+  text_format = NULL,
+  text_font_size = 12,
+  text_color = NULL,
+  text_background_color = NULL,
+  text_justification = ""r"",
+  text_indent_first = 0,
+  text_indent_left = 0,
+  text_indent_right = 0,
+  text_space = 1,
+  text_space_before = 15,
+  text_space_after = 15,
+  text_convert = TRUE
+)
+```
+
+The text font size in function default value is 12, while in Arguments description is 9. This in-consistence occurred in other functions, too.
+
+<html>
+<body>
+<!--StartFragment-->
+
+text_font_size | Text font size. Default is 9. To vary text font size by column, use numeric vector with length of vector equal to number of columns displayed e.g. c(9,20,40).
+-- | --
+
+
+<!--EndFragment-->
+</body>
+</html>
+","DawnYe",0,0
+"Roche/rtables","trim_levels_to_map vs trim_levels_in_group","https://github.com/Roche/rtables/issues/236","open",2021-08-23,2021-08-23,NA,0,"Hi @gmbecker, 
+
+I'm curious to hear your thoughts on the relationship between `trim_levels_to_map` vs `trim_levels_in_group`. 
+
+Is the plan to retire `trim_levels_in_group` altogether? 
+
+If not, then I think `trim_levels_in_group` could be useful in simple cases where the user wants to control levels of a variable passed down to `analyze` but without specifying a map. I'm thinking `trim_levels_in_group` could be a type of ""super drop_split_levels"" function similar to `drop_and_remove_levels`. The limitation right now is that it just controls `innervar` levels and not the levels of the split variable itself which I think would be common.
+
+Here's an example use case: If I want to achieve the layout below...
+
+```
+      all obs
+-------------
+A            
+  a      1   
+B            
+  b      1   
+C            
+  c      1  
+```
+
+... I can use these layouts:
+```r
+dat1 <- data.frame(
+  l1 = factor(c(""A"", ""B"", ""C""), levels = c(""A"", ""B"", ""C"")), # note that level X is not included
+  l2 = factor(c(""a"", ""b"", ""c""), levels = c(""a"", ""b"", ""c"", ""x""))
+)
+
+# This works
+basic_table() %>%
+  split_rows_by(""l1"", split_fun = trim_levels_in_group(""l2"")) %>%
+  analyze(""l2"") %>%
+  build_table(dat1)
+
+dat2 <- data.frame(
+  l1 = factor(c(""A"", ""B"", ""C""), levels = c(""A"", ""B"", ""C"", ""X"")), # here we add X to ""l1""
+  l2 = factor(c(""a"", ""b"", ""c""), levels = c(""a"", ""b"", ""c"", ""x""))
+)
+
+# This gives an error because trim_levels_in_group does not drop the empty ""l1"" levels
+basic_table() %>%
+  split_rows_by(""l1"", split_fun = trim_levels_in_group(""l2"")) %>%
+  analyze(""l2"") %>%
+  build_table(dat2)
+
+map <- data.frame(lapply(dat2, as.character), stringsAsFactors = FALSE)
+
+# This works nicely but user needs to do the extra step and provide a map
+basic_table() %>%
+  split_rows_by(""l1"", split_fun = trim_levels_to_map(map)) %>%
+  analyze(""l2"") %>%
+  build_table(dat2)
+
+```","anajens",1,1
+"atorus-research/xportr","Typo with CDISC","https://github.com/atorus-research/xportr/issues/4","open",2021-08-23,2021-08-23,NA,0,"![image](https://user-images.githubusercontent.com/10111024/130472105-98f01f9f-dbfd-4d9a-92e1-4e473319dea7.png)
+","bms63",1,1
+"atorus-research/xportr","Wordsmith","https://github.com/atorus-research/xportr/issues/5","open",2021-08-23,2021-08-23,NA,1,"![image](https://user-images.githubusercontent.com/10111024/130472280-f9cd0997-0012-4076-8837-742b3ea76d61.png)
+","bms63",1,1
