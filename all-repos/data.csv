@@ -3,12 +3,12 @@
 "atorus-research","metacore","atorus-research/metacore",NA,"2021-08-06T16:55:50Z","R",2
 "atorus-research","pharmaRTF","atorus-research/pharmaRTF","Enhanced RTF wrapper written in R for use with existing R tables packages such as huxtable or GT","2021-05-27T17:06:29Z","R",2.4
 "atorus-research","Tplyr","atorus-research/Tplyr",NA,"2021-07-13T15:34:25Z","R",155.1
-"atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDSIC compliance.","2021-05-28T18:54:14Z","R",3.9
+"atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDISC compliance.","2021-05-28T18:54:14Z","R",3.9
 "EliLillyCo","rfacts","EliLillyCo/rfacts","Call FACTS from R on Linux","2021-04-23T17:13:49Z","R",0.4
 "insightsengineering","r-license-report","insightsengineering/r-license-report","Github Actions to generate an R Package Dependencies' License Report","2021-06-29T19:57:04Z","R",0
 "Merck","gsDesign2","Merck/gsDesign2","Group Sequential Design Under Non-Proportional Hazards","2021-06-11T22:27:22Z","R",1.7
 "Merck","pkglite","Merck/pkglite","Compact Package Representations","2021-08-19T05:46:18Z","R",0.8
-"Merck","r2rtf","Merck/r2rtf","Easily Create Production-Ready Rich Text Format (RTF) Table and Figure","2021-08-23T15:15:17Z","R",6.4
+"Merck","r2rtf","Merck/r2rtf","Easily Create Production-Ready Rich Text Format (RTF) Table and Figure","2021-08-25T15:57:10Z","R",6.5
 "Merck","rCPDMS","Merck/rCPDMS","Chemoproteomics Data Analysis","2019-07-08T17:30:01Z","R",0.3
 "Merck","simtrial","Merck/simtrial",NA,"2021-06-11T22:30:44Z","R",2.7
 "nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-07-28T02:09:37Z","Rich Text Format",877.9
@@ -26,7 +26,7 @@
 "openpharma","ReadStat","openpharma/ReadStat","Command-line tool (+ C library) for converting SAS, Stata, and SPSS files 💾","2020-09-26T06:39:12Z","C",1.8
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
 "openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-06-11T10:55:26Z","R",85.9
-"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-08-24T19:56:01Z","R",1.1
+"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-08-25T15:32:25Z","R",1.2
 "openpharma","stageddeps.elecinfra","openpharma/stageddeps.elecinfra","Dummy R Package for testing staged dependencies","2021-08-12T17:50:13Z","R",0
 "openpharma","stageddeps.electricity","openpharma/stageddeps.electricity","Dummy R Package for testing staged dependencies","2021-08-12T17:51:16Z","R",0
 "openpharma","stageddeps.food","openpharma/stageddeps.food","Dummy R Package for testing staged.dependencies","2021-08-23T12:13:54Z","R",0
@@ -44,6 +44,6 @@
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-08-11T14:13:13Z","R",0.3
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-08-03T12:56:51Z","R",99.5
 "Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-08-17T20:21:48Z","R",1.3
-"Roche","rtables","Roche/rtables","Reporting tables with R","2021-08-19T00:04:36Z","R",5.7
+"Roche","rtables","Roche/rtables","Reporting tables with R","2021-08-25T20:42:02Z","R",5.7
 "Roche","synthetic.cdisc.data","Roche/synthetic.cdisc.data",NA,"2021-08-06T22:46:41Z","R",0.2
 "UCL","RefbasedMI","UCL/RefbasedMI","Multiple imputation sensitivity analysis for longitudinal trials ","2021-08-04T11:48:55Z","R",9.3
