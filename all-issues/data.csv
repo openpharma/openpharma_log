@@ -19394,7 +19394,7 @@ Right now I am only seeing the issue with percentages generated in `group_count(
 
 Thanks so much!
 Robert","Robert-Krajcik",27,0
-"Novartis/pisces","Annotate output matrices with salmon effective length","https://github.com/Novartis/pisces/issues/6","open",2021-01-13,2021-06-25,NA,1,"`DESeqDataSetFromTximport` requires both counts and effective length. While PISCES uses effective length internally for DESeq2, it does not write out the values for use in downstream analysis.","mdshw5",164,1
+"Novartis/pisces","Annotate output matrices with salmon effective length","https://github.com/Novartis/pisces/issues/6","closed",2021-01-13,2021-09-01,2021-09-01,1,"`DESeqDataSetFromTximport` requires both counts and effective length. While PISCES uses effective length internally for DESeq2, it does not write out the values for use in downstream analysis.","mdshw5",231,0
 "nlmixrdevelopment/nlmixr","nlmixr has been removed from the CRAN","https://github.com/nlmixrdevelopment/nlmixr/issues/466","closed",2021-01-13,2021-04-14,2021-04-14,4,"Dear Authors,
 
 I noticed the package has been removed from the CRAN.
@@ -20597,7 +20597,7 @@ Extend present grid implementation in ``src/grid.py`` to cover finer grids and u
 https://stackoverflow.com/questions/24263774/post-install-script-after-installing-a-wheel
 
 I need to move the code that installs salmon from setup.py to its own script. Maybe this can be run using the `pisces dependencies` command.","mdshw5",20,0
-"Novartis/pisces","Separate package installation from R/binary dependency management","https://github.com/Novartis/pisces/pull/12","closed",2021-03-04,2021-03-24,2021-03-24,0,"This is work to fix #11 ","mdshw5",20,0
+"Novartis/pisces","Separate package installation from R/binary dependency management","https://github.com/Novartis/pisces/pull/12","closed",2021-03-04,2021-09-01,2021-03-24,0,"This is work to fix #11 ","mdshw5",20,-161
 "openpharma/visR","Started writing tests for plot.R","https://github.com/openpharma/visR/pull/114","closed",2021-03-04,2021-03-04,2021-03-04,0,"","timtreis",0,0
 "Roche/rtables","add reset_indent_mod","https://github.com/Roche/rtables/issues/171","closed",2021-03-05,2021-05-07,2021-05-07,3,"Starting with this table: I specify the indentation at the ""Mean"" rows to align with the ""subgroup summary"" rows
 
@@ -24991,7 +24991,7 @@ Notice that the cells in the first row of `result` span two cells of other colum
 
 Then I would like to try joint PK-PD model which incorporating individual predicted PK parameters and observed PD events with time record, which is PK-categorical PD model. As far as I know the ensence of such approach is to redefine the likelihood function as those in NONMEM. However, I have no idea whether it could be resolved in nlmixr. If it is allowed, could you please tell me how to handle this?","diabloyg",4,0
 "openpharma/staged.dependencies","implemented recursive version of check_downstream","https://github.com/openpharma/staged.dependencies/pull/16","closed",2021-06-27,2021-08-12,2021-06-30,5,"","maximilianmordig",3,-43
-"atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-08-23,NA,1,"","statasaurus",65,9
+"atorus-research/metacore","Add a check to check all common variables are in all the datasets ","https://github.com/atorus-research/metacore/issues/1","open",2021-06-28,2021-08-23,NA,1,"","statasaurus",66,10
 "Merck/r2rtf","allow verbose argument in `rtf_encode`","https://github.com/Merck/r2rtf/pull/38","closed",2021-06-28,2021-07-02,2021-07-02,1,"","elong0527",4,0
 "Roche/ggtips","Move the ordering of plot data elsewhere","https://github.com/Roche/ggtips/pull/67","closed",2021-06-28,2021-06-28,2021-06-28,1,"","cosi1",0,0
 "openpharma/staged.dependencies","propose direct dependencies","https://github.com/openpharma/staged.dependencies/issues/17","closed",2021-06-28,2021-08-06,2021-08-06,9,"Add `update_dependencies` from the dependency graph (via `DESCRIPTION`) so that for every package we can list the complete distance 1 downstream & upstream packages. Please also add a distance to the dependency table","waddella",39,0
@@ -26171,7 +26171,7 @@ Potential discussion topics:
 - There are many features that can be added to the app, but among those, which one would be beneficial for current or even future features of `riskmetric`?
 - How to increase visibility of the app?
 
-@dgkf, @elong0527, @emilliman5 ","marlycormar",42,7
+@dgkf, @elong0527, @emilliman5 ","marlycormar",43,8
 "Roche/rtables","write a  print_formats that prints the cell formats instead the cell values","https://github.com/Roche/rtables/issues/220","open",2021-07-21,2021-07-21,NA,0,"also add `formats_only = FALSE` argument to `toString` method for `VTableTree`
  
 
@@ -26643,7 +26643,7 @@ based on the action step we already have
 
 Also update github action (optional downstream testing maybe based on command) from here https://github.com/openpharma/staged.dependencies/issues/55#issue-961788643
 
-Add check yamls consistent to action - see here #82 ","waddella",33,9
+Add check yamls consistent to action - see here #82 ","waddella",34,10
 "openpharma/staged.dependencies","investigate if you can build the dependency graph without the cloning the repos","https://github.com/openpharma/staged.dependencies/issues/35","open",2021-07-30,2021-08-05,NA,4,"You would use:
 
   - `gh` and the rest api (graphql) to get the available branches
@@ -26664,7 +26664,7 @@ Based on my testing it seems that lines 36-38 and 44-47 do what they're supposed
 Also, the function could be written in a more maintenance-friendly way, e.g. [line 38](https://github.com/openpharma/visR/blob/a8e790e29fc6f2448bc7daed955c6de63a2805cd/R/utils_visr.R#L54).","timtreis",16,10
 "openpharma/staged.dependencies","remove current repo in staged_dependencies.yaml if","https://github.com/openpharma/staged.dependencies/issues/36","closed",2021-07-30,2021-08-03,2021-08-03,3,"that remote information can be placed into the `DESCRIPTION` file or the remote of the current upstream","waddella",4,0
 "openpharma/staged.dependencies","shallow clone (caching)","https://github.com/openpharma/staged.dependencies/issues/34","closed",2021-07-30,2021-08-03,2021-08-03,1,"for automation, such that not all the packages are cached in each CI build","waddella",4,0
-"openpharma/staged.dependencies","testing strategy","https://github.com/openpharma/staged.dependencies/issues/33","open",2021-07-30,2021-08-26,NA,3,"@maximilianmordig please join the discussion","waddella",33,6
+"openpharma/staged.dependencies","testing strategy","https://github.com/openpharma/staged.dependencies/issues/33","open",2021-07-30,2021-08-26,NA,3,"@maximilianmordig please join the discussion","waddella",34,7
 "openpharma/visR","riskmetric badge links to the icon?","https://github.com/openpharma/visR/issues/248","open",2021-07-31,2021-07-31,NA,0,"#### Issue description
 
 On https://github.com/openpharma/visR, the `riskmetric` badge links to https://camo.githubusercontent.com/e3f32ab3f7f85cbaa9772eded025a12a25929ce352211677c732883ef163fe45/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7269736b6d65747269632d302e34332d677265656e, which opens the image itself in a new tab. Maybe it'd be nicer to link this to https://github.com/pharmaR/riskmetric?
@@ -26744,7 +26744,7 @@ so that you could call
 install_all(c(""github.com/abc"", ""github.com/xyz""))
 ```
 
-note this is related to #52 ","waddella",29,5
+note this is related to #52 ","waddella",30,6
 "openpharma/staged.dependencies","Make the example setup public ","https://github.com/openpharma/staged.dependencies/issues/47","closed",2021-08-03,2021-08-04,2021-08-04,1,".. in the readme file","waddella",1,0
 "openpharma/staged.dependencies","replace unlink with dir_delete","https://github.com/openpharma/staged.dependencies/pull/43","closed",2021-08-03,2021-08-03,2021-08-03,5,"Closes #38 (see https://github.com/openpharma/staged.dependencies/issues/38#issuecomment-891680364)
 
@@ -26813,7 +26813,7 @@ remotes::install_github(""openpharma/staged.dependencies"")
 "openpharma/staged.dependencies","Fix progress bar in addin","https://github.com/openpharma/staged.dependencies/issues/56","open",2021-08-05,2021-08-05,NA,0,NA,"nikolas-burkoff",10,10
 "openpharma/staged.dependencies","make sure that test downstream works","https://github.com/openpharma/staged.dependencies/issues/55","closed",2021-08-05,2021-08-13,2021-08-13,1,"and then update github action (optional downstream testing maybe based on command)","waddella",8,0
 "openpharma/staged.dependencies","staged.dependencies::install_deps() - lack of message to the user","https://github.com/openpharma/staged.dependencies/issues/53","open",2021-08-05,2021-08-05,NA,2,"We find out that `staged.dependencies::install_deps()` is quite time consuming although the problem is lack of interaction with the user. Especially as the are not action on the screen for a long time. There should be some message to the user like `cat(""Please wait, we preparing sth for you ... \n"")`.","Polkas",10,10
-"openpharma/staged.dependencies","test if nest environment can be installed on a base rocker/r-base container","https://github.com/openpharma/staged.dependencies/issues/54","open",2021-08-05,2021-08-26,NA,2,"depends on #49 ","waddella",27,6
+"openpharma/staged.dependencies","test if nest environment can be installed on a base rocker/r-base container","https://github.com/openpharma/staged.dependencies/issues/54","open",2021-08-05,2021-08-26,NA,2,"depends on #49 ","waddella",28,7
 "openpharma/visR","test license check","https://github.com/openpharma/visR/pull/251","open",2021-08-05,2021-08-05,NA,0,NA,"epijim",10,10
 "phuse-org/valtools","Add hex and cheat sheet flow","https://github.com/phuse-org/valtools/pull/180","closed",2021-08-06,2021-08-10,2021-08-10,7,"- Adding the hex sticker developed by @mayagans and the cheatsheet by @mariev
 - updating readme to show both","thebioengineer",4,0
@@ -27042,7 +27042,7 @@ Fixes the R CMD check badge.","dinakar29",3,0
 "phuse-org/aesummaries","filter by prevalence ","https://github.com/phuse-org/aesummaries/issues/8","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",10,10
 "phuse-org/aesummaries","sorting","https://github.com/phuse-org/aesummaries/issues/6","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",10,10
 "phuse-org/aesummaries","width of netlify page","https://github.com/phuse-org/aesummaries/issues/7","open",2021-08-16,2021-08-16,NA,0,NA,"MayaGans",10,10
-"Novartis/pisces","Add gene description to annotation matrix","https://github.com/Novartis/pisces/issues/18","open",2021-08-18,2021-08-18,NA,0,"From the GTF file we will need to capture the gene description annotation.","mdshw5",10,10
+"Novartis/pisces","Add gene description to annotation matrix","https://github.com/Novartis/pisces/issues/18","open",2021-08-18,2021-09-01,NA,1,"From the GTF file we will need to capture the gene description annotation.","mdshw5",15,1
 "Roche/rtables","add type=width argument to nchar function","https://github.com/Roche/rtables/issues/231","open",2021-08-18,2021-08-18,NA,1,"Issue originally reported by lil128 on Jul 24, 2020
 
 > this is not an issue, but a feature enhancement.
@@ -27062,9 +27062,9 @@ rtable(
 > you can see that the layout is not correct. though using nchar(type=""width"") does not always solve the issue(depending on the font you choose: these characters does not always occupy twice the width of the alphabets)
 
 ","anajens",9,9
-"Roche/rtables","Adding a function converting rtable to flextable","https://github.com/Roche/rtables/issues/228","open",2021-08-18,2021-08-18,NA,1,"Originally requested by wangj29
+"Roche/rtables","Adding a function converting rtable to flextable","https://github.com/Roche/rtables/issues/228","open",2021-08-18,2021-09-01,NA,2,"Originally requested by wangj29
 
-> In order to support auto writing into .pptx and .docx, we would like to have a coercion function within the rtables package that transform an rtable object to a flextable one.","anajens",10,10
+> In order to support auto writing into .pptx and .docx, we would like to have a coercion function within the rtables package that transform an rtable object to a flextable one.","anajens",15,1
 "phuse-org/valtools","Dynamic Referencing with Coverage","https://github.com/phuse-org/valtools/issues/187","open",2021-08-18,2021-08-18,NA,0,"If using Dynamic Referencing tags (##tc:my_id), scraping the coverage fails because the reference is not transformed before splitting of the roxygen tag occurs, causing splitting at the first `:`.
 
 ","thebioengineer",10,10
@@ -27225,7 +27225,7 @@ Proposal:
 - _upstream_ repos in package's dep tree
 - _downstream_ repos which have package in their dep tree
 - _c(upstream, downstream)_ union of upstream and downstream
-- _all_ all repos being co-developed","nikolas-burkoff",9,9
+- _all_ all repos being co-developed","nikolas-burkoff",10,10
 "Merck/r2rtf","How to show multiple lines in page header or footer?","https://github.com/Merck/r2rtf/issues/43","closed",2021-08-23,2021-08-25,2021-08-25,4,"Is there a way to add multiple lines of words (or a empty underline) with different alignments in the page header and footer?  Or is there a way to insert a table (with multiple lines or top/bottom border) in the page header or footer?","DawnYe",2,0
 "openpharma/staged.dependencies","Incorporate `update_with_direct_deps` into `roxygen`  and automation workflow ","https://github.com/openpharma/staged.dependencies/issues/82","open",2021-08-23,2021-08-23,NA,1,"i.e. 
 ```
@@ -27235,7 +27235,7 @@ Proposal:
 }
 ```
 - give a warning if `update_with_direct_deps` changes the yaml file (as it suggests another repo will need changing too)
-- add `check_yamls_consistent` into the github action #32 ","nikolas-burkoff",9,9
+- add `check_yamls_consistent` into the github action #32 ","nikolas-burkoff",10,10
 "openpharma/staged.dependencies","Major refactor","https://github.com/openpharma/staged.dependencies/pull/83","open",2021-08-23,2021-08-31,NA,19,"Note @dinakar29 **This PR changes some of the exported function interfaces so any github workflows relying on these need to be changed at the same time as this is merged**
 
 
@@ -27272,7 +27272,7 @@ check_downstream(x, verbose = 1, check_args = c(""--no-manual""))
 - A large number of tests have been added - there are open issues for further tests.
 
 - Bumped the version to 0.2 due to the scale of changes here
-","nikolas-burkoff",9,1
+","nikolas-burkoff",10,2
 "Merck/r2rtf","remove load_all","https://github.com/Merck/r2rtf/pull/46","closed",2021-08-23,2021-08-25,2021-08-25,1,NA,"elong0527",2,0
 "Merck/r2rtf","The Font size doesn't consistency between function default value and the Arguments description","https://github.com/Merck/r2rtf/issues/44","closed",2021-08-23,2021-08-23,2021-08-23,1,"Take an example: [rtf_page_header](https://merck.github.io/r2rtf/reference/rtf_page_header.html)
 
@@ -27367,7 +27367,7 @@ basic_table() %>%
 "atorus-research/xportr","Typo with CDISC","https://github.com/atorus-research/xportr/issues/4","closed",2021-08-23,2021-08-25,2021-08-25,1,"![image](https://user-images.githubusercontent.com/10111024/130472105-98f01f9f-dbfd-4d9a-92e1-4e473319dea7.png)
 ","bms63",2,0
 "atorus-research/xportr","Wordsmith","https://github.com/atorus-research/xportr/issues/5","open",2021-08-23,2021-08-25,NA,2,"![image](https://user-images.githubusercontent.com/10111024/130472280-f9cd0997-0012-4076-8837-742b3ea76d61.png)
-","bms63",9,7
+","bms63",10,8
 "phuse-org/valtools","add handler for test code headers","https://github.com/phuse-org/valtools/issues/191","open",2021-08-24,2021-08-26,NA,1,"add option to pass header values to markdown rendered from test code files via the test code name. include ability of user to pass a vector of headers when calling `vt_file`. 
 
 Example usage:
@@ -27382,7 +27382,7 @@ vt_file(path, dynamic_referencing) # headers are pulled from test_that ""desc"" 
 tc_files <- c(file1, file2, ...)
 # user-specified header overrides test code desc.
 vt_file(header = c(header1, header2, ...), tc_files, dynamic_referencing)
-```","mariev",8,6
+```","mariev",9,7
 "openpharma/staged.dependencies","added tests for branching strategy","https://github.com/openpharma/staged.dependencies/pull/84","closed",2021-08-24,2021-08-24,2021-08-24,1,NA,"maximilianmordig",0,0
 "phuse-org/valtools","Identifying validation lead","https://github.com/phuse-org/valtools/issues/190","open",2021-08-24,2021-08-24,NA,1,"https://github.com/phuse-org/valtools/blob/c11ad030b7265a0a312070b7b6838f45e072563f/inst/templates/validation_report.Rmd#L64
 
@@ -27411,9 +27411,9 @@ Error: Error during validation of package. Error:
 ** testing if installed package can be loaded from final location
 ** testing if installed package keeps a record of temporary installation path
 * DONE (example.package)
-```","thebioengineer",8,8
-"Roche/Global-HTA-Evidence-Open","No weights allowed in runPSM","https://github.com/Roche/Global-HTA-Evidence-Open/issues/4","open",2021-08-24,2021-08-24,NA,0,"runPSM function does not allow to implement weights in the regressions, which could be useful in the case of MAICs etc","javier-sanchez-alvarez-roche",8,8
-"pharmaR/riskmetric","riskmetric is archived on CRAN","https://github.com/pharmaR/riskmetric/issues/218","open",2021-08-24,2021-08-31,NA,2,"I wanted to look at the package but I found it is no longer on [CRAN](https://cran.r-project.org/package=riskmetric):
+```","thebioengineer",9,9
+"Roche/Global-HTA-Evidence-Open","No weights allowed in runPSM","https://github.com/Roche/Global-HTA-Evidence-Open/issues/4","open",2021-08-24,2021-08-24,NA,0,"runPSM function does not allow to implement weights in the regressions, which could be useful in the case of MAICs etc","javier-sanchez-alvarez-roche",9,9
+"pharmaR/riskmetric","riskmetric is archived on CRAN","https://github.com/pharmaR/riskmetric/issues/218","open",2021-08-24,2021-09-01,NA,2,"I wanted to look at the package but I found it is no longer on [CRAN](https://cran.r-project.org/package=riskmetric):
 
 > Package ‘riskmetric’ was removed from the CRAN repository.
 > 
@@ -27463,7 +27463,7 @@ The only check I found failing is on r-devel-fedora-gcc (copying it here as I do
 </details>
 
 Not sure if you were aware, but is there a plan to submit the package to CRAN again?
-Edit: I just realize that there was a [recent release](https://github.com/pharmaR/riskmetric/pull/217) on 2021-07-29, which doesn't seem to have fixed all the errors. ","llrs",8,1
+Edit: I just realize that there was a [recent release](https://github.com/pharmaR/riskmetric/pull/217) on 2021-07-29, which doesn't seem to have fixed all the errors. ","llrs",9,1
 "Merck/r2rtf","Vectorize text formatting arguments in rtf_page_header and rtf_page_footer ","https://github.com/Merck/r2rtf/issues/47","open",2021-08-24,2021-08-24,NA,0,"The current function did not recognize vectorized formatting argument. 
 
 
@@ -27471,7 +27471,7 @@ Edit: I just realize that there was a [recent release](https://github.com/pharma
 tbl <- head(iris) %>% 
     rtf_page_header(c(""text1"", ""text2""), text_justification = c(""r"", ""l"")) %>% 
     rtf_body() %>% rtf_encode() %>% write_rtf(""tmp.rtf"")
-```","elong0527",8,8
+```","elong0527",9,9
 "openpharma/staged.dependencies","Pass R CMD CHECK (into refactor branch)","https://github.com/openpharma/staged.dependencies/pull/85","closed",2021-08-25,2021-08-26,2021-08-26,1,"Including:
 - Update roxygen
 - Move storage_dir into options
@@ -27482,12 +27482,12 @@ tbl <- head(iris) %>%
 "Merck/r2rtf","Styler","https://github.com/Merck/r2rtf/pull/48","closed",2021-08-25,2021-08-26,2021-08-26,0,NA,"elong0527",1,0
 "openpharma/staged.dependencies","Add end to end test into staged.deps github action","https://github.com/openpharma/staged.dependencies/issues/87","open",2021-08-26,2021-08-26,NA,0,"Add code into the github action to run some integration tests for example checking out the stageddeps.X packages and running install_deps, build, check etc. on them.
 
-From #33 ","nikolas-burkoff",6,6
+From #33 ","nikolas-burkoff",7,7
 "openpharma/staged.dependencies","Add tests for invalid input arguments for main exported functions","https://github.com/openpharma/staged.dependencies/issues/89","open",2021-08-26,2021-08-26,NA,0,"Especially `dependency_table`:
 
 This logic here should be tested
 ![image](https://user-images.githubusercontent.com/15201933/130954313-f930ac63-d370-438a-b479-8ebb57f4f636.png)
-","nikolas-burkoff",6,6
+","nikolas-burkoff",7,7
 "openpharma/staged.dependencies","Allow dependency_table to work with remote projects (into refactor branch)","https://github.com/openpharma/staged.dependencies/pull/88","closed",2021-08-26,2021-08-27,2021-08-27,3,"For #54
 
 So these should work now:
@@ -27534,7 +27534,7 @@ install_deps(x, install_direction = c(""upstream"", downstream""), verbose = 1)
 - `install_deps` we have `dry_install` but in `check_downstream` we have `dry_install_and_check` which do the same thing
 - `install_deps` we have `dependency_packages`, in `check_downstream` it's `downstream_packages` and in `build_check_install` it's `packages_to_process` which all do the same thing
 
-Furthermore we may want to rename `feature` to `branch` and in only some cases `project` or `repo` to `package`","nikolas-burkoff",6,6
+Furthermore we may want to rename `feature` to `branch` and in only some cases `project` or `repo` to `package`","nikolas-burkoff",7,7
 "Roche/rtables","Feature branch work ready for merg into main","https://github.com/Roche/rtables/pull/237","closed",2021-08-27,2021-08-27,2021-08-27,1,NA,"gmbecker",0,0
 "phuse-org/valtools","treat source data for risk table and coverage matrix as a single data set","https://github.com/phuse-org/valtools/issues/193","open",2021-08-27,2021-08-27,NA,0,"risk table pulls from requirements while coverage matrix pulls from test case files without checking other source.
 
@@ -27546,11 +27546,11 @@ Use req ids (either explicit or dyn. num.) to link these data for completeness a
 2.  same requirement names for both tables
 
 
-","mariev",5,5
+","mariev",6,6
 "openpharma/staged.dependencies","Try producing JUnit XML report","https://github.com/openpharma/staged.dependencies/pull/91","closed",2021-08-27,2021-08-31,2021-08-31,3,"- Add contexts to tests
 - Produce JUnit XML report
 - Attempt to upload the result to GH Actions","dinakar29",4,0
-"openpharma/staged.dependencies","Write package vignette","https://github.com/openpharma/staged.dependencies/issues/90","open",2021-08-27,2021-08-27,NA,0,"The README provides a quick start guide but do we need more details somewhere?","nikolas-burkoff",5,5
+"openpharma/staged.dependencies","Write package vignette","https://github.com/openpharma/staged.dependencies/issues/90","open",2021-08-27,2021-08-27,NA,0,"The README provides a quick start guide but do we need more details somewhere?","nikolas-burkoff",6,6
 "nlmixrdevelopment/nlmixr","Error with nlmixr 2.0.5 - compiled against different version of RxODE","https://github.com/nlmixrdevelopment/nlmixr/issues/555","closed",2021-08-28,2021-08-28,2021-08-28,3,"Hi, nlmixr team,
 
 I try to use the latest version - **nlmixr 2.0.5** - but it has an error with **RxODE 1.1.1**.
@@ -27575,7 +27575,7 @@ Problem observed:
 `file staged_dependencies.yaml does not exist in project folder: not restoring anything` 
 
 Expected behavior:
-`staged.dependencies` should navigate internally to the root of the R package directory and correctly find the yaml file.","danielinteractive",1,1
+`staged.dependencies` should navigate internally to the root of the R package directory and correctly find the yaml file.","danielinteractive",2,2
 "Roche/rtables","Minor typo in help page for build_table function","https://github.com/Roche/rtables/issues/238","closed",2021-08-31,2021-08-31,2021-08-31,1,"Hi @gmbecker 
 
 Just wanted to report a minor typo in the `Description` section of the help for `build_table` function.
@@ -27593,4 +27593,23 @@ Wojtek
 
 This closes #7. I couldn't find any tables that use {gt} so I literally just removed the library call to gt? 
 
-","MayaGans",1,1
+","MayaGans",2,2
+"Novartis/pisces","Bring in recent changes and bug fixes before a new release","https://github.com/Novartis/pisces/pull/20","closed",2021-09-01,2021-09-01,2021-09-01,0,NA,"mdshw5",0,0
+"pharmaR/riskmetric","Dev/cohort","https://github.com/pharmaR/riskmetric/pull/221","open",2021-09-01,2021-09-01,NA,0,"This the start of a cohort-level analysis of risk. This is a very rough draft, but I am hoping it will seed a number of discussions on how we implement a cohort class, how we dispatch methods to it, what a cohort metric is and is not.
+
+To do: 
+1. More robust cohort_ref constructors
+  1. should be able to handle different types of libraries (installed, remote, etc)
+  2. should make assessment of the cohort against the library easy to implement (right now it is a bit convoluted and ugly)
+  3. Maybe add a meta/aggregate ref slot for the library
+2. Better defintions of what goes into the `ref` object vs `assessment` object
+3. A more formal cohort assessment class structure; currently just using a list
+4. methods to handle the case where library is `NULL` to do a cohort comparison against itself.
+
+","emilliman5",1,1
+"pharmaR/riskmetric","Dev/namespace metrics","https://github.com/pharmaR/riskmetric/pull/220","open",2021-09-01,2021-09-01,NA,0,"A new integration-based assessment and metric based on the number of function/objects a package exports (more namespace exports increases the risk of ns conflicts). Also a building block for an upcoming cohort based assessment/metric for namespace conflicts.","emilliman5",1,1
+"pharmaR/riskmetric","Dev/reverse dependencies metric","https://github.com/pharmaR/riskmetric/pull/219","open",2021-09-01,2021-09-01,NA,0,"A new community engagement assessment for pkg_refs based on how many packages depend on it. Also a building block for an upcoming cohort-based assessment and metric","emilliman5",1,1
+"Novartis/pisces","Fix the default ""auto"" sample naming","https://github.com/Novartis/pisces/issues/19","open",2021-09-01,2021-09-01,NA,1,"For `pisces run`, if no `--name` is passed then pisces tries to figure out something to call the sample using only a common substring from the fastq file names. Sometimes this fails if the file names share nothing in common.
+
+https://github.com/Novartis/pisces/blob/ba9a89cb0bb4f636e1a9a4918b6585fbf6ab3786/pisces/run.py#L62-L72","mdshw5",1,1
+"AstraZeneca/kallisto","Updates maturity level badge to new standard","https://github.com/AstraZeneca/kallisto/pull/38","open",2021-09-01,2021-09-01,NA,1,"Updates the badge to a new AZ standard nomenclature.","stefanoborini",1,1
