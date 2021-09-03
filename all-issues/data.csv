@@ -19394,7 +19394,7 @@ Right now I am only seeing the issue with percentages generated in `group_count(
 
 Thanks so much!
 Robert","Robert-Krajcik",27,0
-"Novartis/pisces","Annotate output matrices with salmon effective length","https://github.com/Novartis/pisces/issues/6","closed",2021-01-13,2021-09-01,2021-09-01,1,"`DESeqDataSetFromTximport` requires both counts and effective length. While PISCES uses effective length internally for DESeq2, it does not write out the values for use in downstream analysis.","mdshw5",231,0
+"Novartis/pisces","Annotate output matrices with salmon effective length","https://github.com/Novartis/pisces/issues/6","open",2021-01-13,2021-09-02,NA,2,"`DESeqDataSetFromTximport` requires both counts and effective length. While PISCES uses effective length internally for DESeq2, it does not write out the values for use in downstream analysis.","mdshw5",233,1
 "nlmixrdevelopment/nlmixr","nlmixr has been removed from the CRAN","https://github.com/nlmixrdevelopment/nlmixr/issues/466","closed",2021-01-13,2021-04-14,2021-04-14,4,"Dear Authors,
 
 I noticed the package has been removed from the CRAN.
@@ -21991,6 +21991,9 @@ HKK  ","harishkaushikbugworks",5,0
 "openpharma/visR","Test/get cox","https://github.com/openpharma/visR/pull/157","closed",2021-04-21,2021-04-21,2021-04-21,0,"","SHAESEN2",0,0
 "openpharma/visR","Test/tidyme","https://github.com/openpharma/visR/pull/159","closed",2021-04-21,2021-04-29,2021-04-29,0,"","SHAESEN2",8,0
 "openpharma/visR","Update to get bugfixes","https://github.com/openpharma/visR/pull/158","closed",2021-04-21,2021-04-21,2021-04-21,0,"","SHAESEN2",0,0
+"phuse-org/valtools","add citation info","https://github.com/phuse-org/valtools/issues/102","open",2021-04-22,2021-09-02,NA,0,"Need to add CITATION to inst/ via `usethis::use_citation()`
+
+","mariev",134,1
 "Merck/pkglite","Add vignette on curating file collections","https://github.com/Merck/pkglite/issues/12","closed",2021-04-22,2021-04-29,2021-04-29,1,"Document the approaches to merge, prune, and sanitize file collections.","nanxstats",7,0
 "Roche/rtables","subsetting rows on a built table with top left annotation removes top left annotation","https://github.com/Roche/rtables/issues/182","closed",2021-04-22,2021-04-22,2021-04-22,3,"Example:
 
@@ -23066,6 +23069,7 @@ changed files so object class = x and ensure that ... was present in function ca
 "openpharma/visR","Added skip_on_cran() to add_CI tests.","https://github.com/openpharma/visR/pull/174","closed",2021-05-10,2021-05-10,2021-05-10,0,"","timtreis",0,0
 "openpharma/visR","Removed all svgs. Regenerate, once visR is in final state","https://github.com/openpharma/visR/pull/175","closed",2021-05-10,2021-05-31,2021-05-10,0,"","timtreis",0,-21
 "openpharma/visR","Updated man page","https://github.com/openpharma/visR/pull/176","closed",2021-05-10,2021-05-31,2021-05-10,0,"","timtreis",0,-21
+"phuse-org/valtools","Vignettes for different modes of Validation","https://github.com/phuse-org/valtools/issues/137","open",2021-05-10,2021-09-02,NA,0,"We've identified multiple modes of validation. It would be worthwhile to have a vignette detail each mode.","thebioengineer",116,1
 "Roche/rtables","Warning message when using `insert_rrow`","https://github.com/Roche/rtables/issues/199","closed",2021-05-10,2021-05-11,2021-05-11,3,"There is a new warning message when using `insert_rrow` : 
 
 ```r
@@ -23444,6 +23448,11 @@ However that is not the outcome. Am I using this change model syntax is incorrec
 * rename plot.R to plot_visr.R
 * tidy up documentation","bailliem",10,0
 "Merck/pkglite","Submit to CRAN Task View","https://github.com/Merck/pkglite/issues/14","open",2021-05-11,2021-05-11,NA,0,"https://cran.r-project.org/web/views/ReproducibleResearch.html","nanxstats",43,43
+"phuse-org/valtools","add documentation re: where to put {valtools} in DESCRIPTION","https://github.com/phuse-org/valtools/issues/143","closed",2021-05-12,2021-09-02,2021-09-02,5,"Although we are using {valtools} primarily in the validation report the package needs to be added to the import field due to use of roxygen2 + dynamic labels, when part of package dev. 
+
+Routine use of packages for vignettes only are added to the suggests field which will cause devtools::check.
+
+Makes sense if ppl are aware of the extensibility {roxygen2} --> {valtools}, but may be a new bit of knowledge for ppl not digging in so far.","mariev",113,0
 "Novartis/peax","Bump postcss from 7.0.26 to 8.2.10 in /ui","https://github.com/Novartis/peax/pull/16","closed",2021-05-12,2021-06-15,2021-06-15,1,"Bumps [postcss](https://github.com/postcss/postcss) from 7.0.26 to 8.2.10.
 <details>
 <summary>Release notes</summary>
@@ -23717,12 +23726,24 @@ W.","ghost",99,0
 "Merck/r2rtf","content review","https://github.com/Merck/r2rtf/pull/24","closed",2021-05-13,2021-08-26,2021-08-26,3,"","elong0527",105,0
 "openpharma/visR","update","https://github.com/openpharma/visR/pull/179","closed",2021-05-13,2021-05-13,2021-05-13,0,"","SHAESEN2",0,0
 "openpharma/visR","Test/add annotation","https://github.com/openpharma/visR/pull/180","closed",2021-05-14,2021-05-22,2021-05-22,1,"","SHAESEN2",8,0
+"phuse-org/valtools","dynamic referencing and NA values","https://github.com/phuse-org/valtools/issues/153","open",2021-05-15,2021-09-02,NA,0,"if NA values exist in input, dynamic reference will throw error
+
+```
+> dyn_ref1 <- vt_dynamic_referencer$new()
+> dyn_ref1$scrape_references(mtcars)
+> mtcars[1,1] <- NA
+> dyn_ref2 <- vt_dynamic_referencer$new()
+> dyn_ref2$scrape_references(mtcars)
+Error in if (reference_location[[1]] != -1) { : 
+  missing value where TRUE/FALSE needed
+```","mariev",111,1
 "Merck/r2rtf","Submit to CRAN Task View","https://github.com/Merck/r2rtf/issues/26","closed",2021-05-16,2021-07-13,2021-07-13,0,"https://cran.r-project.org/web/views/ReproducibleResearch.html
 
 https://github.com/jdblischak/reproducible-research-ctv/issues/28","elong0527",58,0
 "Roche/respectables","Add some examples to documentation","https://github.com/Roche/respectables/pull/12","closed",2021-05-18,2021-05-28,2021-05-28,0,"closes #6 
 
 @gmbecker I have added a few examples to the `table_recipe_utils.R` documentation using `roxygen2`, please take a look - thanks!","edelarua",10,0
+"phuse-org/valtools","vt_use_* can overwrite files in some cases","https://github.com/phuse-org/valtools/issues/156","open",2021-05-18,2021-09-02,NA,0,"We don't have ""abort"" sequences to just open files that already exist, they overwrite them!","thebioengineer",108,1
 "Roche/respectables","complete readme","https://github.com/Roche/respectables/issues/13","open",2021-05-19,2021-05-19,NA,0,"","waddella",35,35
 "Roche/ggtips","fix tooltip error when data is empty list","https://github.com/Roche/ggtips/pull/62","closed",2021-05-19,2021-05-19,2021-05-19,1,"It seems that on barplot, that we have in our application, the data is an empty list not null. It throws errors when it finds small rectangles from small bars on the plot.","jcubic",0,0
 "Roche/respectables","gh-pages branch with the docs only","https://github.com/Roche/respectables/issues/14","closed",2021-05-19,2021-05-28,2021-05-28,0,"- [ ] create a branch `gh-pages`, delete the R package
@@ -25775,8 +25796,8 @@ as part of installing up-& down-stream internal dependencies (please make this c
 
 also propagate the arguments to `remotes::install_deps` so that the `staged.dependency` function can control the upgrading strategy","waddella",22,0
 "Roche/rtables","186 export table as pdf","https://github.com/Roche/rtables/pull/217","open",2021-07-16,2021-07-16,NA,2,"@gmbecker lets discuss the `export_as_pdf` and `export_as_txt` in our next meeting. We also need to address the page i of n part if we paginate. Please have a look and let me know what you think so far of the two export functions.","waddella",2,2
-"phuse-org/valtools","cheatsheet p2","https://github.com/phuse-org/valtools/issues/178","open",2021-07-16,2021-07-16,NA,0,"- add mapping from {valtools} to functions in the wild
-- add summary of workflows for different validation modes","mariev",2,2
+"phuse-org/valtools","cheatsheet p2","https://github.com/phuse-org/valtools/issues/178","open",2021-07-16,2021-09-02,NA,0,"- add mapping from {valtools} to functions in the wild
+- add summary of workflows for different validation modes","mariev",49,1
 "Roche/respectables","Data generation with a recipe with one variable returns a vector","https://github.com/Roche/respectables/issues/32","open",2021-07-16,2021-07-16,NA,0,"@gmbecker I have noticed that if you only specify one variable, a vector instead of a data frame gets returned. Is this intended?
 
 Here is a simple reproducible example:
@@ -26171,7 +26192,7 @@ Potential discussion topics:
 - There are many features that can be added to the app, but among those, which one would be beneficial for current or even future features of `riskmetric`?
 - How to increase visibility of the app?
 
-@dgkf, @elong0527, @emilliman5 ","marlycormar",43,8
+@dgkf, @elong0527, @emilliman5 ","marlycormar",44,9
 "Roche/rtables","write a  print_formats that prints the cell formats instead the cell values","https://github.com/Roche/rtables/issues/220","open",2021-07-21,2021-07-21,NA,0,"also add `formats_only = FALSE` argument to `toString` method for `VTableTree`
  
 
@@ -26664,7 +26685,7 @@ Based on my testing it seems that lines 36-38 and 44-47 do what they're supposed
 Also, the function could be written in a more maintenance-friendly way, e.g. [line 38](https://github.com/openpharma/visR/blob/a8e790e29fc6f2448bc7daed955c6de63a2805cd/R/utils_visr.R#L54).","timtreis",16,10
 "openpharma/staged.dependencies","remove current repo in staged_dependencies.yaml if","https://github.com/openpharma/staged.dependencies/issues/36","closed",2021-07-30,2021-08-03,2021-08-03,3,"that remote information can be placed into the `DESCRIPTION` file or the remote of the current upstream","waddella",4,0
 "openpharma/staged.dependencies","shallow clone (caching)","https://github.com/openpharma/staged.dependencies/issues/34","closed",2021-07-30,2021-08-03,2021-08-03,1,"for automation, such that not all the packages are cached in each CI build","waddella",4,0
-"openpharma/staged.dependencies","testing strategy","https://github.com/openpharma/staged.dependencies/issues/33","open",2021-07-30,2021-08-26,NA,3,"@maximilianmordig please join the discussion","waddella",34,7
+"openpharma/staged.dependencies","testing strategy","https://github.com/openpharma/staged.dependencies/issues/33","open",2021-07-30,2021-08-26,NA,3,"@maximilianmordig please join the discussion","waddella",35,8
 "openpharma/visR","riskmetric badge links to the icon?","https://github.com/openpharma/visR/issues/248","open",2021-07-31,2021-07-31,NA,0,"#### Issue description
 
 On https://github.com/openpharma/visR, the `riskmetric` badge links to https://camo.githubusercontent.com/e3f32ab3f7f85cbaa9772eded025a12a25929ce352211677c732883ef163fe45/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7269736b6d65747269632d302e34332d677265656e, which opens the image itself in a new tab. Maybe it'd be nicer to link this to https://github.com/pharmaR/riskmetric?
@@ -26744,7 +26765,7 @@ so that you could call
 install_all(c(""github.com/abc"", ""github.com/xyz""))
 ```
 
-note this is related to #52 ","waddella",30,6
+note this is related to #52 ","waddella",31,7
 "openpharma/staged.dependencies","Make the example setup public ","https://github.com/openpharma/staged.dependencies/issues/47","closed",2021-08-03,2021-08-04,2021-08-04,1,".. in the readme file","waddella",1,0
 "openpharma/staged.dependencies","replace unlink with dir_delete","https://github.com/openpharma/staged.dependencies/pull/43","closed",2021-08-03,2021-08-03,2021-08-03,5,"Closes #38 (see https://github.com/openpharma/staged.dependencies/issues/38#issuecomment-891680364)
 
@@ -26769,7 +26790,7 @@ rtables::var_labels(data.frame()) # throws an error
 I've tried to make smallest number of changes to code base.
 
 Still some tidying up etc. to do","nikolas-burkoff",2,-6
-"phuse-org/valtools","add test case for bibtex reference","https://github.com/phuse-org/valtools/issues/179","open",2021-08-04,2021-08-04,NA,0,"show that LaTeX bibliography functions with validation templates, when .bib file is in designated location","mariev",10,10
+"phuse-org/valtools","add test case for bibtex reference","https://github.com/phuse-org/valtools/issues/179","open",2021-08-04,2021-09-02,NA,0,"show that LaTeX bibliography functions with validation templates, when .bib file is in designated location","mariev",30,1
 "openpharma/staged.dependencies","create a function to test all packages","https://github.com/openpharma/staged.dependencies/issues/52","closed",2021-08-04,2021-08-13,2021-08-13,1,"We would like to create a CI pipeline that installs and tests all packages  in the staged dependencies and run a matrix test over different environments.
 
 Please create a `test_all(entrypoints = ""<github_repo>"", branch = ""main"")` (or similar named) function that runs:
@@ -26813,7 +26834,7 @@ remotes::install_github(""openpharma/staged.dependencies"")
 "openpharma/staged.dependencies","Fix progress bar in addin","https://github.com/openpharma/staged.dependencies/issues/56","open",2021-08-05,2021-08-05,NA,0,NA,"nikolas-burkoff",10,10
 "openpharma/staged.dependencies","make sure that test downstream works","https://github.com/openpharma/staged.dependencies/issues/55","closed",2021-08-05,2021-08-13,2021-08-13,1,"and then update github action (optional downstream testing maybe based on command)","waddella",8,0
 "openpharma/staged.dependencies","staged.dependencies::install_deps() - lack of message to the user","https://github.com/openpharma/staged.dependencies/issues/53","open",2021-08-05,2021-08-05,NA,2,"We find out that `staged.dependencies::install_deps()` is quite time consuming although the problem is lack of interaction with the user. Especially as the are not action on the screen for a long time. There should be some message to the user like `cat(""Please wait, we preparing sth for you ... \n"")`.","Polkas",10,10
-"openpharma/staged.dependencies","test if nest environment can be installed on a base rocker/r-base container","https://github.com/openpharma/staged.dependencies/issues/54","open",2021-08-05,2021-08-26,NA,2,"depends on #49 ","waddella",28,7
+"openpharma/staged.dependencies","test if nest environment can be installed on a base rocker/r-base container","https://github.com/openpharma/staged.dependencies/issues/54","open",2021-08-05,2021-08-26,NA,2,"depends on #49 ","waddella",29,8
 "openpharma/visR","test license check","https://github.com/openpharma/visR/pull/251","open",2021-08-05,2021-08-05,NA,0,NA,"epijim",10,10
 "phuse-org/valtools","Add hex and cheat sheet flow","https://github.com/phuse-org/valtools/pull/180","closed",2021-08-06,2021-08-10,2021-08-10,7,"- Adding the hex sticker developed by @mayagans and the cheatsheet by @mariev
 - updating readme to show both","thebioengineer",4,0
@@ -27009,7 +27030,7 @@ To solve the more general case is a lot more work and has been postponed to http
 
 Closes issue #60 ","maximilianmordig",1,0
 "Roche/ggtips","Migrate to GH Actions","https://github.com/Roche/ggtips/pull/75","closed",2021-08-11,2021-08-11,2021-08-11,0,NA,"cosi1",0,0
-"phuse-org/valtools","open as opposed to overwrite","https://github.com/phuse-org/valtools/issues/183","open",2021-08-11,2021-08-11,NA,0,"create_item will automatically overwrite a file - we should add a check for it to see if a file exists before calling file.create. If the file exists, just return the path (what the function does already) and do not call file.create.","thebioengineer",10,10
+"phuse-org/valtools","open as opposed to overwrite","https://github.com/phuse-org/valtools/issues/183","closed",2021-08-11,2021-09-02,2021-09-02,1,"create_item will automatically overwrite a file - we should add a check for it to see if a file exists before calling file.create. If the file exists, just return the path (what the function does already) and do not call file.create.","thebioengineer",22,0
 "phuse-org/valtools","suppress dialog box","https://github.com/phuse-org/valtools/issues/184","closed",2021-08-11,2021-08-13,2021-08-13,1,"when running `vt_validate_report`  an R gui dialog box prompting package download/update may pop up. Although this closes automatically during course of report generation, it is distracting and gives the (incorrect) impression that the user's environment is being modified. 
 
 Recommended action is to suppress the visibility of the dialog.","mariev",2,0
@@ -27042,7 +27063,7 @@ Fixes the R CMD check badge.","dinakar29",3,0
 "phuse-org/aesummaries","filter by prevalence ","https://github.com/phuse-org/aesummaries/issues/8","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",10,10
 "phuse-org/aesummaries","sorting","https://github.com/phuse-org/aesummaries/issues/6","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",10,10
 "phuse-org/aesummaries","width of netlify page","https://github.com/phuse-org/aesummaries/issues/7","open",2021-08-16,2021-08-16,NA,0,NA,"MayaGans",10,10
-"Novartis/pisces","Add gene description to annotation matrix","https://github.com/Novartis/pisces/issues/18","open",2021-08-18,2021-09-01,NA,1,"From the GTF file we will need to capture the gene description annotation.","mdshw5",15,1
+"Novartis/pisces","Add gene description to annotation matrix","https://github.com/Novartis/pisces/issues/18","open",2021-08-18,2021-09-01,NA,1,"From the GTF file we will need to capture the gene description annotation.","mdshw5",16,2
 "Roche/rtables","add type=width argument to nchar function","https://github.com/Roche/rtables/issues/231","open",2021-08-18,2021-08-18,NA,1,"Issue originally reported by lil128 on Jul 24, 2020
 
 > this is not an issue, but a feature enhancement.
@@ -27064,7 +27085,7 @@ rtable(
 ","anajens",9,9
 "Roche/rtables","Adding a function converting rtable to flextable","https://github.com/Roche/rtables/issues/228","open",2021-08-18,2021-09-01,NA,2,"Originally requested by wangj29
 
-> In order to support auto writing into .pptx and .docx, we would like to have a coercion function within the rtables package that transform an rtable object to a flextable one.","anajens",15,1
+> In order to support auto writing into .pptx and .docx, we would like to have a coercion function within the rtables package that transform an rtable object to a flextable one.","anajens",16,2
 "phuse-org/valtools","Dynamic Referencing with Coverage","https://github.com/phuse-org/valtools/issues/187","open",2021-08-18,2021-08-18,NA,0,"If using Dynamic Referencing tags (##tc:my_id), scraping the coverage fails because the reference is not transformed before splitting of the roxygen tag occurs, causing splitting at the first `:`.
 
 ","thebioengineer",10,10
@@ -27272,7 +27293,7 @@ check_downstream(x, verbose = 1, check_args = c(""--no-manual""))
 - A large number of tests have been added - there are open issues for further tests.
 
 - Bumped the version to 0.2 due to the scale of changes here
-","nikolas-burkoff",10,2
+","nikolas-burkoff",11,3
 "Merck/r2rtf","remove load_all","https://github.com/Merck/r2rtf/pull/46","closed",2021-08-23,2021-08-25,2021-08-25,1,NA,"elong0527",2,0
 "Merck/r2rtf","The Font size doesn't consistency between function default value and the Arguments description","https://github.com/Merck/r2rtf/issues/44","closed",2021-08-23,2021-08-23,2021-08-23,1,"Take an example: [rtf_page_header](https://merck.github.io/r2rtf/reference/rtf_page_header.html)
 
@@ -27367,7 +27388,7 @@ basic_table() %>%
 "atorus-research/xportr","Typo with CDISC","https://github.com/atorus-research/xportr/issues/4","closed",2021-08-23,2021-08-25,2021-08-25,1,"![image](https://user-images.githubusercontent.com/10111024/130472105-98f01f9f-dbfd-4d9a-92e1-4e473319dea7.png)
 ","bms63",2,0
 "atorus-research/xportr","Wordsmith","https://github.com/atorus-research/xportr/issues/5","open",2021-08-23,2021-08-25,NA,2,"![image](https://user-images.githubusercontent.com/10111024/130472280-f9cd0997-0012-4076-8837-742b3ea76d61.png)
-","bms63",10,8
+","bms63",11,9
 "phuse-org/valtools","add handler for test code headers","https://github.com/phuse-org/valtools/issues/191","open",2021-08-24,2021-08-26,NA,1,"add option to pass header values to markdown rendered from test code files via the test code name. include ability of user to pass a vector of headers when calling `vt_file`. 
 
 Example usage:
@@ -27382,9 +27403,9 @@ vt_file(path, dynamic_referencing) # headers are pulled from test_that ""desc"" 
 tc_files <- c(file1, file2, ...)
 # user-specified header overrides test code desc.
 vt_file(header = c(header1, header2, ...), tc_files, dynamic_referencing)
-```","mariev",9,7
+```","mariev",10,8
 "openpharma/staged.dependencies","added tests for branching strategy","https://github.com/openpharma/staged.dependencies/pull/84","closed",2021-08-24,2021-08-24,2021-08-24,1,NA,"maximilianmordig",0,0
-"phuse-org/valtools","Identifying validation lead","https://github.com/phuse-org/valtools/issues/190","open",2021-08-24,2021-08-24,NA,1,"https://github.com/phuse-org/valtools/blob/c11ad030b7265a0a312070b7b6838f45e072563f/inst/templates/validation_report.Rmd#L64
+"phuse-org/valtools","Identifying validation lead","https://github.com/phuse-org/valtools/issues/190","open",2021-08-24,2021-09-02,NA,1,"https://github.com/phuse-org/valtools/blob/c11ad030b7265a0a312070b7b6838f45e072563f/inst/templates/validation_report.Rmd#L64
 
 This line assumes that whomever the validation lead is, will not have any other roles. I suggest we replace the default with a grepl to allow for more flexibility. 
 
@@ -27411,8 +27432,8 @@ Error: Error during validation of package. Error:
 ** testing if installed package can be loaded from final location
 ** testing if installed package keeps a record of temporary installation path
 * DONE (example.package)
-```","thebioengineer",9,9
-"Roche/Global-HTA-Evidence-Open","No weights allowed in runPSM","https://github.com/Roche/Global-HTA-Evidence-Open/issues/4","open",2021-08-24,2021-08-24,NA,0,"runPSM function does not allow to implement weights in the regressions, which could be useful in the case of MAICs etc","javier-sanchez-alvarez-roche",9,9
+```","thebioengineer",10,1
+"Roche/Global-HTA-Evidence-Open","No weights allowed in runPSM","https://github.com/Roche/Global-HTA-Evidence-Open/issues/4","open",2021-08-24,2021-08-24,NA,0,"runPSM function does not allow to implement weights in the regressions, which could be useful in the case of MAICs etc","javier-sanchez-alvarez-roche",10,10
 "pharmaR/riskmetric","riskmetric is archived on CRAN","https://github.com/pharmaR/riskmetric/issues/218","open",2021-08-24,2021-09-01,NA,2,"I wanted to look at the package but I found it is no longer on [CRAN](https://cran.r-project.org/package=riskmetric):
 
 > Package ‘riskmetric’ was removed from the CRAN repository.
@@ -27463,7 +27484,7 @@ The only check I found failing is on r-devel-fedora-gcc (copying it here as I do
 </details>
 
 Not sure if you were aware, but is there a plan to submit the package to CRAN again?
-Edit: I just realize that there was a [recent release](https://github.com/pharmaR/riskmetric/pull/217) on 2021-07-29, which doesn't seem to have fixed all the errors. ","llrs",9,1
+Edit: I just realize that there was a [recent release](https://github.com/pharmaR/riskmetric/pull/217) on 2021-07-29, which doesn't seem to have fixed all the errors. ","llrs",10,2
 "Merck/r2rtf","Vectorize text formatting arguments in rtf_page_header and rtf_page_footer ","https://github.com/Merck/r2rtf/issues/47","open",2021-08-24,2021-08-24,NA,0,"The current function did not recognize vectorized formatting argument. 
 
 
@@ -27471,7 +27492,7 @@ Edit: I just realize that there was a [recent release](https://github.com/pharma
 tbl <- head(iris) %>% 
     rtf_page_header(c(""text1"", ""text2""), text_justification = c(""r"", ""l"")) %>% 
     rtf_body() %>% rtf_encode() %>% write_rtf(""tmp.rtf"")
-```","elong0527",9,9
+```","elong0527",10,10
 "openpharma/staged.dependencies","Pass R CMD CHECK (into refactor branch)","https://github.com/openpharma/staged.dependencies/pull/85","closed",2021-08-25,2021-08-26,2021-08-26,1,"Including:
 - Update roxygen
 - Move storage_dir into options
@@ -27482,12 +27503,12 @@ tbl <- head(iris) %>%
 "Merck/r2rtf","Styler","https://github.com/Merck/r2rtf/pull/48","closed",2021-08-25,2021-08-26,2021-08-26,0,NA,"elong0527",1,0
 "openpharma/staged.dependencies","Add end to end test into staged.deps github action","https://github.com/openpharma/staged.dependencies/issues/87","open",2021-08-26,2021-08-26,NA,0,"Add code into the github action to run some integration tests for example checking out the stageddeps.X packages and running install_deps, build, check etc. on them.
 
-From #33 ","nikolas-burkoff",7,7
+From #33 ","nikolas-burkoff",8,8
 "openpharma/staged.dependencies","Add tests for invalid input arguments for main exported functions","https://github.com/openpharma/staged.dependencies/issues/89","open",2021-08-26,2021-08-26,NA,0,"Especially `dependency_table`:
 
 This logic here should be tested
 ![image](https://user-images.githubusercontent.com/15201933/130954313-f930ac63-d370-438a-b479-8ebb57f4f636.png)
-","nikolas-burkoff",7,7
+","nikolas-burkoff",8,8
 "openpharma/staged.dependencies","Allow dependency_table to work with remote projects (into refactor branch)","https://github.com/openpharma/staged.dependencies/pull/88","closed",2021-08-26,2021-08-27,2021-08-27,3,"For #54
 
 So these should work now:
@@ -27534,9 +27555,9 @@ install_deps(x, install_direction = c(""upstream"", downstream""), verbose = 1)
 - `install_deps` we have `dry_install` but in `check_downstream` we have `dry_install_and_check` which do the same thing
 - `install_deps` we have `dependency_packages`, in `check_downstream` it's `downstream_packages` and in `build_check_install` it's `packages_to_process` which all do the same thing
 
-Furthermore we may want to rename `feature` to `branch` and in only some cases `project` or `repo` to `package`","nikolas-burkoff",7,7
+Furthermore we may want to rename `feature` to `branch` and in only some cases `project` or `repo` to `package`","nikolas-burkoff",8,8
 "Roche/rtables","Feature branch work ready for merg into main","https://github.com/Roche/rtables/pull/237","closed",2021-08-27,2021-08-27,2021-08-27,1,NA,"gmbecker",0,0
-"phuse-org/valtools","treat source data for risk table and coverage matrix as a single data set","https://github.com/phuse-org/valtools/issues/193","open",2021-08-27,2021-08-27,NA,0,"risk table pulls from requirements while coverage matrix pulls from test case files without checking other source.
+"phuse-org/valtools","treat source data for risk table and coverage matrix as a single data set","https://github.com/phuse-org/valtools/issues/193","open",2021-08-27,2021-09-02,NA,0,"risk table pulls from requirements while coverage matrix pulls from test case files without checking other source.
 
 Use req ids (either explicit or dyn. num.) to link these data for completeness and consistency. Of interest:
 
@@ -27546,11 +27567,11 @@ Use req ids (either explicit or dyn. num.) to link these data for completeness a
 2.  same requirement names for both tables
 
 
-","mariev",6,6
+","mariev",7,1
 "openpharma/staged.dependencies","Try producing JUnit XML report","https://github.com/openpharma/staged.dependencies/pull/91","closed",2021-08-27,2021-08-31,2021-08-31,3,"- Add contexts to tests
 - Produce JUnit XML report
 - Attempt to upload the result to GH Actions","dinakar29",4,0
-"openpharma/staged.dependencies","Write package vignette","https://github.com/openpharma/staged.dependencies/issues/90","open",2021-08-27,2021-08-27,NA,0,"The README provides a quick start guide but do we need more details somewhere?","nikolas-burkoff",6,6
+"openpharma/staged.dependencies","Write package vignette","https://github.com/openpharma/staged.dependencies/issues/90","open",2021-08-27,2021-08-27,NA,0,"The README provides a quick start guide but do we need more details somewhere?","nikolas-burkoff",7,7
 "nlmixrdevelopment/nlmixr","Error with nlmixr 2.0.5 - compiled against different version of RxODE","https://github.com/nlmixrdevelopment/nlmixr/issues/555","closed",2021-08-28,2021-08-28,2021-08-28,3,"Hi, nlmixr team,
 
 I try to use the latest version - **nlmixr 2.0.5** - but it has an error with **RxODE 1.1.1**.
@@ -27575,7 +27596,7 @@ Problem observed:
 `file staged_dependencies.yaml does not exist in project folder: not restoring anything` 
 
 Expected behavior:
-`staged.dependencies` should navigate internally to the root of the R package directory and correctly find the yaml file.","danielinteractive",2,2
+`staged.dependencies` should navigate internally to the root of the R package directory and correctly find the yaml file.","danielinteractive",3,3
 "Roche/rtables","Minor typo in help page for build_table function","https://github.com/Roche/rtables/issues/238","closed",2021-08-31,2021-08-31,2021-08-31,1,"Hi @gmbecker 
 
 Just wanted to report a minor typo in the `Description` section of the help for `build_table` function.
@@ -27593,7 +27614,7 @@ Wojtek
 
 This closes #7. I couldn't find any tables that use {gt} so I literally just removed the library call to gt? 
 
-","MayaGans",2,2
+","MayaGans",3,3
 "Novartis/pisces","Bring in recent changes and bug fixes before a new release","https://github.com/Novartis/pisces/pull/20","closed",2021-09-01,2021-09-01,2021-09-01,0,NA,"mdshw5",0,0
 "pharmaR/riskmetric","Dev/cohort","https://github.com/pharmaR/riskmetric/pull/221","open",2021-09-01,2021-09-01,NA,0,"This the start of a cohort-level analysis of risk. This is a very rough draft, but I am hoping it will seed a number of discussions on how we implement a cohort class, how we dispatch methods to it, what a cohort metric is and is not.
 
@@ -27606,10 +27627,15 @@ To do:
 3. A more formal cohort assessment class structure; currently just using a list
 4. methods to handle the case where library is `NULL` to do a cohort comparison against itself.
 
-","emilliman5",1,1
-"pharmaR/riskmetric","Dev/namespace metrics","https://github.com/pharmaR/riskmetric/pull/220","open",2021-09-01,2021-09-01,NA,0,"A new integration-based assessment and metric based on the number of function/objects a package exports (more namespace exports increases the risk of ns conflicts). Also a building block for an upcoming cohort based assessment/metric for namespace conflicts.","emilliman5",1,1
-"pharmaR/riskmetric","Dev/reverse dependencies metric","https://github.com/pharmaR/riskmetric/pull/219","open",2021-09-01,2021-09-01,NA,0,"A new community engagement assessment for pkg_refs based on how many packages depend on it. Also a building block for an upcoming cohort-based assessment and metric","emilliman5",1,1
+","emilliman5",2,2
+"pharmaR/riskmetric","Dev/namespace metrics","https://github.com/pharmaR/riskmetric/pull/220","open",2021-09-01,2021-09-01,NA,0,"A new integration-based assessment and metric based on the number of function/objects a package exports (more namespace exports increases the risk of ns conflicts). Also a building block for an upcoming cohort based assessment/metric for namespace conflicts.","emilliman5",2,2
+"pharmaR/riskmetric","Dev/reverse dependencies metric","https://github.com/pharmaR/riskmetric/pull/219","open",2021-09-01,2021-09-01,NA,0,"A new community engagement assessment for pkg_refs based on how many packages depend on it. Also a building block for an upcoming cohort-based assessment and metric","emilliman5",2,2
 "Novartis/pisces","Fix the default ""auto"" sample naming","https://github.com/Novartis/pisces/issues/19","open",2021-09-01,2021-09-01,NA,1,"For `pisces run`, if no `--name` is passed then pisces tries to figure out something to call the sample using only a common substring from the fastq file names. Sometimes this fails if the file names share nothing in common.
 
-https://github.com/Novartis/pisces/blob/ba9a89cb0bb4f636e1a9a4918b6585fbf6ab3786/pisces/run.py#L62-L72","mdshw5",1,1
-"AstraZeneca/kallisto","Updates maturity level badge to new standard","https://github.com/AstraZeneca/kallisto/pull/38","open",2021-09-01,2021-09-01,NA,1,"Updates the badge to a new AZ standard nomenclature.","stefanoborini",1,1
+https://github.com/Novartis/pisces/blob/ba9a89cb0bb4f636e1a9a4918b6585fbf6ab3786/pisces/run.py#L62-L72","mdshw5",2,2
+"AstraZeneca/kallisto","Updates maturity level badge to new standard","https://github.com/AstraZeneca/kallisto/pull/38","open",2021-09-01,2021-09-01,NA,1,"Updates the badge to a new AZ standard nomenclature.","stefanoborini",2,2
+"Merck/r2rtf","'unicode_latex' not found","https://github.com/Merck/r2rtf/issues/50","open",2021-09-02,2021-09-03,NA,2,"If I import the r2rtf package and try to use the functions in the package using full namespace syntax without calling the libname(r2rtf) first I receive the following error when it tries to call r2rtf::rtf_encode(page_footnote = ""all"") :
+
+Error in as.hexmode(unicode_latex$unicode) : 
+  object 'unicode_latex' not found","kmkramer23",1,0
+"Merck/r2rtf","Vertical Align Column Headers","https://github.com/Merck/r2rtf/issues/49","open",2021-09-02,2021-09-02,NA,2,"Is there a way to vertically align column headers in a table?  The headers default to top aligned and I would like to bottom align them.","kmkramer23",1,1
