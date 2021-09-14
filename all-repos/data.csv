@@ -1,5 +1,5 @@
 "org","repo","full_name","description","updated_at","language","MB"
-"AstraZeneca","kallisto","AstraZeneca/kallisto","Efficiently calculate 3D-atomic/molecular features for quantitative structure-activity relationship approaches.","2021-09-01T14:25:46Z","Python",0.4
+"AstraZeneca","kallisto","AstraZeneca/kallisto","Efficiently calculate 3D-atomic/molecular features for quantitative structure-activity relationship approaches.","2021-09-13T07:21:27Z","Python",0.4
 "atorus-research","metacore","atorus-research/metacore",NA,"2021-08-31T14:17:22Z","R",2
 "atorus-research","pharmaRTF","atorus-research/pharmaRTF","Enhanced RTF wrapper written in R for use with existing R tables packages such as huxtable or GT","2021-05-27T17:06:29Z","R",2.4
 "atorus-research","Tplyr","atorus-research/Tplyr",NA,"2021-07-13T15:34:25Z","R",155.1
@@ -13,7 +13,7 @@
 "Merck","simtrial","Merck/simtrial",NA,"2021-06-11T22:30:44Z","R",2.7
 "nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-09-10T05:20:38Z","Rich Text Format",878
 "Novartis","peax","Novartis/peax","Peax is a tool for interactive visual pattern search and exploration in epigenomic data based on unsupervised representation learning with autoencoders","2021-06-15T17:13:05Z","Jupyter Notebook",52.5
-"Novartis","pisces","Novartis/pisces","PISCES is a pipeline for rapid transcript quantitation, genetic fingerprinting, and quality control assessment of RNAseq libraries using Salmon.","2021-09-08T17:04:46Z","Python",18.1
+"Novartis","pisces","Novartis/pisces","PISCES is a pipeline for rapid transcript quantitation, genetic fingerprinting, and quality control assessment of RNAseq libraries using Salmon.","2021-09-14T00:37:56Z","Python",18.1
 "Novartis","xgxr","Novartis/xgxr","R package for supporting exploratory graphics at http://opensource.nibr.com/xgx","2021-07-01T15:00:47Z","R",48.2
 "openanalytics","inTextSummaryTable","openanalytics/inTextSummaryTable",NA,"2021-07-14T08:05:39Z","R",2
 "openanalytics","patientProfilesVis","openanalytics/patientProfilesVis",NA,"2021-07-15T12:28:18Z","R",1.2
@@ -26,8 +26,8 @@
 "openpharma","RDO","openpharma/RDO","Reproducible Data Objects (RDO) in R ","2020-03-09T14:00:55Z","R",0.5
 "openpharma","ReadStat","openpharma/ReadStat","Command-line tool (+ C library) for converting SAS, Stata, and SPSS files 💾","2020-09-26T06:39:12Z","C",1.8
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
-"openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-06-11T10:55:26Z","R",85.9
-"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-09-10T07:37:56Z","R",0.6
+"openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-09-13T15:05:45Z","R",86
+"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-09-13T14:39:18Z","R",0.7
 "openpharma","stageddeps.elecinfra","openpharma/stageddeps.elecinfra","Dummy R Package for testing staged dependencies","2021-08-12T17:50:13Z","R",0
 "openpharma","stageddeps.electricity","openpharma/stageddeps.electricity","Dummy R Package for testing staged dependencies","2021-08-12T17:51:16Z","R",0
 "openpharma","stageddeps.food","openpharma/stageddeps.food","Dummy R Package for testing staged.dependencies","2021-08-23T12:13:54Z","R",0
@@ -37,8 +37,8 @@
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
-"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-09-10T10:34:10Z","R",46.9
-"pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-09-01T16:12:25Z","R",1.4
+"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-09-13T09:47:47Z","R",47
+"pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-09-13T19:08:03Z","R",1.4
 "phuse-org","aesummaries","phuse-org/aesummaries","PHUSE Forest Plot Project Repository","2021-06-11T14:09:04Z","HTML",2.7
 "phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-09-08T21:27:32Z","R",2.5
 "Roche","crmPack","Roche/crmPack","Object-Oriented Implementation of CRM Designs","2021-02-19T20:47:26Z","R",62.5
