@@ -16887,7 +16887,7 @@ loaded via a namespace (and not attached):
 [1] compiler_3.6.3  htmltools_0.4.0 tools_3.6.3     Rcpp_1.0.4.6    digest_0.6.25   packrat_0.5.0   rlang_0.4.6     purrr_0.3.4
 ```
 ","anajens",1,0
-"Roche/rtables","How to get the right percentages in this case?...","https://github.com/Roche/rtables/issues/117","open",2020-10-27,2021-04-28,NA,3,"Hi @gmbecker 
+"Roche/rtables","How to get the right percentages in this case?...","https://github.com/Roche/rtables/issues/117","open",2020-10-27,2021-09-20,NA,5,"Hi @gmbecker 
 I have a question on a table layout where
 
 - header column counts set with `col_counts` are from overall population
@@ -16912,7 +16912,7 @@ Responders                                68                73                62
 
 When playing around with it I did not have an idea how to do this, since we would need to refer to parent split `nrow(df)` right?...
 
-Thanks!","danielinteractive",239,56
+Thanks!","danielinteractive",329,1
 "Roche/rtables","Is it possible to use a single variable inside split_cols_by_multivar?","https://github.com/Roche/rtables/issues/118","closed",2020-10-27,2020-11-04,2020-11-04,1,"```
 # Works
 basic_table() %>%
@@ -18422,7 +18422,7 @@ Note: This failing currently blocks our internal development. So we should get t
 
 Unlike [`drake`](https://github.com/wlandau/drake), [`targets`](https://github.com/wlandau/targets) makes it super straightforward to build extensions for specialized use cases. For example, I recently created a new R package called [`stantargets`](https://github.com/wlandau/stantargets), which combines [`targets`](https://github.com/wlandau/targets) with [`cmdstanr`](https://github.com/stan-dev/cmdstanr) to make it easy to write large Bayesian data analysis pipelines. Complicated workflows like [this one](https://github.com/wlandau/targets-stan/blob/main/_targets.R) condense down to [this one](https://wlandau.github.io/stantargets/articles/mcmc_rep.html) without loss of technical sophistication or computing power. The former requires users to think carefully about dynamic branching and file tracking, and the latter uses domain knowledge to abstract away these intimidating concepts.
 
-I thought you might like to know because it instantiates a successful pattern that my colleagues and I are actively pursuing: develop one general-purpose pipeline tool first, and then build friendlier methodology-specific workflow frameworks on top of that. Other possibilities include [`stantargets`](https://github.com/wlandau/stantargets)-like packages for JAGS, Greta, Keras, Torch, Tidymodels, etc. For you, I see potential in a [`stantargets`](https://github.com/wlandau/stantargets)-like package tailored to `nlmixr`. I do not have the domain knowledge to develop it myself, but I would be happy to discuss ideas and review code if this direction appeals to you.","wlandau",289,5
+I thought you might like to know because it instantiates a successful pattern that my colleagues and I are actively pursuing: develop one general-purpose pipeline tool first, and then build friendlier methodology-specific workflow frameworks on top of that. Other possibilities include [`stantargets`](https://github.com/wlandau/stantargets)-like packages for JAGS, Greta, Keras, Torch, Tidymodels, etc. For you, I see potential in a [`stantargets`](https://github.com/wlandau/stantargets)-like package tailored to `nlmixr`. I do not have the domain knowledge to develop it myself, but I would be happy to discuss ideas and review code if this direction appeals to you.","wlandau",290,6
 "Roche/rtables","Add options to `remove_split_levels()`.","https://github.com/Roche/rtables/pull/143","closed",2020-12-06,2020-12-08,2020-12-07,0,"This PR
 - fixes `remove_split_levels`, as before it did not correctly remove a split level from the resulting table.
 - adds option `drop_levels` to it
@@ -21126,7 +21126,7 @@ C: Combination
   AB12345-RUS-3-id-378     F          2.8                  RUS/A/S1         
   AB12345-CHN-15-id-201    M          6.91                 CHN/C/S2         
   AB12345-NGA-11-id-173    F           5                   NGA/C/S2    
-```","anajens",175,6
+```","anajens",176,7
 "pharmaR/riskmetric"," How to re-evaluate risk of a cohort when new package(s) are introduced?","https://github.com/pharmaR/riskmetric/issues/192","open",2021-03-31,2021-03-31,NA,0,"Once #174 addressed, we may run the risk metric for two cohorts and evaluate the difference. ","elong0527",84,84
 "pharmaR/riskmetric","A metric of how many Reverse dependencies a package has","https://github.com/pharmaR/riskmetric/issues/193","open",2021-03-31,2021-05-28,NA,1,"","elong0527",84,26
 "pharmaR/riskmetric","Define a weights to aggregate risks from different metrics ","https://github.com/pharmaR/riskmetric/issues/195","open",2021-03-31,2021-03-31,NA,1,"","elong0527",84,84
@@ -21993,7 +21993,7 @@ HKK  ","harishkaushikbugworks",5,0
 "openpharma/visR","Update to get bugfixes","https://github.com/openpharma/visR/pull/158","closed",2021-04-21,2021-04-21,2021-04-21,0,"","SHAESEN2",0,0
 "phuse-org/valtools","add citation info","https://github.com/phuse-org/valtools/issues/102","open",2021-04-22,2021-09-17,NA,0,"Need to add CITATION to inst/ via `usethis::use_citation()`
 
-","mariev",151,3
+","mariev",152,4
 "Merck/pkglite","Add vignette on curating file collections","https://github.com/Merck/pkglite/issues/12","closed",2021-04-22,2021-04-29,2021-04-29,1,"Document the approaches to merge, prune, and sanitize file collections.","nanxstats",7,0
 "Roche/rtables","subsetting rows on a built table with top left annotation removes top left annotation","https://github.com/Roche/rtables/issues/182","closed",2021-04-22,2021-04-22,2021-04-22,3,"Example:
 
@@ -23069,7 +23069,7 @@ changed files so object class = x and ensure that ... was present in function ca
 "openpharma/visR","Added skip_on_cran() to add_CI tests.","https://github.com/openpharma/visR/pull/174","closed",2021-05-10,2021-05-10,2021-05-10,0,"","timtreis",0,0
 "openpharma/visR","Removed all svgs. Regenerate, once visR is in final state","https://github.com/openpharma/visR/pull/175","closed",2021-05-10,2021-05-31,2021-05-10,0,"","timtreis",0,-21
 "openpharma/visR","Updated man page","https://github.com/openpharma/visR/pull/176","closed",2021-05-10,2021-05-31,2021-05-10,0,"","timtreis",0,-21
-"phuse-org/valtools","Vignettes for different modes of Validation","https://github.com/phuse-org/valtools/issues/137","open",2021-05-10,2021-09-17,NA,0,"We've identified multiple modes of validation. It would be worthwhile to have a vignette detail each mode.","thebioengineer",133,3
+"phuse-org/valtools","Vignettes for different modes of Validation","https://github.com/phuse-org/valtools/issues/137","open",2021-05-10,2021-09-17,NA,0,"We've identified multiple modes of validation. It would be worthwhile to have a vignette detail each mode.","thebioengineer",134,4
 "Roche/rtables","Warning message when using `insert_rrow`","https://github.com/Roche/rtables/issues/199","closed",2021-05-10,2021-05-11,2021-05-11,3,"There is a new warning message when using `insert_rrow` : 
 
 ```r
@@ -26688,13 +26688,13 @@ Also added a huge pile of tests to check it's working as expected - yay TDD.","n
 "openpharma/visR","Added test for non-unique PARAM/PARAMCD","https://github.com/openpharma/visR/pull/246","closed",2021-07-30,2021-07-30,2021-07-30,0,"","timtreis",0,0
 "openpharma/visR","Changed test to reflect actual code behaviour","https://github.com/openpharma/visR/pull/244","closed",2021-07-30,2021-07-30,2021-07-30,0,"","timtreis",0,0
 "openpharma/staged.dependencies","Clarify Readme","https://github.com/openpharma/staged.dependencies/issues/31","closed",2021-07-30,2021-08-03,2021-08-03,0,"please have @dinakar29 review it","waddella",4,0
-"openpharma/staged.dependencies","create a reference action","https://github.com/openpharma/staged.dependencies/issues/32","open",2021-07-30,2021-09-14,NA,0,"with new `stringi`
+"openpharma/staged.dependencies","create a reference action","https://github.com/openpharma/staged.dependencies/issues/32","closed",2021-07-30,2021-09-20,2021-09-20,1,"with new `stringi`
 
 based on the action step we already have
 
 Also update github action (optional downstream testing maybe based on command) from here https://github.com/openpharma/staged.dependencies/issues/55#issue-961788643
 
-Add check yamls consistent to action - see here #82 ","waddella",52,6
+Add check yamls consistent to action - see here #82 ","waddella",52,0
 "openpharma/staged.dependencies","investigate if you can build the dependency graph without the cloning the repos","https://github.com/openpharma/staged.dependencies/issues/35","closed",2021-07-30,2021-09-17,2021-09-17,7,"You would use:
 
   - `gh` and the rest api (graphql) to get
@@ -26979,13 +26979,13 @@ Warning messages:
 2: In file.create(to[okay]) :
   cannot create file '/home/users/sabanesd/.staged.dependencies', reason 'No such file or directory'
 ```","danielinteractive",9,0
-"openpharma/staged.dependencies","Staged Dependencies: All Upstream Dependencies excluding this package - new feature request.","https://github.com/openpharma/staged.dependencies/issues/62","open",2021-08-09,2021-09-09,NA,4,"Hi
+"openpharma/staged.dependencies","Staged Dependencies: All Upstream Dependencies excluding this package - new feature request.","https://github.com/openpharma/staged.dependencies/issues/62","open",2021-08-09,2021-09-20,NA,4,"Hi
 
 I am using RStudio add-in to install all upstream dependencies. This features also tries to build and install my current package I am working on, and which is not ready.
 Is there any way to create a separate add-in which installs all the upstream dependencies but without building the package I am currently working on?
 Thanks
 
-W.","wwojciech",41,10
+W.","wwojciech",43,1
 "Merck/pkglite","Use stop(call. = FALSE)","https://github.com/Merck/pkglite/issues/19","open",2021-08-09,2021-08-09,NA,0,"Use `stop(call. = FALSE)` is recommended by https://style.tidyverse.org/error-messages.html","nanxstats",9,9
 "openpharma/staged.dependencies","Add upgrade staged.dependencies addin","https://github.com/openpharma/staged.dependencies/pull/63","closed",2021-08-10,2021-08-11,2021-08-11,1,"Closes #57 
 
@@ -27086,7 +27086,7 @@ https://github.com/openpharma/staged.dependencies/pull/58#discussion_r687851505
 
 Could even have a default_host argument (set to https://github.com say) so you don't even need to specify the host for every repo.","nikolas-burkoff",13,0
 "openpharma/staged.dependencies","Streamline codebase","https://github.com/openpharma/staged.dependencies/issues/72","closed",2021-08-13,2021-09-06,2021-09-06,1,"There are lots of quite similar functions which get the dependency structure and then do something - are there ways to refactor so the getting the dependency structure is easier to maintain","nikolas-burkoff",24,0
-"phuse-org/valtools","Testing figure comparisons","https://github.com/phuse-org/valtools/pull/185","open",2021-08-13,2021-09-17,NA,2,"Vignette on how to perform figure comparisons within {valtools}","thebioengineer",38,3
+"phuse-org/valtools","Testing figure comparisons","https://github.com/phuse-org/valtools/pull/185","open",2021-08-13,2021-09-17,NA,2,"Vignette on how to perform figure comparisons within {valtools}","thebioengineer",39,4
 "Roche/respectables","Update check badge","https://github.com/Roche/respectables/pull/35","closed",2021-08-14,2021-08-17,2021-08-17,1,"<!-- Thank you for your contribution! -->
 
 ## Description
@@ -27238,9 +27238,9 @@ Topics missing from index:
 * tt_at_path
 * update_ref_indexing 
 ```","anajens",9,9
-"openpharma/staged.dependencies","App add-on not working if missing visNetwork","https://github.com/openpharma/staged.dependencies/issues/79","open",2021-08-19,2021-09-15,NA,0,"![image](https://user-images.githubusercontent.com/12943682/130095368-16934fb6-6a04-44bc-91f0-58ac65cd2f90.png)
+"openpharma/staged.dependencies","App add-on not working if missing visNetwork","https://github.com/openpharma/staged.dependencies/issues/79","open",2021-08-19,2021-09-20,NA,1,"![image](https://user-images.githubusercontent.com/12943682/130095368-16934fb6-6a04-44bc-91f0-58ac65cd2f90.png)
 
-We need to put `visNetwork` into the package dependency.","pawelru",32,5
+We need to put `visNetwork` into the package dependency.","pawelru",33,1
 "openpharma/staged.dependencies","Create a `use_staged.dependencies()` function","https://github.com/openpharma/staged.dependencies/issues/78","open",2021-08-19,2021-09-08,NA,0,"Which adds a dummy yaml file to the repo and adds it to the rbuildignore file - Also could have `x` (dependency_structure) as an argument to prepopulate the yaml file","nikolas-burkoff",30,10
 "openpharma/staged.dependencies","Red errors in the app if missing GITHUB_PAT","https://github.com/openpharma/staged.dependencies/issues/80","open",2021-08-19,2021-08-19,NA,0,"
 ![image](https://user-images.githubusercontent.com/12943682/130096011-b8c86750-b183-483f-92be-1509255f180e.png)
@@ -27521,7 +27521,7 @@ The only check I found failing is on r-devel-fedora-gcc (copying it here as I do
 </details>
 
 Not sure if you were aware, but is there a plan to submit the package to CRAN again?
-Edit: I just realize that there was a [recent release](https://github.com/pharmaR/riskmetric/pull/217) on 2021-07-29, which doesn't seem to have fixed all the errors. ","llrs",27,7
+Edit: I just realize that there was a [recent release](https://github.com/pharmaR/riskmetric/pull/217) on 2021-07-29, which doesn't seem to have fixed all the errors. ","llrs",28,8
 "Merck/r2rtf","Vectorize text formatting arguments in rtf_page_header and rtf_page_footer ","https://github.com/Merck/r2rtf/issues/47","closed",2021-08-24,2021-09-08,2021-09-08,1,"The current function did not recognize vectorized formatting argument. 
 
 
@@ -27540,7 +27540,7 @@ tbl <- head(iris) %>%
 "Merck/r2rtf","Styler","https://github.com/Merck/r2rtf/pull/48","closed",2021-08-25,2021-08-26,2021-08-26,0,NA,"elong0527",1,0
 "openpharma/staged.dependencies","Add end to end test into staged.deps github action","https://github.com/openpharma/staged.dependencies/issues/87","open",2021-08-26,2021-09-14,NA,0,"Add code into the github action to run some integration tests for example checking out the stageddeps.X packages and running install_deps, build, check etc. on them.
 
-From #33 ","nikolas-burkoff",25,6
+From #33 ","nikolas-burkoff",26,7
 "openpharma/staged.dependencies","Add tests for invalid input arguments for main exported functions","https://github.com/openpharma/staged.dependencies/issues/89","open",2021-08-26,2021-08-26,NA,0,"Especially `dependency_table`:
 
 This logic here should be tested
@@ -27592,7 +27592,7 @@ install_deps(x, install_direction = c(""upstream"", downstream""), verbose = 1)
 - `install_deps` we have `dry_install` but in `check_downstream` we have `dry_install_and_check` which do the same thing
 - `install_deps` we have `dependency_packages`, in `check_downstream` it's `downstream_packages` and in `build_check_install` it's `packages_to_process` which all do the same thing
 
-Furthermore we may want to rename `feature` to `branch` and in only some cases `project` or `repo` to `package`","nikolas-burkoff",25,5
+Furthermore we may want to rename `feature` to `branch` and in only some cases `project` or `repo` to `package`","nikolas-burkoff",26,6
 "Roche/rtables","Feature branch work ready for merg into main","https://github.com/Roche/rtables/pull/237","closed",2021-08-27,2021-08-27,2021-08-27,1,NA,"gmbecker",0,0
 "phuse-org/valtools","treat source data for risk table and coverage matrix as a single data set","https://github.com/phuse-org/valtools/issues/193","open",2021-08-27,2021-09-02,NA,0,"risk table pulls from requirements while coverage matrix pulls from test case files without checking other source.
 
@@ -27633,7 +27633,7 @@ Problem observed:
 `file staged_dependencies.yaml does not exist in project folder: not restoring anything` 
 
 Expected behavior:
-`staged.dependencies` should navigate internally to the root of the R package directory and correctly find the yaml file.","danielinteractive",20,4
+`staged.dependencies` should navigate internally to the root of the R package directory and correctly find the yaml file.","danielinteractive",21,5
 "Roche/rtables","Minor typo in help page for build_table function","https://github.com/Roche/rtables/issues/238","closed",2021-08-31,2021-08-31,2021-08-31,1,"Hi @gmbecker 
 
 Just wanted to report a minor typo in the `Description` section of the help for `build_table` function.
@@ -27725,7 +27725,7 @@ but may not be as easy to use or implement...
 
 ","nikolas-burkoff",6,0
 "Merck/r2rtf","Error encode list","https://github.com/Merck/r2rtf/pull/55","closed",2021-09-08,2021-09-08,2021-09-08,1,NA,"elong0527",0,0
-"Roche/rtables","nested .ungroup_stats in make_afun","https://github.com/Roche/rtables/issues/240","open",2021-09-08,2021-09-08,NA,2,"Hi @gmbecker ,
+"Roche/rtables","nested .ungroup_stats in make_afun","https://github.com/Roche/rtables/issues/240","open",2021-09-08,2021-09-20,NA,3,"Hi @gmbecker ,
 
 I'm wondering if `make_afun` can work with nested statistics and preserve the label groups? Here's a simple example:
 
@@ -27781,13 +27781,13 @@ B
   b1 2
   b2 4
   b3 6
-```","anajens",10,10
+```","anajens",13,1
 "Merck/r2rtf","revert title change","https://github.com/Merck/r2rtf/pull/56","closed",2021-09-08,2021-09-08,2021-09-08,1,NA,"elong0527",0,0
 "openpharma/staged.dependencies","Allow tags to be used instead of branch","https://github.com/openpharma/staged.dependencies/issues/97","open",2021-09-09,2021-09-14,NA,1,"1) `x <- dependency_table(feature = ""tag_name"")` -> for each internal dependency should look for the tag and if it isn't there throw warning and default to `main`?
 2) For gitlab (where the checked out code is a detached HEAD and not a branch ) we may need to specify a SHA - if that's the case how do we know which branch to use of dependencies? 
 
 
-Edit: after https://github.com/openpharma/staged.dependencies/pull/99  2) may not be required","nikolas-burkoff",11,6
+Edit: after https://github.com/openpharma/staged.dependencies/pull/99  2) may not be required","nikolas-burkoff",12,7
 "Merck/r2rtf","check v0.3.0","https://github.com/Merck/r2rtf/pull/58","closed",2021-09-09,2021-09-18,2021-09-18,1,NA,"elong0527",9,0
 "openpharma/staged.dependencies","Get external deps of packages ","https://github.com/openpharma/staged.dependencies/pull/96","closed",2021-09-09,2021-09-14,2021-09-14,2,"Closes #95 (as once you have this list of external packages you can use `remotes::system_requirements()` to get system deps)
 
@@ -27911,11 +27911,11 @@ This should be done automatically.","timtreis",10,10
 We define CI with alpha 0.4 and then highlight using an alpha of 0.2. I would have expected to see a higher alpha input eg bg_alpha = 0.4 or a more informative argument eg alpha_multiplier
 
 Can we look into this?
-","SHAESEN2",8,8
+","SHAESEN2",9,9
 "openpharma/visR","get_files_in_xxx_folder - remove","https://github.com/openpharma/visR/issues/258","open",2021-09-12,2021-09-12,NA,0,"We should consider removing these are they are not true functions but calls to predefined codes.
 We can decide to keep them if they are used many times across multiple files.
-If we decide to keep them, could we shorten the name eg get_xx_files (get_rd_files, get_man_files, ...) in agreement with our naming conventions?","SHAESEN2",8,8
-"openpharma/staged.dependencies","Adding e2e tests in github workflow","https://github.com/openpharma/staged.dependencies/pull/101","open",2021-09-13,2021-09-17,NA,4,"Closes #87 ","nikolas-burkoff",7,3
+If we decide to keep them, could we shorten the name eg get_xx_files (get_rd_files, get_man_files, ...) in agreement with our naming conventions?","SHAESEN2",9,9
+"openpharma/staged.dependencies","Adding e2e tests in github workflow","https://github.com/openpharma/staged.dependencies/pull/101","open",2021-09-13,2021-09-20,NA,4,"Closes #87 ","nikolas-burkoff",8,1
 "openpharma/staged.dependencies","allow option to skip checks if yaml file missing","https://github.com/openpharma/staged.dependencies/pull/102","closed",2021-09-13,2021-09-14,2021-09-14,2,"Required for #66 
 
 We want to option to skip checks on a given repo if there is no yaml file (e.g. rtables) 
@@ -27924,7 +27924,7 @@ Once merged in and tagged PRs to use this can be merged in e.g. https://github.c
 
 Then #66 can be closed
 ","nikolas-burkoff",1,0
-"openpharma/staged.dependencies","Handle case where you don't have access to some downstream deps","https://github.com/openpharma/staged.dependencies/issues/100","open",2021-09-13,2021-09-13,NA,0,NA,"nikolas-burkoff",7,7
+"openpharma/staged.dependencies","Handle case where you don't have access to some downstream deps","https://github.com/openpharma/staged.dependencies/issues/100","open",2021-09-13,2021-09-20,NA,0,NA,"nikolas-burkoff",8,1
 "pharmaR/riskmetric","Minor bug when summarizing risk metric scores","https://github.com/pharmaR/riskmetric/issues/222","closed",2021-09-13,2021-09-13,2021-09-13,2,"With riskmetric v0.1.1, I'm getting the following error when I try to get the risk metric scores for one package:
 `res <- pkg_ref(c(""MatchIt"")) %>%
      pkg_assess() %>%
@@ -28081,7 +28081,7 @@ Note that for a couple of good reasons we do not want to modify the `map` itself
 Thank you
 Wojtek
 
-","wwojciech",7,7
+","wwojciech",8,8
 "openpharma/visR","Wrong description for parameter `output_format` in function `render`","https://github.com/openpharma/visR/issues/260","open",2021-09-13,2021-09-13,NA,0,"#### Issue description
 
 Wrong description for function `render`
@@ -28093,7 +28093,7 @@ Parameter `output_format` can be `html` or `latex`
 Right now the description says:
 
 ""If TRUE, the summary statistics for the overall dataset are also calculated""
-","rebecca-albrecht",7,7
+","rebecca-albrecht",8,8
 "openpharma/visR","`visR::add_risktable()` fails with a cryptic error message when the `strata` variable contains missing values.","https://github.com/openpharma/visR/issues/261","open",2021-09-14,2021-09-16,NA,1,"#### Issue description
 
 When generating a Kaplan-Meier plot with a stratifying variable, `visR::add_risktable()` fails with a rather cryptic error message. If one does not include the risk table, the plot is generated without problems. It is only the creating of the risk table that produces the error, as illustrated in the example below
@@ -28152,7 +28152,7 @@ Run `rlang::last_error()` to see where the error occurred.
 #### Additional details / screenshot
 
 The issue is localised in the `tidyme.R` file, and more precisely starting from [this line](https://github.com/openpharma/visR/blob/a70cc2d775f7510dd1f03edf77cac2421943063a/R/tidyme.R#L66). The missing values cause the objects that should be bound together to have different lengths, and this is what seems to be igniting the issue.
-","gdario",6,4
+","gdario",7,5
 "openpharma/staged.dependencies","Add header to distinguish sticky comments","https://github.com/openpharma/staged.dependencies/pull/104","closed",2021-09-14,2021-09-15,2021-09-15,3,"Header to determine if the comment should be updated (it is not shown to users). It can be used when you want to add multiple comments independently to a given object.","dinakar29",1,0
 "Novartis/pisces","Fix gene-level lengths output","https://github.com/Novartis/pisces/pull/23","closed",2021-09-14,2021-09-14,2021-09-14,0,NA,"mdshw5",0,0
 "pharmaR/riskmetric","`riskmetric` service discussion (from 2021/09/15)","https://github.com/pharmaR/riskmetric/issues/224","open",2021-09-15,2021-09-15,NA,0,"At our sprint meeting on 2021/09/15, we were joined by @mpadge who walked us through some considerations rOpenSci has had when trying to do similar reporting.
@@ -28181,7 +28181,7 @@ I tried my best to keep minutes:
 
 ---
 
-tagging @mpadge @daroczig ","dgkf",5,5
+tagging @mpadge @daroczig ","dgkf",6,6
 "nlmixrdevelopment/nlmixr","Question: Obtaining individual parameter estimate without pop params estimation (MAXEVAL = 0 in NONMEM)","https://github.com/nlmixrdevelopment/nlmixr/issues/557","closed",2021-09-15,2021-09-15,2021-09-15,2,"Dear `nlmixr` team,
 
 How can I obtain `individual parameters` without population parameters estimate, in `NONMEM` it is equivalent to:
@@ -28191,26 +28191,23 @@ or
 $EST METHOD=COND LAPLACE LIKE MAXEVAL=0  
 ```
 Thank you for your help!","namtien0312",0,0
-"pharmaR/riskmetric","Switch tests to use source functions","https://github.com/pharmaR/riskmetric/pull/223","open",2021-09-15,2021-09-15,NA,0,"Per the CRAN archival #218 , its unclear what bioc packages are on the VMs CRAN is testing on. This makes the calls explict.
+"pharmaR/riskmetric","Switch tests to use source functions","https://github.com/pharmaR/riskmetric/pull/223","open",2021-09-15,2021-09-20,NA,1,"Per the CRAN archival #218 , its unclear what bioc packages are on the VMs CRAN is testing on. This makes the calls explict.
 
-WIP. Looking to add in @dgkf suggestions.","elimillera",5,5
+WIP. Looking to add in @dgkf suggestions.","elimillera",6,1
 "openpharma/simaerep","Dev","https://github.com/openpharma/simaerep/pull/12","closed",2021-09-16,2021-09-16,2021-09-16,1,NA,"erblast",0,0
-"phuse-org/valtools","add p2 of cheatsheet","https://github.com/phuse-org/valtools/pull/199","open",2021-09-17,2021-09-19,NA,0,"closes #178 ","mariev",3,1
-"openpharma/staged.dependencies","Allow tags to be used as dep references","https://github.com/openpharma/staged.dependencies/pull/107","open",2021-09-17,2021-09-17,NA,3,"Closes #97 
-
-Still to do:
-- update README
-- add tests for tagging (end to end tests can go [here](https://github.com/openpharma/staged.dependencies/pull/101) though) 
-- update roxygen for determine_ref to include some tagging examples
-- confirm `infer_ref_from_branch` is working as expected
-- remove any unneeded `@`s in code examples
+"phuse-org/valtools","add p2 of cheatsheet","https://github.com/phuse-org/valtools/pull/199","closed",2021-09-17,2021-09-20,2021-09-20,0,"closes #178 ","mariev",3,0
+"openpharma/staged.dependencies","Allow tags to be used as dep references","https://github.com/openpharma/staged.dependencies/pull/107","open",2021-09-17,2021-09-20,NA,3,"Closes #97 
  
 Test with:
 ```
 dependency_table(""x/y"", ""repo@host"", ref = ""my_tag"")
 ```
 
-for appropriate `x/y` and `my_tag`","nikolas-burkoff",3,3
+for appropriate `x/y` and `my_tag`
+
+End to end tests will be added [here](https://github.com/openpharma/staged.dependencies/pull/101/files#r711050593) once I can tag the staged.deps example repos.
+
+**Note** after testing this functionality and checking out main, you will need to clear the staged deps cache (once this is merged in then clearing cache will not be required)","nikolas-burkoff",4,1
 "openpharma/visR","get_pvalue gives too many digits","https://github.com/openpharma/visR/issues/262","open",2021-09-17,2021-09-17,NA,0,"#### Issue description
 
 
@@ -28237,16 +28234,16 @@ adtte %>%
 
 Same precision as for p-value
 
-","timtreis",3,3
+","timtreis",4,4
 "openpharma/staged.dependencies","Programmatically get default branch name","https://github.com/openpharma/staged.dependencies/issues/106","open",2021-09-17,2021-09-17,NA,0,"At the moment this is hard-coded as ""main"" but I think we can get the default branch out and pass that as fallback argument to `determine_ref`
 
 ![image](https://user-images.githubusercontent.com/15201933/133779894-4216272f-3c2f-45fc-a505-e2b7819175b6.png)
-","nikolas-burkoff",3,3
+","nikolas-burkoff",4,4
 "phuse-org/valtools","Pulling the 'validation lead' title from the config yaml.","https://github.com/phuse-org/valtools/issues/200","open",2021-09-17,2021-09-17,NA,0,"I think in the future we could extend this further by pulling the 'validation lead' title from the config yaml.
 
 _Originally posted by @elimillera in https://github.com/phuse-org/valtools/pull/197#discussion_r703113791_
 
-Currently we grep for the validation lead. Maybe we make that be set more explicitly and provide a function to pull that info (rather than having to grep manually)","thebioengineer",3,3
+Currently we grep for the validation lead. Maybe we make that be set more explicitly and provide a function to pull that info (rather than having to grep manually)","thebioengineer",4,4
 "openpharma/staged.dependencies","Refactor to remove the cache/cloning repos to calculate the dependency graph","https://github.com/openpharma/staged.dependencies/issues/105","open",2021-09-17,2021-09-17,NA,1,"Follow on issue from #35 see that issue for details of APIs to extract the information out of github/gitlab without needing to clone the repo.
 
 - Dispatch the extraction of yaml/DESC files by host - maybe ask gitlab to add tags to graphQL schema (and fix [here](https://github.com/openpharma/staged.dependencies/blob/d113616347a31aab3f4da66aa7e48ffd093d0ab7/R/git_tools.R#L72) )
@@ -28256,17 +28253,35 @@ Currently we grep for the validation lead. Maybe we make that be set more explic
 - Use remotes or equivalent to install packages
 - Update tests (including e2e) and docs
 - Make sure check_downstream, build_check_install, ... can still work 
-","nikolas-burkoff",3,3
-"Merck/r2rtf","base example first 2 columns get concatenated","https://github.com/Merck/r2rtf/issues/60","open",2021-09-18,2021-09-18,NA,1,"With simple export to rtf, even with the base example for some reason the first 2 columns are concatenated. It looks ok till rtf_body() output but then for some reason appears concatenated after the write_rtf() function in the output
+","nikolas-burkoff",4,4
+"Merck/r2rtf","base example first 2 columns get concatenated","https://github.com/Merck/r2rtf/issues/60","closed",2021-09-18,2021-09-20,2021-09-20,3,"With simple export to rtf, even with the base example for some reason the first 2 columns are concatenated. It looks ok till rtf_body() output but then for some reason appears concatenated after the write_rtf() function in the output
 library(r2rtf)
 head(iris) %>%
   rtf_body() %>%                 # Step 1 Add attributes
   rtf_encode() %>%               # Step 2 Convert attributes to RTF encode
   write_rtf(file = ""ex-tbl.rtf"") # Step 3 Write to a .rtf file
 <img width=""1085"" alt=""Screen Shot 2021-09-17 at 6 53 47 PM"" src=""https://user-images.githubusercontent.com/82536980/133873586-65487d66-481a-41f0-b961-9c3c6a844ee2.png"">
-","ajithasrini",2,2
-"openpharma/staged.dependencies","Include the commit SHA in the dependency table","https://github.com/openpharma/staged.dependencies/issues/108","open",2021-09-18,2021-09-18,NA,0,"Including the git SHA (either long, or short) in the staged dependency table will provide the necessary information to debug any issues.
+","ajithasrini",2,0
+"openpharma/staged.dependencies","Include the commit SHA in the dependency table","https://github.com/openpharma/staged.dependencies/issues/108","open",2021-09-18,2021-09-20,NA,1,"Including the git SHA (either long, or short) in the staged dependency table will provide the necessary information to debug any issues.
 
 Use case:
 
-I am testing my package against the `pre-release` branch of upstream packages, and would like to know which commit hash of the upstream packages is being used in the tests.","dinakar29",2,2
+I am testing my package against the `pre-release` branch of upstream packages, and would like to know which commit hash of the upstream packages is being used in the tests.","dinakar29",3,1
+"openpharma/staged.dependencies","Add git sha to dep table","https://github.com/openpharma/staged.dependencies/pull/111","open",2021-09-20,2021-09-20,NA,3,"Closes #108 
+
+![image](https://user-images.githubusercontent.com/15201933/134004372-3d752055-807a-4ac0-95d6-18fbbcdb941d.png)
+
+Will be some conflicts with [this](https://github.com/openpharma/staged.dependencies/pull/107) which should be reasonably easy to fix.
+
+@dinakar29 - will wait for Adrian to approve before merging in - though you can test this by install this branch of staged.deps in your pipelines","nikolas-burkoff",1,1
+"openpharma/staged.dependencies","Create new addin","https://github.com/openpharma/staged.dependencies/pull/110","open",2021-09-20,2021-09-20,NA,3,"Closes #62 
+
+![image](https://user-images.githubusercontent.com/15201933/134002311-9161ead2-8d5b-4e14-9c8e-8b374f0bc4a0.png)
+","nikolas-burkoff",1,1
+"openpharma/staged.dependencies","more gracefully handle missing visNetwork","https://github.com/openpharma/staged.dependencies/pull/109","open",2021-09-20,2021-09-20,NA,3,"Closes #79
+
+So I'd rather leave visNetwork as a suggests as we don't need to install visNetwork for the bulk of the features of staged.dependencies and we don't want to have to install it for every automation run - but now we have:
+
+![image](https://user-images.githubusercontent.com/15201933/133998142-6dd189d0-2c48-495f-98a8-70b9840d51bd.png)
+
+","nikolas-burkoff",1,1
