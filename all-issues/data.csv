@@ -27086,7 +27086,7 @@ https://github.com/openpharma/staged.dependencies/pull/58#discussion_r687851505
 
 Could even have a default_host argument (set to https://github.com say) so you don't even need to specify the host for every repo.","nikolas-burkoff",13,0
 "openpharma/staged.dependencies","Streamline codebase","https://github.com/openpharma/staged.dependencies/issues/72","closed",2021-08-13,2021-09-06,2021-09-06,1,"There are lots of quite similar functions which get the dependency structure and then do something - are there ways to refactor so the getting the dependency structure is easier to maintain","nikolas-burkoff",24,0
-"phuse-org/valtools","Testing figure comparisons","https://github.com/phuse-org/valtools/pull/185","open",2021-08-13,2021-09-22,NA,3,"Vignette on how to perform figure comparisons within {valtools}","thebioengineer",46,6
+"phuse-org/valtools","Testing figure comparisons","https://github.com/phuse-org/valtools/pull/185","open",2021-08-13,2021-09-22,NA,3,"Vignette on how to perform figure comparisons within {valtools}","thebioengineer",47,7
 "Roche/respectables","Update check badge","https://github.com/Roche/respectables/pull/35","closed",2021-08-14,2021-08-17,2021-08-17,1,"<!-- Thank you for your contribution! -->
 
 ## Description
@@ -27183,7 +27183,7 @@ errors.
 > Error in rbind(header_content$span, body_spans) :
 > number of columns of matrices must match (see arg 2)
 > 
-> This is in version 0.3.8","anajens",41,5
+> This is in version 0.3.8","anajens",42,6
 "Roche/rtables","Improve printing of rtables ","https://github.com/Roche/rtables/issues/230","open",2021-08-18,2021-08-18,NA,1," Issue originally reported by @thomas-neitmann on Jul 15, 2020:
 
 >The current printing of an rtable with the dashed line underneath the header looks rather poor.
@@ -27283,7 +27283,7 @@ Proposal:
 - _downstream_ repos which have package in their dep tree
 -  replace c(upstream, downstream) with (all_internal)
 
-Also add a simple `install_all_deps` as a simple wrapper around `install_deps` - with external installed as default","nikolas-burkoff",36,1
+Also add a simple `install_all_deps` as a simple wrapper around `install_deps` - with external installed as default","nikolas-burkoff",37,2
 "Merck/r2rtf","How to show multiple lines in page header or footer?","https://github.com/Merck/r2rtf/issues/43","closed",2021-08-23,2021-08-25,2021-08-25,4,"Is there a way to add multiple lines of words (or a empty underline) with different alignments in the page header and footer?  Or is there a way to insert a table (with multiple lines or top/bottom border) in the page header or footer?","DawnYe",2,0
 "openpharma/staged.dependencies","Incorporate `update_with_direct_deps` into `roxygen`  and automation workflow ","https://github.com/openpharma/staged.dependencies/issues/82","open",2021-08-23,2021-09-08,NA,2,"i.e. 
 ```
@@ -27906,7 +27906,7 @@ get_tableone(data, strata = ""Sex"") %>%
   render(title = TITLE, datasource = DATASOURCE)
 ```
 
-This should be done automatically.","timtreis",18,6
+This should be done automatically.","timtreis",19,7
 "openpharma/visR","add_highlight","https://github.com/openpharma/visR/issues/259","open",2021-09-12,2021-09-12,NA,0,"Looking at the examples, I find the add_highlight function counter intuitive.
 We define CI with alpha 0.4 and then highlight using an alpha of 0.2. I would have expected to see a higher alpha input eg bg_alpha = 0.4 or a more informative argument eg alpha_multiplier
 
@@ -27915,7 +27915,7 @@ Can we look into this?
 "openpharma/visR","get_files_in_xxx_folder - remove","https://github.com/openpharma/visR/issues/258","open",2021-09-12,2021-09-12,NA,0,"We should consider removing these are they are not true functions but calls to predefined codes.
 We can decide to keep them if they are used many times across multiple files.
 If we decide to keep them, could we shorten the name eg get_xx_files (get_rd_files, get_man_files, ...) in agreement with our naming conventions?","SHAESEN2",9,9
-"openpharma/staged.dependencies","Adding e2e tests in github workflow","https://github.com/openpharma/staged.dependencies/pull/101","open",2021-09-13,2021-09-20,NA,4,"Closes #87 ","nikolas-burkoff",15,8
+"openpharma/staged.dependencies","Adding e2e tests in github workflow","https://github.com/openpharma/staged.dependencies/pull/101","open",2021-09-13,2021-09-20,NA,4,"Closes #87 ","nikolas-burkoff",16,9
 "openpharma/staged.dependencies","allow option to skip checks if yaml file missing","https://github.com/openpharma/staged.dependencies/pull/102","closed",2021-09-13,2021-09-14,2021-09-14,2,"Required for #66 
 
 We want to option to skip checks on a given repo if there is no yaml file (e.g. rtables) 
@@ -27934,7 +27934,7 @@ Then #66 can be closed
 - [x] Handle case initial repo is not accessible with an error - i.e. in this case `dependency_table(project = ""x/y"", ""repo@host"", ""main"")`
 - [x] Update roxygen
 - [ ] Add tests to test this - and fix existing tests which will be quite challenging... 
-- [x] Handle case where unable to fetch repos already in cache (i.e. token revoked)","nikolas-burkoff",15,4
+- [x] Handle case where unable to fetch repos already in cache (i.e. token revoked)","nikolas-burkoff",16,5
 "pharmaR/riskmetric","Minor bug when summarizing risk metric scores","https://github.com/pharmaR/riskmetric/issues/222","closed",2021-09-13,2021-09-13,2021-09-13,2,"With riskmetric v0.1.1, I'm getting the following error when I try to get the risk metric scores for one package:
 `res <- pkg_ref(c(""MatchIt"")) %>%
      pkg_assess() %>%
@@ -28203,7 +28203,7 @@ $EST METHOD=COND LAPLACE LIKE MAXEVAL=0
 Thank you for your help!","namtien0312",0,0
 "pharmaR/riskmetric","Switch tests to use source functions","https://github.com/pharmaR/riskmetric/pull/223","open",2021-09-15,2021-09-21,NA,1,"Per the CRAN archival #218 , its unclear what bioc packages are on the VMs CRAN is testing on. This makes the calls explict.
 
-WIP. Looking to add in @dgkf suggestions.","elimillera",13,7
+WIP. Looking to add in @dgkf suggestions.","elimillera",14,8
 "openpharma/simaerep","Dev","https://github.com/openpharma/simaerep/pull/12","closed",2021-09-16,2021-09-16,2021-09-16,1,NA,"erblast",0,0
 "phuse-org/valtools","add p2 of cheatsheet","https://github.com/phuse-org/valtools/pull/199","closed",2021-09-17,2021-09-20,2021-09-20,0,"closes #178 ","mariev",3,0
 "openpharma/staged.dependencies","Allow tags to be used as dep references","https://github.com/openpharma/staged.dependencies/pull/107","open",2021-09-17,2021-09-27,NA,4,"Closes #97 
@@ -28217,8 +28217,8 @@ for appropriate `x/y` and `my_tag`
 
 End to end tests will be added [here](https://github.com/openpharma/staged.dependencies/pull/101/files#r711050593) once I can tag the staged.deps example repos.
 
-**Note** after testing this functionality and checking out main, you will need to clear the staged deps cache (once this is merged in then clearing cache will not be required)","nikolas-burkoff",11,1
-"openpharma/visR","get_pvalue gives too many digits","https://github.com/openpharma/visR/issues/262","open",2021-09-17,2021-09-17,NA,0,"#### Issue description
+**Note** after testing this functionality and checking out main, you will need to clear the staged deps cache (once this is merged in then clearing cache will not be required)","nikolas-burkoff",12,2
+"openpharma/visR","get_pvalue gives too many digits","https://github.com/openpharma/visR/issues/262","closed",2021-09-17,2021-09-28,2021-09-28,1,"#### Issue description
 
 
 
@@ -28244,7 +28244,7 @@ adtte %>%
 
 Same precision as for p-value
 
-","timtreis",10,10
+","timtreis",11,0
 "openpharma/staged.dependencies","Programmatically get default branch name","https://github.com/openpharma/staged.dependencies/issues/106","open",2021-09-17,2021-09-17,NA,0,"At the moment this is hard-coded as ""main"" but I think we can get the default branch out and pass that as fallback argument to `determine_ref`
 
 ![image](https://user-images.githubusercontent.com/15201933/133779894-4216272f-3c2f-45fc-a505-e2b7819175b6.png)
@@ -28298,8 +28298,8 @@ So I'd rather leave visNetwork as a suggests as we don't need to install visNetw
 "Roche/rtables","Add Vignette For Advanced Users","https://github.com/Roche/rtables/issues/243","open",2021-09-21,2021-09-21,NA,0,"including 
  - custom splitting functions
  - advanced use of `analyze` including `.spl_context` (debugging)
-","waddella",7,7
-"Roche/rtables","Code coverage should be >= 80%","https://github.com/Roche/rtables/issues/242","open",2021-09-21,2021-09-21,NA,0,"Please increase the test code coverage to be more than 80% as this is required by `autovalidate` workflow. Currently test coverage is a little under 70%.","anajens",7,7
+","waddella",8,8
+"Roche/rtables","Code coverage should be >= 80%","https://github.com/Roche/rtables/issues/242","open",2021-09-21,2021-09-21,NA,0,"Please increase the test code coverage to be more than 80% as this is required by `autovalidate` workflow. Currently test coverage is a little under 70%.","anajens",8,8
 "openpharma/staged.dependencies","use rstudio project directory for addins","https://github.com/openpharma/staged.dependencies/pull/112","closed",2021-09-21,2021-09-24,2021-09-24,3,"Closes #92
 
 Test by opening an RStudio project, running `setwd(""./R"")` and then trying the addins.
@@ -28321,7 +28321,7 @@ export_as_pdf(tab, file = tf, height = 4)
 For example, I get the layout below footnotes with `export_as_pdf` and by manually inserting line breaks. It would be much easier to have some utility where I can provide one long string without line breaks where the optimal width can be determined automatically to alight with the table width.
 
 ![image](https://user-images.githubusercontent.com/43623360/134430980-62d6b895-b4fb-4913-be2b-0a126f1549e1.png)
-","anajens",6,4
+","anajens",7,5
 "openpharma/staged.dependencies","Allow partial dependency graphs","https://github.com/openpharma/staged.dependencies/pull/113","open",2021-09-23,2021-09-24,NA,1,"Closes #100
 
 Note there will be a lot of merge conflicts with open PRs which will need to be fixed - probably easier to get the others in first...
@@ -28339,7 +28339,7 @@ At the moment this can be tested by **always clearing cache** (see last TODO) an
 
 Note if all packages accessible then the additional notes on the print and plot are not shown. Also other functions such as `check_yaml_consistent`, `build_check_install` have been updated as well.  
 
-If first repo is inaccessible then an error is shown i.e. `dependency_table(""openpharama/typo"", ""repo@host"", ""main"")`","nikolas-burkoff",5,4
+If first repo is inaccessible then an error is shown i.e. `dependency_table(""openpharama/typo"", ""repo@host"", ""main"")`","nikolas-burkoff",6,5
 "Roche/rtables","column subset columns missing from .spl_context","https://github.com/Roche/rtables/issues/246","closed",2021-09-23,2021-09-23,2021-09-23,0,"@anajens reported correctly that the non-current subset columns were missing from `.spl_context` as it was passed to analysis and content functions:
 
 
@@ -28357,7 +28357,7 @@ Am I missing something?
 
 _Originally posted by @anajens in https://github.com/Roche/rtables/issues/240#issuecomment-925443767_","gmbecker",0,0
 "openpharma/simaerep","correct licence holder, readme and news","https://github.com/openpharma/simaerep/pull/13","closed",2021-09-23,2021-09-23,2021-09-23,1,NA,"erblast",0,0
-"openpharma/simaerep","define standard configuration set for data simulation so we can validate performance","https://github.com/openpharma/simaerep/issues/14","open",2021-09-23,2021-09-23,NA,0,NA,"erblast",5,5
+"openpharma/simaerep","define standard configuration set for data simulation so we can validate performance","https://github.com/openpharma/simaerep/issues/14","open",2021-09-23,2021-09-23,NA,0,NA,"erblast",6,6
 "Roche/rtables","Develop CSS for new as_html support for headers/footers/referential footnotes","https://github.com/Roche/rtables/issues/247","open",2021-09-23,2021-09-23,NA,0,"working baseline proof of concept as of 0.3.8.9012 in gabe_tabletree_work
 
 headers go in divs inside caption tag, footers go in div after table:
@@ -28424,12 +28424,12 @@ headers go in divs inside caption tag, footers go in div after table:
     </div>
   </div>
 </div>
-```","gmbecker",5,5
-"openpharma/simaerep","option to output over-reporting score","https://github.com/openpharma/simaerep/issues/15","open",2021-09-23,2021-09-23,NA,0,NA,"erblast",5,5
-"openpharma/simaerep","optionally calculate under-reporting score over all possible visits for a given site","https://github.com/openpharma/simaerep/issues/16","open",2021-09-23,2021-09-23,NA,0,NA,"erblast",5,5
+```","gmbecker",6,6
+"openpharma/simaerep","option to output over-reporting score","https://github.com/openpharma/simaerep/issues/15","open",2021-09-23,2021-09-23,NA,0,NA,"erblast",6,6
+"openpharma/simaerep","optionally calculate under-reporting score over all possible visits for a given site","https://github.com/openpharma/simaerep/issues/16","open",2021-09-23,2021-09-23,NA,0,NA,"erblast",6,6
 "openpharma/DataFakeR","Setup CI and fix RCMD checks.","https://github.com/openpharma/DataFakeR/pull/1","closed",2021-09-23,2021-09-23,2021-09-23,0,NA,"krystian8207",0,0
-"openpharma/staged.dependencies","Add host type to options","https://github.com/openpharma/staged.dependencies/issues/114","open",2021-09-24,2021-09-24,NA,0,"As a precursor to #105 and to remove references to specific enterprise server urls we need to havea host type argument to each host","nikolas-burkoff",4,4
-"openpharma/visR","Life table","https://github.com/openpharma/visR/issues/263","open",2021-09-24,2021-09-24,NA,0,"## Idea
+"openpharma/staged.dependencies","Add host type to options","https://github.com/openpharma/staged.dependencies/issues/114","open",2021-09-24,2021-09-24,NA,0,"As a precursor to #105 and to remove references to specific enterprise server urls we need to havea host type argument to each host","nikolas-burkoff",5,5
+"openpharma/visR","Life table","https://github.com/openpharma/visR/issues/263","open",2021-09-24,2021-09-28,NA,1,"## Idea
 
 As discussed during PSI2021, life tables might be a thing that we should implement. It seems like a fairly quick win and would be an additional feature integrating into the time-to-event-analysis theme.
 
@@ -28456,10 +28456,177 @@ visR::adtte %>%
   visR::estimate_KM() %>%
   visR::lifetable(intervals = list(c(-Inf, 18), c(19-60), c(61, Inf)),
                   columns = c(""n.risk"", ""n.event"", ""n.censor"", ""survival"", ""CI_lower"", ""CI_upper""))
-```","timtreis",4,4
+```","timtreis",5,1
 "Roche/ggtips","tooltips line breaks to be removed","https://github.com/Roche/ggtips/pull/82","closed",2021-09-24,2021-09-24,2021-09-24,0,"CSS variables controlling the min and the max width of tooltips were added. Styling rules updated. Changelog updated.","OliBravo",0,0
 "nlmixrdevelopment/nlmixr","Specify fitting compartment","https://github.com/nlmixrdevelopment/nlmixr/issues/560","open",2021-09-27,2021-09-27,NA,0,"Hello, I have a dataset with multiple CMTs inlcuding absorption, central and effect. It was created to fit the data simultaneously with multiple endpoints bit now I only want to fit the data of the 3rd CMT which is the effect. When I write
 
 effect ~ prop(effect.prop)
 
-Where do I specify which DV data to use for the fitting (namely only the CMT=3 ones)","DimitrisVoul",1,1
+Where do I specify which DV data to use for the fitting (namely only the CMT=3 ones)","DimitrisVoul",2,2
+"nlmixrdevelopment/nlmixr","""subscript out of bounds"" during SAEM model setup","https://github.com/nlmixrdevelopment/nlmixr/issues/561","open",2021-09-28,2021-09-28,NA,3,"I'm working to generate a reprex for this, but as usual the data and model are proprietary
+
+I have a moderate-complexity model that gets a ""subscript out of bounds"" error in `nlmixrUI.saem.model.omega()` due to the fact that `etd` goes up to 18 but `dm` is only 17.  So, the matrix dimension is not big enough for the etas (if I'm reading the code correctly).
+
+https://github.com/nlmixrdevelopment/nlmixr/blob/9fc906a82e27e7c74bc0b31cdfe741d87fe6fe7f/R/ui.R#L3153-L3162
+
+One challenge with making a reprex is that when I use the same model but much simpler data, `obj$env$.bpars` in `nlmixrUI.saem.model.omega()` is NULL instead of having a function body.
+
+This is with nlmixr 2.0.5, RxODE 1.1.1, lotri 0.3.1, and R 4.1.0.","billdenney",1,1
+"openpharma/visR","add_highlight - Testing","https://github.com/openpharma/visR/issues/264","open",2021-09-28,2021-09-28,NA,0,"#### Issue description
+The testing of add_highlight is giving errors
+Error (test-add_highlight.R:118:3): T2.1 No error when `strata` is a character string found in the plot strata.
+Error: svglite only supports one page
+Error (test-add_highlight.R:169:3): T2.4 No error when `strata` is a `list` or `vector` of character strings found in the plot strata.
+Error: svglite only supports one page
+Error (test-add_highlight.R:307:3): T3.4 The alpha of the background strata changes with `bg_alpha`.
+Error: svglite only supports one page
+","SHAESEN2",1,1
+"Roche/ggtips","Explicitly install libcurl4-openssl-dev when running tests on Ubuntu 20.04","https://github.com/Roche/ggtips/pull/84","closed",2021-09-28,2021-09-28,2021-09-28,1,NA,"cosi1",0,0
+"Roche/ggtips","Fix tooltip background for unfilled shapes","https://github.com/Roche/ggtips/pull/83","closed",2021-09-28,2021-09-28,2021-09-28,0,"Restore walkaround for setting tooltip background color on unfilled shapes (plus small refactor of this piece). Additional changes: fixed rgb2hex function and changed circle selector","adamgolubowski",0,0
+"openpharma/visR","Fixed precision for pvalue and Chisq to be aligned.","https://github.com/openpharma/visR/pull/265","closed",2021-09-28,2021-09-28,2021-09-28,0,NA,"SHAESEN2",0,0
+"Roche/rtables","htmltools suggestions","https://github.com/Roche/rtables/pull/249","open",2021-09-28,2021-09-28,NA,0,"It shouldn't ever be necessary to call do.call() on htmltools tag
+functions, due to several little-known features:
+
+1. `NULL` arguments are ignored
+2. Children can be nested in lists, they'll be treated like they
+   were passed directly
+3. Multiple `class` arguments are automatically pasted together
+   with a space in between
+
+Also, it's not relevant for the current `as_html` implementation, but it's possible to use tidyeval semantics as well (e.g. for dynamic attribute names, you can use `div(!!attrib_name := attrib_value)`, or `div(!!!attribs)`).","jcheng5",1,1
+"openpharma/staged.dependencies","Remove `--no-manual` default flag in `build_check_install` and stick to the defaults","https://github.com/openpharma/staged.dependencies/issues/115","open",2021-09-28,2021-09-28,NA,0,"In order to test package fully I do want to remove --no-manual flag. Currently it allows to push erroneous TeX code that could be easily identified. ","pawelru",1,1
+"Roche/rtables","Replace some cell content by empty spaces.","https://github.com/Roche/rtables/issues/248","open",2021-09-28,2021-09-28,NA,0,"When creating a table using the `split_cols_by_multivar()` function, I would like to be able to replace the data highlighted in yellow in the ""BASELINE"" row and columns ""CHANGE"" by some empty spaces, since the magnitude of the change compared to baseline in the baseline row will always be null. *NB: the data presented here are randomly generated*
+
+Thank you for your time.
+
+![image](https://user-images.githubusercontent.com/64274616/135067383-8922cbb8-c657-4131-a9f0-ebfc916a980a.png)
+ *Further rows are omitted for conciseness* 
+
+
+the code to generate the table is:
+```r
+
+lyt <- basic_table()  %>%
+    split_cols_by(""ACTARM"") %>%
+    split_rows_by(
+      ""PARAM"",
+      split_fun = drop_split_levels,
+      label_pos = ""hidden"",
+      split_label = ""Parameter""
+    ) %>%
+    split_rows_by(
+      ""AVISIT"",
+      split_fun = drop_split_levels,
+      label_pos = ""hidden"",
+      split_label = ""Analysis Visit""
+    ) %>%
+    split_cols_by_multivar(
+      vars = c(""AVAL"", ""CHG""),
+      varlabels = c(""Analysis"", ""Change""),
+      nested = TRUE
+    ) %>%
+    summarize_colvars() %>%
+    append_topleft(""Parameter"") %>%
+    append_topleft("" Analysis Visit"")
+
+
+library(scda)
+library(dplyr)
+sd <- synthetic_cdisc_data(""rcd_2021_03_22"")
+adlb <- sd$adlb %>%
+mutate(ANL01FL = 'Y')
+
+build_table(lyt, adlb)
+
+```
+
+the row path summary  (`row_path_summary()`) of the corresponding table is:
+```r
+> row_paths_summary(p)
+rowname                                 node_class    path                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------
+Alanine Aminotransferase Measurement    LabelRow      PARAM, Alanine Aminotransferase Measurement                                             
+  SCREENING                             LabelRow      PARAM, Alanine Aminotransferase Measurement, AVISIT, SCREENING                          
+    n                                   DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, SCREENING, ac_AVAL_CHG, n          
+    Mean (SD)                           DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, SCREENING, ac_AVAL_CHG, mean_sd    
+    Median                              DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, SCREENING, ac_AVAL_CHG, median     
+    Min - Max                           DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, SCREENING, ac_AVAL_CHG, range      
+  BASELINE                              LabelRow      PARAM, Alanine Aminotransferase Measurement, AVISIT, BASELINE                           
+    n                                   DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, BASELINE, ac_AVAL_CHG, n           
+    Mean (SD)                           DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, BASELINE, ac_AVAL_CHG, mean_sd     
+    Median                              DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, BASELINE, ac_AVAL_CHG, median      
+    Min - Max                           DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, BASELINE, ac_AVAL_CHG, range       
+  WEEK 1 DAY 8                          LabelRow      PARAM, Alanine Aminotransferase Measurement, AVISIT, WEEK 1 DAY 8                       
+    n                                   DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, WEEK 1 DAY 8, ac_AVAL_CHG, n       
+    Mean (SD)                           DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, WEEK 1 DAY 8, ac_AVAL_CHG, mean_sd 
+    Median                              DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, WEEK 1 DAY 8, ac_AVAL_CHG, median  
+    Min - Max                           DataRow       PARAM, Alanine Aminotransferase Measurement, AVISIT, WEEK 1 DAY 8, ac_AVAL_CHG, range   
+
+```
+the col path summary (`col_path_summary()`) of the corresponding table is:
+
+```r
+
+label             path                                   
+---------------------------------------------------------
+A: Drug X         ACTARM, A: Drug X                      
+  Analysis        ACTARM, A: Drug X, multivars, AVAL     
+  Change          ACTARM, A: Drug X, multivars, CHG      
+B: Placebo        ACTARM, B: Placebo                     
+  Analysis        ACTARM, B: Placebo, multivars, AVAL    
+  Change          ACTARM, B: Placebo, multivars, CHG     
+C: Combination    ACTARM, C: Combination                 
+  Analysis        ACTARM, C: Combination, multivars, AVAL
+  Change          ACTARM, C: Combination, multivars, CHG 
+```
+
+
+**Session Info**
+```r
+> utils::sessionInfo()
+R version 4.1.0 (2021-05-18)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 18363)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=English_Switzerland.1252  LC_CTYPE=English_Switzerland.1252    LC_MONETARY=English_Switzerland.1252 LC_NUMERIC=C                         LC_TIME=English_Switzerland.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] dplyr_1.0.7        scda_0.1.0.9000    chevron_0.1.0      tern_0.7.4.9000    optimx_2021-6.12   rtables_0.3.8.9002 magrittr_2.0.1    
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_1.0.7             mvtnorm_1.1-2          lattice_0.20-44        tidyr_1.1.3            assertthat_0.2.1       digest_0.6.27          utf8_1.2.2             R6_2.5.0              
+ [9] cellranger_1.1.0       backports_1.2.1        ggplot2_3.3.5          pillar_1.6.2           rlang_0.4.11           curl_4.3.2             readxl_1.3.1           minqa_1.2.4           
+[17] data.table_1.14.0      car_3.0-11             nloptr_1.2.2.2         Matrix_1.3-4           labeling_0.4.2         splines_4.1.0          lme4_1.1-27.1          foreign_0.8-81        
+[25] munsell_0.5.0          broom_0.7.9            compiler_4.1.0         numDeriv_2016.8-1.1    pkgconfig_2.0.3        lmerTest_3.1-3         utils.nest_0.2.10.9000 htmltools_0.5.1.1     
+[33] tidyselect_1.1.1       tibble_3.1.3           gridExtra_2.3          rio_0.5.27             viridisLite_0.4.0      fansi_0.5.0            crayon_1.4.1           MASS_7.3-54           
+[41] grid_4.1.0             nlme_3.1-152           xtable_1.8-4           gtable_0.3.0           lifecycle_1.0.0        DBI_1.1.1              scales_1.1.1           zip_2.2.0             
+[49] estimability_1.3       stringi_1.7.3          carData_3.0-4          ellipsis_0.3.2         generics_0.1.0         vctrs_0.3.8            boot_1.3-28            openxlsx_4.2.4        
+[57] tools_4.1.0            forcats_0.5.1          glue_1.4.2             purrr_0.3.4            hms_1.1.0              emmeans_1.6.2-1        abind_1.4-5            parallel_4.1.0        
+[65] survival_3.2-11        dfoptim_2020.10-1      colorspace_2.0-2       haven_2.4.3           
+
+```","BFalquet",1,1
+"openpharma/staged.dependencies","Revert DESC file after installation","https://github.com/openpharma/staged.dependencies/issues/116","open",2021-09-28,2021-09-28,NA,0,"Once we have installed a package from the cache we cannot then do anything else with it (i.e. if we install a downstream package and then try to check it)
+
+```
+library(staged.dependencies)
+clear_cache()
+x <- staged.dependencies::dependency_table(""openpharma/stageddeps.water"", ""repo@host"", ref = ""main"", verbose = FALSE)
+# only install these 2 as need renv removed from stageddeps.electricity for others to work
+install_deps(x, install_direction = c(""upstream"", ""downstream""), 
+  dependency_packages = c(""stageddeps.water"", ""stageddeps.garden""))
+# note check downstream also installs required deps as you can call this without having
+# called install_deps first
+check_downstream(x, downstream_packages = ""stageddeps.garden"")
+```
+
+See [here](https://github.com/openpharma/staged.dependencies/blob/7f24c2140e78b85ba3959eef33484ae2a802ce09/R/git_tools.R#L235)
+","nikolas-burkoff",1,1
+"nlmixrdevelopment/nlmixr","Slight code simplification","https://github.com/nlmixrdevelopment/nlmixr/pull/562","open",2021-09-28,2021-09-28,NA,0,"This is a slight code readability simplification that I found made it easier to work with a recent issue.  (It's not related to the issue directly; just where I was in the code.)
+
+If not of interest, feel free to close the PR.","billdenney",1,1
