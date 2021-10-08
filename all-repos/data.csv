@@ -27,7 +27,7 @@
 "openpharma","ReadStat","openpharma/ReadStat","Command-line tool (+ C library) for converting SAS, Stata, and SPSS files 💾","2020-09-26T06:39:12Z","C",1.8
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
 "openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-09-23T18:58:01Z","R",89.4
-"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-09-27T10:42:19Z","R",0.9
+"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-10-07T09:27:16Z","R",0.9
 "openpharma","stageddeps.elecinfra","openpharma/stageddeps.elecinfra","Dummy R Package for testing staged dependencies","2021-08-12T17:50:13Z","R",0
 "openpharma","stageddeps.electricity","openpharma/stageddeps.electricity","Dummy R Package for testing staged dependencies","2021-08-12T17:51:16Z","R",0
 "openpharma","stageddeps.food","openpharma/stageddeps.food","Dummy R Package for testing staged.dependencies","2021-08-23T12:13:54Z","R",0
@@ -37,10 +37,10 @@
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
-"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-09-30T12:14:07Z","R",47.4
+"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-10-07T10:15:38Z","R",47.4
 "pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-10-01T18:22:12Z","R",1.5
 "phuse-org","aesummaries","phuse-org/aesummaries","PHUSE Forest Plot Project Repository","2021-06-11T14:09:04Z","HTML",2.7
-"phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-10-02T01:21:20Z","R",3.1
+"phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-10-07T17:14:19Z","R",3.1
 "Roche","crmPack","Roche/crmPack","Object-Oriented Implementation of CRM Designs","2021-02-19T20:47:26Z","R",62.5
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-10-01T09:35:33Z","R",0.8
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-09-08T13:20:07Z","R",102.3
