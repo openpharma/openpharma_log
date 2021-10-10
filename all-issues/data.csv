@@ -28630,12 +28630,12 @@ See [here](https://github.com/openpharma/staged.dependencies/blob/7f24c2140e78b8
 "nlmixrdevelopment/nlmixr","Slight code simplification","https://github.com/nlmixrdevelopment/nlmixr/pull/562","open",2021-09-28,2021-09-28,NA,0,"This is a slight code readability simplification that I found made it easier to work with a recent issue.  (It's not related to the issue directly; just where I was in the code.)
 
 If not of interest, feel free to close the PR.","billdenney",10,10
-"nlmixrdevelopment/nlmixr","Add cxxflags for updated StanHeaders and fix portability","https://github.com/nlmixrdevelopment/nlmixr/pull/563","open",2021-09-29,2021-09-29,NA,0,"Hi All,
+"nlmixrdevelopment/nlmixr","Add cxxflags for updated StanHeaders and fix portability","https://github.com/nlmixrdevelopment/nlmixr/pull/563","closed",2021-09-29,2021-10-10,2021-10-10,1,"Hi All,
 
 There are some additional compiler flags from StanHeaders and RcppParallel that will be needed once 2.26 hits CRAN. This PR adds those flags and also fixes the R CMD CHECK portability error introduced by the last pull.
 
 Thanks!
-Andrew","andrjohns",10,10
+Andrew","andrjohns",11,0
 "Roche/rtables","trim_zero_rows does not work?","https://github.com/Roche/rtables/issues/250","open",2021-09-29,2021-09-30,NA,3,"Is `trim_zero_rows` an old function that perhaps is not supported anymore?  Not much documentation for it and functionality seems to be similar but more limited than `trim_rows`. 
 
 ```r
