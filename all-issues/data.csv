@@ -13779,7 +13779,7 @@ I am wondering if `R CMD check` should be a separate assessment from CRAN/Bioc c
         1. `R CMD check` checks  whether the package will install on your system and if there are any potential problems with the install. For example, when I run `R CMD check` I get a warning for every package because I do not have the ‘qpdf’ package for checks on size reduction of PDFs.
         1. CRAN/Bioc checks summaries provides a snapshot of how a package would install on numerous systems, i.e. its portability. This to me is a different, albeit important potential metric. To me a package that is portable is of lower risk than one that is less portable.
   1. I thought about pulling individual checks from CRAN to match with the `R CMD check` but decided against it since we would have to match the users environment with the environments that CRAN runs the checks on and assume that they are the same which seems counter to proper risk assessment principles.","emilliman5",79,0
-"Novartis/xgxr","mean +/- SD ?","https://github.com/Novartis/xgxr/issues/32","open",2020-07-22,2021-10-06,NA,1,"Received a request to have an option to plot Mean +/- SD instead of Mean & CI. I think Mean +/- SE is already the default for stat_summary, but what about SD?","margoal1",444,3
+"Novartis/xgxr","mean +/- SD ?","https://github.com/Novartis/xgxr/issues/32","open",2020-07-22,2021-10-06,NA,1,"Received a request to have an option to plot Mean +/- SD instead of Mean & CI. I think Mean +/- SE is already the default for stat_summary, but what about SD?","margoal1",445,4
 "nlmixrdevelopment/nlmixr","Autocovariate2","https://github.com/nlmixrdevelopment/nlmixr/pull/373","closed",2020-07-24,2020-07-30,2020-07-30,0,"with daptomycin ","vupil",6,0
 "nlmixrdevelopment/nlmixr","Bootstrap2","https://github.com/nlmixrdevelopment/nlmixr/pull/371","closed",2020-07-24,2020-07-28,2020-07-28,0,"From vipul","mattfidler",4,0
 "nlmixrdevelopment/nlmixr","print(nlmixr(fit)$ini) no longer works","https://github.com/nlmixrdevelopment/nlmixr/issues/374","closed",2020-07-24,2020-07-26,2020-07-26,0,"Probably related to #365 ","mattfidler",2,0
@@ -27915,7 +27915,7 @@ Can we look into this?
 "openpharma/visR","get_files_in_xxx_folder - remove","https://github.com/openpharma/visR/issues/258","open",2021-09-12,2021-09-12,NA,0,"We should consider removing these are they are not true functions but calls to predefined codes.
 We can decide to keep them if they are used many times across multiple files.
 If we decide to keep them, could we shorten the name eg get_xx_files (get_rd_files, get_man_files, ...) in agreement with our naming conventions?","SHAESEN2",9,9
-"openpharma/staged.dependencies","Adding e2e tests in github workflow","https://github.com/openpharma/staged.dependencies/pull/101","open",2021-09-13,2021-10-08,NA,4,"Closes #87 ","nikolas-burkoff",26,1
+"openpharma/staged.dependencies","Adding e2e tests in github workflow","https://github.com/openpharma/staged.dependencies/pull/101","open",2021-09-13,2021-10-08,NA,4,"Closes #87 ","nikolas-burkoff",27,2
 "openpharma/staged.dependencies","allow option to skip checks if yaml file missing","https://github.com/openpharma/staged.dependencies/pull/102","closed",2021-09-13,2021-09-14,2021-09-14,2,"Required for #66 
 
 We want to option to skip checks on a given repo if there is no yaml file (e.g. rtables) 
@@ -28248,7 +28248,7 @@ Same precision as for p-value
 "openpharma/staged.dependencies","Programmatically get default branch name","https://github.com/openpharma/staged.dependencies/issues/106","open",2021-09-17,2021-10-07,NA,1,"At the moment this is hard-coded as ""main"" but I think we can get the default branch out and pass that as fallback argument to `determine_ref`
 
 ![image](https://user-images.githubusercontent.com/15201933/133779894-4216272f-3c2f-45fc-a505-e2b7819175b6.png)
-","nikolas-burkoff",22,2
+","nikolas-burkoff",23,3
 "phuse-org/valtools","Pulling the 'validation lead' title from the config yaml.","https://github.com/phuse-org/valtools/issues/200","open",2021-09-17,2021-09-17,NA,0,"I think in the future we could extend this further by pulling the 'validation lead' title from the config yaml.
 
 _Originally posted by @elimillera in https://github.com/phuse-org/valtools/pull/197#discussion_r703113791_
@@ -28428,7 +28428,7 @@ headers go in divs inside caption tag, footers go in div after table:
 "openpharma/simaerep","option to output over-reporting score","https://github.com/openpharma/simaerep/issues/15","open",2021-09-23,2021-09-23,NA,0,NA,"erblast",10,10
 "openpharma/simaerep","optionally calculate under-reporting score over all possible visits for a given site","https://github.com/openpharma/simaerep/issues/16","open",2021-09-23,2021-09-23,NA,0,NA,"erblast",10,10
 "openpharma/DataFakeR","Setup CI and fix RCMD checks.","https://github.com/openpharma/DataFakeR/pull/1","closed",2021-09-23,2021-09-23,2021-09-23,0,NA,"krystian8207",0,0
-"openpharma/staged.dependencies","Add host type to options","https://github.com/openpharma/staged.dependencies/issues/114","open",2021-09-24,2021-10-08,NA,1,"As a precursor to #105 and to remove references to specific enterprise server urls we need to havea host type argument to each host","nikolas-burkoff",15,1
+"openpharma/staged.dependencies","Add host type to options","https://github.com/openpharma/staged.dependencies/issues/114","open",2021-09-24,2021-10-08,NA,1,"As a precursor to #105 and to remove references to specific enterprise server urls we need to havea host type argument to each host","nikolas-burkoff",16,2
 "openpharma/visR","Life table","https://github.com/openpharma/visR/issues/263","open",2021-09-24,2021-09-28,NA,1,"## Idea
 
 As discussed during PSI2021, life tables might be a thing that we should implement. It seems like a fairly quick win and would be an additional feature integrating into the time-to-event-analysis theme.
@@ -28494,7 +28494,7 @@ functions, due to several little-known features:
    with a space in between
 
 Also, it's not relevant for the current `as_html` implementation, but it's possible to use tidyeval semantics as well (e.g. for dynamic attribute names, you can use `div(!!attrib_name := attrib_value)`, or `div(!!!attribs)`).","jcheng5",8,0
-"openpharma/staged.dependencies","Remove `--no-manual` default flag in `build_check_install` and stick to the defaults","https://github.com/openpharma/staged.dependencies/issues/115","open",2021-09-28,2021-10-07,NA,1,"In order to test package fully I do want to remove --no-manual flag. Currently it allows to push erroneous TeX code that could be easily identified. ","pawelru",11,2
+"openpharma/staged.dependencies","Remove `--no-manual` default flag in `build_check_install` and stick to the defaults","https://github.com/openpharma/staged.dependencies/issues/115","open",2021-09-28,2021-10-07,NA,1,"In order to test package fully I do want to remove --no-manual flag. Currently it allows to push erroneous TeX code that could be easily identified. ","pawelru",12,3
 "Roche/rtables","Replace some cell content by empty spaces.","https://github.com/Roche/rtables/issues/248","open",2021-09-28,2021-09-28,NA,0,"When creating a table using the `split_cols_by_multivar()` function, I would like to be able to replace the data highlighted in yellow in the ""BASELINE"" row and columns ""CHANGE"" by some empty spaces, since the magnitude of the change compared to baseline in the baseline row will always be null. *NB: the data presented here are randomly generated*
 
 Thank you for your time.
@@ -28626,7 +28626,7 @@ check_downstream(x, downstream_packages = ""stageddeps.garden"")
 ```
 
 See [here](https://github.com/openpharma/staged.dependencies/blob/7f24c2140e78b85ba3959eef33484ae2a802ce09/R/git_tools.R#L235)
-","nikolas-burkoff",11,2
+","nikolas-burkoff",12,3
 "nlmixrdevelopment/nlmixr","Slight code simplification","https://github.com/nlmixrdevelopment/nlmixr/pull/562","open",2021-09-28,2021-09-28,NA,0,"This is a slight code readability simplification that I found made it easier to work with a recent issue.  (It's not related to the issue directly; just where I was in the code.)
 
 If not of interest, feel free to close the PR.","billdenney",10,10
@@ -28704,7 +28704,7 @@ MULTIPLE
 ...
 ```","anajens",10,9
 "openpharma/staged.dependencies","Handle case where current project (or other repo in graph?) is not a package","https://github.com/openpharma/staged.dependencies/issues/117","closed",2021-09-30,2021-10-07,2021-10-07,0,"When the project has a staged deps yaml file but no DESCRIPTION file (i.e. it is a script/markdown which depends on the internal deps packages)","nikolas-burkoff",7,0
-"openpharma/staged.dependencies","Handle case where existing external dependency is incorrect version","https://github.com/openpharma/staged.dependencies/issues/118","open",2021-09-30,2021-10-07,NA,2,"If you already have an external dependency package `x` installed on version 1.0 and your internal dependency requires version 1.1 of x then install_deps will not upgrade x and the installation will fail. This can be fixed by upgrading x manually and then re-running the command (after clearing_cache until #116 is fixed)","nikolas-burkoff",9,2
+"openpharma/staged.dependencies","Handle case where existing external dependency is incorrect version","https://github.com/openpharma/staged.dependencies/issues/118","open",2021-09-30,2021-10-07,NA,2,"If you already have an external dependency package `x` installed on version 1.0 and your internal dependency requires version 1.1 of x then install_deps will not upgrade x and the installation will fail. This can be fixed by upgrading x manually and then re-running the command (after clearing_cache until #116 is fixed)","nikolas-burkoff",10,3
 "openpharma/staged.dependencies","Staged dependencies cannot determine branch when running on tag","https://github.com/openpharma/staged.dependencies/issues/119","closed",2021-09-30,2021-10-07,2021-10-07,3,"When I creating workflow on tag (where head is on refs/tags/v*), staged dependencies fail with below error:
 
 ```
@@ -28740,11 +28740,11 @@ Error in h(simpleError(msg, call)) :
 "Roche/ggtips","Handling barblot geom","https://github.com/Roche/ggtips/pull/85","closed",2021-10-01,2021-10-01,2021-10-01,0,NA,"OliBravo",0,0
 "pharmaR/riskmetric","Update GHA","https://github.com/pharmaR/riskmetric/issues/225","open",2021-10-01,2021-10-01,NA,1,"Realized while debugging our CI scripts that our builds are a bit outdated (still using Ubuntu 16.04LTS). I'm sure other components are outdated as well. 
 
-Let's update to a more recent version of the actions","dgkf",8,8
+Let's update to a more recent version of the actions","dgkf",9,9
 "pharmaR/riskmetric","Updating GitHub actions, using more recent r-lib actions","https://github.com/pharmaR/riskmetric/pull/226","open",2021-10-01,2021-10-01,NA,1,"- Clear out existing actions
 - Added new (equivalent, but updated) actions using `usethis::use_github_action*` helpers
 
-Closes #225","dgkf",8,8
+Closes #225","dgkf",9,9
 "Roche/rtables","When should row_paths include ""root""? ","https://github.com/Roche/rtables/issues/252","open",2021-10-01,2021-10-01,NA,1,"@gmbecker this example below is silly but it's just to illustrate some different layouts from `tern` where we need to know the row paths in order to use `label_at_path`. I mostly find ex (1) and (2) not very intuitive and I'd like to get your take on the rationale. 
 
 ```r
@@ -28783,7 +28783,7 @@ t3 <- basic_table() %>%
 
 [[2]]
 [1] ""root""     ""ITTFL""    ""Y""        ""@content"" ""Y""    
-```","anajens",8,8
+```","anajens",9,9
 "Roche/rtables","Can sorting be done to tables constructed via rbind? ","https://github.com/Roche/rtables/issues/253","open",2021-10-04,2021-10-04,NA,3,"Hi @gmbecker , I'm trying to create a table in two parts and then sort the result which doesn't seem to work. See example below.
 
 The reason for splitting the table in two is because the layout must be able to display content rows with 0s which doesn't work because `analyze` must always return some content. As an alternative I would use dummy levels and then prune them away but was curious to hear your thoughts on whether the rbind approach is even feasible.
@@ -28855,7 +28855,7 @@ D
     dd       1  
 B                 
   (n)    0 (NaN%) 
-```","anajens",5,5
+```","anajens",6,6
 "Novartis/xgxr","Feature Suggestion:  scale_x_VISITDY to implement skipping day 0","https://github.com/Novartis/xgxr/issues/49","open",2021-10-06,2021-10-06,NA,0,"For communication with the clinical teams, it is often useful to create figures using the CDISC representation of days where day 0 does not exist (the time scale goes from Day -1, 23 hours, 59 minutes to Day 1, 0 hours, 0 minutes).
 
 I have created a set of functions to implement the `trans` for ggplot2 which represents VISITDY (or any --DY variable) where 0 does not exist (actually the way I coded it, 0 becomes -1).  I currently have the function in my semi-private Rsdtm library (i.e. it is public, but I don't advertise its existence), but I think it would be a better fit in xgxr.
@@ -28884,7 +28884,7 @@ ggplot(data.frame(x=-7:14, y=-7:14), aes(x=x, y=y, label=x)) +
 ![](https://i.imgur.com/FcYEOEV.png)
 
 <sup>Created on 2021-10-06 by the [reprex package](https://reprex.tidyverse.org) (v2.0.1)</sup>
-","billdenney",3,3
+","billdenney",4,4
 "nlmixrdevelopment/nlmixr","How to manually define exponential RUV and proportional RUV by norm() function?","https://github.com/nlmixrdevelopment/nlmixr/issues/564","closed",2021-10-06,2021-10-07,2021-10-07,2,"Dear `nlmixr` team,
 
 I found that additive RUV `cp ~ add(add.sd)` is equivalent to `cp ~ norm(add.sd)` in [userguide book](https://nlmixrdevelopment.github.io/nlmixr_bookdown/vignettes.html)!
@@ -28919,7 +28919,7 @@ And, with exponential RUV, how can I define it in the model. Is that `log(cp) ~ 
 Thank you for the explanation!
 Tien Nguyen.","namtien0312",1,0
 "openpharma/staged.dependencies","Publish staged.dependencies to CRAN","https://github.com/openpharma/staged.dependencies/issues/120","open",2021-10-06,2021-10-06,NA,0,"Publish a stable version of this package to CRAN.
-","dinakar29",3,3
+","dinakar29",4,4
 "Novartis/xgxr","xgx_conf_int should use length(y)-1 in calculated confidence interval istea","https://github.com/Novartis/xgxr/issues/48","open",2021-10-06,2021-10-06,NA,0,"In the script for xgx_conf_int, the function is coded as follows:
 
 ```
@@ -28937,7 +28937,7 @@ if (distribution == ""normal"") {
 ```
 
 Could you explain why it is 'length(y)' and not 'length(y) -1' as for a t distribution df should be 'n-1'?
-","iamstein",3,3
+","iamstein",4,4
 "openpharma/staged.dependencies","All-in-one addin menu item","https://github.com/openpharma/staged.dependencies/issues/121","open",2021-10-07,2021-10-07,NA,1,"In 99% of times, when I start working on a package after checking out a new branch I need to run the following manually:
 
 1. Click `Upgrade staged.dependencies Package`
@@ -28946,10 +28946,10 @@ Could you explain why it is 'length(y)' and not 'length(y) -1' as for a t dist
 
 Would it be possible to add another menu button that runs all of these in one go?
 Or can you get me started on a custom function I can put in my `.Rprofile` so that I can run this instead of the manual 3 above?
-@nikolas-burkoff @waddella ","danielinteractive",2,2
-"openpharma/staged.dependencies","Create NEWS file","https://github.com/openpharma/staged.dependencies/issues/122","open",2021-10-07,2021-10-07,NA,0,NA,"nikolas-burkoff",2,2
-"openpharma/staged.dependencies","add pkgdown website","https://github.com/openpharma/staged.dependencies/issues/124","open",2021-10-08,2021-10-08,NA,0,"on a different branch, see Roche/respectables","waddella",1,1
-"openpharma/staged.dependencies","Allow remotes other than origin","https://github.com/openpharma/staged.dependencies/issues/123","open",2021-10-08,2021-10-08,NA,0,"Functionality broken when adding tags functionality","nikolas-burkoff",1,1
+@nikolas-burkoff @waddella ","danielinteractive",3,3
+"openpharma/staged.dependencies","Create NEWS file","https://github.com/openpharma/staged.dependencies/issues/122","open",2021-10-07,2021-10-07,NA,0,NA,"nikolas-burkoff",3,3
+"openpharma/staged.dependencies","add pkgdown website","https://github.com/openpharma/staged.dependencies/issues/124","open",2021-10-08,2021-10-08,NA,0,"on a different branch, see Roche/respectables","waddella",2,2
+"openpharma/staged.dependencies","Allow remotes other than origin","https://github.com/openpharma/staged.dependencies/issues/123","open",2021-10-08,2021-10-08,NA,0,"Functionality broken when adding tags functionality","nikolas-burkoff",2,2
 "openpharma/quality_risk_assesment_clinical_trials","Dev","https://github.com/openpharma/quality_risk_assesment_clinical_trials/pull/2","closed",2021-10-08,2021-10-08,2021-10-08,0,NA,"erblast",0,0
 "Roche/rtables","it would be nice if `rbind(tab)` does not fail but just returns `tab`","https://github.com/Roche/rtables/issues/254","open",2021-10-08,2021-10-08,NA,0,"reprex:
 ```r
@@ -29002,4 +29002,4 @@ other attached packages:
 loaded via a namespace (and not attached):
 [1] compiler_4.0.3  fastmap_1.1.0   htmltools_0.5.2 tools_4.0.3     yaml_2.2.1     
 [6] grid_4.0.3      digest_0.6.28   rlang_0.4.11    
-```","danielinteractive",1,1
+```","danielinteractive",2,2
