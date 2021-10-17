@@ -6,7 +6,7 @@
 "atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDISC compliance.","2021-05-28T18:54:14Z","R",3.9
 "EliLillyCo","rfacts","EliLillyCo/rfacts","Call FACTS from R on Linux","2021-04-23T17:13:49Z","R",0.4
 "insightsengineering","r-license-report","insightsengineering/r-license-report","Github Actions to generate an R Package Dependencies' License Report","2021-06-29T19:57:04Z","R",0
-"insightsengineering","thevalidatoR","insightsengineering/thevalidatoR","Github Action that generates R Package Validation documentation 🏁","2021-10-15T15:46:24Z","R",0.1
+"insightsengineering","thevalidatoR","insightsengineering/thevalidatoR","Github Action that generates R Package Validation documentation 🏁","2021-10-16T19:02:17Z","R",0.1
 "Merck","gsDesign2","Merck/gsDesign2","Group Sequential Design Under Non-Proportional Hazards","2021-06-11T22:27:22Z","R",1.7
 "Merck","pkglite","Merck/pkglite","Compact Package Representations","2021-08-19T05:46:18Z","R",0.8
 "Merck","r2rtf","Merck/r2rtf","Easily Create Production-Ready Rich Text Format (RTF) Table and Figure","2021-09-09T20:34:55Z","R",7.1
@@ -38,7 +38,7 @@
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
-"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-10-15T19:36:32Z","R",47.5
+"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-10-16T06:07:24Z","R",47.5
 "pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-10-15T22:41:36Z","R",1.5
 "phuse-org","aesummaries","phuse-org/aesummaries","PHUSE Forest Plot Project Repository","2021-06-11T14:09:04Z","HTML",2.7
 "phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-10-14T19:50:32Z","R",3.1
