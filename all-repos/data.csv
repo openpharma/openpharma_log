@@ -41,7 +41,7 @@
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
 "openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-10-20T08:03:37Z","R",47.5
-"pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-10-22T18:19:43Z","R",1.6
+"pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-10-23T20:43:00Z","R",1.6
 "phuse-org","aesummaries","phuse-org/aesummaries","PHUSE Forest Plot Project Repository","2021-06-11T14:09:04Z","HTML",2.7
 "phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-10-20T20:36:47Z","R",3.1
 "Roche","crmPack","Roche/crmPack","Object-Oriented Implementation of CRM Designs","2021-02-19T20:47:26Z","R",62.5
