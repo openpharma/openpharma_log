@@ -6,7 +6,7 @@
   type: table
 - path: all-contributors
   name: all-contributors
-  rows: 111
+  rows: 118
   cols: 10
   description: Ever contributed
   type: table
