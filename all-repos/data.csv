@@ -3,7 +3,7 @@
 "atorus-research","metacore","atorus-research/metacore",NA,"2021-09-29T13:42:17Z","R",2
 "atorus-research","pharmaRTF","atorus-research/pharmaRTF","Enhanced RTF wrapper written in R for use with existing R tables packages such as huxtable or GT","2021-09-27T18:30:17Z","R",2.5
 "atorus-research","Tplyr","atorus-research/Tplyr",NA,"2021-10-17T23:19:44Z","R",155.4
-"atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDISC compliance.","2021-10-26T13:25:44Z","R",4.1
+"atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDISC compliance.","2021-10-26T20:20:59Z","R",4.2
 "EliLillyCo","rfacts","EliLillyCo/rfacts","Call FACTS from R on Linux","2021-04-23T17:13:49Z","R",0.4
 "Genentech","covtracer","Genentech/covtracer","Tools for contextualizing tests, built using covr test traces.","2021-10-26T16:50:45Z","R",0.2
 "Genentech","midasHLA","Genentech/midasHLA","R package enabling statistical association analysis and using immunogenetic data transformation functions for HLA amino acid fine mapping, analysis of HLA evolutionary divergence as well as HLA-KIR interactions.","2021-05-26T17:22:34Z","R",13.6
@@ -33,7 +33,7 @@
 "openpharma","rinpharma_workshop_2021","openpharma/rinpharma_workshop_2021",NA,"2021-10-25T16:01:45Z","R",1.8
 "openpharma","rinpharma_workshop_2021_old","openpharma/rinpharma_workshop_2021_old",NA,"2021-10-20T14:13:46Z","Unsure",0
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
-"openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-10-26T14:57:00Z","R",89.5
+"openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-10-26T21:01:53Z","R",89.5
 "openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-10-14T14:29:22Z","R",1.1
 "openpharma","stageddeps.elecinfra","openpharma/stageddeps.elecinfra","Dummy R Package for testing staged dependencies","2021-10-12T08:25:23Z","R",0
 "openpharma","stageddeps.electricity","openpharma/stageddeps.electricity","Dummy R Package for testing staged dependencies","2021-10-12T08:26:15Z","R",0
@@ -54,5 +54,5 @@
 "Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-10-25T09:51:41Z","R",1.4
 "Roche","rtables","Roche/rtables","Reporting tables with R","2021-10-25T19:03:22Z","R",6.1
 "Roche","synthetic.cdisc.data","Roche/synthetic.cdisc.data",NA,"2021-09-06T12:41:01Z","R",0.2
-"Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-10-26T12:11:11Z","R",9.2
+"Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-10-26T19:53:38Z","R",9.2
 "UCL","RefbasedMI","UCL/RefbasedMI","Multiple imputation sensitivity analysis for longitudinal trials ","2021-10-25T16:28:58Z","R",9.6
