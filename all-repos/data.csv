@@ -33,7 +33,7 @@
 "openpharma","rinpharma_workshop_2021","openpharma/rinpharma_workshop_2021",NA,"2021-10-25T16:01:45Z","R",1.8
 "openpharma","rinpharma_workshop_2021_old","openpharma/rinpharma_workshop_2021_old",NA,"2021-10-20T14:13:46Z","Unsure",0
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
-"openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-10-26T21:01:53Z","R",89.5
+"openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-10-27T12:08:33Z","R",89.7
 "openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-10-14T14:29:22Z","R",1.1
 "openpharma","stageddeps.elecinfra","openpharma/stageddeps.elecinfra","Dummy R Package for testing staged dependencies","2021-10-12T08:25:23Z","R",0
 "openpharma","stageddeps.electricity","openpharma/stageddeps.electricity","Dummy R Package for testing staged dependencies","2021-10-12T08:26:15Z","R",0
@@ -44,7 +44,7 @@
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
-"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-10-20T08:03:37Z","R",47.5
+"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-10-27T11:16:15Z","R",47.5
 "pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-10-23T20:43:00Z","R",1.6
 "phuse-org","aesummaries","phuse-org/aesummaries","PHUSE Forest Plot Project Repository","2021-06-11T14:09:04Z","HTML",2.7
 "phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-10-20T20:36:47Z","R",3.1
@@ -54,5 +54,5 @@
 "Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-10-25T09:51:41Z","R",1.4
 "Roche","rtables","Roche/rtables","Reporting tables with R","2021-10-25T19:03:22Z","R",6.1
 "Roche","synthetic.cdisc.data","Roche/synthetic.cdisc.data",NA,"2021-09-06T12:41:01Z","R",0.2
-"Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-10-26T19:53:38Z","R",9.2
+"Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-10-27T18:09:24Z","R",9.3
 "UCL","RefbasedMI","UCL/RefbasedMI","Multiple imputation sensitivity analysis for longitudinal trials ","2021-10-25T16:28:58Z","R",9.6
