@@ -9,14 +9,14 @@
 "Genentech","midasHLA","Genentech/midasHLA","R package enabling statistical association analysis and using immunogenetic data transformation functions for HLA amino acid fine mapping, analysis of HLA evolutionary divergence as well as HLA-KIR interactions.","2021-05-26T17:22:34Z","R",13.6
 "Genentech","psborrow","Genentech/psborrow",NA,"2021-06-14T21:49:30Z","R",2.1
 "insightsengineering","r-license-report","insightsengineering/r-license-report","Github Actions to generate an R Package Dependencies' License Report","2021-06-29T19:57:04Z","R",0
-"insightsengineering","rbmi","insightsengineering/rbmi","Reference based multiple imputation R package","2021-10-21T09:54:08Z","R",1.3
+"insightsengineering","rbmi","insightsengineering/rbmi","Reference based multiple imputation R package","2021-10-28T16:07:46Z","R",1.3
 "insightsengineering","thevalidatoR","insightsengineering/thevalidatoR","Github Action that generates R Package Validation documentation 🏁","2021-10-25T11:37:23Z","R",0.7
 "Merck","gsDesign2","Merck/gsDesign2","Group Sequential Design Under Non-Proportional Hazards","2021-06-11T22:27:22Z","R",1.7
 "Merck","pkglite","Merck/pkglite","Compact Package Representations","2021-08-19T05:46:18Z","R",0.8
 "Merck","r2rtf","Merck/r2rtf","Easily Create Production-Ready Rich Text Format (RTF) Table and Figure","2021-09-09T20:34:55Z","R",7.1
 "Merck","rCPDMS","Merck/rCPDMS","Chemoproteomics Data Analysis","2019-07-08T17:30:01Z","R",0.3
 "Merck","simtrial","Merck/simtrial",NA,"2021-06-11T22:30:44Z","R",2.7
-"nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-10-21T16:52:43Z","Rich Text Format",878.1
+"nlmixrdevelopment","nlmixr","nlmixrdevelopment/nlmixr","nlmixr: an R package for population PKPD modeling","2021-10-28T19:21:35Z","Rich Text Format",878.1
 "Novartis","peax","Novartis/peax","Peax is a tool for interactive visual pattern search and exploration in epigenomic data based on unsupervised representation learning with autoencoders","2021-06-15T17:13:05Z","Jupyter Notebook",52.5
 "Novartis","pisces","Novartis/pisces","PISCES is a pipeline for rapid transcript quantitation, genetic fingerprinting, and quality control assessment of RNAseq libraries using Salmon.","2021-09-14T00:37:56Z","Python",18.1
 "Novartis","xgxr","Novartis/xgxr","R package for supporting exploratory graphics at http://opensource.nibr.com/xgx","2021-07-01T15:00:47Z","R",48.2
@@ -33,8 +33,8 @@
 "openpharma","rinpharma_workshop_2021","openpharma/rinpharma_workshop_2021",NA,"2021-10-25T16:01:45Z","R",1.8
 "openpharma","rinpharma_workshop_2021_old","openpharma/rinpharma_workshop_2021_old",NA,"2021-10-20T14:13:46Z","Unsure",0
 "openpharma","sas7bdat","openpharma/sas7bdat","fork of https://bitbucket.org/jaredhobbs/sas7bdat.git","2020-09-11T09:08:00Z","Python",0.1
-"openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-10-27T12:08:33Z","R",89.7
-"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-10-14T14:29:22Z","R",1.1
+"openpharma","simaerep","openpharma/simaerep","simulate adverse event reporting in clinical trials with the goal of detecting under-reporting sites.","2021-10-28T09:43:03Z","R",89.7
+"openpharma","staged.dependencies","openpharma/staged.dependencies","R package to implement development stages for package development","2021-10-28T08:21:55Z","R",1.1
 "openpharma","stageddeps.elecinfra","openpharma/stageddeps.elecinfra","Dummy R Package for testing staged dependencies","2021-10-12T08:25:23Z","R",0
 "openpharma","stageddeps.electricity","openpharma/stageddeps.electricity","Dummy R Package for testing staged dependencies","2021-10-12T08:26:15Z","R",0
 "openpharma","stageddeps.food","openpharma/stageddeps.food","Dummy R Package for testing staged.dependencies","2021-08-23T12:13:54Z","R",0
@@ -44,15 +44,15 @@
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
-"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-10-27T11:16:15Z","R",47.5
+"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-10-28T17:29:37Z","R",47.4
 "pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-10-23T20:43:00Z","R",1.6
 "phuse-org","aesummaries","phuse-org/aesummaries","PHUSE Forest Plot Project Repository","2021-06-11T14:09:04Z","HTML",2.7
-"phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-10-20T20:36:47Z","R",3.1
+"phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-10-28T21:13:27Z","R",3.2
 "Roche","crmPack","Roche/crmPack","Object-Oriented Implementation of CRM Designs","2021-02-19T20:47:26Z","R",62.5
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-10-26T09:01:23Z","R",0.8
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-10-22T13:48:28Z","R",102.3
 "Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-10-25T09:51:41Z","R",1.4
 "Roche","rtables","Roche/rtables","Reporting tables with R","2021-10-25T19:03:22Z","R",6.1
 "Roche","synthetic.cdisc.data","Roche/synthetic.cdisc.data",NA,"2021-09-06T12:41:01Z","R",0.2
-"Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-10-27T18:09:24Z","R",9.3
-"UCL","RefbasedMI","UCL/RefbasedMI","Multiple imputation sensitivity analysis for longitudinal trials ","2021-10-25T16:28:58Z","R",9.6
+"Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-10-28T10:56:36Z","R",6.1
+"UCL","RefbasedMI","UCL/RefbasedMI","Multiple imputation sensitivity analysis for longitudinal trials ","2021-10-28T13:41:00Z","R",9.7
