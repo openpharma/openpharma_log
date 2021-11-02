@@ -9,7 +9,7 @@
 "Genentech","midasHLA","Genentech/midasHLA","R package enabling statistical association analysis and using immunogenetic data transformation functions for HLA amino acid fine mapping, analysis of HLA evolutionary divergence as well as HLA-KIR interactions.","2021-05-26T17:22:34Z","R",13.6
 "Genentech","psborrow","Genentech/psborrow",NA,"2021-06-14T21:49:30Z","R",2.1
 "insightsengineering","r-license-report","insightsengineering/r-license-report","Github Actions to generate an R Package Dependencies' License Report","2021-06-29T19:57:04Z","R",0
-"insightsengineering","rbmi","insightsengineering/rbmi","Reference based multiple imputation R package","2021-10-29T17:34:41Z","R",1.3
+"insightsengineering","rbmi","insightsengineering/rbmi","Reference based multiple imputation R package","2021-11-01T18:29:35Z","R",1.3
 "insightsengineering","thevalidatoR","insightsengineering/thevalidatoR","Github Action that generates R Package Validation documentation 🏁","2021-10-25T11:37:23Z","R",0.7
 "Merck","gsDesign2","Merck/gsDesign2","Group Sequential Design Under Non-Proportional Hazards","2021-06-11T22:27:22Z","R",1.7
 "Merck","pkglite","Merck/pkglite","Compact Package Representations","2021-08-19T05:46:18Z","R",0.8
@@ -44,7 +44,7 @@
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
-"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-10-29T08:52:28Z","R",47.4
+"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-11-01T23:09:21Z","R",47.4
 "pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-10-23T20:43:00Z","R",1.6
 "phuse-org","aesummaries","phuse-org/aesummaries","PHUSE Forest Plot Project Repository","2021-06-11T14:09:04Z","HTML",2.7
 "phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-10-28T21:13:27Z","R",3.2
@@ -54,5 +54,5 @@
 "Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-10-25T09:51:41Z","R",1.4
 "Roche","rtables","Roche/rtables","Reporting tables with R","2021-10-25T19:03:22Z","R",6.1
 "Roche","synthetic.cdisc.data","Roche/synthetic.cdisc.data",NA,"2021-09-06T12:41:01Z","R",0.2
-"Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-10-29T18:19:55Z","R",6.2
+"Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-11-01T08:35:35Z","R",6.2
 "UCL","RefbasedMI","UCL/RefbasedMI","Multiple imputation sensitivity analysis for longitudinal trials ","2021-10-28T13:41:00Z","R",9.7
