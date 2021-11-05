@@ -1354,7 +1354,7 @@ rather than
 
 `10 (11.0%)`
 
-","kieranjmartin",1310,2
+","kieranjmartin",1311,3
 "nlmixrdevelopment/nlmixr","Theophylline PK parameter estimates","https://github.com/nlmixrdevelopment/nlmixr/issues/37","closed",2018-04-06,2018-05-07,2018-05-07,3,"Hello,
 First, thank you for the terrific work in developing this package!
 I’m fitting the Theophylline concentration data using _nlmixr_ and comparing the results to the ones I obtain with _saemix_ or _nlme_. The parameter estimates are similar between _saemix_ and _nlme_, but differ (too much to be due to approx. or algorithmic differences) with _nlmixr_ – see the estimates for lCl and lV in the attachment. 
@@ -8900,7 +8900,7 @@ this one had overalp with Release Rate. We may collect the release date of each 
 We may collect the release date of each package version from CRAN.","elong0527",175,0
 "pharmaR/riskmetric","Metric for Size of code base","https://github.com/pharmaR/riskmetric/issues/66","open",2019-11-20,2021-10-29,NA,8,"""The larger the code base, the greater the risk of error"" from https://github.com/pharmaR/pharmaR.github.io/blob/master/content/risk.md
 
-I suggest to remove this metric. The size can be defined in different ways. If it is the size of an CRAN version, it should be <= 5MB per CRAN package size and limitation.","elong0527",715,6
+I suggest to remove this metric. The size can be defined in different ways. If it is the size of an CRAN version, it should be <= 5MB per CRAN package size and limitation.","elong0527",716,7
 "pharmaR/riskmetric","Metric for Source control Availability  (public)","https://github.com/pharmaR/riskmetric/issues/63","closed",2019-11-20,2020-05-13,2020-05-13,2,"""The use of source control is good practice that facilitates development. In general it will not be possible to determine whether the maintainer is using a source code repository unless this is in the public domain."" from https://github.com/pharmaR/pharmaR.github.io/blob/master/content/risk.md
 
 The metric may translate to if there is a github repo for an R package.","elong0527",175,0
@@ -16188,7 +16188,7 @@ There are the [forestplot](https://cran.r-project.org/web/packages/forestplot/vi
 "atorus-research/pharmaRTF","Question on using pharmaRTF in reporting","https://github.com/atorus-research/pharmaRTF/issues/3","closed",2020-10-14,2020-10-16,2020-10-16,1,"Is it possible to use this package to generate a word report which has proper table formatting as shown in this package but also with proper table numbering and referencing? ","zhenglei-gao",2,0
 "openpharma/visR","KM plot show quantiles","https://github.com/openpharma/visR/issues/93","open",2020-10-15,2021-11-03,NA,8,"Add drop lines to show quantiles of the KM distribution.
 
-","SHAESEN2",385,1
+","SHAESEN2",386,2
 "openpharma/visR","Tutorial/Recommendations for Contributing","https://github.com/openpharma/visR/issues/92","closed",2020-10-15,2020-11-15,2020-11-15,1,"","rebecca-albrecht",31,0
 "Roche/rtables","`analyze_colvar` - Warning when var > 4","https://github.com/Roche/rtables/issues/105","closed",2020-10-16,2020-10-16,2020-10-16,1,"When I want to split across more than 4 columns, a warning message appears; the result in correct though.
 
@@ -21075,7 +21075,7 @@ loaded via a namespace (and not attached):
 
 ","anajens",27,0
 "pharmaR/riskmetric","Updating DESCRIPTION with maintainer email","https://github.com/pharmaR/riskmetric/pull/191","closed",2021-03-27,2021-03-31,2021-03-31,0,"I moved the maintainer responsibilities to myself and added email - let me know if any other changes are needed.","dgkf",4,0
-"Roche/rtables","Listing Design Work","https://github.com/Roche/rtables/issues/176","open",2021-03-29,2021-11-02,NA,7,"Some functionality needs to be added to `rtables` to support creation of listings with an easy to use interface.
+"Roche/rtables","Listing Design Work","https://github.com/Roche/rtables/issues/176","open",2021-03-29,2021-11-05,NA,8,"Some functionality needs to be added to `rtables` to support creation of listings with an easy to use interface.
 
 Here is a basic prototype of a simple listing using existing `rtables` functionality: 
 
@@ -21126,10 +21126,10 @@ C: Combination
   AB12345-RUS-3-id-378     F          2.8                  RUS/A/S1         
   AB12345-CHN-15-id-201    M          6.91                 CHN/C/S2         
   AB12345-NGA-11-id-173    F           5                   NGA/C/S2    
-```","anajens",220,2
+```","anajens",221,0
 "pharmaR/riskmetric"," How to re-evaluate risk of a cohort when new package(s) are introduced?","https://github.com/pharmaR/riskmetric/issues/192","open",2021-03-31,2021-03-31,NA,0,"Once #174 addressed, we may run the risk metric for two cohorts and evaluate the difference. ","elong0527",84,84
 "pharmaR/riskmetric","A metric of how many Reverse dependencies a package has","https://github.com/pharmaR/riskmetric/issues/193","open",2021-03-31,2021-05-28,NA,1,"","elong0527",84,26
-"pharmaR/riskmetric","Define a weights to aggregate risks from different metrics ","https://github.com/pharmaR/riskmetric/issues/195","open",2021-03-31,2021-10-29,NA,5,"","elong0527",218,6
+"pharmaR/riskmetric","Define a weights to aggregate risks from different metrics ","https://github.com/pharmaR/riskmetric/issues/195","open",2021-03-31,2021-10-29,NA,5,"","elong0527",219,7
 "pharmaR/riskmetric","Enhancement of package source ","https://github.com/pharmaR/riskmetric/issues/196","open",2021-03-31,2021-04-28,NA,3,"From #175 
 
 I would prefer to have more direct and rigid mechanisms for creating specific classes (pkg_source(""<source directory>""), pkg_remote(""<remote url>"")) and then move the current pkg_ref functionality into a convenience function whose name indicates that it is doing some type conversion (as_pkg_ref(""arbitrary character value"")), possibly with some arguments that can limit the scope of viable sources.
@@ -23051,7 +23051,7 @@ Add issue to replace this approch with setting variables to null in the function
 
 See here for more details on the alternative approach https://github.com/STAT545-UBC/Discussion/issues/451
 
-","bailliem",181,1
+","bailliem",182,2
 "openpharma/visR","Added missing tests","https://github.com/openpharma/visR/pull/169","closed",2021-05-08,2021-05-10,2021-05-10,0,"","timtreis",2,0
 "openpharma/visR","Improved tests and integrated skip_on_cran() for vdiffr","https://github.com/openpharma/visR/pull/170","closed",2021-05-08,2021-05-31,2021-05-10,0,"","timtreis",2,-21
 "openpharma/visR","Resolve plot warning rmd check","https://github.com/openpharma/visR/pull/171","closed",2021-05-09,2021-05-22,2021-05-11,4,"1. change survfit to survfit_visR class in estimate_KM. This is extension of survfit
@@ -26288,10 +26288,10 @@ In other words, the numbers should be aligned according to their significance di
 ","wwojciech",10,10
 "Roche/rtables","`reffn_at_path<-` for postprocessing ","https://github.com/Roche/rtables/issues/219","closed",2021-07-20,2021-08-12,2021-08-11,5,"as discussed with @anajens ","gmbecker",22,-1
 "openpharma/staged.dependencies","dependency_table to only search for upstream dependencies","https://github.com/openpharma/staged.dependencies/issues/25","closed",2021-07-20,2021-08-12,2021-08-12,0,"please add an argument for only listing upstream dependencies when calling `dependency_table`","waddella",23,0
-"Roche-GSK/admiral","Test xpt export functionality from {xportr} (2h)","https://github.com/Roche-GSK/admiral/issues/382","open",2021-07-20,2021-11-01,NA,10,"Check to see if we can leverage the [{xport}](https://github.com/atorus-research/xportr) package to export ADaM datasets in `.xpt` format.
+"Roche-GSK/admiral","Test xpt export functionality from {xportr} (2h)","https://github.com/Roche-GSK/admiral/issues/382","open",2021-07-20,2021-11-04,NA,11,"Check to see if we can leverage the [{xport}](https://github.com/atorus-research/xportr) package to export ADaM datasets in `.xpt` format.
 - [ ] test by opening in SAS
 - [ ] test by passing to P21
-- [ ] test by converting back to sas7bdat","thomas-neitmann",107,3
+- [ ] test by converting back to sas7bdat","thomas-neitmann",108,1
 "openpharma/visR","Added missing tests for apply_theme.R, utils_general.R and tableone.R","https://github.com/openpharma/visR/pull/239","closed",2021-07-21,2021-07-30,2021-07-30,3,"This commit should bring test coverage for apply_theme.R, utils_general.R and tableone.R to 100 %
 
 This PR includes the following:
@@ -26971,7 +26971,7 @@ for each package
 ","waddella",9,0
 "Roche-GSK/admiral","derive_var_trtsdtm - user feedback","https://github.com/Roche-GSK/admiral/issues/437","open",2021-08-04,2021-10-29,NA,9,"In the adsl workflow (https://roche-gsk.github.io/admiral/articles/adsl.html) derive_var_trtsdtm appends a time_stamp of 00:00 this shows in the console but not in the dataset. Albeit benign is this designed?
 
-https://myteams.gsk.com/_api/v2.1/drives/b!FNNldQ__A0WRKCVMrqgAMmTBDGe-709BnN0VCBVHDh9cL86DlG5iR5vuDeaZN8ay/items/01V5Q7RQEFQAQHLRLPKRCIVTNTCPLL4DJ5/thumbnails/0/c3000x2000/content?prefer=noredirect%2Cclosestavailablesize&cb=1&s=L3NpdGVzL0FkbWlyYWwvTGlzdHMvYWRtaXJhbCBJc3N1ZSB0cmFja2VyfEltYWdlc3wxMA","aehmann-gsk",92,6
+https://myteams.gsk.com/_api/v2.1/drives/b!FNNldQ__A0WRKCVMrqgAMmTBDGe-709BnN0VCBVHDh9cL86DlG5iR5vuDeaZN8ay/items/01V5Q7RQEFQAQHLRLPKRCIVTNTCPLL4DJ5/thumbnails/0/c3000x2000/content?prefer=noredirect%2Cclosestavailablesize&cb=1&s=L3NpdGVzL0FkbWlyYWwvTGlzdHMvYWRtaXJhbCBJc3N1ZSB0cmFja2VyfEltYWdlc3wxMA","aehmann-gsk",93,7
 "Roche/ggtips","fix broken scroll and clean after removing tooltips","https://github.com/Roche/ggtips/pull/74","closed",2021-08-04,2021-09-08,2021-08-05,0,"This fixes issues:
 * when you scroll the page when you are on top of the plot.
 * when you render plots without tooltips (the library need to clean the events)
@@ -27216,7 +27216,7 @@ Fixes the R CMD check badge.","dinakar29",3,0
 "phuse-org/aesummaries","""prominent"" forest plot","https://github.com/phuse-org/aesummaries/issues/5","open",2021-08-16,2021-08-16,NA,1,NA,"MayaGans",10,10
 "Roche-GSK/admiral","create vignette for unit testing guidance (3h)","https://github.com/Roche-GSK/admiral/issues/453","open",2021-08-16,2021-11-02,NA,2,"document: https://exbpbox.ent.box.com/file/828551143403
 
-Ross will create a ""how to do a unit test"" guide see #625","koegerr",80,2
+Ross will create a ""how to do a unit test"" guide see #625","koegerr",81,3
 "atorus-research/xportr","Description file not lining up with pkgdown site","https://github.com/atorus-research/xportr/issues/3","open",2021-08-16,2021-08-16,NA,0,"![image](https://user-images.githubusercontent.com/10111024/129500919-207ff0a0-6d90-44a5-a546-88295e61ccf1.png)
 ","bms63",9,9
 "phuse-org/aesummaries","Dotplot","https://github.com/phuse-org/aesummaries/issues/4","closed",2021-08-16,2021-08-16,2021-08-16,0,NA,"MayaGans",0,0
@@ -27377,7 +27377,7 @@ This is highly probable that the public API functions fail on this as well.
 otherwise a previously loaded package version would still be around, and it can be confusing for the user
 ","nikolas-burkoff",30,10
 "phuse-org/valtools","Update tests and remove cases where coverage tag has no "":"" as allowable","https://github.com/phuse-org/valtools/pull/188","closed",2021-08-19,2021-08-19,2021-08-19,0,"Update coverage scraping with more informative error with what the actual error is for the parsing of the coverage.","thebioengineer",0,0
-"openpharma/visR","WIP table two, no review required yet","https://github.com/openpharma/visR/pull/252","open",2021-08-19,2021-11-02,NA,0,NA,"timtreis",77,2
+"openpharma/visR","WIP table two, no review required yet","https://github.com/openpharma/visR/pull/252","open",2021-08-19,2021-11-02,NA,0,NA,"timtreis",78,3
 "Roche-GSK/admiral","Clean up branches (1h)","https://github.com/Roche-GSK/admiral/issues/470","open",2021-08-20,2021-10-11,NA,4,"There is a lot of branches (currently 57), I believe that most of them are no longer active / needed.
 
 ![image](https://user-images.githubusercontent.com/22340537/130224273-214fc614-7612-436d-a746-e497574ede26.png)
@@ -27675,7 +27675,7 @@ From #33 ","nikolas-burkoff",56,10
 
 This logic here should be tested
 ![image](https://user-images.githubusercontent.com/15201933/130954313-f930ac63-d370-438a-b479-8ebb57f4f636.png)
-","nikolas-burkoff",70,2
+","nikolas-burkoff",71,3
 "openpharma/staged.dependencies","Allow dependency_table to work with remote projects (into refactor branch)","https://github.com/openpharma/staged.dependencies/pull/88","closed",2021-08-26,2021-08-27,2021-08-27,3,"For #54
 
 So these should work now:
@@ -27804,14 +27804,14 @@ To do:
 
 ","emilliman5",14,10
 "pharmaR/riskmetric","Dev/namespace metrics","https://github.com/pharmaR/riskmetric/pull/220","closed",2021-09-01,2021-10-20,2021-09-29,0,"A new integration-based assessment and metric based on the number of function/objects a package exports (more namespace exports increases the risk of ns conflicts). Also a building block for an upcoming cohort based assessment/metric for namespace conflicts.","emilliman5",28,-21
-"pharmaR/riskmetric","Dev/reverse dependencies metric","https://github.com/pharmaR/riskmetric/pull/219","open",2021-09-01,2021-10-29,NA,4,"A new community engagement assessment for pkg_refs based on how many packages depend on it. Also a building block for an upcoming cohort-based assessment and metric","emilliman5",64,6
+"pharmaR/riskmetric","Dev/reverse dependencies metric","https://github.com/pharmaR/riskmetric/pull/219","open",2021-09-01,2021-10-29,NA,4,"A new community engagement assessment for pkg_refs based on how many packages depend on it. Also a building block for an upcoming cohort-based assessment and metric","emilliman5",65,7
 "Novartis/pisces","Fix the default ""auto"" sample naming","https://github.com/Novartis/pisces/issues/19","closed",2021-09-01,2021-11-02,2021-11-02,5,"For `pisces run`, if no `--name` is passed then pisces tries to figure out something to call the sample using only a common substring from the fastq file names. Sometimes this fails if the file names share nothing in common.
 
 https://github.com/Novartis/pisces/blob/ba9a89cb0bb4f636e1a9a4918b6585fbf6ab3786/pisces/run.py#L62-L72","mdshw5",62,0
 "Roche-GSK/admiral","Update templates and test them, remove example scripts","https://github.com/Roche-GSK/admiral/issues/519","open",2021-09-01,2021-10-28,NA,1,"- [ ] The templates should be updated such that the CDISC pilot SDTMs are used as input and the final dataset is written to the data folder.
 - [ ] Remove example_scripts folder and links to the example scripts in the vignettes.
 - [ ] Update to add only ADSL variables required for the derivations at the beginning and all other ADSL variables are added at the end. The templates and vignettes need to be updated.
-- [ ] check_type = “error” should be used for the derivation of ASEQ in templates and vignettes.","bundfussr",64,7
+- [ ] check_type = “error” should be used for the derivation of ASEQ in templates and vignettes.","bundfussr",65,8
 "AstraZeneca/kallisto","Updates maturity level badge to new standard","https://github.com/AstraZeneca/kallisto/pull/38","closed",2021-09-01,2021-09-16,2021-09-13,1,"Updates the badge to a new AZ standard nomenclature.","stefanoborini",12,-3
 "Merck/r2rtf","'unicode_latex' not found","https://github.com/Merck/r2rtf/issues/50","closed",2021-09-02,2021-09-03,2021-09-03,7,"If I import the r2rtf package and try to use the functions in the package using full namespace syntax without calling the libname(r2rtf) first I receive the following error when it tries to call r2rtf::rtf_encode(page_footnote = ""all"") :
 
@@ -27846,10 +27846,10 @@ Meeting to be arranged to discuss further.","bundfussr",59,10
 "Roche-GSK/admiral","Update vignettes to match scripts","https://github.com/Roche-GSK/admiral/issues/524","open",2021-09-06,2021-10-27,NA,0,"Reviewer: Ask Roche early adopters to review
 
 Lots of updates made to scripts to create VADs. Same updates to be made to Vignettes.
-see issue 519 https://github.com/Roche-GSK/admiral/issues/519","bundfussr",59,8
+see issue 519 https://github.com/Roche-GSK/admiral/issues/519","bundfussr",60,9
 "Roche/respectables","use fixed version of staged deps","https://github.com/Roche/respectables/pull/36","closed",2021-09-06,2021-10-25,2021-10-25,0,NA,"nikolas-burkoff",49,0
 "Roche/ggtips","Warn user about invalid state of the tooltips","https://github.com/Roche/ggtips/pull/80","closed",2021-09-06,2021-09-08,2021-09-07,1,"@cosi1 this is the proper fix, so the user knows where to look if this error happens. If a box is undefined it means that there are no longer tooltips (there was rerender) on the plot, and this is probably the case when tooltips were added manually like in IDA.","jcubic",1,-1
-"Merck/r2rtf","Concatenating multiple tables with footnote on every page","https://github.com/Merck/r2rtf/issues/54","open",2021-09-07,2021-09-08,NA,1,"If I concatenate multiple tables where the first table in the list contains the footnote and encode it with the parameter page_footnote = 'all', it will only print the footnote on the last page of a multi page report.  Is this expected behavior when concatenating multiple tables or should the footnote display on every page?","kmkramer23",10,9
+"Merck/r2rtf","Concatenating multiple tables with footnote on every page","https://github.com/Merck/r2rtf/issues/54","closed",2021-09-07,2021-11-04,2021-11-04,2,"If I concatenate multiple tables where the first table in the list contains the footnote and encode it with the parameter page_footnote = 'all', it will only print the footnote on the last page of a multi page report.  Is this expected behavior when concatenating multiple tables or should the footnote display on every page?","kmkramer23",58,0
 "insightsengineering/thevalidatoR","covtracer open sourced and integrated","https://github.com/insightsengineering/thevalidatoR/issues/7","closed",2021-09-07,2021-10-13,2021-10-13,5,"<!-- Thank you for your contribution! -->
 <!-- Please describe your issue in as much detail as possible-->
 
@@ -28572,7 +28572,7 @@ Note - although rstudioapi is only in the suggests I think the jobs would never 
   - The expected type for the variables
   - The permitted values for the variables
   - The meaning of the variables and values
-- [x] The OCCDS vignette should be updated to link to the documentation of the structure of the queries dataset and a note should be added that functions to create queries datasets should be implemented in company specific admiral packages.","bundfussr",43,2
+- [x] The OCCDS vignette should be updated to link to the documentation of the structure of the queries dataset and a note should be added that functions to create queries datasets should be implemented in company specific admiral packages.","bundfussr",44,3
 "Roche/rtables","Fix typos in export_as_pdf examples","https://github.com/Roche/rtables/issues/245","closed",2021-09-22,2021-09-23,2021-09-23,1,"Either add a title or remove title = 
 ```
 lyt <- basic_table(title = ) %>%
@@ -28717,7 +28717,7 @@ visR::adtte %>%
                   columns = c(""n.risk"", ""n.event"", ""n.censor"", ""survival"", ""CI_lower"", ""CI_upper""))
 ```","timtreis",14,10
 "Roche/ggtips","tooltips line breaks to be removed","https://github.com/Roche/ggtips/pull/82","closed",2021-09-24,2021-09-24,2021-09-24,0,"CSS variables controlling the min and the max width of tooltips were added. Styling rules updated. Changelog updated.","OliBravo",0,0
-"Roche-GSK/admiral","385 update derive last dose redux","https://github.com/Roche-GSK/admiral/pull/567","open",2021-09-27,2021-10-29,NA,5,NA,"bms63",38,6
+"Roche-GSK/admiral","385 update derive last dose redux","https://github.com/Roche-GSK/admiral/pull/567","open",2021-09-27,2021-10-29,NA,5,NA,"bms63",39,7
 "Roche-GSK/admiral","discuss and align on contribution model (1h)","https://github.com/Roche-GSK/admiral/issues/565","closed",2021-09-27,2021-10-14,2021-10-14,1,"goal: alignment on contribution to admiral core that could be tried out
 
  - proposal coming from Ross, Michael, Alice, Thomas, Lucy, Robin ready to be presented to the larger team
@@ -28907,7 +28907,7 @@ i.e.
 - collect (SMQs, Meddra, parameters, labels etc ...)
 - get an idea what we would use the metadata for
 
-","koegerr",36,8
+","koegerr",37,9
 "Roche-GSK/admiral","Suggest adding units to derive_agegr_*","https://github.com/Roche-GSK/admiral/issues/569","open",2021-09-29,2021-10-28,NA,6,"The `derive_agegr_*` functions assume `age_var` is provided in years, but upstream functions like `derive_vars_aage()` helpfully allow specification of units. Here's an example of a breaking `derive_agegr_fda()`, where the patient is 35 but gets assigned to the 65+ group because `AAGE` was created in months. Adding a `unit` arg to `derive_agegr_*` (with a default to ""years"") could remedy this. 
 
 ```
@@ -28927,7 +28927,7 @@ dat %>%
   BRTHDT     RANDDT      AAGE AAGEU  AGEGR1
   <date>     <date>     <dbl> <chr>  <fct> 
 1 1984-09-06 2020-02-24   425 MONTHS >=65  
-```","tgerke",36,7
+```","tgerke",37,8
 "Roche/rtables","trim_zero_rows does not work?","https://github.com/Roche/rtables/issues/250","open",2021-09-29,2021-09-30,NA,3,"Is `trim_zero_rows` an old function that perhaps is not supported anymore?  Not much documentation for it and functionality seems to be similar but more limited than `trim_rows`. 
 
 ```r
@@ -29005,7 +29005,7 @@ MULTIPLE
 - [ ] vignettes/git_usage.Rmd (Ben)
 - [ ] vignettes/imputation.Rmd
 - [ ] vignettes/occds.Rmd
-- [ ] vignettes/programming_strategy.Rmd (Eric)","kabis-ops",36,2
+- [ ] vignettes/programming_strategy.Rmd (Eric)","kabis-ops",37,3
 "openpharma/staged.dependencies","Handle case where current project (or other repo in graph?) is not a package","https://github.com/openpharma/staged.dependencies/issues/117","closed",2021-09-30,2021-10-07,2021-10-07,0,"When the project has a staged deps yaml file but no DESCRIPTION file (i.e. it is a script/markdown which depends on the internal deps packages)","nikolas-burkoff",7,0
 "openpharma/staged.dependencies","Handle case where existing external dependency is incorrect version","https://github.com/openpharma/staged.dependencies/issues/118","open",2021-09-30,2021-10-11,NA,2,"If you already have an external dependency package `x` installed on version 1.0 and your internal dependency requires version 1.1 of x then install_deps will not upgrade x and the installation will fail. This can be fixed by upgrading x manually and then re-running the command (after clearing_cache until #116 is fixed)","nikolas-burkoff",21,10
 "Roche-GSK/admiral","Publish decisions from our retrospectives (0.5h)","https://github.com/Roche-GSK/admiral/issues/573","closed",2021-09-30,2021-10-27,2021-10-27,1,"DoD:
@@ -29181,7 +29181,7 @@ B
 
 For example, for a responder analysis the analysis model might be a logistic regression for a dichotomized endpoint. One might additionally want the estimated proportion of responders in the two groups and not just the adjusted difference between them in log-odds scale, which is a regression coefficient in the logistic regression used to study significance but not easily interpretable.
 
-This could be done by simply allowing the (user-defined) analysis model to return `se = NA` for the proportions parameters. The pooling function should simply in this case return `NA` for SE, CIs and p-value but still return the pooled point estimate.","nociale",30,3
+This could be done by simply allowing the (user-defined) analysis model to return `se = NA` for the proportions parameters. The pooling function should simply in this case return `NA` for SE, CIs and p-value but still return the pooled point estimate.","nociale",31,4
 "Novartis/xgxr","Feature Suggestion:  scale_x_VISITDY to implement skipping day 0","https://github.com/Novartis/xgxr/issues/49","open",2021-10-06,2021-10-06,NA,0,"For communication with the clinical teams, it is often useful to create figures using the CDISC representation of days where day 0 does not exist (the time scale goes from Day -1, 23 hours, 59 minutes to Day 1, 0 hours, 0 minutes).
 
 I have created a set of functions to implement the `trans` for ggplot2 which represents VISITDY (or any --DY variable) where 0 does not exist (actually the way I coded it, 0 becomes -1).  I currently have the function in my semi-private Rsdtm library (i.e. it is public, but I don't advertise its existence), but I think it would be a better fit in xgxr.
@@ -29244,8 +29244,8 @@ And, with exponential RUV, how can I define it in the model. Is that `log(cp) ~ 
 
 Thank you for the explanation!
 Tien Nguyen.","namtien0312",1,0
-"openpharma/staged.dependencies","Publish staged.dependencies to CRAN","https://github.com/openpharma/staged.dependencies/issues/120","open",2021-10-06,2021-10-06,NA,0,"Publish a stable version of this package to CRAN.
-","dinakar29",10,10
+"openpharma/staged.dependencies","Publish staged.dependencies to CRAN","https://github.com/openpharma/staged.dependencies/issues/120","open",2021-10-06,2021-11-04,NA,1,"Publish a stable version of this package to CRAN.
+","dinakar29",30,1
 "Roche-GSK/admiral","Update `dthcaus_source()` and `lstalvdt_source()`","https://github.com/Roche-GSK/admiral/issues/583","open",2021-10-06,2021-10-25,NA,2,"The first argument `dataset` which currently expects a data frame should be renamed to `dataset_name` and accept the name of a dataset, e.g. `""adsl""`, as a string. The functions which perform the actual logic, i.e. `derive_var_dthcaus()` and `derive_var_lstalvdt()`, should get a `source_datasets` parameter which expects a list of data frames that corresponds to the names specified in `dataset_name`.","thomas-neitmann",29,10
 "Novartis/xgxr","xgx_conf_int should use length(y)-1 in calculated confidence interval istea","https://github.com/Novartis/xgxr/issues/48","open",2021-10-06,2021-10-06,NA,0,"In the script for xgx_conf_int, the function is coded as follows:
 
@@ -29325,7 +29325,7 @@ pval_percentile <- function(est){
 
 
 
-","wolbersm",28,3
+","wolbersm",29,4
 "openpharma/staged.dependencies","add pkgdown website","https://github.com/openpharma/staged.dependencies/issues/124","open",2021-10-08,2021-10-11,NA,0,"on a different branch, see Roche/respectables","waddella",13,10
 "openpharma/staged.dependencies","Allow remotes other than origin","https://github.com/openpharma/staged.dependencies/issues/123","open",2021-10-08,2021-10-11,NA,0,"Functionality broken when adding tags functionality","nikolas-burkoff",13,10
 "openpharma/quality_risk_assesment_clinical_trials","Dev","https://github.com/openpharma/quality_risk_assesment_clinical_trials/pull/2","closed",2021-10-08,2021-10-08,2021-10-08,0,NA,"erblast",0,0
@@ -29450,7 +29450,11 @@ The ADaM IG states:
 
 To handle this case an `ignore_seconds` parameter should be added to `derive_vars_dtm()`. It should be defaulted to `FALSE`.
 
-If it is set to `TRUE` and the DTC variable contains seconds, an error should be issued.","bundfussr",24,8
+If it is set to `TRUE` and the DTC variable contains seconds, an error should be issued.","bundfussr",25,9
+"insightsengineering/rbmi","Implementation of method type=""BMLMI"" - bootstrapped ML MI as in van Hippel & Bartlett","https://github.com/insightsengineering/rbmi/issues/233","open",2021-10-11,2021-11-04,NA,3,"Method is described in van Hippel & Bartlett, Stat Sci 2021 article also available at [https://arxiv.org/pdf/1210.0870.pdf](https://arxiv.org/pdf/1210.0870.pdf).
+The methods is based on analyzing D randomly imputed datasets (imputation uses the ML/REML estimator) for each of B bootstrap samples. Estimates are then pooled across the B*D datasets and variance is estimated as per section 8 of the manuscript. 
+
+This is less efficient than using conditional mean imputation for ANCOVA as the analysis method but has the advantage to also be theoretically valid (in the sense of giving correct frequentist inference) for other analysis models. ","wolbersm",25,1
 "openpharma/visR","Implemented Stevens suggestions","https://github.com/openpharma/visR/pull/268","open",2021-10-11,2021-10-15,NA,2,"As discussed in https://github.com/openpharma/visR/issues/258","timtreis",6,2
 "openpharma/visR","improved functions for gathering files to run CRAN watchdog on","https://github.com/openpharma/visR/pull/268","closed",2021-10-11,2021-10-28,2021-10-28,2,"As discussed in https://github.com/openpharma/visR/issues/258","timtreis",17,0
 "openpharma/staged.dependencies","Initial pkgdown","https://github.com/openpharma/staged.dependencies/pull/131","open",2021-10-11,2021-10-11,NA,3,"Part of #124 ","nikolas-burkoff",10,10
@@ -29472,7 +29476,7 @@ Compare on main (2nd call to `install_deps` errors) and on this branch (works an
 Also test running install_deps followed by check_downstream or by killing the install_deps job partway through and restarting it
 
 ","nikolas-burkoff",1,0
-"Roche-GSK/admiral","Test performance to find issues before the release","https://github.com/Roche-GSK/admiral/issues/590","open",2021-10-11,2021-10-27,NA,0,"Investigate how performance (execution time and memory) could be tested upfront the release","hamzarahal",24,8
+"Roche-GSK/admiral","Test performance to find issues before the release","https://github.com/Roche-GSK/admiral/issues/590","open",2021-10-11,2021-10-27,NA,0,"Investigate how performance (execution time and memory) could be tested upfront the release","hamzarahal",25,9
 "insightsengineering/thevalidatoR","the template is not copied over","https://github.com/insightsengineering/thevalidatoR/issues/20","closed",2021-10-11,2021-10-13,2021-10-13,10,"When you run the gh-action, you get the error:
 
 ![image](https://user-images.githubusercontent.com/2760096/136838955-f59868da-ad63-4cbf-a34b-3378f9bab2de.png)
@@ -29493,7 +29497,7 @@ Closes: https://github.com/insightsengineering/thevalidatoR/issues/13","dinakar2
 
 This then uses the unit variable to convert the `AAGE` variable into years so that it can be grouped correctly.
 The `derive_agegr_ema` function will also require an update to ensure it groups the ages correctly.
-","malexthorpe",23,2
+","malexthorpe",24,3
 "atorus-research/metacore","`format` element of `cols` vector in `spec_type_to_var_spec()` only accepts 'Format' and not 'format' as the column name","https://github.com/atorus-research/metacore/issues/12","open",2021-10-12,2021-10-12,NA,0,NA,"kodesiba",10,10
 "atorus-research/metacore","`key_seq` is not supported in `spec_type_to_ds_vars()` unless it is in an external sheet","https://github.com/atorus-research/metacore/issues/11","open",2021-10-12,2021-10-12,NA,2,"When using `spec_type_to_ds_vars()` with the `key_seq` variable in the main sheet it will not get passed through to `create_table` and will not get added on later.  It looks as though only the `cols` argument is passed to `create_table()` therefore the `key_seq` variable will not get passed through and added on. ","kodesiba",10,10
 "atorus-research/metacore","`yn_to_tf()` should function if input variable is already boolean","https://github.com/atorus-research/metacore/issues/10","open",2021-10-12,2021-10-12,NA,1,"In `spec_type_to_ds_vars()` if the keep variable is already a boolean it causes a failure when attempting to build the `ds_vars` since `yn_to_tf()` is only looking for something that contains Yes/No","kodesiba",10,10
@@ -29527,7 +29531,7 @@ These flags will still run the code in the vignettes, but will disable rendering
 These flags will still run the code in the vignettes, but will disable rendering to pdf for both the vignettes and the documentation manual, mitigating system-dependent issues based on installed latex dependencies.","dgkf-roche",0,0
 "openpharma/visR","estimate_cox.R - wrapper for cox model","https://github.com/openpharma/visR/pull/270","open",2021-10-12,2021-11-02,NA,1,"Hey Alexandra, I moved this file into a pull request until it is fully functional and tested :) Then we can merge it again.
 
-I already fixed a few minor things, do you want to take over again?","timtreis",23,2
+I already fixed a few minor things, do you want to take over again?","timtreis",24,3
 "openpharma/staged.dependencies","Fallback to default branch","https://github.com/openpharma/staged.dependencies/pull/133","closed",2021-10-12,2021-10-13,2021-10-13,2,"Closes #106 
 
 Not completely sure the `default_branch` function is correct and not sure how to test this easily - thoughts?
@@ -29550,7 +29554,7 @@ Get absolute path for package directory.","dinakar29",0,0
 <!-- Please describe your pull request -->
 Also change the default location of `template.Rmd` so it can be found during the CI run.","dinakar29",0,0
 "Roche-GSK/admiral","User feedback - Update `derive_vars_dt(m)`","https://github.com/Roche-GSK/admiral/issues/592","open",2021-10-12,2021-10-27,NA,0,"Update `date_imputation`  = “mid”` such that the date is imputed as 30th June if month and day are missing and as the 15th of the month if only the day is missing.
-Update documentation.","kabis-ops",23,8
+Update documentation.","kabis-ops",24,9
 "Roche-GSK/admiral","572 adsl vignette","https://github.com/Roche-GSK/admiral/pull/595","closed",2021-10-13,2021-10-19,2021-10-19,0,"@Roche-GSK/admiral-devs 
 Who could have a look at the adsl vignette and let me know if the update is fine wrt to the ""writing_vignettes"" vignette :)
 Thank you","kabis-ops",6,0
@@ -29565,7 +29569,7 @@ The artifacts fail to build because, while installing the staged dependencies, t
 In this case, I would like to be able to create the tag, but specify in my Github Action workflow that I want to install dependencies from the `pre-release` stage for other repos. 
 
 ","dinakar29",10,10
-"Roche-GSK/admiral","Add a call of assert_vars() for both min_dates and max_dates to check…","https://github.com/Roche-GSK/admiral/pull/594","open",2021-10-13,2021-11-02,NA,1,"… that must be a list of variable names","hamzarahal",22,2
+"Roche-GSK/admiral","Add a call of assert_vars() for both min_dates and max_dates to check…","https://github.com/Roche-GSK/admiral/pull/594","open",2021-10-13,2021-11-02,NA,1,"… that must be a list of variable names","hamzarahal",23,3
 "openpharma/staged.dependencies","add fallback_branch option","https://github.com/openpharma/staged.dependencies/pull/135","open",2021-10-13,2021-10-14,NA,3,"Closes #134 
 
 Note currently it's a `fallback_branch` not a `fallback_ref` i.e. fallback cannot be a tag - if tag is needed then this should be updated or another issue added into the backlog","nikolas-burkoff",11,10
@@ -29663,7 +29667,7 @@ df <- derive_vars_dtm(
   flag_imputation = TRUE
 )
 #> Error: `flag_imputation` must be a character scalar but is `TRUE`
-```","om9391",22,8
+```","om9391",23,9
 "Roche/ggtips","Make tooltip distance tolerance setting as a parameter","https://github.com/Roche/ggtips/pull/87","closed",2021-10-13,2021-10-14,2021-10-14,0,"When matching tooltip data to svg elements distance tolerance was hardcoded as `0.05`. I changed it to be passed as a parameter. In some cases the default `0.05` distance tolerance may be to big and tooltips may be displayed for shapes that are not in the plot area, e.g. circles in a legend. Changing tolerance to smaller value can fix the issue.","adamgolubowski",1,0
 "nlmixrdevelopment/nlmixr","Odd function not found when running multiple R sessions in Windows","https://github.com/nlmixrdevelopment/nlmixr/issues/565","open",2021-10-13,2021-10-14,NA,4,"While trying to reproduce an error in a new R session in Windows, I got the following error:
 
@@ -29747,10 +29751,10 @@ KM <- cowplot::plot_grid(
 )","SHAESEN2",10,10
 "Roche-GSK/admiral","Add workflow to create validation report on release","https://github.com/Roche-GSK/admiral/issues/599","closed",2021-10-14,2021-10-14,2021-10-14,0,"[thevalidatoR](https://github.com/insightsengineering/thevalidatoR) package is an open-source version of Roche's internal R package validation tool. @epijm and co. created a GitHub actions workflow that automatically creates the validation report whenevery a new release is created. We should add this workflow to our repo.","thomas-neitmann",0,0
 "openpharma/visR","add_risktable y label gets moved ","https://github.com/openpharma/visR/issues/272","open",2021-10-14,2021-11-01,NA,4,"When adding the risktable to the plot, the y label moves entirely to the left of the plot, leaving a big gap between the Y-label and the plot. This should be adressed.
-","SHAESEN2",21,3
-"insightsengineering/rbmi","Allow for changing covariance structure for initializing MCMC and set prior parameter in `method_bayes()` ","https://github.com/insightsengineering/rbmi/issues/234","open",2021-10-14,2021-11-03,NA,1,"Allow the user to specify a different covariance structure for the MMRM model needed to initialize the fit of the base imputation model using a Bayesian approach. The base imputation model still assumes an unstructured covariance structure, but the MMRM could also be fit using a simpler one. This might be useful when MMRM on the original dataset fails and an error is thrown prior to the MCMC start. In this case, the user could set a simpler covariance structure for MMRM (but not for the MCMC) using, e.g. `method_bayes(..., init_cov = ""ar1"")`. `method$init_cov` is a parameter that takes the same values as `method$covariance`, but can be specified only for `method_bayes()` and has default value to `""us""`.  By setting `init_cov` differently from `'us'` the user will (1) provide starting values of the MCMC equal to MMRM estimates with simpler covariance structure, and (2) assume that the prior for the covariance matrix is a inverse-wishart distribution with mean equal to a non-unstructured covariance matrix. .
+","SHAESEN2",22,4
+"insightsengineering/rbmi","Allow for changing covariance structure for initializing MCMC and set prior parameter in `method_bayes()` ","https://github.com/insightsengineering/rbmi/issues/234","open",2021-10-14,2021-11-04,NA,2,"Allow the user to specify a different covariance structure for the MMRM model needed to initialize the fit of the base imputation model using a Bayesian approach. The base imputation model still assumes an unstructured covariance structure, but the MMRM could also be fit using a simpler one. This might be useful when MMRM on the original dataset fails and an error is thrown prior to the MCMC start. In this case, the user could set a simpler covariance structure for MMRM (but not for the MCMC) using, e.g. `method_bayes(..., init_cov = ""ar1"")`. `method$init_cov` is a parameter that takes the same values as `method$covariance`, but can be specified only for `method_bayes()` and has default value to `""us""`.  By setting `init_cov` differently from `'us'` the user will (1) provide starting values of the MCMC equal to MMRM estimates with simpler covariance structure, and (2) assume that the prior for the covariance matrix is a inverse-wishart distribution with mean equal to a non-unstructured covariance matrix. .
 
-","nociale",21,1
+","nociale",22,1
 "phuse-org/valtools","citation added","https://github.com/phuse-org/valtools/pull/201","closed",2021-10-14,2021-10-14,2021-10-14,0,"please confirm the email in DESCRIPTION is correct.","mariev",0,0
 "Roche-GSK/admiral","create a programming workflow for ADPC (12h)","https://github.com/Roche-GSK/admiral/issues/602","open",2021-10-14,2021-10-14,NA,0,"goal: create a programming flow for ADPC and identify any potential new functionality.
 
@@ -29796,7 +29800,7 @@ Running as gadget:
 Feel free to suggest nicer UI - though I don't know how much the app is actually used.","nikolas-burkoff",10,10
 "Roche-GSK/admiral","review contribution model (30 min)","https://github.com/Roche-GSK/admiral/issues/600","open",2021-10-14,2021-10-28,NA,3,"goal: review and provide comments
 
-https://exbpbox.box.com/s/b16zbso11ov6ago15s10z5k8c5c49s29","koegerr",21,7
+https://exbpbox.box.com/s/b16zbso11ov6ago15s10z5k8c5c49s29","koegerr",22,8
 "openpharma/visR","Solved risktable for mulitple strata","https://github.com/openpharma/visR/pull/274","open",2021-10-14,2021-10-14,NA,0,"#255 ","SHAESEN2",1,1
 "openpharma/visR","Solved risktable for mulitple strata & wording of get_alpha_from_hex_colour","https://github.com/openpharma/visR/pull/274","closed",2021-10-14,2021-10-15,2021-10-15,0,"#255 ","SHAESEN2",1,0
 "insightsengineering/rbmi","Adds a simple gh-action 'validation report'","https://github.com/insightsengineering/rbmi/pull/235","open",2021-10-15,2021-10-25,NA,1,"Note this is fully automated, and documents the installation onto a known environment.","epijim",19,9
@@ -29833,7 +29837,7 @@ This PR removes it since it's not needed.","timtreis",0,0
 
 Correct to `namespace` from `namesapce`","thebioengineer",0,0
 "insightsengineering/thevalidatoR","Split the covtracer output per readme","https://github.com/insightsengineering/thevalidatoR/pull/31","closed",2021-10-15,2021-10-15,2021-10-15,0,"working towards issue #8","epijim",0,0
-"openpharma/visR","Test TOCs and las x'ed by statements in test headers aren't up to date","https://github.com/openpharma/visR/issues/280","open",2021-10-15,2021-10-28,NA,0,"""Last updated by"" and ""Last update date"" are rarely updated. Also, the TOC of tests at the top of our test files is manually copy/pasted and therefore usually async. This is unnecessary manual work and should be automated.","timtreis",20,7
+"openpharma/visR","Test TOCs and las x'ed by statements in test headers aren't up to date","https://github.com/openpharma/visR/issues/280","open",2021-10-15,2021-10-28,NA,0,"""Last updated by"" and ""Last update date"" are rarely updated. Also, the TOC of tests at the top of our test files is manually copy/pasted and therefore usually async. This is unnecessary manual work and should be automated.","timtreis",21,8
 "openpharma/visR","vdiffr snap names are too long for tarball","https://github.com/openpharma/visR/issues/276","closed",2021-10-15,2021-10-17,2021-10-17,0,"```
 Found the following non-portable file paths:
     visR/tests/testthat/_snaps/add_highlight/add-highlight-t2-1-no-error-when-strata-is-a-character-string-found-in-the-plot-strata.svg
@@ -29882,7 +29886,7 @@ One option could be to categorize the expressions and implement separate functio
 `read_query_data()` should be enhanced to consider the case of a CQ defined by SMQs like in the second option stated in [Options for CQs based on SMQs](https://exbpbox.ent.box.com/file/870283945745?s=c8zw2r1zs6aehsasoamb6mdkclvep90z).
 
 The OCCDS vignette should be updated accordingly.","bundfussr",10,10
-"phuse-org/valtools","Release 0.4.0","https://github.com/phuse-org/valtools/pull/203","open",2021-10-18,2021-11-02,NA,4,"This marks release v0.4.0
+"phuse-org/valtools","Release 0.4.0","https://github.com/phuse-org/valtools/pull/203","closed",2021-10-18,2021-11-04,2021-11-04,5,"This marks release v0.4.0
 
 Notable updates:
 - Packet creation for validation external to packages with accompanying vignette
@@ -29890,10 +29894,10 @@ Notable updates:
 - bug fix to prevent file overwriting when running vt_use_* for a pre-existing file
 - Cheat sheets
 - Logo
-- Improved test coverage","thebioengineer",17,2
-"phuse-org/valtools","release for workshop","https://github.com/phuse-org/valtools/issues/202","open",2021-10-18,2021-10-18,NA,1,"@thebioengineer I believe that we are ready for the next release? 👍 ? 👎 ?
+- Improved test coverage","thebioengineer",17,0
+"phuse-org/valtools","release for workshop","https://github.com/phuse-org/valtools/issues/202","closed",2021-10-18,2021-11-04,2021-11-04,1,"@thebioengineer I believe that we are ready for the next release? 👍 ? 👎 ?
 
-Are there any outstanding issues blocking?","mariev",10,10
+Are there any outstanding issues blocking?","mariev",17,0
 "phuse-org/valtools","requirement report can't be generated from template in validate separate from pkg ","https://github.com/phuse-org/valtools/issues/204","open",2021-10-18,2021-10-20,NA,3,"`vt_use_report()` looks for DESCRIPTION, either via `get_val_leads` or `get_config_package`","mariev",12,10
 "Roche-GSK/admiral","Update ""Writing Vignettes"" vignette regarding ADSL variables","https://github.com/Roche-GSK/admiral/issues/605","closed",2021-10-18,2021-10-27,2021-10-27,0,"Something like the following should be added to the ""Writing Vignettes"" vignette.
 >All ADSL variables which are required for any derivation are merged to the SDTM dataset before the first derivation. These ADSL variables have to be added to the by variables for derivations which add observations. This ensures that the variables are populated for the new observations. ADSL variables which should be in the final dataset but not required for any derivation are merged to the dataset after the last derivation.
@@ -29909,7 +29913,7 @@ I've been looking through our ADaM template codes starting with ADVS (to help bu
 
 Do we have integration testing for these template programs? As that should spot some of these, whereas function-level unit testing only proves each individual function works. I think we discussed adding some integration testing before to compliment this.
 
-Let me know if I could be of use at all here picking up any actions from this issue, e.g. happy to help with setting up some integration test codes.","rossfarrugia",16,6
+Let me know if I could be of use at all here picking up any actions from this issue, e.g. happy to help with setting up some integration test codes.","rossfarrugia",17,7
 "phuse-org/valtools","creating requirement as Rmd","https://github.com/phuse-org/valtools/issues/205","closed",2021-10-19,2021-10-20,2021-10-20,2,"`vt_use_req` imposes an extension of md. can this be extended to handle both Rmd and md?","mariev",1,0
 "insightsengineering/rbmi","Draft rbmi manuscript","https://github.com/insightsengineering/rbmi/issues/236","open",2021-10-19,2021-10-19,NA,0,"If I recall correctly, we felt that the Journal of Open Source Software (https://joss.theoj.org/) is the best route and should be minimum hassle. ","wolbersm",10,10
 "phuse-org/valtools","Extend file extensions","https://github.com/phuse-org/valtools/pull/206","closed",2021-10-19,2021-10-20,2021-10-20,1,"Addresses #205 - allows for setting file extensions arbitrarily","thebioengineer",1,0
@@ -29979,11 +29983,11 @@ please generate similar to this
 
 ![image](https://user-images.githubusercontent.com/69159004/137876377-021ad1a6-c203-4f13-af2e-8a295373e9e3.png)
 ","prabhushanmup",8,0
-"Roche-GSK/admiral","This is the first draft version of the code.","https://github.com/Roche-GSK/admiral/pull/610","open",2021-10-19,2021-10-29,NA,2,"As per the request i have updated the code. This is the first draft version. ","pk505289",16,6
+"Roche-GSK/admiral","This is the first draft version of the code.","https://github.com/Roche-GSK/admiral/pull/610","open",2021-10-19,2021-10-29,NA,2,"As per the request i have updated the code. This is the first draft version. ","pk505289",17,7
 "Roche-GSK/admiral","576_update_headers - details for derive_vars_dt()","https://github.com/Roche-GSK/admiral/pull/614","closed",2021-10-20,2021-10-27,2021-10-27,0,NA,"kabis-ops",7,0
 "openpharma/rinpharma_workshop_2021","adam code","https://github.com/openpharma/rinpharma_workshop_2021/issues/2","closed",2021-10-20,2021-10-22,2021-10-22,0,NA,"waddella",2,0
 "openpharma/visR","add_risktable no longer fails when strata is NULL","https://github.com/openpharma/visR/pull/283","closed",2021-10-20,2021-10-27,2021-10-27,0,"#282 ","SHAESEN2",7,0
-"Roche-GSK/admiral","Create common TTE sources","https://github.com/Roche-GSK/admiral/issues/612","open",2021-10-20,2021-11-01,NA,7,"Create a file `tte_sources.R` where we pre-define common `tte_source` objects like death event, last alive censoring, first AE event, first serious AE event, .... To make users aware of them we should add them to `@seealso` in `derive_param_tte()` and `tte_source()` as well as add a dedicated section on the ""References"" section of our website.","bundfussr",15,3
+"Roche-GSK/admiral","Create common TTE sources","https://github.com/Roche-GSK/admiral/issues/612","open",2021-10-20,2021-11-01,NA,7,"Create a file `tte_sources.R` where we pre-define common `tte_source` objects like death event, last alive censoring, first AE event, first serious AE event, .... To make users aware of them we should add them to `@seealso` in `derive_param_tte()` and `tte_source()` as well as add a dedicated section on the ""References"" section of our website.","bundfussr",16,4
 "openpharma/rinpharma_workshop_2021","create google form and initialize main repo with form instructions","https://github.com/openpharma/rinpharma_workshop_2021/issues/9","open",2021-10-20,2021-10-20,NA,0,NA,"waddella",10,10
 "insightsengineering/thevalidatoR","Finalise how covtracer is represented in v1.0 of the gh-action","https://github.com/insightsengineering/thevalidatoR/issues/35","open",2021-10-20,2021-10-22,NA,2,"From issue #8
 
@@ -30004,7 +30008,7 @@ A nicer error message, like the one we use for analogous case for the `condmean(
 
 `Fitting MMRM to original dataset failed`
 
-Also `condmean(type = ""jackknife"")` does not distinguish between error in MMRM fit in the original dataset or in a leave-one-out sample: the error message is the same and is the following: `Jackknife sample failed`","nociale",15,3
+Also `condmean(type = ""jackknife"")` does not distinguish between error in MMRM fit in the original dataset or in a leave-one-out sample: the error message is the same and is the following: `Jackknife sample failed`","nociale",16,4
 "Roche-GSK/admiral","Pass gh token through to remotes pkg in validation gh-action","https://github.com/Roche-GSK/admiral/pull/613","closed",2021-10-20,2021-10-20,2021-10-20,0,"This will fix the issue Thomas flagged here https://github.com/insightsengineering/thevalidatoR/issues/10#issuecomment-943154336","epijim",0,0
 "pharmaR/riskmetric","pkg_assess output inconsistency between one and multiple packages","https://github.com/pharmaR/riskmetric/issues/231","open",2021-10-20,2021-10-20,NA,3,"The documentation for pkg_assess indicates that the output should be a tibble: 
 
@@ -30071,20 +30075,20 @@ AE <- gen_reljoin_table(AE_join_recipe, AE_recipe, db = list(DM = DM))
 "Roche/respectables","update read me to make sure main is installed from","https://github.com/Roche/respectables/issues/38","open",2021-10-21,2021-10-21,NA,0,"make sure it reads `remotes::install_github(""Roche/respectables"", ref = ""main"")`
 ","kieranjmartin",10,10
 "nlmixrdevelopment/nlmixr","%RSE for omega and sigma ","https://github.com/nlmixrdevelopment/nlmixr/issues/567","closed",2021-10-22,2021-10-22,2021-10-22,1,"Is there a way to retrieve %RSE on omega and sigma? it seems I couldn't find a way to retrieve this information, unfortunately. Thank you very much in advance for your help. ","WenYao-Mak",0,0
-"Roche-GSK/admiral","549 Create adtte vignette","https://github.com/Roche-GSK/admiral/pull/621","open",2021-10-22,2021-10-27,NA,1,NA,"bundfussr",13,8
-"insightsengineering/rbmi","Add conservative adjustment if get_jackknife_draws fails for a leave-one-subject-out dataset.","https://github.com/insightsengineering/rbmi/issues/238","open",2021-10-22,2021-11-03,NA,6,"For method_condmean(type=""jackknife""), it may occur that the estimator fails for only one or very few leave-one-subject-out datasets. Currently, the method fails altogether in this setting and this is ok for 99.9% of the cases, as this should be extremely rare. However, it still seems reasonable to build in a relatively conservative handling of this ""worst case scenario"" to avoid complete failure.
+"Roche-GSK/admiral","549 Create adtte vignette","https://github.com/Roche-GSK/admiral/pull/621","open",2021-10-22,2021-10-27,NA,1,NA,"bundfussr",14,9
+"insightsengineering/rbmi","Add conservative adjustment if get_jackknife_draws fails for a leave-one-subject-out dataset.","https://github.com/insightsengineering/rbmi/issues/238","open",2021-10-22,2021-11-04,NA,7,"For method_condmean(type=""jackknife""), it may occur that the estimator fails for only one or very few leave-one-subject-out datasets. Currently, the method fails altogether in this setting and this is ok for 99.9% of the cases, as this should be extremely rare. However, it still seems reasonable to build in a relatively conservative handling of this ""worst case scenario"" to avoid complete failure.
 
 My proposal is to:
 a) Add a tolerance threshold which by default is 0 but allows up to x% jackknife failures.
 b) If the MMRM/estimator fails on a leave-one-subject-out datasets, treat it as follows: 
     - the corresponding draws, imputed dataset and estimators are NA/NULL
     - for the jackknife SE calculation, the estimators for all failed leave-one-out dataset are conservatively set  as equal to the observed estimator amongst all leave-one-out datasets which didn't fail and which had the largest absolute distance to the estimator from the original dataset. 
-","wolbersm",13,1
+","wolbersm",14,1
 "Genentech/covtracer","Add flag for reexports","https://github.com/Genentech/covtracer/issues/15","open",2021-10-22,2021-10-22,NA,0,"In order to filter out re-exported functions when performing coverage analytics, it would be helpful to add `test_trace_df` columns indicating either the namespace of the function (a string), or whether the export belongs to the package namespace (a logical).
 
 Perhaps both would be of value in different applications.","dgkf",10,10
 "openpharma/rinpharma_workshop_2021","add required ae variables","https://github.com/openpharma/rinpharma_workshop_2021/pull/24","closed",2021-10-22,2021-10-22,2021-10-22,1,NA,"waddella",0,0
-"Roche-GSK/admiral","Address autovalidate findings","https://github.com/Roche-GSK/admiral/issues/618","open",2021-10-22,2021-10-28,NA,1,"Roche's internal validation tool {autovalidate} found the following issues in {admiral}:
+"Roche-GSK/admiral","Address autovalidate findings","https://github.com/Roche-GSK/admiral/issues/618","open",2021-10-22,2021-11-04,NA,1,"Roche's internal validation tool {autovalidate} found the following issues in {admiral}:
 
 1. Found 3 marked UTF-8 strings in .rda datasets
 2. 12 exported functions were not covered by any tests 
@@ -30098,13 +30102,13 @@ The documentation titles of the undocumented functions are as follows:
 - [ ] Derive Query Variables
 - [ ] Join Supplementary Qualifier Variables into the Parent SDTM Domain
 - [ ] Get Duplicate Records that Lead to a Prior Error
-- [ ] Check Validity of the Hour Portion in the Time Input
-- [ ] Check Validity of the Minute/Second Portion of the Time Input
+- [x] Check Validity of the Hour Portion in the Time Input
+- [x] Check Validity of the Minute/Second Portion of the Time Input
 - [x] List All Available ADaM Templates
 - [ ] Objects exported from other packages
 - [x] Open an ADaM Template Script
 
-","thomas-neitmann",13,7
+","thomas-neitmann",14,1
 "openpharma/rinpharma_workshop_2021","Create adverse event table program (t_ae)","https://github.com/openpharma/rinpharma_workshop_2021/issues/36","open",2021-10-22,2021-10-25,NA,0,"Follow table specifications [here](https://docs.google.com/presentation/d/1bmAtJO7auQHGdnZj2Pw7mgJu-x0oZtpgRGe66uupF-U/edit#slide=id.gfa0fc69b34_0_333).
 
 Add your code to the placeholder file `~/programs/tables_func/t_ae.R`.","anajens",13,10
@@ -30316,7 +30320,7 @@ DTHDTC is the date time when death occurred. It should be after RFSTDTC, and not
 "Roche/ggtips","DIVOS-8991: remove code for pie charts","https://github.com/Roche/ggtips/pull/88","closed",2021-10-25,2021-10-26,2021-10-26,1,"The plots that had Confidence interval was catching the boxes because `polygon` was used for pie charts and that code was not finished. So this can be removed and we will add when piecharts will be fully working. We will need to include the colors for piecharts as well as for barplots.","jcubic",1,0
 "Roche-GSK/admiral","Investigate the time zone shift when using `mutate(dt = convert_dtc_to_dtm(dtm))`","https://github.com/Roche-GSK/admiral/issues/622","open",2021-10-25,2021-10-27,NA,0,"Reviewer: Samia
 
-When calling `convert_dtc_to_dtm()` inside `mutate()` the `tzone` attribute is stripped off and replaces by a seeminlgy random time zone when printing. This can lead to a shift in time comapred to the original `--DTC` variable.","thomas-neitmann",10,8
+When calling `convert_dtc_to_dtm()` inside `mutate()` the `tzone` attribute is stripped off and replaces by a seeminlgy random time zone when printing. This can lead to a shift in time comapred to the original `--DTC` variable.","thomas-neitmann",11,9
 "openpharma/rinpharma_workshop_2021","Make adverse event(ae) outputs","https://github.com/openpharma/rinpharma_workshop_2021/issues/45","open",2021-10-25,2021-10-25,NA,0,"# Files To be Created
 
 * `tbl_ae__SE.txt`
@@ -30373,13 +30377,13 @@ Once this is solved, should we add an example in the advanced vignette?","nocial
 "Genentech/covtracer","Adding hex logo","https://github.com/Genentech/covtracer/pull/18","closed",2021-10-26,2021-10-26,2021-10-26,0,NA,"dgkf",0,0
 "phuse-org/valtools","Check  test code writer and requirement/test case writer ","https://github.com/phuse-org/valtools/issues/208","open",2021-10-26,2021-10-26,NA,0,"Give warning (optionally) if the test code writer is the same as the requirement or test case writer (or give option on which to check across)
 
-suggestion from @peymaneshghi ","thebioengineer",9,9
+suggestion from @peymaneshghi ","thebioengineer",10,10
 "Roche-GSK/admiral","Minor typos.","https://github.com/Roche-GSK/admiral/pull/624","closed",2021-10-26,2021-10-27,2021-10-27,0,"Minor typos.","esimms999-gsk",1,0
-"openpharma/simaerep","S3 interface","https://github.com/openpharma/simaerep/issues/17","open",2021-10-26,2021-10-26,NA,0,"https://www.datisticsblog.com/2021/10/advancedr/#simaerep-example","erblast",9,9
+"openpharma/simaerep","S3 interface","https://github.com/openpharma/simaerep/issues/17","open",2021-10-26,2021-10-26,NA,0,"https://www.datisticsblog.com/2021/10/advancedr/#simaerep-example","erblast",10,10
 "phuse-org/valtools","Update prompt to reference either packet or package","https://github.com/phuse-org/valtools/issues/209","open",2021-10-26,2021-10-26,NA,0,"https://github.com/phuse-org/valtools/blob/c11ad030b7265a0a312070b7b6838f45e072563f/R/config-user.R#L262
 
-Currently the prompt is indicating only package, set up to allow for prompt to be for package or packet - depending on whether within a package or packet.","thebioengineer",9,9
-"Roche-GSK/admiral","Update the documentation for flag_imputation parameter to say can be …","https://github.com/Roche-GSK/admiral/pull/623","open",2021-10-26,2021-10-27,NA,0,"…set to either ""auto"", ""date"" or ""both"" for derive_vars_dtm()","hamzarahal",9,8
+Currently the prompt is indicating only package, set up to allow for prompt to be for package or packet - depending on whether within a package or packet.","thebioengineer",10,10
+"Roche-GSK/admiral","Update the documentation for flag_imputation parameter to say can be …","https://github.com/Roche-GSK/admiral/pull/623","open",2021-10-26,2021-10-27,NA,0,"…set to either ""auto"", ""date"" or ""both"" for derive_vars_dtm()","hamzarahal",10,9
 "insightsengineering/rbmi","`expand_locf` convering dates to integer","https://github.com/insightsengineering/rbmi/issues/240","open",2021-10-28,2021-10-28,NA,0,"minimal reprex:
 ```
 x <- data.frame(
@@ -30426,31 +30430,31 @@ Moreover, above code does not work when you take out `id2` variable:
 + )
 Error in do.call(as_strata, data_sorted[, group]) : 
   second argument must be a list
-```","pawelru",7,7
+```","pawelru",8,8
 "openpharma/visR","Add 'thevalidatoR' gh-action to generate a report on the release","https://github.com/openpharma/visR/pull/285","closed",2021-10-28,2021-10-29,2021-10-29,4,"see https://github.com/marketplace/actions/r-package-validation-report
 
 We added this to the Roche public repos - and one we share with GSK. It basically verbosely installs a package, describing the installation environment and process, and then unit tests, but traces unit tests back to documentation (e.g. maps requirements to testing). ","epijim",1,0
-"Roche-GSK/admiral","create a ""how to do a unit test"" guide (3h)","https://github.com/Roche-GSK/admiral/issues/625","open",2021-10-28,2021-10-28,NA,0,"goal: create a hot to do guidance and add it to the vignette for unit testing (see #453)","koegerr",7,7
+"Roche-GSK/admiral","create a ""how to do a unit test"" guide (3h)","https://github.com/Roche-GSK/admiral/issues/625","open",2021-10-28,2021-11-04,NA,1,"goal: create a hot to do guidance and add it to the vignette for unit testing (see #453)","koegerr",8,1
 "Roche-GSK/admiral","derive_last_dose fails for medications reported as interval","https://github.com/Roche-GSK/admiral/issues/626","open",2021-10-28,2021-11-01,NA,4,"Hi,
 the function derive_last_dose() that I want to use for ADAE fails because I have some medication in EX reported as intervals, i.e. the start and end date are not the same. I can see the problem with a time interval spanning multiple days, but it's not ok that the function stops working completely if something is identified. There can be a note and maybe a parameter saying, use the EXENDTC no matter what (as it is done by STREAM) or exclude multiple day intervals. I would actually only exclude intervals over more than one day. You might have an infusion that starts before midnight and finishes the next day. In that case it's totally fine to use EXENDTC.
 
 Thanks,
-Sandra","otts5",7,3
+Sandra","otts5",8,4
 "insightsengineering/rbmi","Keep data.frame class. Coerce back to Dates.","https://github.com/insightsengineering/rbmi/pull/241","closed",2021-10-28,2021-11-01,2021-11-01,2,"close #240 
 - fix one obvious mistake to keep the object as a data.frame
 - coerce back to Date class. Seems that `unlist` drops the date attributes -> see: https://stackoverflow.com/questions/15659783/why-does-unlist-kill-dates-in-r","pawelru",4,0
 "phuse-org/valtools","Out of project warnings","https://github.com/phuse-org/valtools/pull/210","closed",2021-10-28,2021-11-02,2021-11-02,1,"Should resolve #204 - 
 issue is when you try to run a function dependent on finding the config file outside a package/packet, the error message is not intuitive.","thebioengineer",5,0
-"openpharma/visR","Watchdog to automatically update test headers upon ""Check package""","https://github.com/openpharma/visR/pull/284","open",2021-10-28,2021-11-03,NA,1,NA,"timtreis",7,1
-"Roche-GSK/admiral","437 update derive var trtsdtm bug","https://github.com/Roche-GSK/admiral/pull/630","open",2021-10-29,2021-10-29,NA,0,"Hi @teckla-gsk, as discussed I couldn't proceed much but I tried to implement some of the updates required that we discussed yesterday. You can take from here. Thanks for your help.","PoojaKumari05",6,6
+"openpharma/visR","Watchdog to automatically update test headers upon ""Check package""","https://github.com/openpharma/visR/pull/284","open",2021-10-28,2021-11-03,NA,1,NA,"timtreis",8,2
+"Roche-GSK/admiral","437 update derive var trtsdtm bug","https://github.com/Roche-GSK/admiral/pull/630","open",2021-10-29,2021-10-29,NA,0,"Hi @teckla-gsk, as discussed I couldn't proceed much but I tried to implement some of the updates required that we discussed yesterday. You can take from here. Thanks for your help.","PoojaKumari05",7,7
 "Roche-GSK/admiral","572 adex vignette","https://github.com/Roche-GSK/admiral/pull/628","open",2021-10-29,2021-10-29,NA,0,"Hi @Roche-GSK/admiral-devs  - the adex vignette should be updated now. Please let me know any comment. @millerg23 - may I please ask you to check this is aligned with the updated adex script?
 Thanks
-","kabis-ops",6,6
-"Roche-GSK/admiral","612_tte_source: Create common TTE sources","https://github.com/Roche-GSK/admiral/pull/629","open",2021-10-29,2021-10-29,NA,0,NA,"bundfussr",6,6
+","kabis-ops",7,7
+"Roche-GSK/admiral","612_tte_source: Create common TTE sources","https://github.com/Roche-GSK/admiral/pull/629","open",2021-10-29,2021-10-29,NA,0,NA,"bundfussr",7,7
 "insightsengineering/rbmi","added additional unit tests to catch locf bug","https://github.com/insightsengineering/rbmi/pull/242","closed",2021-10-29,2021-11-03,2021-11-03,1,"closes #240 
 
 @nociale  FYI this is the patch to fix the identified locf issue. ~~Please **don't** merge until we get clarity on how to handle this with Mango~~","gowerc",5,0
-"openpharma/staged.dependencies","Check downstream run on all packages and not stop on first error","https://github.com/openpharma/staged.dependencies/issues/137","open",2021-10-29,2021-11-02,NA,0,"Output should make it clear which packages succeeded and which failed","nikolas-burkoff",6,2
+"openpharma/staged.dependencies","Check downstream run on all packages and not stop on first error","https://github.com/openpharma/staged.dependencies/issues/137","open",2021-10-29,2021-11-02,NA,0,"Output should make it clear which packages succeeded and which failed","nikolas-burkoff",7,3
 "openpharma/staged.dependencies","Check downstream/Build Check Install run on all packages and not stop on first error","https://github.com/openpharma/staged.dependencies/issues/137","open",2021-10-29,2021-10-29,NA,0,"Output should make it clear which packages succeeded and which failed","nikolas-burkoff",4,4
 "Roche-GSK/admiral","RELREC function to link different domains for common needs","https://github.com/Roche-GSK/admiral/issues/627","open",2021-10-29,2021-10-29,NA,0,"Kristian from Novonordisk has interest to work on this once we open up admiral to community contributions so adding this issue as a placeholder for now.
 
@@ -30487,9 +30491,9 @@ Thomas Neitmann  1 day ago
 @Kristian Trøjelsgaard Nielsen We'd love to have you contribute to admiral! Let me know if you need any help.
 
 Kristian Trøjelsgaard Nielsen  23 hours ago
-That sounds great - I will reach out @Thomas Neitmann when the time allows me to delve into this.","rossfarrugia",6,6
-"pharmaR/riskmetric","Running time for package examples is > 20s","https://github.com/pharmaR/riskmetric/issues/232","open",2021-10-29,2021-10-29,NA,0,"Running time for package examples is > 20s","elong0527",6,6
-"pharmaR/riskmetric","We need a hex logo","https://github.com/pharmaR/riskmetric/issues/233","open",2021-10-29,2021-10-29,NA,0,NA,"emilliman5",6,6
+That sounds great - I will reach out @Thomas Neitmann when the time allows me to delve into this.","rossfarrugia",7,7
+"pharmaR/riskmetric","Running time for package examples is > 20s","https://github.com/pharmaR/riskmetric/issues/232","open",2021-10-29,2021-10-29,NA,0,"Running time for package examples is > 20s","elong0527",7,7
+"pharmaR/riskmetric","We need a hex logo","https://github.com/pharmaR/riskmetric/issues/233","open",2021-10-29,2021-10-29,NA,0,NA,"emilliman5",7,7
 "insightsengineering/rbmi","draws() fails on grouped data.frame","https://github.com/insightsengineering/rbmi/issues/244","open",2021-11-01,2021-11-01,NA,1,"reprex example (taken from the package vignette - see the last call in which I do `dplyr::group_by`)
 
 ```
@@ -30576,13 +30580,13 @@ traceback:
        vars = vars, method = method)
 1: draws(data = dat %>% group_by(PATIENT), data_ice = dat_ice, vars = vars, 
        method = method)
-```","pawelru",3,3
-"insightsengineering/rbmi","fixed bug with grouped dataframe","https://github.com/insightsengineering/rbmi/pull/245","open",2021-11-01,2021-11-03,NA,1,"Closes #244 ","gowerc",3,1
-"insightsengineering/rbmi","improve error messages for mmrm failure in jackknife or bayes methods","https://github.com/insightsengineering/rbmi/pull/243","open",2021-11-01,2021-11-03,NA,0,"Addresses #237.","nociale",3,1
+```","pawelru",4,4
+"insightsengineering/rbmi","fixed bug with grouped dataframe","https://github.com/insightsengineering/rbmi/pull/245","open",2021-11-01,2021-11-03,NA,1,"Closes #244 ","gowerc",4,2
+"insightsengineering/rbmi","improve error messages for mmrm failure in jackknife or bayes methods","https://github.com/insightsengineering/rbmi/pull/243","open",2021-11-01,2021-11-04,NA,1,"Addresses #237.","nociale",4,1
 "Roche-GSK/admiral","Make unit check case insensitive","https://github.com/Roche-GSK/admiral/pull/632","closed",2021-11-01,2021-11-02,2021-11-02,1,"Close #631 
 
 @Roche-GSK/admiral-devs Would be great if someone could review this today as I'd like to have this functionality included for the R in Pharma demo tomorrow.","thomas-neitmann",1,0
-"openpharma/visR","Moves y-label back to axis after `add_risktabel()`","https://github.com/openpharma/visR/pull/286","open",2021-11-01,2021-11-02,NA,0,"As discussed in https://github.com/openpharma/visR/issues/272","timtreis",3,2
+"openpharma/visR","Moves y-label back to axis after `add_risktabel()`","https://github.com/openpharma/visR/pull/286","open",2021-11-01,2021-11-02,NA,0,"As discussed in https://github.com/openpharma/visR/issues/272","timtreis",4,3
 "Roche-GSK/admiral","Unit checking should be case INsensitive","https://github.com/Roche-GSK/admiral/issues/631","open",2021-11-01,2021-11-01,NA,0,"Currently checking for the proper units in `derive_param_*()` functions is case sensitive which leads to annoying errors such as this one.
 
 ```
@@ -30590,23 +30594,23 @@ Error: It is expected that HR is measured in beats/min.
 In the input dataset it is measured in `BEATS/MIN`
 ```
 
-Let's make the check case insensitive and ensure that these kind of error do *not* appear.","thomas-neitmann",3,3
+Let's make the check case insensitive and ensure that these kind of error do *not* appear.","thomas-neitmann",4,4
 "Roche-GSK/admiral","561 query dataset doc","https://github.com/Roche-GSK/admiral/pull/633","open",2021-11-02,2021-11-03,NA,0,"Hi @malexthorpe, @yangc71, @bms63 
 May I please ask you to have a look with your fresh eyes at the queries_dataset vignette and let me know if this is understandable or any comment/suggestion you may have to improve it?
 @thomas-neitmann - please feel free to have a look too.
-@bundfussr - i have a added a question regarding `TERM_NAME` and `TERM_ID` (line 101-103): Would you please have a look and let me know if my understanding is correct?","kabis-ops",2,1
-"phuse-org/valtools","add maya to contributors","https://github.com/phuse-org/valtools/issues/211","open",2021-11-02,2021-11-02,NA,1,"Author of logo, cheatsheet flow chart","mariev",2,2
-"openpharma/visR","add_quantiles - WIP","https://github.com/openpharma/visR/pull/288","open",2021-11-02,2021-11-03,NA,0,"as discussed in #93 ","timtreis",2,1
+@bundfussr - i have a added a question regarding `TERM_NAME` and `TERM_ID` (line 101-103): Would you please have a look and let me know if my understanding is correct?","kabis-ops",3,2
+"phuse-org/valtools","add maya to contributors","https://github.com/phuse-org/valtools/issues/211","closed",2021-11-02,2021-11-04,2021-11-04,1,"Author of logo, cheatsheet flow chart","mariev",2,0
+"openpharma/visR","add_quantiles - WIP","https://github.com/openpharma/visR/pull/288","open",2021-11-02,2021-11-04,NA,0,"as discussed in #93 ","timtreis",3,1
 "openpharma/staged.dependencies","allow check_downstream to continue checking packages after errors","https://github.com/openpharma/staged.dependencies/pull/138","open",2021-11-02,2021-11-02,NA,3,"Closes #137 
 
 check_downstream now checks all packages even if some produce errors and the summary of all packages is output at the bottom - for example:
 
 ![image](https://user-images.githubusercontent.com/15201933/139828711-1994def0-0835-4721-8b23-fa51aa1b842d.png)
-","nikolas-burkoff",2,2
+","nikolas-burkoff",3,3
 "insightsengineering/rbmi","Cicd shorter pushes","https://github.com/insightsengineering/rbmi/pull/246","closed",2021-11-02,2021-11-03,2021-11-03,0,NA,"gowerc",1,0
 "Roche-GSK/admiral","Contribution model: company specific - removed point about public git…","https://github.com/Roche-GSK/admiral/pull/634","open",2021-11-02,2021-11-02,NA,0,"…hub repo. The company-specific code can be stored wherever the company wants (e.g. GHE) and need not be shared as it may contain information related to accessing company-specific databases, etc.
 
-Indented the contribution model blocks.","esimms999-gsk",2,2
+Indented the contribution model blocks.","esimms999-gsk",3,3
 "openpharma/simaerep","Dev","https://github.com/openpharma/simaerep/pull/18","closed",2021-11-02,2021-11-02,2021-11-02,2,NA,"erblast",0,0
 "openpharma/visR","get_pvalue fails when survfit_object is calculated without strata","https://github.com/openpharma/visR/issues/287","closed",2021-11-02,2021-11-02,2021-11-02,1,"#### Issue description
 visR::get_pvalue is throwing error when survfit_object is calculated without strata argument
@@ -30643,7 +30647,7 @@ We will return to dot-align later.
 This will be useful for listings.
 
 Please check how to best define the alignment of the header.
-","waddella",2,2
+","waddella",3,3
 "nlmixrdevelopment/nlmixr","R is aborted when fitting a 1-compartment model","https://github.com/nlmixrdevelopment/nlmixr/issues/570","closed",2021-11-02,2021-11-02,2021-11-02,1,"Hi,
 
 This is a Mac user. I changed to a new MacBook Pro with R v4.0.5 (2021-03-31) -- ""Shake and Throw"".
@@ -30704,8 +30708,8 @@ Tao","dryoutao",0,0
 "openpharma/visR","Use `forestly` as the interactivity backend for forestplots in `visRinteractive`","https://github.com/openpharma/visR/issues/289","open",2021-11-02,2021-11-02,NA,0,"`forestly` was presented at R/Pharma 2021 -> https://github.com/elong0527/forestly
 
 Looks very promising!
-","timtreis",2,2
-"phuse-org/valtools","Clean up GH Actions","https://github.com/phuse-org/valtools/pull/212","open",2021-11-03,2021-11-03,NA,0,NA,"thebioengineer",1,1
+","timtreis",3,3
+"phuse-org/valtools","Clean up GH Actions","https://github.com/phuse-org/valtools/pull/212","closed",2021-11-03,2021-11-04,2021-11-04,0,NA,"thebioengineer",1,0
 "Novartis/pisces","Don't drop dimensions for matrices with only one sample (#24)","https://github.com/Novartis/pisces/pull/25","closed",2021-11-03,2021-11-03,2021-11-03,0,NA,"mdshw5",0,0
 "Novartis/pisces","pisces summarize-expression fails with only one sample","https://github.com/Novartis/pisces/issues/24","open",2021-11-03,2021-11-03,NA,0,"Here is a partial error message:
 ```
@@ -30732,10 +30736,10 @@ Calls: Summarize ... <Anonymous> -> rescaleTPM -> apply -> as.data.frame
 Execution halted
 ```
 
-It looks like the `tximport` matrix no longer has two dimensions. ","mdshw5",1,1
+It looks like the `tximport` matrix no longer has two dimensions. ","mdshw5",2,2
 "Roche/rtables","Possibility of using multiple processing such as mclapply function?","https://github.com/Roche/rtables/issues/259","open",2021-11-03,2021-11-03,NA,0,"Hi @gmbecker , I was wondering is it possible to use multiple processing (mclapply function for example) to improve the rtable performance? 
 
-We are working on refactoring some of the lab tables, and trying to improve speed. I was just wondering if it is possible for us to process the leaf nodes simultaneously? Many thanks! ","shajoezhu",1,1
+We are working on refactoring some of the lab tables, and trying to improve speed. I was just wondering if it is possible for us to process the leaf nodes simultaneously? Many thanks! ","shajoezhu",2,2
 "Roche/rtables","Uninformative error message created when user split_cols_by a variable that does not exist in the analysis dataset","https://github.com/Roche/rtables/issues/258","open",2021-11-03,2021-11-03,NA,0,"Originally reported by withycok on 29 Jun 2021.
 
 > When you build a table and you split_cols_by, say ACTARM, and this column is in ADSL (alt_counts_df), but not in the dataset being analysed (df). The error is the following ... From which it is really not clear what is going on.
@@ -30765,4 +30769,10 @@ x Existing data has 10 rows.
 x Assigned data has 0 rows.
 ℹ Only vectors of size 1 are recycled.
 Run `rlang::last_error()` to see where the error occurred.
-```","anajens",1,1
+```","anajens",2,2
+"Merck/r2rtf","add independent test to `update_cellx`","https://github.com/Merck/r2rtf/issues/62","open",2021-11-04,2021-11-04,NA,0,"The test shall be based on the code in #61 ","elong0527",1,1
+"openpharma/GithubMetrics","Add/activity","https://github.com/openpharma/GithubMetrics/pull/2","closed",2021-11-04,2021-11-04,2021-11-04,0,NA,"epijim",0,0
+"Roche-GSK/admiral","Address autovalidate findings","https://github.com/Roche-GSK/admiral/pull/635","open",2021-11-04,2021-11-04,NA,0,"Close #618 ","thomas-neitmann",1,1
+"Merck/r2rtf","bug fix: enable proper alignment after rtf file convert to html","https://github.com/Merck/r2rtf/pull/61","closed",2021-11-04,2021-11-04,2021-11-04,2,NA,"elong0527",0,0
+"Roche-GSK/admiral","Prune Branches","https://github.com/Roche-GSK/admiral/issues/636","open",2021-11-04,2021-11-04,NA,1," I see 73 branches.  Is it time to start pruning?","bms63",1,1
+"insightsengineering/rbmi","Rubin na","https://github.com/insightsengineering/rbmi/pull/247","open",2021-11-04,2021-11-04,NA,1,"Addresses #226 .","nociale",1,1
