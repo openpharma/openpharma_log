@@ -9,7 +9,7 @@
 "Genentech","midasHLA","Genentech/midasHLA","R package enabling statistical association analysis and using immunogenetic data transformation functions for HLA amino acid fine mapping, analysis of HLA evolutionary divergence as well as HLA-KIR interactions.","2021-05-26T17:22:34Z","R",13.6
 "Genentech","psborrow","Genentech/psborrow",NA,"2021-06-14T21:49:30Z","R",2.1
 "insightsengineering","r-license-report","insightsengineering/r-license-report","Github Actions to generate an R Package Dependencies' License Report","2021-06-29T19:57:04Z","R",0
-"insightsengineering","rbmi","insightsengineering/rbmi","Reference based multiple imputation R package","2021-11-13T16:21:10Z","R",1.4
+"insightsengineering","rbmi","insightsengineering/rbmi","Reference based multiple imputation R package","2021-11-14T18:52:47Z","R",1.4
 "insightsengineering","thevalidatoR","insightsengineering/thevalidatoR","Github Action that generates R Package Validation documentation 🏁","2021-10-25T11:37:23Z","R",0.7
 "Merck","gsDesign2","Merck/gsDesign2","Group Sequential Design Under Non-Proportional Hazards","2021-06-11T22:27:22Z","R",1.7
 "Merck","pkglite","Merck/pkglite","Compact Package Representations","2021-08-19T05:46:18Z","R",0.8
@@ -52,7 +52,7 @@
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-10-26T09:01:23Z","R",0.8
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-10-22T13:48:28Z","R",102.3
 "Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-10-25T09:51:41Z","R",1.4
-"Roche","rtables","Roche/rtables","Reporting tables with R","2021-11-11T01:43:55Z","R",6.2
+"Roche","rtables","Roche/rtables","Reporting tables with R","2021-11-14T23:51:11Z","R",6.3
 "Roche","synthetic.cdisc.data","Roche/synthetic.cdisc.data",NA,"2021-09-06T12:41:01Z","R",0.2
 "Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-11-12T21:06:29Z","R",6.5
 "UCL","RefbasedMI","UCL/RefbasedMI","Multiple imputation sensitivity analysis for longitudinal trials ","2021-11-04T15:42:03Z","R",9.7
