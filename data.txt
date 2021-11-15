@@ -18,7 +18,7 @@
   type: table
 - path: all-issues
   name: all-issues
-  rows: 2171
+  rows: 2172
   cols: 12
   description: All issues
   type: table
