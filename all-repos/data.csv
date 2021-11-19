@@ -1,15 +1,15 @@
 "org","repo","full_name","description","updated_at","language","MB"
 "AstraZeneca","kallisto","AstraZeneca/kallisto","Efficiently calculate 3D-atomic/molecular features for quantitative structure-activity relationship approaches.","2021-09-16T07:19:45Z","Python",0.4
-"atorus-research","metacore","atorus-research/metacore",NA,"2021-09-29T13:42:17Z","R",2
+"atorus-research","metacore","atorus-research/metacore",NA,"2021-11-18T09:54:34Z","R",2
 "atorus-research","pharmaRTF","atorus-research/pharmaRTF","Enhanced RTF wrapper written in R for use with existing R tables packages such as huxtable or GT","2021-09-27T18:30:17Z","R",2.5
-"atorus-research","Tplyr","atorus-research/Tplyr",NA,"2021-10-17T23:19:44Z","R",155.4
+"atorus-research","Tplyr","atorus-research/Tplyr",NA,"2021-11-18T20:35:40Z","R",155.4
 "atorus-research","xportr","atorus-research/xportr","Tools to build CDISC compliant data sets and check for CDISC compliance.","2021-11-16T22:00:23Z","R",4.2
 "EliLillyCo","rfacts","EliLillyCo/rfacts","Call FACTS from R on Linux","2021-04-23T17:13:49Z","R",0.4
 "Genentech","covtracer","Genentech/covtracer","Tools for contextualizing tests, built using covr test traces.","2021-10-26T16:50:45Z","R",0.2
 "Genentech","midasHLA","Genentech/midasHLA","R package enabling statistical association analysis and using immunogenetic data transformation functions for HLA amino acid fine mapping, analysis of HLA evolutionary divergence as well as HLA-KIR interactions.","2021-05-26T17:22:34Z","R",13.6
 "Genentech","psborrow","Genentech/psborrow",NA,"2021-06-14T21:49:30Z","R",2.1
 "insightsengineering","r-license-report","insightsengineering/r-license-report","Github Actions to generate an R Package Dependencies' License Report","2021-06-29T19:57:04Z","R",0
-"insightsengineering","rbmi","insightsengineering/rbmi","Reference based multiple imputation R package","2021-11-17T15:32:45Z","R",1.5
+"insightsengineering","rbmi","insightsengineering/rbmi","Reference based multiple imputation R package","2021-11-18T16:04:42Z","R",1.5
 "insightsengineering","thevalidatoR","insightsengineering/thevalidatoR","Github Action that generates R Package Validation documentation 🏁","2021-10-25T11:37:23Z","R",0.7
 "Merck","gsDesign2","Merck/gsDesign2","Group Sequential Design Under Non-Proportional Hazards","2021-06-11T22:27:22Z","R",1.7
 "Merck","pkglite","Merck/pkglite","Compact Package Representations","2021-08-19T05:46:18Z","R",0.8
@@ -44,15 +44,15 @@
 "openpharma","synthetic.data.archive","openpharma/synthetic.data.archive",NA,"2021-03-05T09:57:40Z","Unsure",0
 "openpharma","synthetic.data.submission.shiny","openpharma/synthetic.data.submission.shiny",NA,"2021-03-05T09:56:59Z","Unsure",0
 "openpharma","syntrial","openpharma/syntrial","create a synthetic ""twin trial"" of clinical trial data","2020-07-15T12:23:41Z","R",0.3
-"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-11-05T11:28:01Z","R",47.5
+"openpharma","visR","openpharma/visR","A package to wrap functionality for plots, tables and diagrams adhering to graphical principles.","2021-11-18T16:32:32Z","R",47.5
 "pharmaR","riskmetric","pharmaR/riskmetric","Metrics to evaluate the risk of R packages ","2021-11-16T21:49:45Z","R",1.6
 "phuse-org","aesummaries","phuse-org/aesummaries","PHUSE Forest Plot Project Repository","2021-06-11T14:09:04Z","HTML",2.7
 "phuse-org","valtools","phuse-org/valtools","Validation framework for R packages used in clinical research and drug development.  ","2021-11-10T18:18:49Z","R",3.2
-"Roche","crmPack","Roche/crmPack","Object-Oriented Implementation of CRM Designs","2021-11-17T17:18:09Z","R",65.3
+"Roche","crmPack","Roche/crmPack","Object-Oriented Implementation of CRM Designs","2021-11-18T14:49:18Z","R",65.4
 "Roche","ggtips","Roche/ggtips","Adds interactive tooltip boxes to ggplots (standalone or rendered in Shiny)","2021-11-16T12:28:21Z","R",0.9
 "Roche","Global-HTA-Evidence-Open","Roche/Global-HTA-Evidence-Open","Collection of R Packages that support analysis for the purposes of Health Technology Assessment (HTA)","2021-10-22T13:48:28Z","R",102.3
 "Roche","respectables","Roche/respectables","R package to specify relational specified data tables","2021-10-25T09:51:41Z","R",1.4
-"Roche","rtables","Roche/rtables","Reporting tables with R","2021-11-17T18:00:24Z","R",6.3
+"Roche","rtables","Roche/rtables","Reporting tables with R","2021-11-18T19:52:25Z","R",6.4
 "Roche","synthetic.cdisc.data","Roche/synthetic.cdisc.data",NA,"2021-09-06T12:41:01Z","R",0.2
-"Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-11-17T20:47:30Z","R",7.4
+"Roche-GSK","admiral","Roche-GSK/admiral","ADaM in R Asset Library","2021-11-18T14:48:44Z","R",7.5
 "UCL","RefbasedMI","UCL/RefbasedMI","Multiple imputation sensitivity analysis for longitudinal trials ","2021-11-17T13:54:07Z","R",9.9
